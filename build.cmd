@@ -6,12 +6,20 @@ bcp ^
     boost/container/static_vector.hpp ^
     boost/crc.hpp ^
     boost/date_time/posix_time/posix_time.hpp ^
+    boost/fusion/include/adapt_struct.hpp ^
+    boost/fusion/include/swap.hpp ^
     boost/icl/interval_map.hpp ^
+    boost/program_options.hpp ^
     boost/optional.hpp ^
+    boost/optional/optional_io.hpp ^
+    boost/range/adaptor/reversed.hpp ^
+    boost/range/adaptor/sliced.hpp ^
     boost/range/algorithm/ ^
     boost/range/algorithm_ext/ ^
     boost/smart_ptr/intrusive_ptr.hpp ^
+    boost/spirit/include/qi.hpp ^
     boost/system/error_code.hpp ^
     boost/system/system_error.hpp ^
+    boost/test/unit_test.hpp ^
     boost/variant/ ^
     --boost="%1" .
