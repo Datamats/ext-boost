@@ -23,4 +23,5 @@ bcp \
     boost/test/unit_test.hpp \
     boost/variant/ \
     boost/serialization \
+    boost/archive \
     --boost="$1" .
