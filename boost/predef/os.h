@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/os.h"
 /*
 Copyright Rene Rivera 2008-2015
 Copyright Franz Detro 2014

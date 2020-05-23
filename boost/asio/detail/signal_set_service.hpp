@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/signal_set_service.hpp"
 //
 // detail/signal_set_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

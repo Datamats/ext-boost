@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_virtual_base_of.hpp"
 //  (C) Copyright Daniel Frey and Robert Ramey 2009.
 //  (C) Copyright Balint Cserni 2017
 //  Use, modification and distribution are subject to the Boost Software License,

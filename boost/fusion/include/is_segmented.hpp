@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/include/is_segmented.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/intel.hpp"
 //  (C) Copyright John Maddock 2001-8.
 //  (C) Copyright Peter Dimov 2001.
 //  (C) Copyright Jens Maurer 2001.

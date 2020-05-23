@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/value_functors.hpp"
 #ifndef BOOST_CONTAINER_DETAIL_VALUE_FUNCTORS_HPP
 #define BOOST_CONTAINER_DETAIL_VALUE_FUNCTORS_HPP
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/scheduler.ipp"
 //
 // detail/impl/scheduler.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

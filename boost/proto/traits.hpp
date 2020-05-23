@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/traits.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file traits.hpp
 /// Contains definitions for child\<\>, child_c\<\>, left\<\>,

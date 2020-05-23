@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/posix_thread.ipp"
 //
 // detail/impl/posix_thread.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

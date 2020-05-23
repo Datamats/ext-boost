@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/vector.hpp"
 // Copyright (C) 2005 Arkadiy Vertleyb
 // Copyright (C) 2005 Peder Holt
 //

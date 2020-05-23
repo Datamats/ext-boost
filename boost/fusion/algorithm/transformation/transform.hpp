@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/transformation/transform.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

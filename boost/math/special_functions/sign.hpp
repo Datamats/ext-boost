@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/special_functions/sign.hpp"
 //  (C) Copyright John Maddock 2006.
 //  (C) Copyright Johan Rade 2006.
 //  (C) Copyright Paul A. Bristow 2011 (added changesign).

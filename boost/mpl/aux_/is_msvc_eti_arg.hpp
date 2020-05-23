@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/is_msvc_eti_arg.hpp"
 
 #ifndef BOOST_MPL_AUX_IS_MSVC_ETI_ARG_HPP_INCLUDED
 #define BOOST_MPL_AUX_IS_MSVC_ETI_ARG_HPP_INCLUDED

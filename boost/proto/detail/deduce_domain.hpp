@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/deduce_domain.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file deduce_domain.hpp
 /// Contains definition of deduce_domain\<\> class templates 

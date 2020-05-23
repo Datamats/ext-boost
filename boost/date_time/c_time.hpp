@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/c_time.hpp"
 #ifndef DATE_TIME_C_TIME_HPP___
 #define DATE_TIME_C_TIME_HPP___
 

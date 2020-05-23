@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/error_code.hpp"
 #ifndef BOOST_SYSTEM_ERROR_CODE_HPP_INCLUDED
 #define BOOST_SYSTEM_ERROR_CODE_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/int_adapter.hpp"
 #ifndef _DATE_TIME_INT_ADAPTER_HPP__
 #define _DATE_TIME_INT_ADAPTER_HPP__
 

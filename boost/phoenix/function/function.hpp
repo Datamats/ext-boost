@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/function/function.hpp"
 /*==============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
     Copyright (c) 2010 Eric Niebler

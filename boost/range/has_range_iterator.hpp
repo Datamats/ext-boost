@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/has_range_iterator.hpp"
 // Boost.Range library
 //
 //  Copyright Neil Groves 2010. Use, modification and

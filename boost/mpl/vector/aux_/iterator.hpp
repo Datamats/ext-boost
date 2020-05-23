@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/vector/aux_/iterator.hpp"
 
 #ifndef BOOST_MPL_AUX_VECTOR_ITERATOR_HPP_INCLUDED
 #define BOOST_MPL_AUX_VECTOR_ITERATOR_HPP_INCLUDED

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/select_reactor.hpp"
 //
 // detail/impl/select_reactor.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

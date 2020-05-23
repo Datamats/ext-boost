@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/date_iterator.hpp"
 #ifndef DATE_ITERATOR_HPP___
 #define DATE_ITERATOR_HPP___
 

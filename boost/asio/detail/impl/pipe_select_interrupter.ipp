@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/pipe_select_interrupter.ipp"
 //
 // detail/impl/pipe_select_interrupter.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

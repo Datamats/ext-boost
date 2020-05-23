@@ -1,3 +1,4 @@
+#line 1 "include/boost/ratio/detail/overflow_helpers.hpp"
 //  ratio.hpp  ---------------------------------------------------------------//
 
 //  Copyright 2008 Howard Hinnant

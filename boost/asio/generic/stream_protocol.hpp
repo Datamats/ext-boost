@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/generic/stream_protocol.hpp"
 //
 // generic/stream_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

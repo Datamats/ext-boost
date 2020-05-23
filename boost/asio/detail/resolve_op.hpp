@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/resolve_op.hpp"
 //
 // detail/resolve_op.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

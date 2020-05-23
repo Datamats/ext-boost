@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/gregorian/greg_day.hpp"
 #ifndef GREG_DAY_HPP___
 #define GREG_DAY_HPP___
 

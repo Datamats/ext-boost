@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/error.ipp"
 //
 // impl/error.ipp
 // ~~~~~~~~~~~~~~

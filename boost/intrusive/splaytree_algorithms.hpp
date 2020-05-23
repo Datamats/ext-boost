@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/splaytree_algorithms.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2007-2014

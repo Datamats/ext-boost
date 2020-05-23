@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/resolver_service_base.ipp"
 //
 // detail/impl/resolver_service_base.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

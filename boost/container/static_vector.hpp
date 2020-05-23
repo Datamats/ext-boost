@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/static_vector.hpp"
 // Boost.Container static_vector
 //
 // Copyright (c) 2012-2013 Adam Wulkiewicz, Lodz, Poland.

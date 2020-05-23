@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant.hpp"
 //-----------------------------------------------------------------------------
 // boost variant.hpp header file
 // See http://www.boost.org/libs/variant for documentation.

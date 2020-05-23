@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/function_detector.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2009-2013.

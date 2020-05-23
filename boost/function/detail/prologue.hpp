@@ -1,3 +1,4 @@
+#line 1 "include/boost/function/detail/prologue.hpp"
 // Boost.Function library
 
 //  Copyright Douglas Gregor 2002-2003. Use, modification and

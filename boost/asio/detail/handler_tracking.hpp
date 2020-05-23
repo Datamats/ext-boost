@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/handler_tracking.hpp"
 //
 // detail/handler_tracking.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/date_names_put.hpp"
 #ifndef DATE_TIME_DATE_NAMES_PUT_HPP___
 #define DATE_TIME_DATE_NAMES_PUT_HPP___
 

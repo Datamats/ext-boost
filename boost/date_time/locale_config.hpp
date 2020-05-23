@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/locale_config.hpp"
 #ifndef DATE_TIME_LOCALE_CONFIG_HPP___
 #define DATE_TIME_LOCALE_CONFIG_HPP___
 

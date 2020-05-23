@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/posix/stream_descriptor.hpp"
 //
 // posix/stream_descriptor.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

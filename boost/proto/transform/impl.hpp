@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/impl.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file impl.hpp
 /// Contains definition of transform<> and transform_impl<> helpers.

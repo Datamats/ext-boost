@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/common_terminals.hpp"
 /*=============================================================================
   Copyright (c) 2001-2011 Joel de Guzman
   http://spirit.sourceforge.net/

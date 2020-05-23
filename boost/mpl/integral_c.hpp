@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/integral_c.hpp"
 
 #ifndef BOOST_MPL_INTEGRAL_C_HPP_INCLUDED
 #define BOOST_MPL_INTEGRAL_C_HPP_INCLUDED

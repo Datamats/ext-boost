@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/recycling_allocator.hpp"
 //
 // detail/recycling_allocator.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

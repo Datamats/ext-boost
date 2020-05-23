@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/same_traits.hpp"
 //  (C) Copyright Steve Cleary, Beman Dawes, Aleksey Gurtovoy, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,
 //  Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at

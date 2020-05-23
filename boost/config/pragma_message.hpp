@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/pragma_message.hpp"
 #ifndef BOOST_CONFIG_PRAGMA_MESSAGE_HPP_INCLUDED
 #define BOOST_CONFIG_PRAGMA_MESSAGE_HPP_INCLUDED
 

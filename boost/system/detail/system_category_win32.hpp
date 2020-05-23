@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/detail/system_category_win32.hpp"
 // Windows implementation of system_error_category
 //
 // Copyright Beman Dawes 2002, 2006

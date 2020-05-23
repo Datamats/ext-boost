@@ -1,3 +1,4 @@
+#line 1 "include/boost/icl/type_traits/is_associative_element_container.hpp"
 /*-----------------------------------------------------------------------------+    
 Copyright (c) 2008-2009: Joachim Faulhaber
 +------------------------------------------------------------------------------+

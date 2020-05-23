@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/eti.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_ETI_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_ETI_HPP_INCLUDED

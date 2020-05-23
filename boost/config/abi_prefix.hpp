@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/abi_prefix.hpp"
 //  abi_prefix header  -------------------------------------------------------//
 
 // (c) Copyright John Maddock 2003

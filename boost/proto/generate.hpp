@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/generate.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file generate.hpp
 /// Contains definition of generate\<\> class template, which end users can

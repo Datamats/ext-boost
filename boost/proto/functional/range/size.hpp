@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/range/size.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file size.hpp
 /// Proto callables for boost::size()

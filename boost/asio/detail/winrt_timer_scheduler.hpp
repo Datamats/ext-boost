@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/winrt_timer_scheduler.hpp"
 //
 // detail/winrt_timer_scheduler.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

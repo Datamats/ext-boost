@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/yield_k.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_YIELD_K_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_YIELD_K_HPP_INCLUDED
 

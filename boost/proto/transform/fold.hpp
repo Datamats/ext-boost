@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/fold.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file fold.hpp
 /// Contains definition of the fold<> and reverse_fold<> transforms.

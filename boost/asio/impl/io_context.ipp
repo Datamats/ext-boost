@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/io_context.ipp"
 //
 // impl/io_context.ipp
 // ~~~~~~~~~~~~~~~~~~~

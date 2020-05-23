@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/old_win_sdk_compat.hpp"
 //
 // detail/old_win_sdk_compat.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

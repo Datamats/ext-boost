@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/register_fundamental.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Copyright (C) 2004 Peder Holt
 // Use, modification and distribution is subject to the Boost Software

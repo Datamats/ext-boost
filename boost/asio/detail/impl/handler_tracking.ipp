@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/handler_tracking.ipp"
 //
 // detail/impl/handler_tracking.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

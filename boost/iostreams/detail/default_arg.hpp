@@ -1,3 +1,4 @@
+#line 1 "include/boost/iostreams/detail/default_arg.hpp"
 // (C) Copyright 2008 CodeRage, LLC (turkanis at coderage dot com)
 // (C) Copyright 2005-2007 Jonathan Turkanis
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

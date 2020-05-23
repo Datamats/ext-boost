@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/platform/symbian.hpp"
 //  (C) Copyright Yuriy Krasnoschek 2009. 
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Jens Maurer 2001 - 2003. 

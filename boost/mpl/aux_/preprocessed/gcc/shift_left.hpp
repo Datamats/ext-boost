@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/gcc/shift_left.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 // Copyright Jaap Suter 2003

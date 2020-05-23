@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/context/detail/preprocessed/default_eval.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file default_eval.hpp
     /// Contains specializations of the default_eval\<\> class template.

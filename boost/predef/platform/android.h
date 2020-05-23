@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/platform/android.h"
 /*
 Copyright Rene Rivera 2015-2019
 Distributed under the Boost Software License, Version 1.0.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/template_arity_helper.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // template_arity_helper.hpp
     // Overloads of template_arity_helper, used by the template_arity\<\> class template

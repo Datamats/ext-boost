@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/win_fd_set_adapter.hpp"
 //
 // detail/win_fd_set_adapter.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

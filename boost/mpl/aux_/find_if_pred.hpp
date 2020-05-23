@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/find_if_pred.hpp"
 
 #ifndef BOOST_MPL_AUX_FIND_IF_PRED_HPP_INCLUDED
 #define BOOST_MPL_AUX_FIND_IF_PRED_HPP_INCLUDED

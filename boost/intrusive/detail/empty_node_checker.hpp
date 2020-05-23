@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/empty_node_checker.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

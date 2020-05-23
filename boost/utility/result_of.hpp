@@ -1,3 +1,4 @@
+#line 1 "include/boost/utility/result_of.hpp"
 // Boost result_of library
 
 //  Copyright Douglas Gregor 2004. Use, modification and

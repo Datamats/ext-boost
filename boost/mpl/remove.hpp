@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/remove.hpp"
 
 #ifndef BOOST_MPL_REMOVE_HPP_INCLUDED
 #define BOOST_MPL_REMOVE_HPP_INCLUDED

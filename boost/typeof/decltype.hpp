@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/decltype.hpp"
 // Copyright (C) 2006 Arkadiy Vertleyb
 // Copyright (C) 2017 Daniela Engert
 // Use, modification and distribution is subject to the Boost Software

@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/time_system_counted.hpp"
 #ifndef DATE_TIME_TIME_SYSTEM_COUNTED_HPP
 #define DATE_TIME_TIME_SYSTEM_COUNTED_HPP
 

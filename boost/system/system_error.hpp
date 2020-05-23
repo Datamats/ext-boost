@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/system_error.hpp"
 //  Boost system_error.hpp  --------------------------------------------------//
 
 //  Copyright Beman Dawes 2006

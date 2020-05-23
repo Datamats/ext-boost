@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/detail/iterator_to_raw_pointer.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2015. Distributed under the Boost

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/consuming_buffers.hpp"
 //
 // detail/consuming_buffers.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

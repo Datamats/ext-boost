@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/insert_fwd.hpp"
 
 #ifndef BOOST_MPL_INSERT_FWD_HPP_INCLUDED
 #define BOOST_MPL_INSERT_FWD_HPP_INCLUDED

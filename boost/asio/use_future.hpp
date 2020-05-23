@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/use_future.hpp"
 //
 // use_future.hpp
 // ~~~~~~~~~~~~~~

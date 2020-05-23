@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/cv_traits.hpp"
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, Howard
 //  Hinnant & John Maddock 2000.  
 //  Use, modification and distribution are subject to the Boost Software License,

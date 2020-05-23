@@ -1,3 +1,4 @@
+#line 1 "include/boost/utility/value_init.hpp"
 // (C) Copyright 2002-2008, Fernando Luis Cacciola Carballal.
 //
 // Distributed under the Boost Software License, Version 1.0. (See

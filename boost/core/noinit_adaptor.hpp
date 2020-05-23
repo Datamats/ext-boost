@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/noinit_adaptor.hpp"
 /*
 Copyright 2019 Glen Joseph Fernandes
 (glenjofe@gmail.com)

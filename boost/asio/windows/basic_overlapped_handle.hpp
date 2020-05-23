@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/windows/basic_overlapped_handle.hpp"
 //
 // windows/basic_overlapped_handle.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

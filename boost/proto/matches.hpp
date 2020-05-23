@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/matches.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file matches.hpp
 /// Contains definition of matches\<\> metafunction for determining if

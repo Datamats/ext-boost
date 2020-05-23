@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/stdlib/stlport.hpp"
 //  (C) Copyright John Maddock 2001 - 2002. 
 //  (C) Copyright Darin Adler 2001. 
 //  (C) Copyright Jens Maurer 2001. 

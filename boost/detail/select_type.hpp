@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/select_type.hpp"
 // (C) Copyright David Abrahams 2001.
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at

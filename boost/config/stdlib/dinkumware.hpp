@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/stdlib/dinkumware.hpp"
 //  (C) Copyright John Maddock 2001 - 2003.
 //  (C) Copyright Jens Maurer 2001.
 //  (C) Copyright Peter Dimov 2001.

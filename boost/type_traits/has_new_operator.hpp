@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/has_new_operator.hpp"
 
 //  (C) Copyright Runar Undheim, Robert Ramey & John Maddock 2008.
 //  Use, modification and distribution are subject to the Boost Software License,

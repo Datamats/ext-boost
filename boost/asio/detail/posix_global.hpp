@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/posix_global.hpp"
 //
 // detail/posix_global.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

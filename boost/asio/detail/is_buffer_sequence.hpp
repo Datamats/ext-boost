@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/is_buffer_sequence.hpp"
 //
 // detail/is_buffer_sequence.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

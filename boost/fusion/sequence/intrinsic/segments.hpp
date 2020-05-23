@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/sequence/intrinsic/segments.hpp"
 /*=============================================================================
     Copyright (c) 2006 Eric Niebler
 

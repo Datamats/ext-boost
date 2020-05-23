@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/next_capacity.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2015. Distributed under the Boost

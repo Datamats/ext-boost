@@ -1,3 +1,4 @@
+#line 1 "include/boost/blank_fwd.hpp"
 //-----------------------------------------------------------------------------
 // boost blank_fwd.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

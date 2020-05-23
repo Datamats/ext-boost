@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/bool_trait_undef.hpp"
 
 // NO INCLUDE GUARDS, THE HEADER IS INTENDED FOR MULTIPLE INCLUSION
 

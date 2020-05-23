@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/has_result_type.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/has_result_type.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

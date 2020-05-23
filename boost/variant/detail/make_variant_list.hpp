@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/make_variant_list.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/make_variant_list.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

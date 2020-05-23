@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/punctuation/paren.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/buffered_stream_fwd.hpp"
 //
 // buffered_stream_fwd.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

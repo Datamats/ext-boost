@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/begin.hpp"
 
 #ifndef BOOST_MPL_BEGIN_HPP_INCLUDED
 #define BOOST_MPL_BEGIN_HPP_INCLUDED

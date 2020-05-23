@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/basic_resolver_entry.hpp"
 //
 // ip/basic_resolver_entry.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

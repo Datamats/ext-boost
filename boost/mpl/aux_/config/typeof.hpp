@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/typeof.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_TYPEOF_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_TYPEOF_HPP_INCLUDED

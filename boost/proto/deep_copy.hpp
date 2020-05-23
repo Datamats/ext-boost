@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/deep_copy.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file deep_copy.hpp
 /// Replace all nodes stored by reference by nodes stored by value.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/io_object_impl.hpp"
 //
 // io_object_impl.hpp
 // ~~~~~~~~~~~~~~~~~~

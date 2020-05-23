@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/completion_condition.hpp"
 //
 // completion_condition.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

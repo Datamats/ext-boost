@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_member_pointer.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, 
 //      Howard Hinnant and John Maddock 2000. 

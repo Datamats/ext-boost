@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/value_type_fwd.hpp"
 
 #ifndef BOOST_MPL_VALUE_TYPE_FWD_HPP_INCLUDED
 #define BOOST_MPL_VALUE_TYPE_FWD_HPP_INCLUDED

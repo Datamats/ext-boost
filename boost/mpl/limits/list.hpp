@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/limits/list.hpp"
 
 #ifndef BOOST_MPL_LIMITS_LIST_HPP_INCLUDED
 #define BOOST_MPL_LIMITS_LIST_HPP_INCLUDED

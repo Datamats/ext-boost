@@ -1,3 +1,4 @@
+#line 1 "include/boost/token_iterator.hpp"
 // Boost token_iterator.hpp  -------------------------------------------------//
 
 // Copyright John R. Bandela 2001

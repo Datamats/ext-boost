@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer/common_factor_ct.hpp"
 //  Boost common_factor_ct.hpp header file  ----------------------------------//
 
 //  (C) Copyright Daryle Walker and Stephen Cleary 2001-2002.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/iteration/detail/fold.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2006 Dan Marsden

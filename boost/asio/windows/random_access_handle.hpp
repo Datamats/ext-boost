@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/windows/random_access_handle.hpp"
 //
 // windows/random_access_handle.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_final.hpp"
 
 //  Copyright (c) 2014 Agustin Berge
 //

@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/detail/pp_round.hpp"
 /*=============================================================================
     Copyright (c) 2011 Thomas Heller
 

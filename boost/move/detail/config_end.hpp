@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/detail/config_end.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2012-2012. Distributed under the Boost

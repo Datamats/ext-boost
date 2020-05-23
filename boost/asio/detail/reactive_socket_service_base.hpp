@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/reactive_socket_service_base.hpp"
 //
 // detail/reactive_socket_service_base.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

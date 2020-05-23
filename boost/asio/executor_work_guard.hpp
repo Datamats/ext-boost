@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/executor_work_guard.hpp"
 //
 // executor_work_guard.hpp
 // ~~~~~~~~~~~~~~~~~

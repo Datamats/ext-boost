@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/impl/network_v6.hpp"
 //
 // ip/impl/network_v6.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

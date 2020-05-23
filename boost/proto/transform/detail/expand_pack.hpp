@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/expand_pack.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #include <boost/proto/transform/detail/preprocessed/expand_pack.hpp>

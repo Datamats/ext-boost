@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/regex_traits.hpp"
 /*
  *
  * Copyright (c) 1998-2002

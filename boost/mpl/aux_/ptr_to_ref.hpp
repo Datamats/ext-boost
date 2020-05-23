@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/ptr_to_ref.hpp"
 
 #ifndef BOOST_MPL_AUX_PTR_TO_REF_HPP_INCLUDED
 #define BOOST_MPL_AUX_PTR_TO_REF_HPP_INCLUDED

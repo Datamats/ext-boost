@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/platform/windows_uwp.h"
 /*
 Copyright James E. King III, 2017
 Distributed under the Boost Software License, Version 1.0.

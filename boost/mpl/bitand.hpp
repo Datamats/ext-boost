@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/bitand.hpp"
 
 #ifndef BOOST_MPL_BITAND_HPP_INCLUDED
 #define BOOST_MPL_BITAND_HPP_INCLUDED

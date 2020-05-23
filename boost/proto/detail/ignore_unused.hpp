@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/ignore_unused.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file ignore_unused.hpp
 /// Definintion of ignore_unused, a dummy function for suppressing compiler

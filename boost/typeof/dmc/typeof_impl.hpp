@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/dmc/typeof_impl.hpp"
 // Copyright (C) 2007 Peder Holt
 
 // Use, modification and distribution is subject to the Boost Software

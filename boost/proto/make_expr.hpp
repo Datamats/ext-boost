@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/make_expr.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file make_expr.hpp
 /// Definition of the \c make_expr() and \c unpack_expr() utilities for

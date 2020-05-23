@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/bind.hpp"
 
 #if !defined(BOOST_PP_IS_ITERATING)
 

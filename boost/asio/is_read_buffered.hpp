@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/is_read_buffered.hpp"
 //
 // is_read_buffered.hpp
 // ~~~~~~~~~~~~~~~~~~~~

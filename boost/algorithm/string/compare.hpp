@@ -1,3 +1,4 @@
+#line 1 "include/boost/algorithm/string/compare.hpp"
 //  Boost string_algo library compare.hpp header file  -------------------------//
 
 //  Copyright Pavol Droba 2002-2006.

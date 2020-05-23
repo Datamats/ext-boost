@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/fusion.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file fusion.hpp
 /// Make any Proto expression a valid Fusion sequence

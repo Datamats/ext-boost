@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/null_thread.hpp"
 //
 // detail/null_thread.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

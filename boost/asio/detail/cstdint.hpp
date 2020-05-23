@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/cstdint.hpp"
 //
 // detail/cstdint.hpp
 // ~~~~~~~~~~~~~~~~~~

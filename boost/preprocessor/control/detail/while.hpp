@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/control/detail/while.hpp"
 # /* Copyright (C) 2001
 #  * Housemarque Oy
 #  * http://www.housemarque.com

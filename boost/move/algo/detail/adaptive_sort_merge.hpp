@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/algo/detail/adaptive_sort_merge.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2015-2016.

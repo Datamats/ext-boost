@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/msvc60/placeholders.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 // Copyright Peter Dimov 2001-2003

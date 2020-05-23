@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/conditionally_enabled_event.hpp"
 //
 // detail/conditionally_enabled_event.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

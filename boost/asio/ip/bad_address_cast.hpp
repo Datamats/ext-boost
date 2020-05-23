@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/bad_address_cast.hpp"
 //
 // ip/bad_address_cast.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

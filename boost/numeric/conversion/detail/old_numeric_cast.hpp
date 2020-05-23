@@ -1,3 +1,4 @@
+#line 1 "include/boost/numeric/conversion/detail/old_numeric_cast.hpp"
 //  boost cast.hpp header file  ----------------------------------------------//
 
 //  (C) Copyright Kevlin Henney and Dave Abrahams 1999.

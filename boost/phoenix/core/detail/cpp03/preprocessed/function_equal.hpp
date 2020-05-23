@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/core/detail/cpp03/preprocessed/function_equal.hpp"
 /*=============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

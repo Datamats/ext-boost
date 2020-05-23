@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/posix_signal_blocker.hpp"
 //
 // detail/posix_signal_blocker.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

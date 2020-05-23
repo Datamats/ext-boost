@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/base_from_completion_cond.hpp"
 //
 // detail/base_from_completion_cond.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

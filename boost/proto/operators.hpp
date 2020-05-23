@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/operators.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file operators.hpp
 /// Contains all the overloaded operators that make it possible to build

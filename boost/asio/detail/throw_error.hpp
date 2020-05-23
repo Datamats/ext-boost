@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/throw_error.hpp"
 //
 // detail/throw_error.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/vacpp.hpp"
 //  (C) Copyright John Maddock 2001 - 2003.
 //  (C) Copyright Toon Knapen 2001 - 2003.
 //  (C) Copyright Lie-Quan Lee 2001.

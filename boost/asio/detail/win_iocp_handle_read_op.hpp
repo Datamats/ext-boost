@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/win_iocp_handle_read_op.hpp"
 //
 // detail/win_iocp_handle_read_op.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

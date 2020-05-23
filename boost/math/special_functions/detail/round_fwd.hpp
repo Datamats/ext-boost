@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/special_functions/detail/round_fwd.hpp"
 // Copyright John Maddock 2008.
 
 // Use, modification and distribution are subject to the

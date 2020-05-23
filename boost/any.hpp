@@ -1,3 +1,4 @@
+#line 1 "include/boost/any.hpp"
 // See http://www.boost.org/libs/any for Documentation.
 
 #ifndef BOOST_ANY_INCLUDED

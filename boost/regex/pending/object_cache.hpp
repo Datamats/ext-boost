@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/pending/object_cache.hpp"
 /*
  *
  * Copyright (c) 2004

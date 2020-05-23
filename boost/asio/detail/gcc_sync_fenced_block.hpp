@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/gcc_sync_fenced_block.hpp"
 //
 // detail/gcc_sync_fenced_block.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

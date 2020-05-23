@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/placeholders.hpp"
 
 #if !defined(BOOST_PP_IS_ITERATING)
 

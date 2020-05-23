@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/tools/user.hpp"
 // Copyright John Maddock 2007.
 // Copyright Paul A. Bristow 2007.
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/generic/basic_endpoint.hpp"
 //
 // generic/basic_endpoint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

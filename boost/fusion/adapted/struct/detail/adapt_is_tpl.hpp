@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/adapted/struct/detail/adapt_is_tpl.hpp"
 /*=============================================================================
     Copyright (c) 2013-2014 Damien Buhl
 

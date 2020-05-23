@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/platform/windows_phone.h"
 /*
 Copyright (c) Microsoft Corporation 2014
 Copyright Rene Rivera 2015

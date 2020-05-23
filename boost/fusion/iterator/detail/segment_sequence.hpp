@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/iterator/detail/segment_sequence.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

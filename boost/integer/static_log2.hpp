@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer/static_log2.hpp"
 // -------------- Boost static_log2.hpp header file  ----------------------- //
 //
 //                 Copyright (C) 2001 Daryle Walker.

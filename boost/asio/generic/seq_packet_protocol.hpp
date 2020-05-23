@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/generic/seq_packet_protocol.hpp"
 //
 // generic/seq_packet_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

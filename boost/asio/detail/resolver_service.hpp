@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/resolver_service.hpp"
 //
 // detail/resolver_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

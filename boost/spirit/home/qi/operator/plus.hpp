@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/qi/operator/plus.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser

@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/basic_expr.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #include <boost/proto/detail/preprocessed/basic_expr.hpp>

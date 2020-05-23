@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/nested_type_wknd.hpp"
 
 #ifndef BOOST_MPL_AUX_NESTED_TYPE_WKND_HPP_INCLUDED
 #define BOOST_MPL_AUX_NESTED_TYPE_WKND_HPP_INCLUDED

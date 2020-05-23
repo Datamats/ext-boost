@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/thread_pool.ipp"
 //
 // impl/thread_pool.ipp
 // ~~~~~~~~~~~~~~~~~~~~

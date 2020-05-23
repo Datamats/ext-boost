@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/vector/detail/cpp03/vector_n_chooser.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

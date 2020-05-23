@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/winsock_init.hpp"
 //
 // detail/winsock_init.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

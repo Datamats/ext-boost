@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/iterator/deref_data.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

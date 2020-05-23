@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/co_spawn.hpp"
 //
 // co_spawn.hpp
 // ~~~~~~~~~~~~

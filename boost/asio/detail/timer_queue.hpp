@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/timer_queue.hpp"
 //
 // detail/timer_queue.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

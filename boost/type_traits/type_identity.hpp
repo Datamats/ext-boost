@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/type_identity.hpp"
 #ifndef BOOST_TYPE_TRAITS_TYPE_IDENTITY_HPP_INCLUDED
 #define BOOST_TYPE_TRAITS_TYPE_IDENTITY_HPP_INCLUDED
 

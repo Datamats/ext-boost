@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/socket_select_interrupter.hpp"
 //
 // detail/socket_select_interrupter.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

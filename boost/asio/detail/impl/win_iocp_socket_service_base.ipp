@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/win_iocp_socket_service_base.ipp"
 //
 // detail/impl/win_iocp_socket_service_base.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

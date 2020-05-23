@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/hash_map.hpp"
 //
 // detail/hash_map.hpp
 // ~~~~~~~~~~~~~~~~~~~

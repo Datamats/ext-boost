@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/has_rebind.hpp"
 
 #ifndef BOOST_MPL_AUX_HAS_REBIND_HPP_INCLUDED
 #define BOOST_MPL_AUX_HAS_REBIND_HPP_INCLUDED

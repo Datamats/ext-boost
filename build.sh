@@ -22,4 +22,5 @@ bcp \
     boost/system/system_error.hpp \
     boost/test/unit_test.hpp \
     boost/variant/ \
+    boost/serialization \
     --boost="$1" .

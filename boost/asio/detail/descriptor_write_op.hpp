@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/descriptor_write_op.hpp"
 //
 // detail/descriptor_write_op.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

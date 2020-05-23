@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/poly_function_traits.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // poly_function_traits.hpp
     // Contains specializations of poly_function_traits and as_mono_function

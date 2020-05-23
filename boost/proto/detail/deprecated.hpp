@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/deprecated.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file deprecated.hpp
 /// Definition of the deprecated BOOST_PROTO_DEFINE_FUCTION_TEMPLATE and

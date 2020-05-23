@@ -1,3 +1,4 @@
+#line 1 "include/boost/version.hpp"
 //  Boost version.hpp configuration header file  ------------------------------//
 
 //  (C) Copyright John maddock 1999. Distributed under the Boost

@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/period_formatter.hpp"
 
 #ifndef DATETIME_PERIOD_FORMATTER_HPP___
 #define DATETIME_PERIOD_FORMATTER_HPP___

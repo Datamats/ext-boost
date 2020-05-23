@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/std_event.hpp"
 //
 // detail/std_event.hpp
 // ~~~~~~~~~~~~~~~~~~~~

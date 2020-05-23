@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/local_counted_base.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LOCAL_COUNTED_BASE_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LOCAL_COUNTED_BASE_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/states.hpp"
 /*
  *
  * Copyright (c) 1998-2002

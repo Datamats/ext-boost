@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/variadic/size.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2011.                                    *

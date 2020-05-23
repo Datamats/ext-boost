@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/erase.hpp"
 
 #ifndef BOOST_MPL_ERASE_HPP_INCLUDED
 #define BOOST_MPL_ERASE_HPP_INCLUDED

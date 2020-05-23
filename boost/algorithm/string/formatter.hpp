@@ -1,3 +1,4 @@
+#line 1 "include/boost/algorithm/string/formatter.hpp"
 //  Boost string_algo library formatter.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/scoped_enum_emulation.hpp"
 /*
  * Copyright (c) 2014 Andrey Semashev
  *

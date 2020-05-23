@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/detail/socket_option.hpp"
 //
 // detail/socket_option.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

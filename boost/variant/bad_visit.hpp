@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/bad_visit.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/bad_visit.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

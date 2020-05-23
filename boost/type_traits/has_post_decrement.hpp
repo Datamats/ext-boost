@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/has_post_decrement.hpp"
 //  (C) Copyright 2009-2011 Frederic Bron.
 //
 //  Use, modification and distribution are subject to the Boost Software License,

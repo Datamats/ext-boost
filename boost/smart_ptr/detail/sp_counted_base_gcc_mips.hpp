@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/sp_counted_base_gcc_mips.hpp"
 #ifndef BOOST_DETAIL_SP_COUNTED_BASE_GCC_MIPS_HPP_INCLUDED
 #define BOOST_DETAIL_SP_COUNTED_BASE_GCC_MIPS_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/core.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file core.hpp
 /// Includes the core of Proto. Not included are the contexts, transforms and

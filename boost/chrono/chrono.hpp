@@ -1,3 +1,4 @@
+#line 1 "include/boost/chrono/chrono.hpp"
 //  chrono.hpp  --------------------------------------------------------------//
 
 //  Copyright 2009-2011 Vicente J. Botet Escriba

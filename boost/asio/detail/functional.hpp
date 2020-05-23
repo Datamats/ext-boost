@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/functional.hpp"
 //
 // detail/functional.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

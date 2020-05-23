@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/strand_executor_service.hpp"
 //
 // detail/strand_executor_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

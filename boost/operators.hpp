@@ -1,3 +1,4 @@
+#line 1 "include/boost/operators.hpp"
 //  Boost operators.hpp header file  ----------------------------------------//
 
 //  (C) Copyright David Abrahams, Jeremy Siek, Daryle Walker 1999-2001.

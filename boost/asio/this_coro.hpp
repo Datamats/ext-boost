@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/this_coro.hpp"
 //
 // this_coro.hpp
 // ~~~~~~~~~~~~~

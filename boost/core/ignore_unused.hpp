@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/ignore_unused.hpp"
 // Copyright (c) 2014 Adam Wulkiewicz, Lodz, Poland.
 //
 // Use, modification and distribution is subject to the Boost Software License,

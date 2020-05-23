@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/typeof_impl.hpp"
 // Copyright (C) 2004, 2005 Arkadiy Vertleyb
 // Copyright (C) 2005 Peder Holt
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

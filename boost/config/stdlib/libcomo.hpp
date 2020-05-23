@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/stdlib/libcomo.hpp"
 //  (C) Copyright John Maddock 2002 - 2003. 
 //  (C) Copyright Jens Maurer 2002 - 2003. 
 //  (C) Copyright Beman Dawes 2002 - 2003. 

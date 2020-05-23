@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/special_functions/fpclassify.hpp"
 //  Copyright John Maddock 2005-2008.
 //  Copyright (c) 2006-2008 Johan Rade
 //  Use, modification and distribution are subject to the

@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/include/pop_back.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
 

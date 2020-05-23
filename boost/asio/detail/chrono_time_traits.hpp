@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/chrono_time_traits.hpp"
 //
 // detail/chrono_time_traits.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/system_context.hpp"
 //
 // impl/system_context.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

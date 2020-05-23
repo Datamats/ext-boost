@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/basic_streambuf.hpp"
 //
 // basic_streambuf.hpp
 // ~~~~~~~~~~~~~~~~~~~

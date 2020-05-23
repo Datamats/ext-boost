@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/detail/pointer_element.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2017. Distributed under the Boost

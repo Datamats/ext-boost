@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/common_slist_algorithms.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2007-2014

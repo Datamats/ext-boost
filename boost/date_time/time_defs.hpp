@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/time_defs.hpp"
 #ifndef DATE_TIME_TIME_PRECISION_LIMITS_HPP
 #define DATE_TIME_TIME_PRECISION_LIMITS_HPP
 

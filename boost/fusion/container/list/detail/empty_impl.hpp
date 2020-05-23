@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/list/detail/empty_impl.hpp"
 /*=============================================================================
     Copyright (c) 2007 Tobias Schwinger
 

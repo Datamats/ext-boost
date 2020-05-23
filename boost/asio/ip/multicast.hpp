@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/multicast.hpp"
 //
 // ip/multicast.hpp
 // ~~~~~~~~~~~~~~~~

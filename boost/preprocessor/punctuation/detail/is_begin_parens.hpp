@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/punctuation/detail/is_begin_parens.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.

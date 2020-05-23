@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/type_traits.hpp"
 //////////////////////////////////////////////////////////////////////////////
 // (C) Copyright John Maddock 2000.
 // (C) Copyright Ion Gaztanaga 2005-2015.

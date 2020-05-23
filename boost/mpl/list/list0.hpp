@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/list/list0.hpp"
 
 #ifndef BOOST_MPL_LIST_LIST0_HPP_INCLUDED
 #define BOOST_MPL_LIST_LIST0_HPP_INCLUDED

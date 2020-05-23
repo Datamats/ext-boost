@@ -1,3 +1,4 @@
+#line 1 "include/boost/container_hash/detail/hash_float.hpp"
 
 // Copyright 2005-2012 Daniel James.
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

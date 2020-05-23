@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/detail/make_vector.hpp"
 /*=============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/yes_no_type.hpp"
 
 //  (C) Copyright John Maddock and Steve Cleary 2000.
 //  Use, modification and distribution are subject to the Boost Software License,

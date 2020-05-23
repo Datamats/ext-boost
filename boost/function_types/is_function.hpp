@@ -1,3 +1,4 @@
+#line 1 "include/boost/function_types/is_function.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

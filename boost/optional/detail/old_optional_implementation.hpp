@@ -1,3 +1,4 @@
+#line 1 "include/boost/optional/detail/old_optional_implementation.hpp"
 // Copyright (C) 2003, 2008 Fernando Luis Cacciola Carballal.
 // Copyright (C) 2014-2016 Andrzej Krzemienski.
 //

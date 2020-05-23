@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/declval.hpp"
 //  declval.hpp  -------------------------------------------------------------//
 
 //  Copyright 2010 Vicente J. Botet Escriba

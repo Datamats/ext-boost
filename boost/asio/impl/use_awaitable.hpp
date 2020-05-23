@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/use_awaitable.hpp"
 //
 // impl/use_awaitable.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

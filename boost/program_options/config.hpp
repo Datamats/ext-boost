@@ -1,3 +1,4 @@
+#line 1 "include/boost/program_options/config.hpp"
 //    Copyright (c) 2004 Hartmut Kaiser
 //
 //    Use, modification and distribution is subject to the Boost Software

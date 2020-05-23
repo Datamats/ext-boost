@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/qi/detail/parse_auto.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Hartmut Kaiser
 

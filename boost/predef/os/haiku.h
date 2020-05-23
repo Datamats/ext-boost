@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/os/haiku.h"
 /*
 Copyright Jessica Hamilton 2014
 Copyright Rene Rivera 2014-2015

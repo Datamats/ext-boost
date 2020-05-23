@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/type_wrapper.hpp"
 
 #ifndef BOOST_MPL_AUX_TYPE_WRAPPER_HPP_INCLUDED
 #define BOOST_MPL_AUX_TYPE_WRAPPER_HPP_INCLUDED

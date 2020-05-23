@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/std_static_mutex.hpp"
 //
 // detail/std_static_mutex.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

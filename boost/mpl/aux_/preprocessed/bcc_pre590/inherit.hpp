@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/bcc_pre590/inherit.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 //

@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_class.hpp"
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, Howard
 //  Hinnant & John Maddock 2000-2003.
 //  Use, modification and distribution are subject to the Boost Software License,

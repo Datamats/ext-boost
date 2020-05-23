@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/high_resolution_timer.hpp"
 //
 // high_resolution_timer.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

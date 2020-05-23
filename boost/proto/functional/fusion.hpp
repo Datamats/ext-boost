@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/fusion.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file fusion.hpp
 /// Proto callables for things found in the Fusion library

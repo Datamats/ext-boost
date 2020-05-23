@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/call.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file call.hpp
     /// Contains definition of the call<> transform.

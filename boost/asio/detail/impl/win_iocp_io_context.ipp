@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/win_iocp_io_context.ipp"
 //
 // detail/impl/win_iocp_io_context.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

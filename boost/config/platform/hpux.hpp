@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/platform/hpux.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Jens Maurer 2001 - 2003. 
 //  (C) Copyright David Abrahams 2002. 

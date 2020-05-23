@@ -1,3 +1,4 @@
+#line 1 "include/boost/non_type.hpp"
 // -------------------------------------
 //
 //           (C) Copyright Gennaro Prota 2003.

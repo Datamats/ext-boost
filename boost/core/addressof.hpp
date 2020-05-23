@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/addressof.hpp"
 /*
 Copyright (C) 2002 Brad King (brad.king@kitware.com)
                    Douglas Gregor (gregod@cs.rpi.edu)

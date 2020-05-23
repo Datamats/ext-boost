@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/is_sorted.hpp"
 /*==============================================================================
     Copyright (c) 2010-2011 Bryce Lelbach
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/wrapped_handler.hpp"
 //
 // detail/wrapped_handler.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

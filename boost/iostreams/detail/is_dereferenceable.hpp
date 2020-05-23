@@ -1,3 +1,4 @@
+#line 1 "include/boost/iostreams/detail/is_dereferenceable.hpp"
 // (C) Copyright 2008 CodeRage, LLC (turkanis at coderage dot com)
 // (C) Copyright 2005-2007 Jonathan Turkanis
 // (C) Copyright David Abrahams 2004.

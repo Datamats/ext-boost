@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/template_template_param.hpp"
 // Copyright (C) 2005 Peder Holt
 // Copyright (C) 2005 Arkadiy Vertleyb
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

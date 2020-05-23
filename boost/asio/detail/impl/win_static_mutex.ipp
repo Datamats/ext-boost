@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/win_static_mutex.ipp"
 //
 // detail/impl/win_static_mutex.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

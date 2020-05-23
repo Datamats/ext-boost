@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/detail/and.hpp"
 /*=============================================================================
     Copyright (c) 2016 Lee Clagett
     Copyright (c) 2018 Kohei Takahashi

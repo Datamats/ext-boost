@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/global.hpp"
 //
 // detail/global.hpp
 // ~~~~~~~~~~~~~~~~~

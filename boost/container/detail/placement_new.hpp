@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/placement_new.hpp"
 #ifndef BOOST_CONTAINER_DETAIL_PLACEMENT_NEW_HPP
 #define BOOST_CONTAINER_DETAIL_PLACEMENT_NEW_HPP
 ///////////////////////////////////////////////////////////////////////////////

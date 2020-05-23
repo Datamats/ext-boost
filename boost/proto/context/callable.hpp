@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/context/callable.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file callable.hpp
 /// Definintion of callable_context\<\>, an evaluation context for

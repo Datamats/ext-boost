@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/when.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file when.hpp
     /// Definition of when transform.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/no_ctps/set_c.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

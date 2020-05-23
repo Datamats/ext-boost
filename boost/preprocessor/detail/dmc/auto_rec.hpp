@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/detail/dmc/auto_rec.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

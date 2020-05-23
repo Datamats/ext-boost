@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/associated_allocator.hpp"
 //
 // associated_allocator.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/remove_all_extents.hpp"
 
 //  (C) Copyright John Maddock 2005.
 //  Use, modification and distribution are subject to the Boost Software License,

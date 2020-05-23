@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/detail/suffix.hpp"
 //  Boost config.hpp configuration header file  ------------------------------//
 //  boostinspect:ndprecated_macros -- tell the inspect tool to ignore this file
 

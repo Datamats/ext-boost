@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_constructible.hpp"
 
 //  (C) Copyright John Maddock 2015.
 //  Use, modification and distribution are subject to the Boost Software License,

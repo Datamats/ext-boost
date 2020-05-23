@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/compiler.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_COMPILER_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_COMPILER_HPP_INCLUDED

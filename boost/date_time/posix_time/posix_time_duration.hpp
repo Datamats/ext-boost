@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/posix_time/posix_time_duration.hpp"
 #ifndef POSIX_TIME_DURATION_HPP___
 #define POSIX_TIME_DURATION_HPP___
 

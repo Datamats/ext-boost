@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/hook_traits.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2006-2014

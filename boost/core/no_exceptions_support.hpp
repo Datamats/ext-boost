@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/no_exceptions_support.hpp"
 #ifndef BOOST_CORE_NO_EXCEPTIONS_SUPPORT_HPP
 #define BOOST_CORE_NO_EXCEPTIONS_SUPPORT_HPP
 

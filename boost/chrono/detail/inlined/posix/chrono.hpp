@@ -1,3 +1,4 @@
+#line 1 "include/boost/chrono/detail/inlined/posix/chrono.hpp"
 //  posix/chrono.cpp  --------------------------------------------------------------//
 
 //  Copyright Beman Dawes 2008

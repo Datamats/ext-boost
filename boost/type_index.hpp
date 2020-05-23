@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_index.hpp"
 //
 // Copyright (c) 2012-2019 Antony Polukhin.
 //

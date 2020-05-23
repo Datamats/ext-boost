@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/limits/vector.hpp"
 
 #ifndef BOOST_MPL_LIMITS_VECTOR_HPP_INCLUDED
 #define BOOST_MPL_LIMITS_VECTOR_HPP_INCLUDED

@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/regex_token_iterator.hpp"
 /*
  *
  * Copyright (c) 2003

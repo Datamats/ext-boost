@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/async_result.hpp"
 //
 // async_result.hpp
 // ~~~~~~~~~~~~~~~~

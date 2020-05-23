@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/win_iocp_socket_accept_op.hpp"
 //
 // detail/win_iocp_socket_accept_op.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

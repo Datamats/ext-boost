@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/basic_socket_acceptor.hpp"
 //
 // basic_socket_acceptor.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

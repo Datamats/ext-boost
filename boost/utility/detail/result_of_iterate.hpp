@@ -1,3 +1,4 @@
+#line 1 "include/boost/utility/detail/result_of_iterate.hpp"
 // Boost result_of library
 
 //  Copyright Douglas Gregor 2004. Use, modification and

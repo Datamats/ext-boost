@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/error.hpp"
 //
 // error.hpp
 // ~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/detail/select_stdlib_config.hpp"
 //  Boost compiler configuration selection header file
 
 //  (C) Copyright John Maddock 2001 - 2003. 

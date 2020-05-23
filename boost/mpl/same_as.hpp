@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/same_as.hpp"
 
 #ifndef BOOST_MPL_SAME_AS_HPP_INCLUDED
 #define BOOST_MPL_SAME_AS_HPP_INCLUDED

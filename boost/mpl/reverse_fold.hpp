@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/reverse_fold.hpp"
 
 #ifndef BOOST_MPL_REVERSE_FOLD_HPP_INCLUDED
 #define BOOST_MPL_REVERSE_FOLD_HPP_INCLUDED

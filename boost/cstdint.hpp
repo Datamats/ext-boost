@@ -1,3 +1,4 @@
+#line 1 "include/boost/cstdint.hpp"
 //  boost cstdint.hpp header file  ------------------------------------------//
 
 //  (C) Copyright Beman Dawes 1999.

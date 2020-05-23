@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/detail/hold_any.hpp"
 /*=============================================================================
     Copyright (c) 2007-2011 Hartmut Kaiser
     Copyright (c) Christopher Diggins 2005

@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/adapted/struct/detail/value_of_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009-2010 Christopher Schmidt
 

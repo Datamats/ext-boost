@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/basic_waitable_timer.hpp"
 //
 // basic_waitable_timer.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

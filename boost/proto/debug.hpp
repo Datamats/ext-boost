@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/debug.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file debug.hpp
 /// Utilities for debugging Proto expression trees

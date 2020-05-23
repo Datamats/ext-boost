@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/generate_by_value.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file generate_by_value.hpp
     /// Contains definition of by_value_generator_\<\> class template.

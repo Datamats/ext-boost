@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/view/transform_view/detail/end_impl.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

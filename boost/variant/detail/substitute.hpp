@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/substitute.hpp"
 
 #if !defined(BOOST_PP_IS_ITERATING)
 

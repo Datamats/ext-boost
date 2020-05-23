@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/arg.hpp"
 #ifndef BOOST_BIND_ARG_HPP_INCLUDED
 #define BOOST_BIND_ARG_HPP_INCLUDED
 

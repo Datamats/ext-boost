@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/poly_function_funop.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // poly_function_funop.hpp
     // Contains overloads of poly_function\<\>::operator()

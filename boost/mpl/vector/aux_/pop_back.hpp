@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/vector/aux_/pop_back.hpp"
 
 #ifndef BOOST_MPL_VECTOR_AUX_POP_BACK_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_AUX_POP_BACK_HPP_INCLUDED

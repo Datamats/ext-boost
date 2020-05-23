@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/pathscale.hpp"
 //  (C) Copyright Bryce Lelbach 2011
 
 //  Use, modification and distribution are subject to the

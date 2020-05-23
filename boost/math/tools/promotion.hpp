@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/tools/promotion.hpp"
 // boost\math\tools\promotion.hpp
 
 // Copyright John Maddock 2006.

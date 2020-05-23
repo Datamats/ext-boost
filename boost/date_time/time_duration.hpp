@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/time_duration.hpp"
 #ifndef DATE_TIME_TIME_DURATION_HPP___
 #define DATE_TIME_TIME_DURATION_HPP___
 

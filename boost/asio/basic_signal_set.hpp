@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/basic_signal_set.hpp"
 //
 // basic_signal_set.hpp
 // ~~~~~~~~~~~~~~~~~~~~

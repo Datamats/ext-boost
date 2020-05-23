@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/windows/overlapped_ptr.hpp"
 //
 // windows/overlapped_ptr.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

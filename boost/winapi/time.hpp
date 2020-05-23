@@ -1,3 +1,4 @@
+#line 1 "include/boost/winapi/time.hpp"
 /*
  * Copyright 2010 Vicente J. Botet Escriba
  * Copyright (c) Microsoft Corporation 2014

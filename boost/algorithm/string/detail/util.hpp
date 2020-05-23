@@ -1,3 +1,4 @@
+#line 1 "include/boost/algorithm/string/detail/util.hpp"
 //  Boost string_algo library util.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.

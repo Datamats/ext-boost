@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/tss_ptr.hpp"
 //
 // detail/tss_ptr.hpp
 // ~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/basic_regex_creator.hpp"
 /*
  *
  * Copyright (c) 2004

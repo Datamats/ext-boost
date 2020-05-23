@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/at_fwd.hpp"
 
 #ifndef BOOST_MPL_AT_FWD_HPP_INCLUDED
 #define BOOST_MPL_AT_FWD_HPP_INCLUDED

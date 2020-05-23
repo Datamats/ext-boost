@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/descriptor_ops.ipp"
 //
 // detail/impl/descriptor_ops.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

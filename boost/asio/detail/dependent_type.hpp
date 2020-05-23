@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/dependent_type.hpp"
 //
 // detail/dependent_type.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

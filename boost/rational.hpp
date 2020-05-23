@@ -1,3 +1,4 @@
+#line 1 "include/boost/rational.hpp"
 //  Boost rational.hpp header file  ------------------------------------------//
 
 //  (C) Copyright Paul Moore 1999. Permission to copy, use, modify, sell and

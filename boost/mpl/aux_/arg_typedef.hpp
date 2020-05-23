@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/arg_typedef.hpp"
 
 #ifndef BOOST_MPL_AUX_ARG_TYPEDEF_HPP_INCLUDED
 #define BOOST_MPL_AUX_ARG_TYPEDEF_HPP_INCLUDED

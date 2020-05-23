@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/detail/endian/endian.hpp"
 //  Boost endian.hpp header file -------------------------------------------------------//
 
 //  (C) Copyright Darin Adler 2000

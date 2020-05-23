@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/facilities/is_empty_variadic.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.

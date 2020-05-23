@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/null_reactor.hpp"
 //
 // detail/null_reactor.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

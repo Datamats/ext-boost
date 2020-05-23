@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/function/detail/cpp03/function_operator.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 #ifndef BOOST_PHOENIX_FUNCTION_DETAIL_FUNCTION_OPERATOR_HPP

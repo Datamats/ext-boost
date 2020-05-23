@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/gregorian_calendar.ipp"
 /* Copyright (c) 2002,2003 CrystalClear Software, Inc.
  * Use, modification and distribution is subject to the
  * Boost Software License, Version 1.0. (See accompanying

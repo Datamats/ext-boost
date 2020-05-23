@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/signal_set_service.ipp"
 //
 // detail/impl/signal_set_service.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

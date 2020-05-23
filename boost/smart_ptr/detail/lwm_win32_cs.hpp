@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/lwm_win32_cs.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LWM_WIN32_CS_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LWM_WIN32_CS_HPP_INCLUDED
 

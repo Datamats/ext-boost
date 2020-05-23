@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/header_deprecated.hpp"
 #ifndef BOOST_CONFIG_HEADER_DEPRECATED_HPP_INCLUDED
 #define BOOST_CONFIG_HEADER_DEPRECATED_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/handler_work.hpp"
 //
 // detail/handler_work.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

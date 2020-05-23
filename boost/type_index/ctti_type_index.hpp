@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_index/ctti_type_index.hpp"
 //
 // Copyright (c) 2013-2019 Antony Polukhin.
 //

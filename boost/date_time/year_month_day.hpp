@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/year_month_day.hpp"
 #ifndef YearMonthDayBase_HPP__
 #define YearMonthDayBase_HPP__
 

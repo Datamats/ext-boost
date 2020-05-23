@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/functions.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2006. Use, modification and

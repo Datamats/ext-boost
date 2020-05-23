@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/array/data.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

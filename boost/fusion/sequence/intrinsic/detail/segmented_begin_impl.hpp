@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/sequence/intrinsic/detail/segmented_begin_impl.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

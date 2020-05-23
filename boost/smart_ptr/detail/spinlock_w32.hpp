@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/spinlock_w32.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SPINLOCK_W32_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SPINLOCK_W32_HPP_INCLUDED
 

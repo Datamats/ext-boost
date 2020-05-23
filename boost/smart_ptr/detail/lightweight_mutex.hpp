@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/lightweight_mutex.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LIGHTWEIGHT_MUTEX_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LIGHTWEIGHT_MUTEX_HPP_INCLUDED
 

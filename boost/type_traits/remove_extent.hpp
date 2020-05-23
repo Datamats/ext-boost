@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/remove_extent.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000-2005.
 //  Use, modification and distribution are subject to the Boost Software License,

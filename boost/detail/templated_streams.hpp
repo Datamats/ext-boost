@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/templated_streams.hpp"
 //-----------------------------------------------------------------------------
 // boost detail/templated_streams.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

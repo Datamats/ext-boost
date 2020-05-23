@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/sequence/io/detail/out.hpp"
 /*=============================================================================
     Copyright (c) 1999-2003 Jaakko Jarvi
     Copyright (c) 1999-2003 Jeremiah Willcock

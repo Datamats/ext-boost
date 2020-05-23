@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/socket_base.hpp"
 //
 // socket_base.hpp
 // ~~~~~~~~~~~~~~~

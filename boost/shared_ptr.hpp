@@ -1,3 +1,4 @@
+#line 1 "include/boost/shared_ptr.hpp"
 #ifndef BOOST_SHARED_PTR_HPP_INCLUDED
 #define BOOST_SHARED_PTR_HPP_INCLUDED
 

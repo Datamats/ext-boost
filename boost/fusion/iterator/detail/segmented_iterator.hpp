@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/iterator/detail/segmented_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

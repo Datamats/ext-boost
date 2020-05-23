@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/view/iterator_range/detail/size_impl.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/mem_fn.hpp"
 #ifndef BOOST_BIND_MEM_FN_HPP_INCLUDED
 #define BOOST_BIND_MEM_FN_HPP_INCLUDED
 

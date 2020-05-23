@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/detail/system_category_posix.hpp"
 // POSIX-specific implementation details of system_error_category
 //
 // Copyright 2018 Peter Dimov

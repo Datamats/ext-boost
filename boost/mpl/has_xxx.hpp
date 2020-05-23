@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/has_xxx.hpp"
 
 #ifndef BOOST_MPL_HAS_XXX_HPP_INCLUDED
 #define BOOST_MPL_HAS_XXX_HPP_INCLUDED

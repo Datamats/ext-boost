@@ -1,3 +1,4 @@
+#line 1 "include/boost/typeof/template_encoding.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Copyright (C) 2005 Peder Holt
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

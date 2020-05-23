@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/null_global.hpp"
 //
 // detail/null_global.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

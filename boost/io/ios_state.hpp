@@ -1,3 +1,4 @@
+#line 1 "include/boost/io/ios_state.hpp"
 //  Boost io/ios_state.hpp header file  --------------------------------------//
 
 //  Copyright 2002, 2005 Daryle Walker.  Use, modification, and distribution

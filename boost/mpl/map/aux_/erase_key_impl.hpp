@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/map/aux_/erase_key_impl.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_ERASE_KEY_IMPL_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_ERASE_KEY_IMPL_HPP_INCLUDED

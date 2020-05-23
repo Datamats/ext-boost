@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/is_mem_fun_pointer_tester.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, 
 //  Aleksey Gurtovoy, Howard Hinnant & John Maddock 2000.  

@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/iterator/value_of_data.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

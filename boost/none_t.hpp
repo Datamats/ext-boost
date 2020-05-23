@@ -1,3 +1,4 @@
+#line 1 "include/boost/none_t.hpp"
 // Copyright (C) 2003, Fernando Luis Cacciola Carballal.
 // Copyright (C) 2014, 2015 Andrzej Krzemienski.
 //

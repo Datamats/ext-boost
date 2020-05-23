@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/null_socket_service.hpp"
 //
 // detail/null_socket_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

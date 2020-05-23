@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/microsec_time_clock.hpp"
 #ifndef DATE_TIME_HIGHRES_TIME_CLOCK_HPP___
 #define DATE_TIME_HIGHRES_TIME_CLOCK_HPP___
 

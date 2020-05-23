@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/wince_thread.hpp"
 //
 // detail/wince_thread.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

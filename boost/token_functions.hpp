@@ -1,3 +1,4 @@
+#line 1 "include/boost/token_functions.hpp"
 // Boost token_functions.hpp  ------------------------------------------------//
 
 // Copyright John R. Bandela 2001.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/wait_op.hpp"
 //
 // detail/wait_op.hpp
 // ~~~~~~~~~~~~~~~~~~

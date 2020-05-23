@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/detail/impl/endpoint.ipp"
 //
 // ip/detail/impl/endpoint.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/core/detail/phx2_result.hpp"
 /*=============================================================================
     Copyright (c) 2011 Thomas Heller
 

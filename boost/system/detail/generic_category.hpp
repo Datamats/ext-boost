@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/detail/generic_category.hpp"
 // Implementation details of generic_error_category
 //
 // Copyright 2018 Peter Dimov

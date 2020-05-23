@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/win_object_handle_service.hpp"
 //
 // detail/win_object_handle_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

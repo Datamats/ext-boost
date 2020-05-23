@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/any.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file any.hpp
 /// Contains definition the detail::any type

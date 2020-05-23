@@ -1,3 +1,4 @@
+#line 1 "include/boost/winapi/error_codes.hpp"
 /*
  * Copyright 2016-2018 Andrey Semashev
  *

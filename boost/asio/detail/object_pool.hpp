@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/object_pool.hpp"
 //
 // detail/object_pool.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

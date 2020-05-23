@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/push_options.hpp"
 //
 // detail/push_options.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

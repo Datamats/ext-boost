@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/reactive_socket_service_base.ipp"
 //
 // detail/reactive_socket_service_base.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

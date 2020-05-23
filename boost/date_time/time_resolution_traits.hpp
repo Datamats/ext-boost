@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/time_resolution_traits.hpp"
 #ifndef DATE_TIME_TIME_RESOLUTION_TRAITS_HPP
 #define DATE_TIME_TIME_RESOLUTION_TRAITS_HPP
 

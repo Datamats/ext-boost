@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/map/aux_/insert_impl.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_INSERT_IMPL_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_INSERT_IMPL_HPP_INCLUDED

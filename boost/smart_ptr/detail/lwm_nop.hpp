@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/lwm_nop.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LWM_NOP_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LWM_NOP_HPP_INCLUDED
 

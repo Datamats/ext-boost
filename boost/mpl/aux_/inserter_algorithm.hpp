@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/inserter_algorithm.hpp"
 
 #ifndef BOOST_MPL_AUX_INSERTER_ALGORITHM_HPP_INCLUDED
 #define BOOST_MPL_AUX_INSERTER_ALGORITHM_HPP_INCLUDED

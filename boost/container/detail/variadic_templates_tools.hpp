@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/variadic_templates_tools.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2008-2013. Distributed under the Boost

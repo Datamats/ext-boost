@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_base_and_derived.hpp"
 
 //  (C) Copyright Rani Sharoni 2003.
 //  Use, modification and distribution are subject to the Boost Software License,

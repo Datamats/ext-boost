@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/core/limits.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
 

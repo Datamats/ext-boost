@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/buffered_read_stream.hpp"
 //
 // impl/buffered_read_stream.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

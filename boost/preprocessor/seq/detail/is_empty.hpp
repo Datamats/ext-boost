@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/seq/detail/is_empty.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2015.

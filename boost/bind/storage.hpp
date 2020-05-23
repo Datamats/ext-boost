@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/storage.hpp"
 #ifndef BOOST_BIND_STORAGE_HPP_INCLUDED
 #define BOOST_BIND_STORAGE_HPP_INCLUDED
 

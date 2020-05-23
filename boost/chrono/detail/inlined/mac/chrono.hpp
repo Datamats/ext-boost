@@ -1,3 +1,4 @@
+#line 1 "include/boost/chrono/detail/inlined/mac/chrono.hpp"
 //  mac/chrono.cpp  --------------------------------------------------------------//
 
 //  Copyright Beman Dawes 2008

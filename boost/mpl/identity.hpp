@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/identity.hpp"
 
 #ifndef BOOST_MPL_IDENTITY_HPP_INCLUDED
 #define BOOST_MPL_IDENTITY_HPP_INCLUDED

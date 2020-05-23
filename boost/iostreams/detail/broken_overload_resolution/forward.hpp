@@ -1,3 +1,4 @@
+#line 1 "include/boost/iostreams/detail/broken_overload_resolution/forward.hpp"
 // (C) Copyright 2008 CodeRage, LLC (turkanis at coderage dot com)
 // (C) Copyright 2003-2007 Jonathan Turkanis
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

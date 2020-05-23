@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/next_prior.hpp"
 
 #ifndef BOOST_MPL_NEXT_PRIOR_HPP_INCLUDED
 #define BOOST_MPL_NEXT_PRIOR_HPP_INCLUDED

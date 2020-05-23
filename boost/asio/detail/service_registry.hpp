@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/service_registry.hpp"
 //
 // detail/service_registry.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

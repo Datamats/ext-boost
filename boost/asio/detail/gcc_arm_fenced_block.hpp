@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/gcc_arm_fenced_block.hpp"
 //
 // detail/gcc_arm_fenced_block.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

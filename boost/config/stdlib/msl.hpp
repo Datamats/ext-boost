@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/stdlib/msl.hpp"
 //  (C) Copyright John Maddock 2001. 
 //  (C) Copyright Darin Adler 2001. 
 //  Use, modification and distribution are subject to the 

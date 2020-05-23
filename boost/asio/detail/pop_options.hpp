@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/pop_options.hpp"
 //
 // detail/pop_options.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

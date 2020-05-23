@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/winsock_init.ipp"
 //
 // detail/impl/winsock_init.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

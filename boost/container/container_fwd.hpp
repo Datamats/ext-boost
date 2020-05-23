@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/container_fwd.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2014. Distributed under the Boost

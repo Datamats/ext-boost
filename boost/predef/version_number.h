@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/version_number.h"
 /*
 Copyright Rene Rivera 2005-2016
 Distributed under the Boost Software License, Version 1.0.

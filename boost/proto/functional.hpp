@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file functional.hpp
 /// Proto callables for various things

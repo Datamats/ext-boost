@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/common_edg.hpp"
 //  (C) Copyright John Maddock 2001 - 2002.
 //  (C) Copyright Jens Maurer 2001.
 //  (C) Copyright David Abrahams 2002.

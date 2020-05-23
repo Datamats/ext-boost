@@ -1,3 +1,4 @@
+#line 1 "include/boost/throw_exception.hpp"
 #ifndef UUID_AA15E74A856F11E08B8D93F24824019B
 #define UUID_AA15E74A856F11E08B8D93F24824019B
 

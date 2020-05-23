@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_abstract.hpp"
 #ifndef BOOST_TT_IS_ABSTRACT_CLASS_HPP
 #define BOOST_TT_IS_ABSTRACT_CLASS_HPP
 

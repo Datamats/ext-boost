@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/detail/enabler.hpp"
 /*=============================================================================
     Copyright (c) 2015 Kohei Takahashi
 

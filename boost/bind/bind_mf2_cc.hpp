@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/bind_mf2_cc.hpp"
 //
 //  bind/bind_mf2_cc.hpp - member functions, type<> syntax
 //

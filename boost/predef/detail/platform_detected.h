@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/detail/platform_detected.h"
 /*
 Copyright Rene Rivera 2014
 Distributed under the Boost Software License, Version 1.0.

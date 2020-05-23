@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/strand.hpp"
 //
 // strand.hpp
 // ~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/ratio/detail/mpl/abs.hpp"
 ////////////////////////////////////////////////////////////////////
 //
 // Copyright Vicente J. Botet Escriba 2010

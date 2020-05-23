@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/common_type_impl.hpp"
 #ifndef BOOST_TYPE_TRAITS_DETAIL_COMMON_TYPE_IMPL_HPP_INCLUDED
 #define BOOST_TYPE_TRAITS_DETAIL_COMMON_TYPE_IMPL_HPP_INCLUDED
 

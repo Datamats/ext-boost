@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/scoped_ptr.hpp"
 //
 // detail/scoped_ptr.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/adaptor/argument_fwd.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen, Neil Groves 2006 - 2008. Use, modification and

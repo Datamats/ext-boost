@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/reactor_fwd.hpp"
 //
 // detail/reactor_fwd.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

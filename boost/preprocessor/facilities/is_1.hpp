@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/facilities/is_1.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2003.

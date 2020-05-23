@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/bind.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_BIND_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_BIND_HPP_INCLUDED

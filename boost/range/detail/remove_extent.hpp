@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/detail/remove_extent.hpp"
 // Boost.Range library
 //
 //  Copyright Jonathan Turkanis 2005. Use, modification and

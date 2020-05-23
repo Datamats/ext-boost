@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/algorithm_ext/overwrite.hpp"
 // Boost.Range library
 //
 //  Copyright Neil Groves 2009. Use, modification and

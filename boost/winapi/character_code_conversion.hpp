@@ -1,3 +1,4 @@
+#line 1 "include/boost/winapi/character_code_conversion.hpp"
 /*
  * Copyright 2016 Andrey Semashev
  *

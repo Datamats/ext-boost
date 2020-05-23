@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/range/empty.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file empty.hpp
 /// Proto callables for boost::empty()

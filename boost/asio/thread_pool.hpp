@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/thread_pool.hpp"
 //
 // thread_pool.hpp
 // ~~~~~~~~~~~~~~~

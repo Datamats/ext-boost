@@ -1,3 +1,4 @@
+#line 1 "include/boost/ratio/mpl/rational_c_tag.hpp"
 //  abs.hpp
 //
 //  (C) Copyright 2011 Vicente J. Botet Escriba

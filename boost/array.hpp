@@ -1,3 +1,4 @@
+#line 1 "include/boost/array.hpp"
 /* The following code declares class array,
  * an STL container (as wrapper) for arrays of constant size.
  *

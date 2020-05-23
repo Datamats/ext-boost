@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/value_wknd.hpp"
 
 #ifndef BOOST_MPL_AUX_VALUE_WKND_HPP_INCLUDED
 #define BOOST_MPL_AUX_VALUE_WKND_HPP_INCLUDED

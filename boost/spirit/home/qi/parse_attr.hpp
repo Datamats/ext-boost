@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/qi/parse_attr.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //  Copyright (c) 2009 Carl Barron

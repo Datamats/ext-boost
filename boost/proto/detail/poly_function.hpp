@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/poly_function.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file poly_function.hpp
 /// A wrapper that makes a tr1-style function object that handles const

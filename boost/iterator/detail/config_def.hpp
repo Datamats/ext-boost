@@ -1,3 +1,4 @@
+#line 1 "include/boost/iterator/detail/config_def.hpp"
 // (C) Copyright David Abrahams 2002.
 // (C) Copyright Jeremy Siek    2002.
 // (C) Copyright Thomas Witt    2002.

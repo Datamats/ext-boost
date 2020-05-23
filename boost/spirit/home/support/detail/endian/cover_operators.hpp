@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/detail/endian/cover_operators.hpp"
 //  boost/integer/cover_operators.hpp ----------------------------------------//
 
 //  Copyright Darin Adler 2000

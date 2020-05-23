@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/bind_template.hpp"
 //
 //  bind/bind_template.hpp
 //

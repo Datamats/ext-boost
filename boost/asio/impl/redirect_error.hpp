@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/redirect_error.hpp"
 
 // impl/redirect_error.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

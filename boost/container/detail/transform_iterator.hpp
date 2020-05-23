@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/transform_iterator.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2013.

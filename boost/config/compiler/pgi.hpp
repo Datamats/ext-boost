@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/pgi.hpp"
 //  (C) Copyright Noel Belcourt 2007.
 //  Copyright 2017, NVIDIA CORPORATION.
 //  Use, modification and distribution are subject to the

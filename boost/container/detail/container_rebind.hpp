@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/container_rebind.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2017-2017. Distributed under the Boost

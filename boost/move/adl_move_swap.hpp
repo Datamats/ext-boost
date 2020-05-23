@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/adl_move_swap.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright 2007, 2008 Steven Watanabe, Joseph Gauterin, Niels Dekker

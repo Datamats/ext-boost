@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/vector/aux_/at.hpp"
 
 #ifndef BOOST_MPL_VECTOR_AUX_AT_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_AUX_AT_HPP_INCLUDED

@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/lambda_support.hpp"
 
 #ifndef BOOST_MPL_AUX_LAMBDA_SUPPORT_HPP_INCLUDED
 #define BOOST_MPL_AUX_LAMBDA_SUPPORT_HPP_INCLUDED

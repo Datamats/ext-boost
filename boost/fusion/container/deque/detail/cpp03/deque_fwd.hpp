@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/deque/detail/cpp03/deque_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2005-2012 Joel de Guzman
     Copyright (c) 2005-2007 Dan Marsden

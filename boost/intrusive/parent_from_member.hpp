@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/parent_from_member.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2010-2013

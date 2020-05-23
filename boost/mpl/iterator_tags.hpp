@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/iterator_tags.hpp"
 
 #ifndef BOOST_MPL_ITERATOR_TAG_HPP_INCLUDED
 #define BOOST_MPL_ITERATOR_TAG_HPP_INCLUDED

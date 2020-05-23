@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/char_encoding/iso8859_1.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Hartmut Kaiser
     Copyright (c) 2001-2011 Joel de Guzman

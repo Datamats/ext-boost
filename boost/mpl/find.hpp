@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/find.hpp"
 
 #ifndef BOOST_MPL_FIND_HPP_INCLUDED
 #define BOOST_MPL_FIND_HPP_INCLUDED

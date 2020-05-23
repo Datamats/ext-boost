@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/std/iterator.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file iterator.hpp
 /// Proto callables for std functions found in \<iterator\>

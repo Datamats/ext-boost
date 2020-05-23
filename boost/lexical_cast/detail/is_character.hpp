@@ -1,3 +1,4 @@
+#line 1 "include/boost/lexical_cast/detail/is_character.hpp"
 // Copyright Kevlin Henney, 2000-2005.
 // Copyright Alexander Nasonov, 2006-2010.
 // Copyright Antony Polukhin, 2011-2019.

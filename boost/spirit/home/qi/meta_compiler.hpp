@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/qi/meta_compiler.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

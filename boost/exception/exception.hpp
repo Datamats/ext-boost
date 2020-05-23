@@ -1,3 +1,4 @@
+#line 1 "include/boost/exception/exception.hpp"
 //Copyright (c) 2006-2009 Emil Dotchevski and Reverge Studios, Inc.
 
 //Distributed under the Boost Software License, Version 1.0. (See accompanying

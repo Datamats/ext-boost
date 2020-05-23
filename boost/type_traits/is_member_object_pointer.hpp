@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_member_object_pointer.hpp"
 
 //  (C) Copyright John Maddock 2005.  
 //  Use, modification and distribution are subject to the Boost Software License,

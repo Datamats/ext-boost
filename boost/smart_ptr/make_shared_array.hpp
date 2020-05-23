@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/make_shared_array.hpp"
 /*
 Copyright 2012-2019 Glen Joseph Fernandes
 (glenjofe@gmail.com)

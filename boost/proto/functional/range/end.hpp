@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/range/end.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file end.hpp
 /// Proto callables for boost::end()

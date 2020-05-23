@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/constrained_value.hpp"
 #ifndef CONSTRAINED_VALUE_HPP___
 #define CONSTRAINED_VALUE_HPP___
 

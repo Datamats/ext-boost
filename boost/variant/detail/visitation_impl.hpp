@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/visitation_impl.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/visitation_impl.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

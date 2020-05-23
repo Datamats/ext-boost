@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/regex_fwd.hpp"
 //
 // detail/regex_fwd.hpp
 // ~~~~~~~~~~~~~~~~~~~~

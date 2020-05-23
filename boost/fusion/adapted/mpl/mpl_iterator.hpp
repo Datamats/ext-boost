@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/adapted/mpl/mpl_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

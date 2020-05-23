@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/vector/detail/cpp03/preprocessed/vector10_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
     Copyright (c) 2001-2011 Joel de Guzman

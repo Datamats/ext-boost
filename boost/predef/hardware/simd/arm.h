@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/hardware/simd/arm.h"
 /*
 Copyright Charly Chevalier 2015
 Copyright Joel Falcou 2015

@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/platform/vxworks.hpp"
 //  (C) Copyright Dustin Spicuzza 2009.
 //      Adapted to vxWorks 6.9 by Peter Brockamp 2012.
 //      Updated for VxWorks 7 by Brian Kuhl 2016

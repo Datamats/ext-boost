@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/traits.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file traits.hpp
     /// Definitions of proto::function, proto::nary_expr and proto::result_of::child_c

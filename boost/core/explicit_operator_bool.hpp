@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/explicit_operator_bool.hpp"
 /*
  *          Copyright Andrey Semashev 2007 - 2013.
  * Distributed under the Boost Software License, Version 1.0.

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/completion_handler.hpp"
 //
 // detail/completion_handler.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

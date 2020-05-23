@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/local/connect_pair.hpp"
 //
 // local/connect_pair.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

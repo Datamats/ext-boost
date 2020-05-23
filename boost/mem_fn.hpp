@@ -1,3 +1,4 @@
+#line 1 "include/boost/mem_fn.hpp"
 #ifndef BOOST_MEM_FN_HPP_INCLUDED
 #define BOOST_MEM_FN_HPP_INCLUDED
 

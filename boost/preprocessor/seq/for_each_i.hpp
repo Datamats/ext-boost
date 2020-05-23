@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/seq/for_each_i.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

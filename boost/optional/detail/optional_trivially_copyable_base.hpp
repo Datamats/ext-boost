@@ -1,3 +1,4 @@
+#line 1 "include/boost/optional/detail/optional_trivially_copyable_base.hpp"
 // trivilally-copyable version of the storage
 
 template<class T>

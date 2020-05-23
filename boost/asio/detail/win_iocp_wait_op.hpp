@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/win_iocp_wait_op.hpp"
 //
 // detail/win_iocp_wait_op.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

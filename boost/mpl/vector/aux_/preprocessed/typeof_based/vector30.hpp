@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector30.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

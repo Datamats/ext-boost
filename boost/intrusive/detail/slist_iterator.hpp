@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/slist_iterator.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Olaf Krzikalla 2004-2006.

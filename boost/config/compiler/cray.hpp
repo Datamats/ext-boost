@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/cray.hpp"
 //  Copyright 2011 John Maddock
 //  Copyright 2013, 2017-2018 Cray, Inc.
 //  Use, modification and distribution are subject to the

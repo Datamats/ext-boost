@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/std_fenced_block.hpp"
 //
 // detail/std_fenced_block.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

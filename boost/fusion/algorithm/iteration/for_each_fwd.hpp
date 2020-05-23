@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/iteration/for_each_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
     Copyright (c) 2018 Kohei Takahashi

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/std_thread.hpp"
 //
 // detail/std_thread.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

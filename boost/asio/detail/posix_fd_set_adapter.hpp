@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/posix_fd_set_adapter.hpp"
 //
 // detail/posix_fd_set_adapter.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

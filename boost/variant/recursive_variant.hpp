@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/recursive_variant.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/recursive_variant.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

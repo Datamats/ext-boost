@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/function_traits.hpp"
 
 //  Copyright 2000 John Maddock (john@johnmaddock.co.uk)
 //  Use, modification and distribution are subject to the Boost Software License,

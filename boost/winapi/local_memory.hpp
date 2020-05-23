@@ -1,3 +1,4 @@
+#line 1 "include/boost/winapi/local_memory.hpp"
 /*
  * Copyright 2010 Vicente J. Botet Escriba
  * Copyright 2015 Andrey Semashev

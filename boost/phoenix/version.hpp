@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/version.hpp"
 /*=============================================================================
     Copyright (c) 2005-2008 Hartmut Kaiser
     Copyright (c) 2005-2010 Joel de Guzman

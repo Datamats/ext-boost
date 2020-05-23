@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/fold_tree.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file fold_tree.hpp
 /// Contains definition of the fold_tree<> and reverse_fold_tree<> transforms.

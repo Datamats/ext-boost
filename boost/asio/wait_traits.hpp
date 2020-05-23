@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/wait_traits.hpp"
 //
 // wait_traits.hpp
 // ~~~~~~~~~~~~~~~

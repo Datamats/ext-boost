@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/bcc.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_BCC_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_BCC_HPP_INCLUDED

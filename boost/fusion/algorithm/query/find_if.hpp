@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/query/find_if.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2011 Eric Niebler

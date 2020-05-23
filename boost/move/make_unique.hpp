@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/make_unique.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2006-2014. Distributed under the Boost

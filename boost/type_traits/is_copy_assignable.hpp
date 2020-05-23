@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_copy_assignable.hpp"
 //  (C) Copyright Ion Gaztanaga 2014.
 //
 //  Use, modification and distribution are subject to the Boost Software License,

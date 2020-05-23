@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer.hpp"
 //  boost integer.hpp header file  -------------------------------------------//
 
 //  Copyright Beman Dawes and Daryle Walker 1999.  Distributed under the Boost

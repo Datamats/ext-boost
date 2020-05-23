@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/library/c/cloudabi.h"
 /*
  * Copyright (C) 2017 James E. King III
  *

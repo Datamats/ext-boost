@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/local/datagram_protocol.hpp"
 //
 // local/datagram_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

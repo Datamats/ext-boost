@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/keyword_tss_ptr.hpp"
 //
 // detail/keyword_tss_ptr.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

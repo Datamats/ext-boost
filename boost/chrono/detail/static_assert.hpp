@@ -1,3 +1,4 @@
+#line 1 "include/boost/chrono/detail/static_assert.hpp"
 //  static_assert.hpp  --------------------------------------------------------------//
 
 //  Copyright 2009-2010 Vicente J. Botet Escriba

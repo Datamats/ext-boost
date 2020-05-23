@@ -1,3 +1,4 @@
+#line 1 "include/boost/move/detail/unique_ptr_meta_utils.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2012-2012.

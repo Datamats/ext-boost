@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/io_context_strand.hpp"
 //
 // io_context_strand.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

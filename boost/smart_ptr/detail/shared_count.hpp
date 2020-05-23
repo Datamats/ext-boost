@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/shared_count.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SHARED_COUNT_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SHARED_COUNT_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/noncopyable.hpp"
 /*
  * Copyright (c) 2014 Glen Fernandes
  *

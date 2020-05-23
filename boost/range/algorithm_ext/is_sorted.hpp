@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/algorithm_ext/is_sorted.hpp"
 //  Copyright Bryce Lelbach 2010
 //  Copyright Neil Groves 2009. Use, modification and
 //  distribution is subject to the Boost Software License, Version

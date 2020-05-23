@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/fold_impl.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file fold_impl.hpp
     /// Contains definition of fold_impl<> and reverse_fold_impl<> templates.

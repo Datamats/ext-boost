@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/context/null.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file null.hpp
 /// Definintion of null_context\<\>, an evaluation context for

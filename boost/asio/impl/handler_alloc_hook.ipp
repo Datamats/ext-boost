@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/handler_alloc_hook.ipp"
 //
 // impl/handler_alloc_hook.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

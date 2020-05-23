@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/placeholders.hpp"
 #ifndef BOOST_BIND_PLACEHOLDERS_HPP_INCLUDED
 #define BOOST_BIND_PLACEHOLDERS_HPP_INCLUDED
 

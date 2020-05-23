@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/ebo_functor_holder.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Joaquin M Lopez Munoz  2006-2013

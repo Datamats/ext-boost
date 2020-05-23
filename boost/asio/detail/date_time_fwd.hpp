@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/date_time_fwd.hpp"
 //
 // detail/date_time_fwd.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

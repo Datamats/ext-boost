@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/connect.hpp"
 //
 // impl/connect.hpp
 // ~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/minimal_less_equal_header.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2015

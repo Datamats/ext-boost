@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/gregorian/formatters_limited.hpp"
 #ifndef GREGORIAN_FORMATTERS_LIMITED_HPP___
 #define GREGORIAN_FORMATTERS_LIMITED_HPP___
 

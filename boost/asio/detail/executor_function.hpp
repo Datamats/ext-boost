@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/executor_function.hpp"
 //
 // detail/executor_function.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~

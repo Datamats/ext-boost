@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/windows/stream_handle.hpp"
 //
 // windows/stream_handle.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

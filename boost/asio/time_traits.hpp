@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/time_traits.hpp"
 //
 // time_traits.hpp
 // ~~~~~~~~~~~~~~~

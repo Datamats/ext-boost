@@ -1,3 +1,4 @@
+#line 1 "include/boost/icl/interval_set.hpp"
 /*-----------------------------------------------------------------------------+
 Copyright (c) 2007-2010: Joachim Faulhaber
 Copyright (c) 1999-2006: Cortex Software GmbH, Kantstrasse 57, Berlin

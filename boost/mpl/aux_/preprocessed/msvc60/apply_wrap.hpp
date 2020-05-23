@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/msvc60/apply_wrap.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

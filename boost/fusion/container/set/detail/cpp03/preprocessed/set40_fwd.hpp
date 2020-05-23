@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/set/detail/cpp03/preprocessed/set40_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

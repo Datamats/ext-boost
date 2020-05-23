@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/query/any.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2005 Eric Niebler

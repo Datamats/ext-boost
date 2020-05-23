@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/qi/auto/create_parser.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying

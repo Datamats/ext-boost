@@ -1,3 +1,4 @@
+#line 1 "include/boost/iterator/transform_iterator.hpp"
 // (C) Copyright David Abrahams 2002.
 // (C) Copyright Jeremy Siek    2002.
 // (C) Copyright Thomas Witt    2002.

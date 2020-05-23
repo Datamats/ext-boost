@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/multivisitors.hpp"
 //  Boost.Varaint
 //  Multivisitors defined here 
 //

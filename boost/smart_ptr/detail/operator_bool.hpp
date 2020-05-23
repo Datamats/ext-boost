@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/operator_bool.hpp"
 //  This header intentionally has no include guards.
 //
 //  Copyright (c) 2001-2009, 2012 Peter Dimov

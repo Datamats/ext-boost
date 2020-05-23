@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/wait_handler.hpp"
 //
 // detail/wait_handler.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

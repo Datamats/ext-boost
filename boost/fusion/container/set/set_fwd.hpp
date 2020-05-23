@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/set/set_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2014 Kohei Takahashi
 

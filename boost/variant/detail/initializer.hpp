@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/initializer.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/initializer.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

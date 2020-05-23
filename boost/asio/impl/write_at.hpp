@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/write_at.hpp"
 //
 // impl/write_at.hpp
 // ~~~~~~~~~~~~~~~~~

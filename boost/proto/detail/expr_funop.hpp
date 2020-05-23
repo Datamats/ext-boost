@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/expr_funop.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 // expr1.hpp
 // Contains definition of expr\<\>::operator() overloads.

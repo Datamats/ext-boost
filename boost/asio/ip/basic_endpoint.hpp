@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/basic_endpoint.hpp"
 //
 // ip/basic_endpoint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

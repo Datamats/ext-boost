@@ -1,3 +1,4 @@
+#line 1 "include/boost/concept_check.hpp"
 //
 // (C) Copyright Jeremy Siek 2000.
 // Copyright 2002 The Trustees of Indiana University.

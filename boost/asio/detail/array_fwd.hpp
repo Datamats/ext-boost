@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/array_fwd.hpp"
 //
 // detail/array_fwd.hpp
 // ~~~~~~~~~~~~~~~~~~~~

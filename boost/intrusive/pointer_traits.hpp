@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/pointer_traits.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Pablo Halpern 2009. Distributed under the Boost

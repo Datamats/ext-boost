@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/posix_time/posix_time_legacy_io.hpp"
 #ifndef POSIX_TIME_PRE133_OPERATORS_HPP___
 #define POSIX_TIME_PRE133_OPERATORS_HPP___
 

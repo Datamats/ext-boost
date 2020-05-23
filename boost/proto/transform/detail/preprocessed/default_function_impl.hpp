@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/default_function_impl.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file default_function_impl.hpp
     /// Contains definition of the default_function_impl, the implementation of the

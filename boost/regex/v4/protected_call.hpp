@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/protected_call.hpp"
 /*
  *
  * Copyright (c) 2004

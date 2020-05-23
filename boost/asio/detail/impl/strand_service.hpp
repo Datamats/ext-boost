@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/strand_service.hpp"
 //
 // detail/impl/strand_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

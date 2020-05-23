@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/scheduler_thread_info.hpp"
 //
 // detail/scheduler_thread_info.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

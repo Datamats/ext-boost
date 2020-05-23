@@ -1,3 +1,4 @@
+#line 1 "include/boost/math/special_functions/detail/fp_traits.hpp"
 // fp_traits.hpp
 
 #ifndef BOOST_MATH_FP_TRAITS_HPP

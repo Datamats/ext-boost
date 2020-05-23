@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/make_gcc_workaround.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #if BOOST_WORKAROUND(__GNUC__, == 3) || (BOOST_WORKAROUND(__GNUC__, == 4) && __GNUC_MINOR__ == 0)

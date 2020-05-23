@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/static_const.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file static_const.hpp
 /// Contains definition of static_const for declaring static constants that 

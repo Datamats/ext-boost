@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer/common_factor_rt.hpp"
 //  (C) Copyright Jeremy William Murphy 2016.
 
 //  Use, modification and distribution are subject to the

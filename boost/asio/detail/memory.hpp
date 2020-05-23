@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/memory.hpp"
 //
 // detail/memory.hpp
 // ~~~~~~~~~~~~~~~~~

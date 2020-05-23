@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/is_write_buffered.hpp"
 //
 // is_write_buffered.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/tuple/size.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2011.                                    *

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/service_registry.ipp"
 //
 // detail/impl/service_registry.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

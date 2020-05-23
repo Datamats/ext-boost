@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/date_formatting_limited.hpp"
 #ifndef DATE_TIME_DATE_FORMATTING_LIMITED_HPP___
 #define DATE_TIME_DATE_FORMATTING_LIMITED_HPP___
 

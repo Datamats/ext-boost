@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/socket_ops.ipp"
 //
 // detail/impl/socket_ops.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

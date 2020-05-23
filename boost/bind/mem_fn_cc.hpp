@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/mem_fn_cc.hpp"
 //
 //  bind/mem_fn_cc.hpp - support for different calling conventions
 //

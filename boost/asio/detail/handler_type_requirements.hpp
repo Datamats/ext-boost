@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/handler_type_requirements.hpp"
 //
 // detail/handler_type_requirements.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

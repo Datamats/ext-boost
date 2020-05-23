@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/detail/config.hpp"
 #ifndef BOOST_SYSTEM_DETAIL_CONFIG_HPP_INCLUDED
 #define BOOST_SYSTEM_DETAIL_CONFIG_HPP_INCLUDED
 

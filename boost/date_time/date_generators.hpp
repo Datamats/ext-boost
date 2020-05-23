@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/date_generators.hpp"
 #ifndef DATE_TIME_DATE_GENERATORS_HPP__
 #define DATE_TIME_DATE_GENERATORS_HPP__
 

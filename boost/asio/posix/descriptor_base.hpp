@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/posix/descriptor_base.hpp"
 //
 // posix/descriptor_base.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

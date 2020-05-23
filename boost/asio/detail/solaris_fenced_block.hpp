@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/solaris_fenced_block.hpp"
 //
 // detail/solaris_fenced_block.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

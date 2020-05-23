@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/handler_continuation_hook.hpp"
 //
 // handler_continuation_hook.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

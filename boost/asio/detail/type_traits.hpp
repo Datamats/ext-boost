@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/type_traits.hpp"
 //
 // detail/type_traits.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~

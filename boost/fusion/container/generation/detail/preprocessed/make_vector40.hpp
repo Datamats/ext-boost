@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/generation/detail/preprocessed/make_vector40.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

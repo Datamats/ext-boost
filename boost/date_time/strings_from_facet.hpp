@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/strings_from_facet.hpp"
 #ifndef DATE_TIME_STRINGS_FROM_FACET__HPP___
 #define DATE_TIME_STRINGS_FROM_FACET__HPP___
 

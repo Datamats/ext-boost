@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/wrapping_int.hpp"
 #ifndef _DATE_TIME_WRAPPING_INT_HPP__
 #define _DATE_TIME_WRAPPING_INT_HPP__
 

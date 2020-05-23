@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/intrusive_ptr.hpp"
 #ifndef BOOST_SMART_PTR_INTRUSIVE_PTR_HPP_INCLUDED
 #define BOOST_SMART_PTR_INTRUSIVE_PTR_HPP_INCLUDED
 

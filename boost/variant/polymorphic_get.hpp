@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/polymorphic_get.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/polymorphic_get.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

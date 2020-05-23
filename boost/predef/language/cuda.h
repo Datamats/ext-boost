@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/language/cuda.h"
 /*
 Copyright Benjamin Worpitz 2018
 Distributed under the Boost Software License, Version 1.0.

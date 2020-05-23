@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/map/aux_/begin_end_impl.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_BEGIN_END_IMPL_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_BEGIN_END_IMPL_HPP_INCLUDED

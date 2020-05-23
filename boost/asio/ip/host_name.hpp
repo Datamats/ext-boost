@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/host_name.hpp"
 //
 // ip/host_name.hpp
 // ~~~~~~~~~~~~~~~~

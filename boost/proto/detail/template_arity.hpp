@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/template_arity.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file template_arity.hpp
 /// Replace all nodes stored by reference by nodes stored by value.

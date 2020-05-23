@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/context.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file context.hpp
 /// Includes all the context classes in the context/ sub-directory.

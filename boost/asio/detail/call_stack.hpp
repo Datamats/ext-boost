@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/call_stack.hpp"
 //
 // detail/call_stack.hpp
 // ~~~~~~~~~~~~~~~~~~~~~

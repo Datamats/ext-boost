@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer_traits.hpp"
 /* boost integer_traits.hpp header file
  *
  * Copyright Jens Maurer 2000

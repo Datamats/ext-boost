@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/assert.hpp"
 //
 // detail/assert.hpp
 // ~~~~~~~~~~~~~~~~~

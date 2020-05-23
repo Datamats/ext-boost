@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/detail/has_member_size.hpp"
 // Boost.Range library
 //
 // Copyright Neil Groves 2014.

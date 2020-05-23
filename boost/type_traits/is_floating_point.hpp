@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_floating_point.hpp"
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000-2005.
 //  Use, modification and distribution are subject to the Boost Software License,
 //  Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at

@@ -1,3 +1,4 @@
+#line 1 "include/boost/function_types/detail/encoding/aliases_undef.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

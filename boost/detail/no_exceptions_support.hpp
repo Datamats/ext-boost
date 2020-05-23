@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/no_exceptions_support.hpp"
 /*
  * Copyright (c) 2014 Glen Fernandes
  *

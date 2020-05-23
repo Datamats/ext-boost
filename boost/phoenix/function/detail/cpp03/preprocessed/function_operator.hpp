@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/function/detail/cpp03/preprocessed/function_operator.hpp"
 /*==============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

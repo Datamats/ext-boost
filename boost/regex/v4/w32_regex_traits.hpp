@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/w32_regex_traits.hpp"
 /*
  *
  * Copyright (c) 2004

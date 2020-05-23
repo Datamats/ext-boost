@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/sp_counted_base_acc_ia64.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_ACC_IA64_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_ACC_IA64_HPP_INCLUDED
 

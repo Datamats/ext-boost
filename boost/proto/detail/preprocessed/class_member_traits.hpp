@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/class_member_traits.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // class_member_traits.hpp
     // Contains specializations of the class_member_traits\<\> class template.

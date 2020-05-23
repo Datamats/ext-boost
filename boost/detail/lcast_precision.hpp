@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/lcast_precision.hpp"
 // Copyright Alexander Nasonov & Paul A. Bristow 2006.
 
 // Use, modification and distribution are subject to the

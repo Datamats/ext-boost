@@ -1,3 +1,4 @@
+#line 1 "include/boost/chrono/detail/inlined/win/chrono.hpp"
 //  win/chrono.cpp  --------------------------------------------------------------//
 
 //  Copyright Beman Dawes 2008

@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/pointer_rebind.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014. Distributed under the Boost

@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, Howard
 //  Hinnant & John Maddock 2000.  

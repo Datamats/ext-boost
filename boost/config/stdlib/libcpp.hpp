@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/stdlib/libcpp.hpp"
 //  (C) Copyright Christopher Jefferson 2011.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file

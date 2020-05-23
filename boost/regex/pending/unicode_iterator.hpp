@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/pending/unicode_iterator.hpp"
 /*
  *
  * Copyright (c) 2004

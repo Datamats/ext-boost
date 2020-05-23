@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/context/default.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file default.hpp
 /// Definintion of default_context, a default evaluation context for

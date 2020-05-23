@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/gregorian/gregorian_io.hpp"
 #ifndef DATE_TIME_GREGORIAN_IO_HPP__
 #define DATE_TIME_GREGORIAN_IO_HPP__
 

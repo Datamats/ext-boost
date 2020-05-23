@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/signal_blocker.hpp"
 //
 // detail/signal_blocker.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

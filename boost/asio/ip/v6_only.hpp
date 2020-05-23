@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/v6_only.hpp"
 //
 // ip/v6_only.hpp
 // ~~~~~~~~~~~~~~

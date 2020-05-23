@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/proto_fwd.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file proto_fwd.hpp
 /// Forward declarations of all of proto's public types and functions.

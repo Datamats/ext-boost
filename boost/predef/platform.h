@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/platform.h"
 /*
 Copyright Rene Rivera 2013-2015
 Copyright (c) Microsoft Corporation 2014

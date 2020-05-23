@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/arrays.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_ARRAYS_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_ARRAYS_HPP_INCLUDED

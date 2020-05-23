@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/construct_funop.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file construct_funop.hpp
     /// Overloads of construct_\<\>::operator().

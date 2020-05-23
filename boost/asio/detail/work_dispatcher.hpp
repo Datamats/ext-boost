@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/work_dispatcher.hpp"
 //
 // detail/work_dispatcher.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

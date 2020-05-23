@@ -1,3 +1,4 @@
+#line 1 "include/boost/functional/hash.hpp"
 
 // Copyright 2005-2009 Daniel James.
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

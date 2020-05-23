@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/timer_queue_set.ipp"
 //
 // detail/impl/timer_queue_set.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

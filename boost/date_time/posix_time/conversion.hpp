@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/posix_time/conversion.hpp"
 #ifndef POSIX_TIME_CONVERSION_HPP___
 #define POSIX_TIME_CONVERSION_HPP___
 

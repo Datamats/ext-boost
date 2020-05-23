@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/winrt_resolver_service.hpp"
 //
 // detail/winrt_resolver_service.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/std/utility.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file utility.hpp
 /// Proto callables for things found in the std \<utility\> header

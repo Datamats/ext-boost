@@ -1,3 +1,4 @@
+#line 1 "include/boost/io_fwd.hpp"
 //  Boost io_fwd.hpp header file  --------------------------------------------//
 
 //  Copyright 2002 Daryle Walker.  Use, modification, and distribution are subject

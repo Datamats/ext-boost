@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/socket_types.hpp"
 //
 // detail/socket_types.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

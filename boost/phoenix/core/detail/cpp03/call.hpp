@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/core/detail/cpp03/call.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 #ifndef BOOST_PHOENIX_CORE_DETAIL_CALL_HPP

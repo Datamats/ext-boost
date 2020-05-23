@@ -1,3 +1,4 @@
+#line 1 "include/boost/ratio/config.hpp"
 //  config.hpp  ---------------------------------------------------------------//
 
 //  Copyright 2012 Vicente J. Botet Escriba

@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/facilities/detail/is_empty.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.

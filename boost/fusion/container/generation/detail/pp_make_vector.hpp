@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/container/generation/detail/pp_make_vector.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/linear_slist_algorithms.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Olaf Krzikalla 2004-2006.

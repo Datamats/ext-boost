@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/make_gcc_workaround.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file make_gcc_workaround.hpp
     /// Special workaround code to make the make\<\> transform work on certain

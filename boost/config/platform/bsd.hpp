@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/platform/bsd.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Darin Adler 2001. 
 //  (C) Copyright Douglas Gregor 2002. 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/integer_fwd.hpp"
 //  Boost integer_fwd.hpp header file  ---------------------------------------//
 
 //  (C) Copyright Dave Abrahams and Daryle Walker 2001. Distributed under the Boost

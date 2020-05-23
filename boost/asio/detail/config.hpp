@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/config.hpp"
 //
 // detail/config.hpp
 // ~~~~~~~~~~~~~~~~~

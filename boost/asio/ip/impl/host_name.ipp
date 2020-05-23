@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/ip/impl/host_name.ipp"
 //
 // ip/impl/host_name.ipp
 // ~~~~~~~~~~~~~~~~~~~~~

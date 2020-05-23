@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/impl/null_event.ipp"
 //
 // detail/impl/null_event.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~

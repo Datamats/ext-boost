@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/has_member_function_callable_with.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014. Distributed under the Boost

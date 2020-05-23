@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/vector/vector50.hpp"
 
 #ifndef BOOST_MPL_VECTOR_VECTOR50_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_VECTOR50_HPP_INCLUDED

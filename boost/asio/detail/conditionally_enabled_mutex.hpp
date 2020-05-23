@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/conditionally_enabled_mutex.hpp"
 //
 // detail/conditionally_enabled_mutex.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

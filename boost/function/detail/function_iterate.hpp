@@ -1,3 +1,4 @@
+#line 1 "include/boost/function/detail/function_iterate.hpp"
 // Boost.Function library
 
 //  Copyright Douglas Gregor 2003. Use, modification and

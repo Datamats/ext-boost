@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/concurrency_hint.hpp"
 //
 // detail/concurrency_hint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/comparison_op.hpp"
 
 // NO INCLUDE GUARDS, THE HEADER IS INTENDED FOR MULTIPLE INCLUSION
 

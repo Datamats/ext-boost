@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/gregorian/greg_duration.hpp"
 #ifndef GREG_DURATION_HPP___
 #define GREG_DURATION_HPP___
 

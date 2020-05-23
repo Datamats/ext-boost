@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/view/joint_view/joint_view_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

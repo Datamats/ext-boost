@@ -1,3 +1,4 @@
+#line 1 "include/boost/crc.hpp"
 //  Boost CRC library crc.hpp header file  -----------------------------------//
 
 //  Copyright 2001, 2004, 2011 Daryle Walker.

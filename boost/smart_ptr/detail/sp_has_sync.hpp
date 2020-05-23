@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/sp_has_sync.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_HAS_SYNC_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_HAS_SYNC_HPP_INCLUDED
 

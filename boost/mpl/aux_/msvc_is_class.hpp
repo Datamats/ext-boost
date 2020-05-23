@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/msvc_is_class.hpp"
 
 #ifndef BOOST_MPL_AUX_MSVC_IS_CLASS_HPP_INCLUDED
 #define BOOST_MPL_AUX_MSVC_IS_CLASS_HPP_INCLUDED

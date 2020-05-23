@@ -1,3 +1,4 @@
+#line 1 "include/boost/optional/bad_optional_access.hpp"
 // Copyright (C) 2014, Andrzej Krzemienski.
 //
 // Use, modification, and distribution is subject to the Boost Software

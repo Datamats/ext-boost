@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/use_preprocessed.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_USE_PREPROCESSED_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_USE_PREPROCESSED_HPP_INCLUDED

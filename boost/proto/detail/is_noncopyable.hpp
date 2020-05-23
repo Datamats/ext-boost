@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/is_noncopyable.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file is_noncopyable.hpp
 /// Utility for detecting when types are non-copyable

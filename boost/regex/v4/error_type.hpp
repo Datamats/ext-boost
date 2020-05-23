@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/error_type.hpp"
 /*
  *
  * Copyright (c) 2003-2005

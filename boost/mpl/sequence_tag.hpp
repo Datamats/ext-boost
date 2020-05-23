@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/sequence_tag.hpp"
 
 #ifndef BOOST_MPL_SEQUENCE_TAG_HPP_INCLUDED
 #define BOOST_MPL_SEQUENCE_TAG_HPP_INCLUDED

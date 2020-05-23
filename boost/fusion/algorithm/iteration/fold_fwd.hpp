@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/algorithm/iteration/fold_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

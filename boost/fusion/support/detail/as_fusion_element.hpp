@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/detail/as_fusion_element.hpp"
 /*=============================================================================
     Copyright (c) 1999-2003 Jaakko Jarvi
     Copyright (c) 2001-2011 Joel de Guzman

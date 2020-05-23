@@ -1,3 +1,4 @@
+#line 1 "include/boost/regex/v4/iterator_category.hpp"
 /*
  *
  * Copyright (c) 2002

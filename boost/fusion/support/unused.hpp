@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/unused.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2018 Kohei Takahashi

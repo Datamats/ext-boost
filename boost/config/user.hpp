@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/user.hpp"
 //  boost/config/user.hpp  ---------------------------------------------------//
 
 //  (C) Copyright John Maddock 2001. 

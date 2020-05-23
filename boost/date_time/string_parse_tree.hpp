@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/string_parse_tree.hpp"
 #ifndef BOOST_DATE_TIME_STRING_PARSE_TREE___HPP__
 #define BOOST_DATE_TIME_STRING_PARSE_TREE___HPP__
 

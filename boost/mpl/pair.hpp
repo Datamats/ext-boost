@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/pair.hpp"
 
 #ifndef BOOST_MPL_PAIR_HPP_INCLUDED
 #define BOOST_MPL_PAIR_HPP_INCLUDED

@@ -1,3 +1,4 @@
+#line 1 "include/boost/function_types/config/cc_names.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

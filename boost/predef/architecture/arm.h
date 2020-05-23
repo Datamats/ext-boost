@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/architecture/arm.h"
 /*
 Copyright Rene Rivera 2008-2019
 Copyright Franz Detro 2014

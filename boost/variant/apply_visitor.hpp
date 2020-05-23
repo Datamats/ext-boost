@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/apply_visitor.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/apply_visitor.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

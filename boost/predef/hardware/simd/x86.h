@@ -1,3 +1,4 @@
+#line 1 "include/boost/predef/hardware/simd/x86.h"
 /*
 Copyright Charly Chevalier 2015
 Copyright Joel Falcou 2015

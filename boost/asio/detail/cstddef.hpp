@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/cstddef.hpp"
 //
 // detail/cstddef.hpp
 // ~~~~~~~~~~~~~~~~~~

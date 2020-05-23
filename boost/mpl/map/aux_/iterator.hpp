@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/map/aux_/iterator.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_ITERATOR_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_ITERATOR_HPP_INCLUDED

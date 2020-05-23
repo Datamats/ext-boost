@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/date_format_simple.hpp"
 #ifndef DATE_TIME_SIMPLE_FORMAT_HPP___
 #define DATE_TIME_SIMPLE_FORMAT_HPP___
 

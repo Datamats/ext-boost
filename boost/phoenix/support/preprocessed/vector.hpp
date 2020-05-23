@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/support/preprocessed/vector.hpp"
 /*=============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

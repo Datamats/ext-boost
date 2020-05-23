@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/flat_tree.hpp"
 ////////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2015. Distributed under the Boost

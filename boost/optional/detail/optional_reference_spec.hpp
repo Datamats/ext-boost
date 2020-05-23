@@ -1,3 +1,4 @@
+#line 1 "include/boost/optional/detail/optional_reference_spec.hpp"
 // Copyright (C) 2015-2018 Andrzej Krzemienski.
 //
 // Use, modification, and distribution is subject to the Boost Software

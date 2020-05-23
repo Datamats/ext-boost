@@ -1,3 +1,4 @@
+#line 1 "include/boost/phoenix/support/vector.hpp"
 #ifdef BOOST_MSVC
 #pragma warning(push)
 #pragma warning(disable: 4512) // assignment operator could not be generated

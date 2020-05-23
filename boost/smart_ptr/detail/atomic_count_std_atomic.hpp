@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/atomic_count_std_atomic.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_STD_ATOMIC_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_STD_ATOMIC_HPP_INCLUDED
 

@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/visualc.hpp"
 //  (C) Copyright John Maddock 2001 - 2003.
 //  (C) Copyright Darin Adler 2001 - 2002.
 //  (C) Copyright Peter Dimov 2001.

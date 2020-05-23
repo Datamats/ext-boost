@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/impl/serial_port_base.hpp"
 //
 // impl/serial_port_base.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

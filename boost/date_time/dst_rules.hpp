@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/dst_rules.hpp"
 #ifndef DATE_TIME_DST_RULES_HPP__
 #define DATE_TIME_DST_RULES_HPP__
 

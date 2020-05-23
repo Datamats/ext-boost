@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/times.hpp"
 
 #ifndef BOOST_MPL_TIMES_HPP_INCLUDED
 #define BOOST_MPL_TIMES_HPP_INCLUDED

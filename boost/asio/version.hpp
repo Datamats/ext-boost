@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/version.hpp"
 //
 // version.hpp
 // ~~~~~~~~~~~

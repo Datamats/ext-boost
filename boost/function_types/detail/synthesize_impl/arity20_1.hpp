@@ -1,3 +1,4 @@
+#line 1 "include/boost/function_types/detail/synthesize_impl/arity20_1.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/windows/basic_object_handle.hpp"
 //
 // windows/basic_object_handle.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

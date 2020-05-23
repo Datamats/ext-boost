@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/detail/safe_bool.hpp"
 //  This header intentionally has no include guards.
 //
 //  Copyright (c) 2010 Neil Groves

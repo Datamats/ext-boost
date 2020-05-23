@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/detail/split.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

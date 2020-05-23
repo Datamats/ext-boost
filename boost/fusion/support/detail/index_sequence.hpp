@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/support/detail/index_sequence.hpp"
 /*=============================================================================
     Copyright (c) 2015 Agustin K-ballo Berge
     Copyright (c) 2015 Kohei Takahashi

@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/pass_through_impl.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #include <boost/proto/transform/detail/preprocessed/pass_through_impl.hpp>

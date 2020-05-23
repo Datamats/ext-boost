@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/preprocessed/expr_variadic.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file expr_variadic.hpp
     /// Contains definition of expr\<\> class template.

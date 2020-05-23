@@ -1,3 +1,4 @@
+#line 1 "include/boost/ratio/detail/mpl/gcd.hpp"
 ////////////////////////////////////////////////////////////////////
 //
 // Copyright Vicente J. Botet Escriba 2010

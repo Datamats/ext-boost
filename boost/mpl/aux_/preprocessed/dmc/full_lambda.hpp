@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessed/dmc/full_lambda.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 //

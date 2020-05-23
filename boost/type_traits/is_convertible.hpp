@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_convertible.hpp"
 
 // Copyright 2000 John Maddock (john@johnmaddock.co.uk)
 // Copyright 2000 Jeremy Siek (jsiek@lsc.nd.edu)

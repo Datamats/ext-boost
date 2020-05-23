@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/config/msvc_typename.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_MSVC_TYPENAME_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_MSVC_TYPENAME_HPP_INCLUDED

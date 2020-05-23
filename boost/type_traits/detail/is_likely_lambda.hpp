@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/is_likely_lambda.hpp"
 /* Copyright 2017 Joaquin M Lopez Munoz.
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at

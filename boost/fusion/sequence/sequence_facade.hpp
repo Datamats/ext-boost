@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/sequence/sequence_facade.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

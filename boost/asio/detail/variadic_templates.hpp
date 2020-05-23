@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/variadic_templates.hpp"
 //
 // detail/variadic_templates.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/pop_front_impl.hpp"
 
 #ifndef BOOST_MPL_AUX_POP_FRONT_IMPL_HPP_INCLUDED
 #define BOOST_MPL_AUX_POP_FRONT_IMPL_HPP_INCLUDED

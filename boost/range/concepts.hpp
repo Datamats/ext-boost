@@ -1,3 +1,4 @@
+#line 1 "include/boost/range/concepts.hpp"
 // Boost.Range library concept checks
 //
 //  Copyright Neil Groves 2009. Use, modification and distribution

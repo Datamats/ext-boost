@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/preprocessor/is_seq.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_IS_SEQ_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_IS_SEQ_HPP_INCLUDED

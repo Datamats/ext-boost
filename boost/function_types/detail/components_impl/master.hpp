@@ -1,3 +1,4 @@
+#line 1 "include/boost/function_types/detail/components_impl/master.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

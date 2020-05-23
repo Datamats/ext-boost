@@ -1,3 +1,4 @@
+#line 1 "include/boost/cerrno.hpp"
 //  Boost cerrno.hpp header  -------------------------------------------------//
 
 //  Copyright Beman Dawes 2005.

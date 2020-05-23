@@ -1,3 +1,4 @@
+#line 1 "include/boost/icl/impl_config.hpp"
 /*-----------------------------------------------------------------------------+
 Author: Joachim Faulhaber
 Copyright (c) 2009-2011: Joachim Faulhaber

@@ -1,3 +1,4 @@
+#line 1 "include/boost/preprocessor/tuple/detail/is_single_return.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.                                    *

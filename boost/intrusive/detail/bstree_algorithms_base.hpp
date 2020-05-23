@@ -1,3 +1,4 @@
+#line 1 "include/boost/intrusive/detail/bstree_algorithms_base.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

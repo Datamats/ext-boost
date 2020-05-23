@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/literal.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file literal.hpp
 /// The literal\<\> terminal wrapper, and the proto::lit() function for

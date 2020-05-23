@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/functional/fusion/pop_front.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file pop_front.hpp
 /// Proto callables Fusion pop_front

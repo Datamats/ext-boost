@@ -1,3 +1,4 @@
+#line 1 "include/boost/bind/mem_fn_vw.hpp"
 //
 //  bind/mem_fn_vw.hpp - void return helper wrappers
 //

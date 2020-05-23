@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/generic/datagram_protocol.hpp"
 //
 // generic/datagram_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

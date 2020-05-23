@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/aux_/largest_int.hpp"
 
 #ifndef BOOST_MPL_AUX_LARGEST_INT_HPP_INCLUDED
 #define BOOST_MPL_AUX_LARGEST_INT_HPP_INCLUDED

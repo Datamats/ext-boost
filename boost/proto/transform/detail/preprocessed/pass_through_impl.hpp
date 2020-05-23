@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/transform/detail/preprocessed/pass_through_impl.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file pass_through_impl.hpp
     ///

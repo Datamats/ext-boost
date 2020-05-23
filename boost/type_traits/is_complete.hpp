@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/is_complete.hpp"
 
 //  (C) Copyright John Maddock 2017.
 //  Use, modification and distribution are subject to the Boost Software License,

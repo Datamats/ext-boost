@@ -1,3 +1,4 @@
+#line 1 "include/boost/core/ref.hpp"
 #ifndef BOOST_CORE_REF_HPP
 #define BOOST_CORE_REF_HPP
 

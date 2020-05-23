@@ -1,3 +1,4 @@
+#line 1 "include/boost/utility/identity_type.hpp"
 
 // Copyright (C) 2009-2012 Lorenzo Caminiti
 // Distributed under the Boost Software License, Version 1.0

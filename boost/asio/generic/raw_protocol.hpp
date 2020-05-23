@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/generic/raw_protocol.hpp"
 //
 // generic/raw_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~

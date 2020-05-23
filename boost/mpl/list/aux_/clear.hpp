@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/list/aux_/clear.hpp"
 
 #ifndef BOOST_MPL_LIST_AUX_CLEAR_HPP_INCLUDED
 #define BOOST_MPL_LIST_AUX_CLEAR_HPP_INCLUDED

@@ -1,3 +1,4 @@
+#line 1 "include/boost/variant/detail/forced_return.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/forced_return.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

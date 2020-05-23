@@ -1,3 +1,4 @@
+#line 1 "include/boost/mpl/begin_end_fwd.hpp"
 
 #ifndef BOOST_MPL_BEGIN_END_FWD_HPP_INCLUDED
 #define BOOST_MPL_BEGIN_END_FWD_HPP_INCLUDED

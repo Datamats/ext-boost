@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/small_vector.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2015-2015. Distributed under the Boost

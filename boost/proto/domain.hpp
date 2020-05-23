@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/domain.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file domain.hpp
 /// Contains definition of domain\<\> class template and helpers for

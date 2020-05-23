@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/detail/macos_fenced_block.hpp"
 //
 // detail/macos_fenced_block.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

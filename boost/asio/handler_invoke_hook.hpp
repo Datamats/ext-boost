@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/handler_invoke_hook.hpp"
 //
 // handler_invoke_hook.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~

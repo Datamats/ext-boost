@@ -1,3 +1,4 @@
+#line 1 "include/boost/asio/local/stream_protocol.hpp"
 //
 // local/stream_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~

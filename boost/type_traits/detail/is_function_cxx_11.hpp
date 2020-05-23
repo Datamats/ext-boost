@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/detail/is_function_cxx_11.hpp"
 
 //  Copyright 2000 John Maddock (john@johnmaddock.co.uk)
 //  Copyright 2002 Aleksey Gurtovoy (agurtovoy@meta-comm.com)

@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/detail/is_contiguous_container.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2017-2017. Distributed under the Boost

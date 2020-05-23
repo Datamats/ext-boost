@@ -1,3 +1,4 @@
+#line 1 "include/boost/type_traits/alignment_of.hpp"
 
 //  (C) Copyright John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,

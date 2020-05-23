@@ -1,3 +1,4 @@
+#line 1 "include/boost/fusion/adapted/struct/detail/deref_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009-2010 Christopher Schmidt
 

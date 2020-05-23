@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/extends.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file extends.hpp
 /// Macros and a base class for defining end-user expression types

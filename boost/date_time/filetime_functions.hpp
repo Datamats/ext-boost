@@ -1,3 +1,4 @@
+#line 1 "include/boost/date_time/filetime_functions.hpp"
 #ifndef DATE_TIME_FILETIME_FUNCTIONS_HPP__
 #define DATE_TIME_FILETIME_FUNCTIONS_HPP__
 

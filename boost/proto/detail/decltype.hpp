@@ -1,3 +1,4 @@
+#line 1 "include/boost/proto/detail/decltype.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file decltype.hpp
 /// Contains definition the BOOST_PROTO_DECLTYPE_() macro and assorted helpers

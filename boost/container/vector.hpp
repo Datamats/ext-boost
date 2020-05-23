@@ -1,3 +1,4 @@
+#line 1 "include/boost/container/vector.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2015. Distributed under the Boost

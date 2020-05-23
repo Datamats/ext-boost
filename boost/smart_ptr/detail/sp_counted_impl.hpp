@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/sp_counted_impl.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_COUNTED_IMPL_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_COUNTED_IMPL_HPP_INCLUDED
 

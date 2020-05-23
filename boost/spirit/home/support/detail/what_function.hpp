@@ -1,3 +1,4 @@
+#line 1 "include/boost/spirit/home/support/detail/what_function.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

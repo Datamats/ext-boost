@@ -1,3 +1,4 @@
+#line 1 "include/boost/system/detail/std_interoperability.hpp"
 // Support for interoperability between Boost.System and <system_error>
 //
 // Copyright 2018 Peter Dimov

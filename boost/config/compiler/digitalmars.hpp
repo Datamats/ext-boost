@@ -1,3 +1,4 @@
+#line 1 "include/boost/config/compiler/digitalmars.hpp"
 //  Copyright (C) Christof Meerwald 2003
 //  Copyright (C) Dan Watkins 2003
 //

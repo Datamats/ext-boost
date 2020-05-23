@@ -1,3 +1,4 @@
+#line 1 "include/boost/smart_ptr/detail/quick_allocator.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_QUICK_ALLOCATOR_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_QUICK_ALLOCATOR_HPP_INCLUDED
 

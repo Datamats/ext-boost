@@ -1,3 +1,4 @@
+#line 1 "include/boost/winapi/basic_types.hpp"
 /*
  * Copyright 2010 Vicente J. Botet Escriba
  * Copyright 2015-2018 Andrey Semashev
