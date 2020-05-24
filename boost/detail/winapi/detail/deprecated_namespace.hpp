@@ -1,3 +1,4 @@
+#line 1 "include/boost/detail/winapi/detail/deprecated_namespace.hpp"
 /*
  * Copyright 2017 Andrey Semashev
  *

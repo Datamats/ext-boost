@@ -1,4 +1,4 @@
-bcp \
+~/Documents/boost_1_71_0/dist/bin/bcp \
     boost/asio.hpp \
     boost/container/flat_map.hpp \
     boost/container/flat_set.hpp \
@@ -24,4 +24,5 @@ bcp \
     boost/variant/ \
     boost/serialization \
     boost/archive \
+    boost/spirit \
     --boost="$1" .
