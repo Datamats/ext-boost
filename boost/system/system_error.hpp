@@ -1,4 +1,3 @@
-#line 1 "include/boost/system/system_error.hpp"
 //  Boost system_error.hpp  --------------------------------------------------//
 
 //  Copyright Beman Dawes 2006
@@ -48,7 +47,7 @@ namespace boost
       virtual ~system_error() BOOST_NOEXCEPT_OR_NOTHROW {}
 
       error_code code() const BOOST_NOEXCEPT { return m_error_code; }
-      const char * what() const BOOST_NOEXCEPT_OR_NOTHROW;
+      const char * what() const BOOST_NOEXCEPT_OR_NOTHROW BOOST_OVERRIDE;
 
     private:
       error_code           m_error_code;

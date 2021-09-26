@@ -1,6 +1,5 @@
-#line 1 "include/boost/type_index/stl_type_index.hpp"
 //
-// Copyright (c) 2013-2019 Antony Polukhin.
+// Copyright 2013-2021 Antony Polukhin.
 //
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/dynamic/select.hpp"
 /*=============================================================================
     Copyright (c) 2003 Hartmut Kaiser
     http://spirit.sourceforge.net/

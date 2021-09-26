@@ -1,4 +1,3 @@
-#line 1 "include/boost/endian/detail/is_trivially_copyable.hpp"
 #ifndef BOOST_ENDIAN_DETAIL_IS_TRIVIALLY_COPYABLE_HPP_INCLUDED
 #define BOOST_ENDIAN_DETAIL_IS_TRIVIALLY_COPYABLE_HPP_INCLUDED
 
@@ -10,6 +9,7 @@
 #include <boost/config.hpp>
 #include <boost/type_traits/has_trivial_copy.hpp>
 #include <boost/type_traits/has_trivial_assign.hpp>
+#include <boost/type_traits/has_trivial_destructor.hpp>
 
 #if !defined(BOOST_NO_CXX11_HDR_TYPE_TRAITS)
 # include <type_traits>
@@ -29,7 +29,7 @@ using std::is_trivially_copyable;
 #else
 
 template<class T> struct is_trivially_copyable: boost::integral_constant<bool,
-    boost::has_trivial_copy<T>::value && boost::has_trivial_assign<T>::value> {};
+    boost::has_trivial_copy<T>::value && boost::has_trivial_assign<T>::value && boost::has_trivial_destructor<T>::value> {};
 
 #endif
 

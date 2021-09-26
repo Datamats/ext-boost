@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/operator/detail/cpp03/preprocessed/mem_fun_ptr_expr.hpp"
 /*==============================================================================
     Copyright (c) 2016 Kohei Takahashi
 

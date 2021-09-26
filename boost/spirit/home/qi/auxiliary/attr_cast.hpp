@@ -1,11 +1,10 @@
-#line 1 "include/boost/spirit/home/qi/auxiliary/attr_cast.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#if !defined(SPIRIT_QI_ATTR_CAST_SEP_26_2009_0735PM)
-#define SPIRIT_QI_ATTR_CAST_SEP_26_2009_0735PM
+#ifndef BOOST_SPIRIT_QI_AUXILIARY_ATTR_CAST_HPP
+#define BOOST_SPIRIT_QI_AUXILIARY_ATTR_CAST_HPP
 
 #if defined(_MSC_VER)
 #pragma once

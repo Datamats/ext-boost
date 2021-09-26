@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/platform/haiku.hpp"
 //  (C) Copyright Jessica Hamilton 2014.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file

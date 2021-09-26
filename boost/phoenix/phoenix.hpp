@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/phoenix.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller
@@ -10,6 +9,7 @@
 #define BOOST_PHOENIX_PHOENIX_HPP
 
 #include <boost/phoenix/core.hpp>
+#include <boost/phoenix/debug.hpp>
 #include <boost/phoenix/function.hpp>
 #include <boost/phoenix/operator.hpp>
 #include <boost/phoenix/statement.hpp>

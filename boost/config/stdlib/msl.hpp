@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/stdlib/msl.hpp"
 //  (C) Copyright John Maddock 2001. 
 //  (C) Copyright Darin Adler 2001. 
 //  Use, modification and distribution are subject to the 
@@ -76,6 +75,7 @@
 #  define BOOST_NO_CXX11_HDR_ATOMIC
 #  define BOOST_NO_CXX11_STD_ALIGN
 #  define BOOST_NO_CXX11_ADDRESSOF
+#  define BOOST_NO_CXX11_HDR_EXCEPTION
 
 #if defined(__has_include)
 #if !__has_include(<shared_mutex>)

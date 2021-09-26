@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/map/aux_/erase_impl.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_ERASE_IMPL_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_ERASE_IMPL_HPP_INCLUDED

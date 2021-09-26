@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/array.hpp"
 #ifndef BOOST_SERIALIZATION_ARRAY_HPP
 #define BOOST_SERIALIZATION_ARRAY_HPP
 
@@ -19,8 +18,8 @@
 
 #include <iostream>
 #include <cstddef> // std::size_t
-namespace std{ 
-    using ::size_t; 
+namespace std{
+    using ::size_t;
 } // namespace std
 #endif
 
@@ -40,7 +39,7 @@ void serialize(Archive& ar, std::array<T,N>& a, const unsigned int /* version */
         "elems",
         *static_cast<T (*)[N]>(static_cast<void *>(a.data()))
     );
-    
+
 }
 } } // end namespace boost::serialization
 

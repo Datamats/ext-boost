@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/zip_view.hpp"
 
 #ifndef BOOST_MPL_ZIP_VIEW_HPP_INCLUDED
 #define BOOST_MPL_ZIP_VIEW_HPP_INCLUDED

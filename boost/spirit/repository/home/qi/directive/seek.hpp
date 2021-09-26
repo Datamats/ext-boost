@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/home/qi/directive/seek.hpp"
 /*=============================================================================
     Copyright (c) 2011 Jamboree
 

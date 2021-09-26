@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/cpp03/preprocessed/function_eval_50.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
 

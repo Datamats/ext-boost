@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/list/cons_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2005 Eric Niebler
@@ -43,9 +42,8 @@ namespace boost { namespace fusion
 
         cons_type& cons;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        cons_iterator& operator= (cons_iterator const&);
+        BOOST_DELETED_FUNCTION(cons_iterator& operator= (cons_iterator const&))
     };
 
     struct nil_iterator : iterator_base<nil_iterator>

@@ -1,11 +1,10 @@
-#line 1 "include/boost/variant/detail/make_variant_list.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/make_variant_list.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
 //-----------------------------------------------------------------------------
 //
 // Copyright (c) 2002-2003 Eric Friedman, Itay Maman
-// Copyright (c) 2013-2019 Antony Polukhin
+// Copyright (c) 2013-2021 Antony Polukhin
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at

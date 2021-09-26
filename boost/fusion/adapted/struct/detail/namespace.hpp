@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/struct/detail/namespace.hpp"
 /*=============================================================================
     Copyright (c) 2009-2010 Hartmut Kaiser
     Copyright (c) 2010 Christopher Schmidt

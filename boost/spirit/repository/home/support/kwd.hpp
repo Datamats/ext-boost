@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/home/support/kwd.hpp"
 //  Copyright (c) 2001-2011 Thomas Bernard
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 

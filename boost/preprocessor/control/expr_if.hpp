@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/control/expr_if.hpp"
 # /* Copyright (C) 2001
 #  * Housemarque Oy
 #  * http://www.housemarque.com

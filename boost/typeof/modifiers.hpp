@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/modifiers.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -38,7 +37,7 @@
 #define BOOST_TYPEOF_pointer_fun(T) T*
 #define BOOST_TYPEOF_reference_fun(T) T&
 
-#if defined(__BORLANDC__) && (__BORLANDC__ < 0x600)
+#if defined(__BORLANDC__) && !defined(__clang__) && (__BORLANDC__ < 0x600)
 //Borland incorrectly handles T const, T const volatile and T volatile.
 //It drops the decoration no matter what, so we need to try to handle T* const etc. without loosing the top modifier.
 #define BOOST_TYPEOF_const_pointer_fun(T) T const *
@@ -57,7 +56,7 @@ BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_volatile_co
 BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_pointer_fun);
 BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_reference_fun);
 
-#if defined(__BORLANDC__) && (__BORLANDC__ < 0x600)
+#if defined(__BORLANDC__) && !defined(__clang__) && (__BORLANDC__ < 0x600)
 BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_const_pointer_fun);
 BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_const_reference_fun);
 BOOST_TYPEOF_modifier_support(BOOST_TYPEOF_UNIQUE_ID(), BOOST_TYPEOF_volatile_pointer_fun);
@@ -75,7 +74,7 @@ BOOST_TYPEOF_END_ENCODE_NS
 #undef BOOST_TYPEOF_pointer_fun
 #undef BOOST_TYPEOF_reference_fun
 
-#if defined(__BORLANDC__) && (__BORLANDC__ < 0x600)
+#if defined(__BORLANDC__) && !defined(__clang__) && (__BORLANDC__ < 0x600)
 #undef BOOST_TYPEOF_const_pointer_fun
 #undef BOOST_TYPEOF_const_reference_fun
 #undef BOOST_TYPEOF_volatile_pointer_fun

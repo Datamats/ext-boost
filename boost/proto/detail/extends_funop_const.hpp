@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/extends_funop_const.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #ifndef BOOST_NO_CXX11_VARIADIC_TEMPLATES

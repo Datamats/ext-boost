@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/detail/less.hpp"
 /*
 Copyright 2019 Glen Joseph Fernandes
 (glenjofe@gmail.com)

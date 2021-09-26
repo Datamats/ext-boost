@@ -1,4 +1,3 @@
-#line 1 "include/boost/container_hash/hash_fwd.hpp"
 
 // Copyright 2005-2009 Daniel James.
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -28,7 +27,7 @@ namespace boost
     template <class It> std::size_t hash_range(It, It);
     template <class It> void hash_range(std::size_t&, It, It);
 
-#if BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+#if BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x551))
     template <class T> inline std::size_t hash_range(T*, T*);
     template <class T> inline void hash_range(std::size_t&, T*, T*);
 #endif

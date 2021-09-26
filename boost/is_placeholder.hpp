@@ -1,4 +1,3 @@
-#line 1 "include/boost/is_placeholder.hpp"
 #ifndef BOOST_IS_PLACEHOLDER_HPP_INCLUDED
 #define BOOST_IS_PLACEHOLDER_HPP_INCLUDED
 

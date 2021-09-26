@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/greater.hpp"
 
 #ifndef BOOST_MPL_GREATER_HPP_INCLUDED
 #define BOOST_MPL_GREATER_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc/template_arity.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 //

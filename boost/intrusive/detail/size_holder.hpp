@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/size_holder.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

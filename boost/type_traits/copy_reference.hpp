@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/copy_reference.hpp"
 /*
 Copyright 2019 Glen Joseph Fernandes
 (glenjofe@gmail.com)

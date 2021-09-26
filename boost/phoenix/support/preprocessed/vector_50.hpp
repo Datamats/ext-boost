@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/support/preprocessed/vector_50.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/vector/detail/value_at_impl.hpp"
 /*=============================================================================
     Copyright (c) 2014,2018 Kohei Takahashi
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/os/haiku.h"
 /*
 Copyright Jessica Hamilton 2014
 Copyright Rene Rivera 2014-2015
@@ -13,17 +12,18 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_OS_HAIKU`]
+/* tag::reference[]
+= `BOOST_OS_HAIKU`
 
-[@http://en.wikipedia.org/wiki/Haiku_(operating_system) Haiku] operating system.
+http://en.wikipedia.org/wiki/Haiku_(operating_system)[Haiku] operating system.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__HAIKU__`] [__predef_detection__]]
-    ]
- */
+| `+__HAIKU__+` | {predef_detection}
+|===
+*/ // end::reference[]
 
 #define BOOST_OS_HAIKU BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/debug/typeof.hpp"
 /*=============================================================================
     Copyright (c) 2006 Tobias Schwinger
     http://spirit.sourceforge.net/

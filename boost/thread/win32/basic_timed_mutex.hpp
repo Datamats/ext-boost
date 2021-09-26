@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/win32/basic_timed_mutex.hpp"
 #ifndef BOOST_BASIC_TIMED_MUTEX_WIN32_HPP
 #define BOOST_BASIC_TIMED_MUTEX_WIN32_HPP
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/operator/detail/cpp03/preprocessed/mem_fun_ptr_gen.hpp"
 /*==============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

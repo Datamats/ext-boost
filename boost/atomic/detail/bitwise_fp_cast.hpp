@@ -1,4 +1,3 @@
-#line 1 "include/boost/atomic/detail/bitwise_fp_cast.hpp"
 /*
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
@@ -19,6 +18,7 @@
 #include <boost/atomic/detail/config.hpp>
 #include <boost/atomic/detail/float_sizes.hpp>
 #include <boost/atomic/detail/bitwise_cast.hpp>
+#include <boost/atomic/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -83,5 +83,7 @@ BOOST_FORCEINLINE To bitwise_fp_cast(From const& from) BOOST_NOEXCEPT
 } // namespace detail
 } // namespace atomics
 } // namespace boost
+
+#include <boost/atomic/detail/footer.hpp>
 
 #endif // BOOST_ATOMIC_DETAIL_BITWISE_FP_CAST_HPP_INCLUDED_

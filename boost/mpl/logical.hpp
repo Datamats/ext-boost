@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/logical.hpp"
 
 #ifndef BOOST_MPL_LOGICAL_HPP_INCLUDED
 #define BOOST_MPL_LOGICAL_HPP_INCLUDED

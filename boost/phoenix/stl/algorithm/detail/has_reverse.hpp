@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/stl/algorithm/detail/has_reverse.hpp"
 // Copyright 2005 Daniel Wallin.
 // Copyright 2005 Joel de Guzman.
 //

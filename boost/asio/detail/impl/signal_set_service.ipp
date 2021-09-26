@@ -1,9 +1,8 @@
-#line 1 "include/boost/asio/detail/impl/signal_set_service.ipp"
 //
 // detail/impl/signal_set_service.ipp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// Copyright (c) 2003-2019 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+// Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -91,7 +90,8 @@ class signal_set_service::pipe_read_op : public reactor_op
 {
 public:
   pipe_read_op()
-    : reactor_op(&pipe_read_op::do_perform, pipe_read_op::do_complete)
+    : reactor_op(boost::system::error_code(),
+        &pipe_read_op::do_perform, pipe_read_op::do_complete)
   {
   }
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility.hpp"
 //  Boost utility.hpp header file  -------------------------------------------//
 
 //  Copyright 1999-2003 Aleksey Gurtovoy.  Use, modification, and distribution are

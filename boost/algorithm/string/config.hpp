@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/config.hpp"
 //  Boost string_algo library config.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.

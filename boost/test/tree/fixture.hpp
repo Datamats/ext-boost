@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/tree/fixture.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -133,8 +132,8 @@ public:
 
 private:
     // Fixture interface
-    virtual void    setup()         { m_inst.reset( new F( m_arg ) ); setup_conditional(*m_inst); }
-    virtual void    teardown()      { teardown_conditional(*m_inst); m_inst.reset(); }
+    void    setup() BOOST_OVERRIDE         { m_inst.reset( new F( m_arg ) ); setup_conditional(*m_inst); }
+    void    teardown() BOOST_OVERRIDE      { teardown_conditional(*m_inst); m_inst.reset(); }
 
     // Data members
     scoped_ptr<F>   m_inst;
@@ -151,8 +150,8 @@ public:
 
 private:
     // Fixture interface
-    virtual void    setup()         { m_inst.reset( new F ); setup_conditional(*m_inst); }
-    virtual void    teardown()      { teardown_conditional(*m_inst); m_inst.reset(); }
+    void    setup() BOOST_OVERRIDE         { m_inst.reset( new F ); setup_conditional(*m_inst); }
+    void    teardown() BOOST_OVERRIDE      { teardown_conditional(*m_inst); m_inst.reset(); }
 
     // Data members
     scoped_ptr<F>   m_inst;
@@ -175,8 +174,8 @@ public:
 
 private:
     // Fixture interface
-    virtual void                setup()     { if( m_setup ) m_setup(); }
-    virtual void                teardown()  { if( m_teardown ) m_teardown(); }
+    void                setup() BOOST_OVERRIDE     { if( m_setup ) m_setup(); }
+    void                teardown() BOOST_OVERRIDE  { if( m_teardown ) m_teardown(); }
 
     // Data members
     boost::function<void ()>    m_setup;

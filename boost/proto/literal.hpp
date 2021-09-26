@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/literal.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file literal.hpp
 /// The literal\<\> terminal wrapper, and the proto::lit() function for
@@ -50,6 +49,10 @@ namespace boost { namespace proto
             literal()
               : base_type(terminal_type::make(T()))
             {}
+
+#ifndef BOOST_NO_CXX11_DEFAULTED_FUNCTIONS
+            literal(literal const &) = default;
+#endif
 
             template<typename U>
             literal(U &u)

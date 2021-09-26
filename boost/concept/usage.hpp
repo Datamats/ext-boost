@@ -1,4 +1,3 @@
-#line 1 "include/boost/concept/usage.hpp"
 // Copyright David Abrahams 2006. Distributed under the Boost
 // Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -14,7 +13,14 @@ namespace boost { namespace concepts {
 template <class Model>
 struct usage_requirements
 {
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic push
+#   pragma GCC diagnostic ignored "-Wnonnull"
+#   endif
     ~usage_requirements() { ((Model*)0)->~Model(); }
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic pop
+#   endif
 };
 
 #  if BOOST_WORKAROUND(__GNUC__, <= 3)

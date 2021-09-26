@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/limits/unrolling.hpp"
 
 #ifndef BOOST_MPL_LIMITS_UNROLLING_HPP_INCLUDED
 #define BOOST_MPL_LIMITS_UNROLLING_HPP_INCLUDED

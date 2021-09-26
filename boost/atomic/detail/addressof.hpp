@@ -1,4 +1,3 @@
-#line 1 "include/boost/atomic/detail/addressof.hpp"
 /*
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
@@ -17,6 +16,7 @@
 #define BOOST_ATOMIC_DETAIL_ADDRESSOF_HPP_INCLUDED_
 
 #include <boost/atomic/detail/config.hpp>
+#include <boost/atomic/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -55,5 +55,7 @@ BOOST_FORCEINLINE T* addressof(T& value) BOOST_NOEXCEPT
 } // namespace detail
 } // namespace atomics
 } // namespace boost
+
+#include <boost/atomic/detail/footer.hpp>
 
 #endif // BOOST_ATOMIC_DETAIL_ADDRESSOF_HPP_INCLUDED_

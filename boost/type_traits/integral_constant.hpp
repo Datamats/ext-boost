@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/integral_constant.hpp"
 //  (C) Copyright John Maddock 2015. 
 //  Use, modification and distribution are subject to the 
 //  Boost Software License, Version 1.0. (See accompanying file 
@@ -11,7 +10,7 @@
 #include <boost/detail/workaround.hpp>
 
 #if (BOOST_WORKAROUND(BOOST_MSVC, BOOST_TESTED_AT(1400)) \
-   || BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x610)) \
+   || BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x610)) \
    || BOOST_WORKAROUND(__DMC__, BOOST_TESTED_AT(0x840)) \
    || BOOST_WORKAROUND(__MWERKS__, BOOST_TESTED_AT(0x3202)) \
    || BOOST_WORKAROUND(BOOST_INTEL_CXX_VERSION, BOOST_TESTED_AT(810)) )\

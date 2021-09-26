@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/dynamic.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002 Juan Carlos Arevalo-Baeza

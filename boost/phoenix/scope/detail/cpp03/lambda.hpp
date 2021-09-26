@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/cpp03/lambda.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 

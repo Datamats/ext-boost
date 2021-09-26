@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/nonterminal/detail/parser_binder.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

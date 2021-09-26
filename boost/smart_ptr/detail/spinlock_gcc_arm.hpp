@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/spinlock_gcc_arm.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SPINLOCK_GCC_ARM_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SPINLOCK_GCC_ARM_HPP_INCLUDED
 
@@ -11,6 +10,13 @@
 //
 
 #include <boost/smart_ptr/detail/yield_k.hpp>
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using g++/ARM spinlock")
+
+#endif
 
 #if defined(__ARM_ARCH_7__) || defined(__ARM_ARCH_7A__) || defined(__ARM_ARCH_7R__) || defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7EM__) || defined(__ARM_ARCH_7S__)
 

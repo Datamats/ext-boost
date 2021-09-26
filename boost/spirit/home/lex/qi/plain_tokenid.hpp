@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/qi/plain_tokenid.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -20,15 +19,15 @@
 #include <boost/spirit/home/qi/parser.hpp>
 #include <boost/spirit/home/qi/meta_compiler.hpp>
 #include <boost/spirit/home/qi/detail/assign_to.hpp>
-#include <boost/range/iterator_range.hpp>
+
 #include <boost/fusion/include/vector.hpp>
 #include <boost/fusion/include/at.hpp>
 #include <boost/mpl/or.hpp>
 #include <boost/mpl/and.hpp>
 #include <boost/type_traits/is_integral.hpp>
 #include <boost/type_traits/is_enum.hpp>
-#include <boost/lexical_cast.hpp>
 #include <iterator> // for std::iterator_traits
+#include <sstream>
 
 namespace boost { namespace spirit
 {
@@ -123,8 +122,9 @@ namespace boost { namespace spirit { namespace qi
         template <typename Context>
         info what(Context& /*context*/) const
         {
-            return info("tokenid",
-                "tokenid(" + boost::lexical_cast<utf8_string>(id) + ")");
+            std::stringstream ss;
+            ss << "tokenid(" << id << ")";
+            return info("tokenid", ss.str());
         }
 
         TokenId id;
@@ -175,11 +175,9 @@ namespace boost { namespace spirit { namespace qi
         template <typename Context>
         info what(Context& /*context*/) const
         {
-            return info("tokenid_range"
-              , "token(" +
-                    boost::lexical_cast<utf8_string>(idmin) + ", " +
-                    boost::lexical_cast<utf8_string>(idmax) + ")"
-            );
+            std::stringstream ss;
+            ss << "token(" << idmin << ", " << idmax << ")";
+            return info("tokenid_range", ss.str());
         }
 
         TokenId idmin, idmax;

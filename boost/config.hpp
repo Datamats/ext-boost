@@ -1,4 +1,3 @@
-#line 1 "include/boost/config.hpp"
 //  Boost config.hpp configuration header file  ------------------------------//
 
 //  (C) Copyright John Maddock 2002.

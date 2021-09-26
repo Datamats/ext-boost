@@ -1,4 +1,3 @@
-#line 1 "include/boost/asio/detail/limits.hpp"
 //
 // detail/limits.hpp
 // ~~~~~~~~~~~~~~~~~

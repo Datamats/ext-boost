@@ -1,9 +1,8 @@
-#line 1 "include/boost/config/user.hpp"
 //  boost/config/user.hpp  ---------------------------------------------------//
 
 //  (C) Copyright John Maddock 2001. 
-//  Use, modification and distribution are subject to the 
-//  Boost Software License, Version 1.0. (See accompanying file 
+//  Use, modification and distribution are subject to the
+//  Boost Software License, Version 1.0. (See accompanying file
 //  LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
 //  Do not check in modified versions of this file,

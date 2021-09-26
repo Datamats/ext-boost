@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/punctuation/is_begin_parens.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.
@@ -13,10 +12,7 @@
 # ifndef BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP
 # define BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP
 
-# include <boost/preprocessor/config/config.hpp>
-
-#if BOOST_PP_VARIADICS
-
+#include <boost/preprocessor/config/config.hpp>
 #include <boost/preprocessor/punctuation/detail/is_begin_parens.hpp>
 
 #if BOOST_PP_VARIADICS_MSVC && _MSC_VER <= 1400
@@ -48,5 +44,4 @@
 /**/
 
 #endif /* BOOST_PP_VARIADICS_MSVC && _MSC_VER <= 1400 */
-#endif /* BOOST_PP_VARIADICS */
 #endif /* BOOST_PREPROCESSOR_IS_BEGIN_PARENS_HPP */

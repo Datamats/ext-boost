@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/encode_decode.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

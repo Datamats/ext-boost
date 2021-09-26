@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/map/detail/cpp03/deref_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/current_function.hpp"
 #ifndef BOOST_CURRENT_FUNCTION_HPP_INCLUDED
 #define BOOST_CURRENT_FUNCTION_HPP_INCLUDED
 

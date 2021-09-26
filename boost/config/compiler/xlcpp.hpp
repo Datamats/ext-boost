@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/xlcpp.hpp"
 // (C) Copyright Douglas Gregor 2010
 //
 //  Use, modification and distribution are subject to the
@@ -195,6 +194,11 @@
 
 #if !__has_feature(cxx_override_control)
 #  define BOOST_NO_CXX11_FINAL
+#  define BOOST_NO_CXX11_OVERRIDE
+#endif
+
+#if !__has_feature(cxx_unrestricted_unions)
+#  define BOOST_NO_CXX11_UNRESTRICTED_UNION
 #endif
 
 #if !(__has_feature(__cxx_binary_literals__) || __has_extension(__cxx_binary_literals__))

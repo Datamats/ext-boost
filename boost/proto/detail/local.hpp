@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/local.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file local.hpp
 /// Contains macros to ease the generation of repetitious code constructs

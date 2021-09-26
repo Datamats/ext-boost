@@ -1,4 +1,3 @@
-#line 1 "include/boost/concept/detail/general.hpp"
 // Copyright David Abrahams 2006. Distributed under the Boost
 // Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -29,7 +28,14 @@ namespace detail
 template <class Model>
 struct requirement
 {
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic push
+#   pragma GCC diagnostic ignored "-Wnonnull"
+#   endif
     static void failed() { ((Model*)0)->~Model(); }
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic pop
+#   endif
 };
 
 struct failed {};
@@ -37,7 +43,14 @@ struct failed {};
 template <class Model>
 struct requirement<failed ************ Model::************>
 {
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic push
+#   pragma GCC diagnostic ignored "-Wnonnull"
+#   endif
     static void failed() { ((Model*)0)->~Model(); }
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic pop
+#   endif
 };
 
 # ifdef BOOST_OLD_CONCEPT_SUPPORT
@@ -45,7 +58,14 @@ struct requirement<failed ************ Model::************>
 template <class Model>
 struct constraint
 {
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic push
+#   pragma GCC diagnostic ignored "-Wnonnull"
+#   endif
     static void failed() { ((Model*)0)->constraints(); }
+#   if defined(BOOST_GCC) && (BOOST_GCC >= 110000)
+#   pragma GCC diagnostic pop
+#   endif
 };
   
 template <class Model>

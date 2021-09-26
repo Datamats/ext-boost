@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/tree/common.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     Copyright (c) 2001-2007 Hartmut Kaiser
@@ -98,13 +97,6 @@ struct tree_node
     {
         impl::cp_swap(value, x.value);
         impl::cp_swap(children, x.children);
-    }
-
-// Intel V5.0.1 has a problem without this explicit operator=
-    tree_node &operator= (tree_node const &rhs)
-    {
-        tree_node(rhs).swap(*this);
-        return *this;
     }
 };
 
@@ -1516,7 +1508,7 @@ const action_directive_parser_gen<access_node_action> access_node_d
 //      length: The number of characters consumed by the parser.
 //              This is valid only if we have a successful match
 //              (either partial or full). A negative value means
-//              that the match is unsucessful.
+//              that the match is unsuccessful.
 //
 //     trees:   Contains the root node(s) of the tree.
 //

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/iterator.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     Copyright (c) 2003 Giovanni Bajo

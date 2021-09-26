@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/functional/range/begin.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file begin.hpp
 /// Proto callables for boost::begin()

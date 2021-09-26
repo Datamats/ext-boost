@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/bad_visit.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/bad_visit.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
@@ -13,6 +12,8 @@
 
 #ifndef BOOST_VARIANT_BAD_VISIT_HPP
 #define BOOST_VARIANT_BAD_VISIT_HPP
+
+#include <boost/config.hpp>
 
 #include <exception>
 
@@ -29,7 +30,7 @@ struct BOOST_SYMBOL_VISIBLE bad_visit
 {
 public: // std::exception interface
 
-    virtual const char * what() const BOOST_NOEXCEPT_OR_NOTHROW
+    const char * what() const BOOST_NOEXCEPT_OR_NOTHROW BOOST_OVERRIDE
     {
         return "boost::bad_visit: "
                "failed visitation using boost::apply_visitor";

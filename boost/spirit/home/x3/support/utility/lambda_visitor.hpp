@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/utility/lambda_visitor.hpp"
 /*=============================================================================
     Copyright (c) 2014 Joel de Guzman
 

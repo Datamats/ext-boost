@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/lwm_pthreads.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LWM_PTHREADS_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LWM_PTHREADS_HPP_INCLUDED
 

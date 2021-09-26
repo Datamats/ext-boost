@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/filter_view/detail/value_of_data_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/tree_value_compare.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2015-2015. Distributed under the Boost

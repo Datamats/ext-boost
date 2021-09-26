@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/object/detail/cpp03/preprocessed/new_eval.hpp"
 /*==============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

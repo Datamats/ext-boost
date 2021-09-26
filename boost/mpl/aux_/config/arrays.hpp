@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/arrays.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_ARRAYS_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_ARRAYS_HPP_INCLUDED
@@ -20,7 +19,7 @@
 
 #if    !defined(BOOST_MPL_CFG_NO_DEPENDENT_ARRAY_TYPES) \
     && !defined(BOOST_MPL_PREPROCESSING_MODE) \
-    && ( BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x610)) \
+    && ( BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x610)) \
         || BOOST_WORKAROUND(BOOST_MSVC, <= 1300) \
         )
 

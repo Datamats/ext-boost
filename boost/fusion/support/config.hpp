@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/config.hpp"
 /*=============================================================================
     Copyright (c) 2014 Eric Niebler
     Copyright (c) 2014,2015,2018 Kohei Takahashi

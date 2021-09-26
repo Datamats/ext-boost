@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/directive/omit.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -25,7 +24,7 @@ namespace boost { namespace spirit { namespace x3
         static bool const has_attribute = false;
 
         typedef Subject subject_type;
-        omit_directive(Subject const& subject)
+        constexpr omit_directive(Subject const& subject)
           : base_type(subject) {}
 
         template <typename Iterator, typename Context, typename RContext>
@@ -39,14 +38,14 @@ namespace boost { namespace spirit { namespace x3
     struct omit_gen
     {
         template <typename Subject>
-        omit_directive<typename extension::as_parser<Subject>::value_type>
+        constexpr omit_directive<typename extension::as_parser<Subject>::value_type>
         operator[](Subject const& subject) const
         {
             return { as_parser(subject) };
         }
     };
 
-    auto const omit = omit_gen{};
+    constexpr auto omit = omit_gen{};
 }}}
 
 #endif

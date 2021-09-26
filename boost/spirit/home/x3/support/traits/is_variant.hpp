@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/traits/is_variant.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     http://spirit.sourceforge.net/

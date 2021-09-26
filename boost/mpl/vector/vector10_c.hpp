@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/vector/vector10_c.hpp"
 
 #ifndef BOOST_MPL_VECTOR_VECTOR10_C_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_VECTOR10_C_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/bitxor.hpp"
 
 #ifndef BOOST_MPL_BITXOR_HPP_INCLUDED
 #define BOOST_MPL_BITXOR_HPP_INCLUDED

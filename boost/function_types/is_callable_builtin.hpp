@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/is_callable_builtin.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

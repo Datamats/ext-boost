@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/sp_disable_deprecated.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_DISABLE_DEPRECATED_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_DISABLE_DEPRECATED_HPP_INCLUDED
 

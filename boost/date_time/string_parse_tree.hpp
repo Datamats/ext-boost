@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/string_parse_tree.hpp"
 #ifndef BOOST_DATE_TIME_STRING_PARSE_TREE___HPP__
 #define BOOST_DATE_TIME_STRING_PARSE_TREE___HPP__
 
@@ -11,11 +10,13 @@
  */
 
 
-#include "boost/lexical_cast.hpp" //error without?
-#include "boost/algorithm/string/case_conv.hpp"
+#include <boost/algorithm/string/case_conv.hpp>
+#include <cctype>
 #include <map>
 #include <string>
 #include <vector>
+#include <ostream>
+#include <iterator>
 #include <algorithm>
 
 namespace boost { namespace date_time {
@@ -83,7 +84,7 @@ operator<<(std::basic_ostream<charT>& os, parse_match_result<charT>& mr)
 template<typename charT>
 struct string_parse_tree
 {
-#if BOOST_WORKAROUND( __BORLANDC__, BOOST_TESTED_AT(0x581) )
+#if BOOST_WORKAROUND( BOOST_BORLANDC, BOOST_TESTED_AT(0x581) )
   typedef std::multimap<charT, string_parse_tree< charT> > ptree_coll;
 #else
   typedef std::multimap<charT, string_parse_tree > ptree_coll;

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/core/proxy.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -19,7 +18,7 @@ namespace boost { namespace spirit { namespace x3
     {
         static bool const is_pass_through_unary = true;
 
-        proxy(Subject const& subject)
+        constexpr proxy(Subject const& subject)
           : unary_parser<Subject, Derived>(subject) {}
 
         // Overload this when appropriate. The proxy parser will pick up

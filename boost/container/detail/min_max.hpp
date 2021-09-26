@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/min_max.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2013. Distributed under the Boost

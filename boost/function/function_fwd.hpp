@@ -1,4 +1,3 @@
-#line 1 "include/boost/function/function_fwd.hpp"
 // Boost.Function library
 //  Copyright (C) Douglas Gregor 2008
 //

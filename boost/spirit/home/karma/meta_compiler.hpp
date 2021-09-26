@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/meta_compiler.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 // 
@@ -16,6 +15,7 @@
 #include <boost/spirit/home/karma/domain.hpp>
 #include <boost/spirit/home/karma/generator.hpp>
 #include <boost/spirit/home/support/string_traits.hpp>
+#include <boost/proto/tags.hpp>
 #include <boost/type_traits/remove_reference.hpp>
 #include <boost/utility/enable_if.hpp>
 #include <boost/fusion/include/at.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/comeau.hpp"
 //  (C) Copyright John Maddock 2001. 
 //  (C) Copyright Douglas Gregor 2001. 
 //  (C) Copyright Peter Dimov 2001. 

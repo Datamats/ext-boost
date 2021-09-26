@@ -1,4 +1,3 @@
-#line 1 "include/boost/pool/object_pool.hpp"
 // Copyright (C) 2000, 2001 Stephen Cleary
 //
 // Distributed under the Boost Software License, Version 1.0. (See
@@ -27,7 +26,7 @@ It also provides automatic destruction of non-deallocated objects.
 #endif
 
 // The following code might be put into some Boost.Config header in a later revision
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 # pragma option push -w-inl
 #endif
 
@@ -281,7 +280,7 @@ object_pool<T, UserAllocator>::~object_pool()
 } // namespace boost
 
 // The following code might be put into some Boost.Config header in a later revision
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 # pragma option pop
 #endif
 

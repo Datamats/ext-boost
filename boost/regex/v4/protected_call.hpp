@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/v4/protected_call.hpp"
 /*
  *
  * Copyright (c) 2004
@@ -20,6 +19,8 @@
 
 #ifndef BOOST_REGEX_V4_PROTECTED_CALL_HPP
 #define BOOST_REGEX_V4_PROTECTED_CALL_HPP
+
+#include <boost/config.hpp>
 
 #ifdef BOOST_MSVC
 #pragma warning(push)
@@ -54,7 +55,7 @@ public:
    concrete_protected_call(T* o, proc_type p)
       : obj(o), proc(p) {}
 private:
-   virtual bool call()const;
+   bool call()const BOOST_OVERRIDE;
    T* obj;
    proc_type proc;
 };

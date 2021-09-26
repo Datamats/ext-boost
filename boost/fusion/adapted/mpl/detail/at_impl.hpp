@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/mpl/detail/at_impl.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2005-2006 Dan Marsden

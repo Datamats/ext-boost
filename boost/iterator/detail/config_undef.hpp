@@ -1,4 +1,3 @@
-#line 1 "include/boost/iterator/detail/config_undef.hpp"
 // (C) Copyright Thomas Witt    2002.
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at

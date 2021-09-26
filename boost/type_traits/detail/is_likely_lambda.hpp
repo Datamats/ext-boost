@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/is_likely_lambda.hpp"
 /* Copyright 2017 Joaquin M Lopez Munoz.
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
@@ -29,7 +28,7 @@ struct is_likely_stateless_lambda : public false_type {};
 }}
 
 #elif !defined(BOOST_NO_CXX11_LAMBDAS) && !defined(BOOST_NO_CXX11_DECLTYPE) && !defined(BOOST_NO_CXX11_TEMPLATE_ALIASES) && !BOOST_WORKAROUND(BOOST_MSVC, < 1900)\
-         && !(BOOST_WORKAROUND(BOOST_MSVC, == 1900) && defined(__CLR_VER))
+         && !(BOOST_WORKAROUND(BOOST_MSVC, == 1900) && defined(_MANAGED))
 
 #include <boost/type_traits/is_convertible.hpp>
 #include <boost/type_traits/enable_if.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/platform/bsd.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Darin Adler 2001. 
 //  (C) Copyright Douglas Gregor 2002. 
@@ -29,7 +28,8 @@
 // FreeBSD has <nl_types.h> but does not
 // advertise the fact in <unistd.h>:
 //
-#if (defined(__FreeBSD__) && (__FreeBSD__ >= 3)) || defined(__DragonFly__)
+#if (defined(__FreeBSD__) && (__FreeBSD__ >= 3)) \
+   || defined(__OpenBSD__) || defined(__DragonFly__)
 #  define BOOST_HAS_NL_TYPES_H
 #endif
 
@@ -57,7 +57,8 @@
 #endif
 
 #if !((defined(__FreeBSD__) && (__FreeBSD__ >= 5)) \
-      || (defined(__NetBSD_GCC__) && (__NetBSD_GCC__ >= 2095003)) || defined(__DragonFly__))
+      || (defined(__NetBSD_GCC__) && (__NetBSD_GCC__ >= 2095003)) \
+      || defined(__OpenBSD__) || defined(__DragonFly__))
 #  define BOOST_NO_CWCHAR
 #endif
 //
@@ -75,13 +76,8 @@
 #define BOOST_HAS_GETTIMEOFDAY
 #define BOOST_HAS_PTHREAD_MUTEXATTR_SETTYPE
 #define BOOST_HAS_SIGACTION
+#define BOOST_HAS_CLOCK_GETTIME
 
 // boilerplate code:
 #define BOOST_HAS_UNISTD_H
 #include <boost/config/detail/posix_features.hpp>
-
-
-
-
-
-

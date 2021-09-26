@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/use_default.hpp"
 /*
 Copyright 2019 Glen Joseph Fernandes
 (glenjofe@gmail.com)

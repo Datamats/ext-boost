@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/yes_no.hpp"
 
 #ifndef BOOST_MPL_AUX_YES_NO_HPP_INCLUDED
 #define BOOST_MPL_AUX_YES_NO_HPP_INCLUDED

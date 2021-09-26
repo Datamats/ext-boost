@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/traits/handles_container.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Hartmut Kaiser
     Copyright (c) 2013 Agustin Berge

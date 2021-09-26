@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/config.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2004. Use, modification and
@@ -24,7 +23,7 @@
 #error "macro already defined!"
 #endif
 
-#if BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
 # define BOOST_RANGE_DEDUCED_TYPENAME typename
 #else
 #define BOOST_RANGE_DEDUCED_TYPENAME BOOST_DEDUCED_TYPENAME

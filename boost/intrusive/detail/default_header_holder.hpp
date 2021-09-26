@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/default_header_holder.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

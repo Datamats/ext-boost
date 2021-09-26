@@ -1,4 +1,3 @@
-#line 1 "include/boost/unordered/detail/implementation.hpp"
 // Copyright (C) 2003-2004 Jeremy B. Maitin-Shepard.
 // Copyright (C) 2005-2016 Daniel James
 //

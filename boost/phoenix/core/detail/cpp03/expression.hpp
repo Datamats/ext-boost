@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/cpp03/expression.hpp"
 
 #if !BOOST_PHOENIX_IS_ITERATING
 

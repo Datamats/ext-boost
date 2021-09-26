@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/enable_if.hpp"
 // Boost enable_if library
 
 // Copyright 2003 (c) The Trustees of Indiana University.

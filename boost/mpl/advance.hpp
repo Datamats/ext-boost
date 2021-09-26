@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/advance.hpp"
 
 #ifndef BOOST_MPL_ADVANCE_HPP_INCLUDED
 #define BOOST_MPL_ADVANCE_HPP_INCLUDED

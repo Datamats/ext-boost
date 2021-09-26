@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/look_ahead.hpp"
 //  Copyright (c) 2001, Daniel C. Nuffer
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  http://spirit.sourceforge.net/

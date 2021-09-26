@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/struct/detail/preprocessor/is_seq.hpp"
 /*=============================================================================
     BOOST_PP_VARIADICS version of BOOST_PP_IS_SEQ inspired from 
     boost/mpl/aux_/preprocessor/is_seq.hpp, original copyrights goes to :

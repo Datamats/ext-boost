@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/sp_counted_base_nt.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_NT_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_NT_HPP_INCLUDED
 
@@ -23,6 +22,13 @@
 #include <boost/smart_ptr/detail/sp_noexcept.hpp>
 #include <boost/config.hpp>
 #include <boost/cstdint.hpp>
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using single-threaded, non-atomic sp_counted_base")
+
+#endif
 
 namespace boost
 {

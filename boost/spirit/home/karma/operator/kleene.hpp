@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/operator/kleene.hpp"
 //  Copyright (c) 2001-2011 Joel de Guzman
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
@@ -25,7 +24,8 @@
 #include <boost/spirit/home/support/container.hpp>
 #include <boost/spirit/home/support/handles_container.hpp>
 #include <boost/spirit/home/karma/detail/attributes.hpp>
-
+#include <boost/proto/operators.hpp>
+#include <boost/proto/tags.hpp>
 #include <boost/type_traits/add_const.hpp>
 
 namespace boost { namespace spirit

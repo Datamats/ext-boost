@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_reference.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, 
 //      Howard Hinnant and John Maddock 2000, 2010. 

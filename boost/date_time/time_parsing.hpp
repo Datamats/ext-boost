@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/time_parsing.hpp"
 #ifndef _DATE_TIME_TIME_PARSING_HPP___
 #define _DATE_TIME_TIME_PARSING_HPP___
 
@@ -22,7 +21,7 @@ namespace date_time {
 
   //! computes exponential math like 2^8 => 256, only works with positive integers
   //Not general purpose, but needed b/c std::pow is not available 
-  //everywehere. Hasn't been tested with negatives and zeros
+  //everywhere. Hasn't been tested with negatives and zeros
   template<class int_type>
   inline
   int_type power(int_type base, int_type exponent)
@@ -80,7 +79,7 @@ namespace date_time {
       case 2: {
         sec = boost::lexical_cast<unsigned short>(*beg);
         break;
-      };
+      }
       case 3: {
         int digits = static_cast<int>(beg->length());
         //Works around a bug in MSVC 6 library that does not support
@@ -285,7 +284,7 @@ namespace date_time {
             break;
           }
           default: break;
-      };
+      }
       pos++;
     }
     if(sign) {
@@ -335,11 +334,6 @@ namespace date_time {
     return time_type(d, td);
   }
 
-
-
 } }//namespace date_time
-
-
-
 
 #endif

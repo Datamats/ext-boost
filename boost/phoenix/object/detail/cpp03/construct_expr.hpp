@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/object/detail/cpp03/construct_expr.hpp"
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 
 #include <boost/phoenix/object/detail/cpp03/preprocessed/construct_expr.hpp>

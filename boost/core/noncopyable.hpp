@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/noncopyable.hpp"
 //  Boost noncopyable.hpp header file  --------------------------------------//
 
 //  (C) Copyright Beman Dawes 1999-2003. Distributed under the Boost

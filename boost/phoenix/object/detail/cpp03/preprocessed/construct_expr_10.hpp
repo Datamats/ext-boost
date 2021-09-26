@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/object/detail/cpp03/preprocessed/construct_expr_10.hpp"
 /*==============================================================================
     Copyright (c) 2016 Kohei Takahashi
 

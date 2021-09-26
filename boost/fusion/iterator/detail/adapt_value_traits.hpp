@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/iterator/detail/adapt_value_traits.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

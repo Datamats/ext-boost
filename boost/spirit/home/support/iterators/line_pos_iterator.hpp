@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/line_pos_iterator.hpp"
 /*==============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2010      Bryce Lelbach
@@ -12,7 +11,7 @@
 #define BOOST_SPIRIT_SUPPORT_LINE_POS_ITERATOR
 
 #include <boost/iterator/iterator_adaptor.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/iterator_range_core.hpp>
 
 namespace boost { namespace spirit
 {

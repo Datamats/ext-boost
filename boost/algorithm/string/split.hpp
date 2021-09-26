@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/split.hpp"
 //  Boost string_algo library split.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2006.

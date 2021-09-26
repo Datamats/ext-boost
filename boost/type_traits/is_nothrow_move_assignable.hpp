@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_nothrow_move_assignable.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  (C) Copyright Eric Friedman 2002-2003.

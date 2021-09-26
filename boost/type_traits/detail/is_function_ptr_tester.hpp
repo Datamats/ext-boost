@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/is_function_ptr_tester.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, 
 //  Aleksey Gurtovoy, Howard Hinnant & John Maddock 2000.  
@@ -53,7 +52,7 @@ yes_type is_function_ptr_tester(R(*)(...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R >
 yes_type is_function_ptr_tester(R(__stdcall*)());
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R >
 yes_type is_function_ptr_tester(R(__vectorcall*)());
 #endif
@@ -73,7 +72,7 @@ yes_type is_function_ptr_tester(R(*)(T0 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0));
 #endif
@@ -93,7 +92,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1));
 #endif
@@ -113,7 +112,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2));
 #endif
@@ -133,7 +132,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3));
 #endif
@@ -153,7 +152,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4));
 #endif
@@ -173,7 +172,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5));
 #endif
@@ -193,7 +192,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6));
 #endif
@@ -213,7 +212,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7));
 #endif
@@ -233,7 +232,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8 ...));
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8));
 #endif
@@ -253,7 +252,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9 ...)
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9));
 #endif
@@ -273,7 +272,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10));
 #endif
@@ -293,7 +292,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11));
 #endif
@@ -313,7 +312,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12));
 #endif
@@ -333,7 +332,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13));
 #endif
@@ -353,7 +352,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14));
 #endif
@@ -373,7 +372,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15));
 #endif
@@ -393,7 +392,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16));
 #endif
@@ -413,7 +412,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17));
 #endif
@@ -433,7 +432,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18));
 #endif
@@ -453,7 +452,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19));
 #endif
@@ -473,7 +472,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20));
 #endif
@@ -493,7 +492,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21));
 #endif
@@ -513,7 +512,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22));
 #endif
@@ -533,7 +532,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22, class T23 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22, class T23 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23));
 #endif
@@ -553,7 +552,7 @@ yes_type is_function_ptr_tester(R(*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10
 #ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22, class T23, class T24 >
 yes_type is_function_ptr_tester(R(__stdcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24));
-#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R, class T0, class T1, class T2, class T3, class T4, class T5, class T6, class T7, class T8, class T9, class T10, class T11, class T12, class T13, class T14, class T15, class T16, class T17, class T18, class T19, class T20, class T21, class T22, class T23, class T24 >
 yes_type is_function_ptr_tester(R(__vectorcall*)(T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, T18, T19, T20, T21, T22, T23, T24));
 #endif
@@ -594,7 +593,7 @@ yes_type is_function_ptr_tester(R (*)(BOOST_PP_ENUM_PARAMS(BOOST_PP_COUNTER,T) .
 @#ifdef BOOST_TT_TEST_MS_FUNC_SIGS
 template <class R BOOST_PP_COMMA_IF(BOOST_PP_COUNTER) BOOST_PP_ENUM_PARAMS(BOOST_PP_COUNTER,class T) >
 yes_type is_function_ptr_tester(R (__stdcall*)(BOOST_PP_ENUM_PARAMS(BOOST_PP_COUNTER,T)));
-@#if (_MSC_VER >= 1800) && !defined(__CLR_VER) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
+@#if (_MSC_VER >= 1800) && !defined(_MANAGED) && (defined(_M_IX86_FP) && (_M_IX86_FP >= 2) || defined(_M_X64))
 template <class R BOOST_PP_COMMA_IF(BOOST_PP_COUNTER) BOOST_PP_ENUM_PARAMS(BOOST_PP_COUNTER, class T) >
 yes_type is_function_ptr_tester(R(__vectorcall*)(BOOST_PP_ENUM_PARAMS(BOOST_PP_COUNTER, T)));
 @#endif

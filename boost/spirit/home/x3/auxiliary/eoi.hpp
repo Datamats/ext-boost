@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/auxiliary/eoi.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -36,7 +35,7 @@ namespace boost { namespace spirit { namespace x3
         result_type operator()(eoi_parser const &) const { return "eoi"; }
     };
 
-    auto const eoi = eoi_parser{};
+    constexpr auto eoi = eoi_parser{};
 }}}
 
 #endif

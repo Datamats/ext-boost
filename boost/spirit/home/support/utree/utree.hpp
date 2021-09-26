@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/utree/utree.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -24,7 +23,7 @@
 #include <boost/assert.hpp>
 #include <boost/noncopyable.hpp>
 #include <boost/iterator/iterator_facade.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/iterator_range_core.hpp>
 #include <boost/type_traits/remove_pointer.hpp>
 #include <boost/type_traits/is_polymorphic.hpp>
 #include <boost/utility/enable_if.hpp>
@@ -185,12 +184,6 @@ namespace boost { namespace spirit
         template <typename Iterator>
         basic_string(Iterator first, Iterator last)
           : Base(first, last) {}
-
-        basic_string& operator=(basic_string const& other)
-        {
-            Base::operator=(other);
-            return *this;
-        }
 
         basic_string& operator=(Base const& other)
         {

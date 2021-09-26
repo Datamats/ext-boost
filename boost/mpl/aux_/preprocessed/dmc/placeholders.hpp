@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/dmc/placeholders.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 // Copyright Peter Dimov 2001-2003

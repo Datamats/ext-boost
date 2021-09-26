@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/composite/epsilon.hpp"
 /*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille
@@ -31,7 +30,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 //
 //  condition_parser class
 //
-//      handles expresions of the form
+//      handles expressions of the form
 //
 //          epsilon_p(cond)
 //
@@ -94,7 +93,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 //
 //      handles expressions of the form
 //          epsilon_p(subject)
-//      where subject is a parser. The expresion returns a composite
+//      where subject is a parser. The expression returns a composite
 //      parser that returns an empty match if the subject parser matches.
 //
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/karma/directive/as.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c)      2010 Bryce Lelbach
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#if !defined(SPIRIT_KARMA_AS_DEC_18_0510PM)
-#define SPIRIT_KARMA_AS_DEC_18_0510PM
+#ifndef BOOST_SPIRIT_KARMA_DIRECTIVE_AS_HPP
+#define BOOST_SPIRIT_KARMA_DIRECTIVE_AS_HPP
 
 #if defined(_MSC_VER)
 #pragma once

@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/make_void.hpp"
 /*
 Copyright 2017 Glen Joseph Fernandes
 (glenjofe@gmail.com)

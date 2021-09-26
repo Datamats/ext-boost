@@ -1,4 +1,3 @@
-#line 1 "include/boost/pool/pool_alloc.hpp"
 // Copyright (C) 2000, 2001 Stephen Cleary
 // Copyright (C) 2010 Paul A. Bristow added Doxygen comments.
 //
@@ -95,7 +94,7 @@ STLport (with any compiler), ver. 4.0 and earlier.
 
 // The following code will be put into Boost.Config in a later revision
 #if defined(_RWSTD_VER) || defined(__SGI_STL_PORT) || \
-    BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x582))
+    BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x582))
  #define BOOST_NO_PROPER_STL_DEALLOCATE
 #endif
 

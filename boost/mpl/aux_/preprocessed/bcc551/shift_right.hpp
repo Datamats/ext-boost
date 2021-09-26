@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc551/shift_right.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 // Copyright Jaap Suter 2003

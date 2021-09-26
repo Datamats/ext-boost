@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/once.hpp"
 #ifndef BOOST_THREAD_ONCE_HPP
 #define BOOST_THREAD_ONCE_HPP
 

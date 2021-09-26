@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/lightweight_mutex.hpp"
 #ifndef BOOST_DETAIL_LIGHTWEIGHT_MUTEX_HPP_INCLUDED
 #define BOOST_DETAIL_LIGHTWEIGHT_MUTEX_HPP_INCLUDED
 

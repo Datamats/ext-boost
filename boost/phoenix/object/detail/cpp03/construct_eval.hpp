@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/object/detail/cpp03/construct_eval.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 #ifndef BOOST_PHOENIX_OBJECT_DETAIL_CONSTRUCT_EVAL_HPP

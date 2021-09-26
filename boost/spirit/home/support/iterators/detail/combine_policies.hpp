@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/detail/combine_policies.hpp"
 //  Copyright (c) 2001-2012 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying

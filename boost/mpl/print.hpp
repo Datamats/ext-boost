@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/print.hpp"
 
 #ifndef BOOST_MPL_PRINT_HPP_INCLUDED
 #define BOOST_MPL_PRINT_HPP_INCLUDED

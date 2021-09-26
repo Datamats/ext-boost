@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/int.hpp"
 
 #ifndef BOOST_MPL_INT_HPP_INCLUDED
 #define BOOST_MPL_INT_HPP_INCLUDED

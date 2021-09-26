@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/detail/preprocessed/pack_impl.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file pack_impl.hpp
     /// Contains helpers for pseudo-pack expansion.

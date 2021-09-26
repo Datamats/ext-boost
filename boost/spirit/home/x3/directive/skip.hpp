@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/directive/skip.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2013 Agustin Berge
@@ -24,7 +23,7 @@ namespace boost { namespace spirit { namespace x3
         static bool const is_pass_through_unary = true;
         static bool const handles_container = Subject::handles_container;
 
-        reskip_directive(Subject const& subject)
+        constexpr reskip_directive(Subject const& subject)
           : base_type(subject) {}
 
         template <typename Iterator, typename Context
@@ -63,7 +62,7 @@ namespace boost { namespace spirit { namespace x3
         static bool const is_pass_through_unary = true;
         static bool const handles_container = Subject::handles_container;
 
-        skip_directive(Subject const& subject, Skipper const& skipper)
+        constexpr skip_directive(Subject const& subject, Skipper const& skipper)
           : base_type(subject)
           , skipper(skipper)
         {}
@@ -88,11 +87,11 @@ namespace boost { namespace spirit { namespace x3
         template <typename Skipper>
         struct skip_gen
         {
-            skip_gen(Skipper const& skipper)
+            constexpr skip_gen(Skipper const& skipper)
               : skipper_(skipper) {}
 
             template <typename Subject>
-            skip_directive<typename extension::as_parser<Subject>::value_type, Skipper>
+            constexpr skip_directive<typename extension::as_parser<Subject>::value_type, Skipper>
             operator[](Subject const& subject) const
             {
                 return { as_parser(subject), skipper_ };
@@ -102,20 +101,20 @@ namespace boost { namespace spirit { namespace x3
         };
 
         template <typename Skipper>
-        skip_gen<Skipper> const operator()(Skipper const& skipper) const
+        constexpr skip_gen<Skipper> const operator()(Skipper const& skipper) const
         {
             return { skipper };
         }
 
         template <typename Subject>
-        reskip_directive<typename extension::as_parser<Subject>::value_type>
+        constexpr reskip_directive<typename extension::as_parser<Subject>::value_type>
         operator[](Subject const& subject) const
         {
             return { as_parser(subject) };
         }
     };
 
-    auto const skip = reskip_gen{};
+    constexpr auto skip = reskip_gen{};
 }}}
 
 #endif

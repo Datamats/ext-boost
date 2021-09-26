@@ -1,4 +1,3 @@
-#line 1 "include/boost/limits.hpp"
 
 //  (C) Copyright John maddock 1999. 
 //  (C) David Abrahams 2002.  Distributed under the Boost

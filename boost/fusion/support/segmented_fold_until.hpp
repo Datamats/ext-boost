@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/segmented_fold_until.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

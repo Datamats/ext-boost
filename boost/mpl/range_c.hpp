@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/range_c.hpp"
 
 #ifndef BOOST_MPL_RANGE_C_HPP_INCLUDED
 #define BOOST_MPL_RANGE_C_HPP_INCLUDED

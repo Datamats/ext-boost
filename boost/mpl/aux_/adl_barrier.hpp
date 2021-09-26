@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/adl_barrier.hpp"
 
 #ifndef BOOST_MPL_AUX_ADL_BARRIER_HPP_INCLUDED
 #define BOOST_MPL_AUX_ADL_BARRIER_HPP_INCLUDED

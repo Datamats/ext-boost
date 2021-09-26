@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/empty_fwd.hpp"
 
 #ifndef BOOST_MPL_EMPTY_FWD_HPP_INCLUDED
 #define BOOST_MPL_EMPTY_FWD_HPP_INCLUDED

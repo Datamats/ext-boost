@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/vararg_matches_impl.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file vararg_matches_impl.hpp
     /// Specializations of the vararg_matches_impl template

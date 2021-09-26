@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/minimal_pair_header.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2015

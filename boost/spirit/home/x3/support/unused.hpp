@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/unused.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -44,19 +43,19 @@ namespace boost { namespace spirit { namespace x3
         {
             return {};
         }
+
+        friend std::ostream& operator<<(std::ostream& out, unused_type const&)
+        {
+            return out;
+        }
+
+        friend std::istream& operator>>(std::istream& in, unused_type&)
+        {
+            return in;
+        }
     };
 
-    auto const unused = unused_type{};
-
-    inline std::ostream& operator<<(std::ostream& out, unused_type const&)
-    {
-        return out;
-    }
-
-    inline std::istream& operator>>(std::istream& in, unused_type&)
-    {
-        return in;
-    }
+    constexpr auto unused = unused_type{};
 }}}
 
 #endif

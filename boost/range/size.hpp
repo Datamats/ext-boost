@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/size.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2004. Use, modification and
@@ -63,7 +62,7 @@ namespace boost
         BOOST_RANGE_CONCEPT_ASSERT((boost::SinglePassRangeConcept<SinglePassRange>));
 #endif
 
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564)) && \
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564)) && \
     !BOOST_WORKAROUND(__GNUC__, < 3) \
     /**/
         using namespace range_detail;

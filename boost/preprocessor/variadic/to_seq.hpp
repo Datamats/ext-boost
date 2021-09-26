@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/variadic/to_seq.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2011.                                    *
@@ -19,8 +18,6 @@
 #
 # /* BOOST_PP_VARIADIC_TO_SEQ */
 #
-# if BOOST_PP_VARIADICS
-#    define BOOST_PP_VARIADIC_TO_SEQ(...) BOOST_PP_TUPLE_TO_SEQ((__VA_ARGS__))
-# endif
+# define BOOST_PP_VARIADIC_TO_SEQ(...) BOOST_PP_TUPLE_TO_SEQ((__VA_ARGS__))
 #
 # endif

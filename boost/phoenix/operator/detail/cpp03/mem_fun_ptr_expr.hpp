@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/operator/detail/cpp03/mem_fun_ptr_expr.hpp"
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 
 #include <boost/phoenix/operator/detail/cpp03/preprocessed/mem_fun_ptr_expr.hpp>

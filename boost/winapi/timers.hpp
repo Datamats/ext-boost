@@ -1,4 +1,3 @@
-#line 1 "include/boost/winapi/timers.hpp"
 /*
  * Copyright 2010 Vicente J. Botet Escriba
  * Copyright 2015 Andrey Semashev
@@ -11,6 +10,7 @@
 #define BOOST_WINAPI_TIMERS_HPP_INCLUDED_
 
 #include <boost/winapi/basic_types.hpp>
+#include <boost/winapi/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -18,10 +18,10 @@
 
 #if !defined( BOOST_USE_WINDOWS_H )
 extern "C" {
-BOOST_SYMBOL_IMPORT boost::winapi::BOOL_ BOOST_WINAPI_WINAPI_CC
+BOOST_WINAPI_IMPORT_EXCEPT_WM boost::winapi::BOOL_ BOOST_WINAPI_WINAPI_CC
 QueryPerformanceCounter(::_LARGE_INTEGER* lpPerformanceCount);
 
-BOOST_SYMBOL_IMPORT boost::winapi::BOOL_ BOOST_WINAPI_WINAPI_CC
+BOOST_WINAPI_IMPORT_EXCEPT_WM boost::winapi::BOOL_ BOOST_WINAPI_WINAPI_CC
 QueryPerformanceFrequency(::_LARGE_INTEGER* lpFrequency);
 } // extern "C"
 #endif
@@ -42,5 +42,7 @@ BOOST_FORCEINLINE BOOL_ QueryPerformanceFrequency(LARGE_INTEGER_* lpFrequency)
 
 }
 }
+
+#include <boost/winapi/detail/footer.hpp>
 
 #endif // BOOST_WINAPI_TIMERS_HPP_INCLUDED_

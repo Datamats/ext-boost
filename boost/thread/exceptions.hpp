@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/exceptions.hpp"
 // Copyright (C) 2001-2003
 // William E. Kempf
 // Copyright (C) 2007-9 Anthony Williams

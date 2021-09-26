@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/compiler/gcc_xml.h"
 /*
 Copyright Rene Rivera 2008-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -12,17 +11,18 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_COMP_GCCXML`]
+/* tag::reference[]
+= `BOOST_COMP_GCCXML`
 
-[@http://www.gccxml.org/ GCC XML] compiler.
+http://www.gccxml.org/[GCC XML] compiler.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__GCCXML__`] [__predef_detection__]]
-    ]
- */
+| `+__GCCXML__+` | {predef_detection}
+|===
+*/ // end::reference[]
 
 #define BOOST_COMP_GCCXML BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

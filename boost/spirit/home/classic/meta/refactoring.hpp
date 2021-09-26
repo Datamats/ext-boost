@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/meta/refactoring.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Hartmut Kaiser
     http://spirit.sourceforge.net/

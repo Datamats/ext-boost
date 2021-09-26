@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/throw_exception.hpp"
 #ifndef BOOST_SERIALIZATION_THROW_EXCEPTION_HPP_INCLUDED
 #define BOOST_SERIALIZATION_THROW_EXCEPTION_HPP_INCLUDED
 
@@ -27,13 +26,13 @@ namespace serialization {
 
 #ifdef BOOST_NO_EXCEPTIONS
 
-inline void throw_exception(std::exception const & e) {
+BOOST_NORETURN inline void throw_exception(std::exception const & e) {
     ::boost::throw_exception(e);
 }
 
 #else
 
-template<class E> inline void throw_exception(E const & e){
+template<class E> BOOST_NORETURN inline void throw_exception(E const & e){
     throw e;
 }
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/vector_135.hpp"
 ////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // vector_135.hpp: serialization for stl vector templates for compatibility
 //                 with release 1.35, which had a bug

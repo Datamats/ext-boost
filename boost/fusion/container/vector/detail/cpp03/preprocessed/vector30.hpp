@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/vector/detail/cpp03/preprocessed/vector30.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

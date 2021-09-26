@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/replace.hpp"
 //  Boost string_algo library replace.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2006.

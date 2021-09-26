@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/O1_size_fwd.hpp"
 
 #ifndef BOOST_MPL_O1_SIZE_FWD_HPP_INCLUDED
 #define BOOST_MPL_O1_SIZE_FWD_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/detail/preprocessed/try_catch_expression_20.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller

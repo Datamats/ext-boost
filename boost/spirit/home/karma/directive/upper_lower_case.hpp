@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/karma/directive/upper_lower_case.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#if !defined(SPIRIT_UPPER_LOWER_CASE_JANUARY_19_2009_1142AM)
-#define SPIRIT_UPPER_LOWER_CASE_JANUARY_19_2009_1142AM
+#ifndef BOOST_SPIRIT_KARMA_DIRECTIVE_UPPER_LOWER_CASE_HPP
+#define BOOST_SPIRIT_KARMA_DIRECTIVE_UPPER_LOWER_CASE_HPP
 
 #if defined(_MSC_VER)
 #pragma once

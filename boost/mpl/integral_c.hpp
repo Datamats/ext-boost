@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/integral_c.hpp"
 
 #ifndef BOOST_MPL_INTEGRAL_C_HPP_INCLUDED
 #define BOOST_MPL_INTEGRAL_C_HPP_INCLUDED
@@ -34,7 +33,7 @@
 
 
 #if !defined(BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION) \
- && !BOOST_WORKAROUND(__BORLANDC__, <= 0x551)
+ && !BOOST_WORKAROUND(BOOST_BORLANDC, <= 0x551)
 BOOST_MPL_AUX_ADL_BARRIER_NAMESPACE_OPEN
 // 'bool' constant doesn't have 'next'/'prior' members
 template< bool C >

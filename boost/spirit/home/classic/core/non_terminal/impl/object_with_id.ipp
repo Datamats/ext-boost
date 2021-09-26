@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/non_terminal/impl/object_with_id.ipp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille
@@ -103,7 +102,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 #ifdef BOOST_SPIRIT_THREADSAFE
             boost::unique_lock<boost::mutex> lock(mutex);
 #endif
-            if (free_ids.size())
+            if (!free_ids.empty())
             {
                 object_id id = *free_ids.rbegin();
                 free_ids.pop_back();

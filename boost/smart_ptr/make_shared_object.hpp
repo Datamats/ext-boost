@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/make_shared_object.hpp"
 #ifndef BOOST_SMART_PTR_MAKE_SHARED_OBJECT_HPP_INCLUDED
 #define BOOST_SMART_PTR_MAKE_SHARED_OBJECT_HPP_INCLUDED
 
@@ -188,7 +187,7 @@ template< class T > struct sp_if_not_array< T[] >
 {
 };
 
-#if !defined( __BORLANDC__ ) || !BOOST_WORKAROUND( __BORLANDC__, < 0x600 )
+#if !defined( BOOST_BORLANDC ) || !BOOST_WORKAROUND( BOOST_BORLANDC, < 0x600 )
 
 template< class T, std::size_t N > struct sp_if_not_array< T[N] >
 {

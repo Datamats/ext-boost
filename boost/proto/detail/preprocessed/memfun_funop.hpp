@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/memfun_funop.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // memfun_funop.hpp
     // Contains overloads of memfun::operator().

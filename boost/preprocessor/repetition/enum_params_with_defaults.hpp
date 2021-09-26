@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/repetition/enum_params_with_defaults.hpp"
 # /* Copyright (C) 2001
 #  * Housemarque Oy
 #  * http://www.housemarque.com

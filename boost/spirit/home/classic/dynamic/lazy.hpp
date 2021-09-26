@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/dynamic/lazy.hpp"
 /*=============================================================================
     Copyright (c) 2003 Joel de Guzman
     Copyright (c) 2003 Vaclav Vesely

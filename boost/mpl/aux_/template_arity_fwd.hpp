@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/template_arity_fwd.hpp"
 
 #ifndef BOOST_MPL_AUX_TEMPLATE_ARITY_FWD_HPP_INCLUDED
 #define BOOST_MPL_AUX_TEMPLATE_ARITY_FWD_HPP_INCLUDED

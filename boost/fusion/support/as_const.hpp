@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/as_const.hpp"
 /*=============================================================================
     Copyright (c) 2012 Nathan Ridge
 

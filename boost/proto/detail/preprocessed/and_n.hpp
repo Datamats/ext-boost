@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/and_n.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file and_n.hpp
     /// Definitions of and_N, and_impl

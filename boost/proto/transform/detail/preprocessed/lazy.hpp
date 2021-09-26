@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/detail/preprocessed/lazy.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file lazy.hpp
     /// Contains definition of the lazy<> transform.

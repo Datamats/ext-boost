@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/is_function_msvc10_fix.hpp"
 
 //  (C) Copyright John Maddock 2018. 
 //  Use, modification and distribution are subject to the Boost Software License,

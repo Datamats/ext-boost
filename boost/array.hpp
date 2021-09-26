@@ -1,4 +1,3 @@
-#line 1 "include/boost/array.hpp"
 /* The following code declares class array,
  * an STL container (as wrapper) for arrays of constant size.
  *
@@ -42,13 +41,12 @@
 #endif
 
 #include <cstddef>
+#include <iterator>
 #include <stdexcept>
 #include <boost/assert.hpp>
 #include <boost/static_assert.hpp>
 #include <boost/swap.hpp>
 
-// Handles broken standard libraries better than <iterator>
-#include <boost/detail/iterator.hpp>
 #include <boost/throw_exception.hpp>
 #include <algorithm>
 

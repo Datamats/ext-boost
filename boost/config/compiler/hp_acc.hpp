@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/hp_acc.hpp"
 //  (C) Copyright John Maddock 2001 - 2003.
 //  (C) Copyright Jens Maurer 2001 - 2003.
 //  (C) Copyright Aleksey Gurtovoy 2002.
@@ -126,6 +125,7 @@
 #define BOOST_NO_CXX11_INLINE_NAMESPACES
 #define BOOST_NO_CXX11_REF_QUALIFIERS
 #define BOOST_NO_CXX11_THREAD_LOCAL
+#define BOOST_NO_CXX11_UNRESTRICTED_UNION
 
 /*
   See https://forums13.itrc.hp.com/service/forums/questionanswer.do?threadId=1443331 and

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/iter_push_front.hpp"
 
 #ifndef BOOST_MPL_ITER_PUSH_FRONT_HPP_INCLUDED
 #define BOOST_MPL_ITER_PUSH_FRONT_HPP_INCLUDED

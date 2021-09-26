@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/functional/range/rend.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file rend.hpp
 /// Proto callables for boost::rend()

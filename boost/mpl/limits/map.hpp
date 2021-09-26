@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/limits/map.hpp"
 
 #ifndef BOOST_MPL_LIMITS_MAP_HPP_INCLUDED
 #define BOOST_MPL_LIMITS_MAP_HPP_INCLUDED

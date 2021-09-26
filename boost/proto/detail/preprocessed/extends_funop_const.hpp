@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/extends_funop_const.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file extends_funop_const.hpp
     /// Definitions for extends\<\>::operator()

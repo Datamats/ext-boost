@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/v4/perl_matcher_recursive.hpp"
 /*
  *
  * Copyright (c) 2002
@@ -196,7 +195,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_startmark()
       {
       // conditional expression:
       const re_alt* alt = static_cast<const re_alt*>(pstate->next.p);
-      BOOST_ASSERT(alt->type == syntax_element_alt);
+      BOOST_REGEX_ASSERT(alt->type == syntax_element_alt);
       pstate = alt->next.p;
       if(pstate->type == syntax_element_assert_backref)
       {
@@ -207,7 +206,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_startmark()
       else
       {
          // zero width assertion, have to match this recursively:
-         BOOST_ASSERT(pstate->type == syntax_element_startmark);
+         BOOST_REGEX_ASSERT(pstate->type == syntax_element_startmark);
          bool negated = static_cast<const re_brace*>(pstate)->index == -2;
          BidiIterator saved_position = position;
          const re_syntax_base* next_pstate = static_cast<const re_jump*>(pstate->next.p)->alt.p->next.p;
@@ -236,7 +235,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_startmark()
       }
    default:
    {
-      BOOST_ASSERT(index > 0);
+      BOOST_REGEX_ASSERT(index > 0);
       if((m_match_flags & match_nosubs) == 0)
       {
          backup_subex<BidiIterator> sub(*m_presult, index);
@@ -549,11 +548,11 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_char_repeat()
 #pragma warning(disable:4127)
 #pragma warning(disable:4267)
 #endif
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option push -w-8008 -w-8066 -w-8004
 #endif
    const re_repeat* rep = static_cast<const re_repeat*>(pstate);
-   BOOST_ASSERT(1 == static_cast<const re_literal*>(rep->next.p)->length);
+   BOOST_REGEX_ASSERT(1 == static_cast<const re_literal*>(rep->next.p)->length);
    const char_type what = *reinterpret_cast<const char_type*>(static_cast<const re_literal*>(rep->next.p) + 1);
    //
    // start by working out how much we can skip:
@@ -638,7 +637,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_char_repeat()
          return false;
       }
    }while(true);
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option pop
 #endif
 #ifdef BOOST_MSVC
@@ -653,7 +652,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_set_repeat()
 #pragma warning(push)
 #pragma warning(disable:4127)
 #endif
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option push -w-8008 -w-8066 -w-8004
 #endif
    const re_repeat* rep = static_cast<const re_repeat*>(pstate);
@@ -733,7 +732,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_set_repeat()
          return false;
       }
    }while(true);
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option pop
 #endif
 #ifdef BOOST_MSVC
@@ -748,7 +747,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_long_set_repeat()
 #pragma warning(push)
 #pragma warning(disable:4127)
 #endif
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option push -w-8008 -w-8066 -w-8004
 #endif
    typedef typename traits::char_class_type char_class_type;
@@ -829,7 +828,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_long_set_repeat()
          return false;
       }
    }while(true);
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #pragma option pop
 #endif
 #ifdef BOOST_MSVC
@@ -893,7 +892,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::backtrack_till_match(std::si
 template <class BidiIterator, class Allocator, class traits>
 bool perl_matcher<BidiIterator, Allocator, traits>::match_recursion()
 {
-   BOOST_ASSERT(pstate->type == syntax_element_recurse);
+   BOOST_REGEX_ASSERT(pstate->type == syntax_element_recurse);
    //
    // Set new call stack:
    //
@@ -988,7 +987,7 @@ bool perl_matcher<BidiIterator, Allocator, traits>::match_match()
 {
    if(!recursion_stack.empty())
    {
-      BOOST_ASSERT(0 == recursion_stack.back().idx);
+      BOOST_REGEX_ASSERT(0 == recursion_stack.back().idx);
       const re_syntax_base* saved_state = pstate = recursion_stack.back().preturn_address;
       *m_presult = recursion_stack.back().results;
       recursion_stack.pop_back();

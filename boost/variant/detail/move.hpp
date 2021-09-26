@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/move.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/move.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
@@ -6,7 +5,7 @@
 //
 //  Copyright (c) 2002-2003 Eric Friedman
 //  Copyright (c) 2002 by Andrei Alexandrescu
-//  Copyright (c) 2013-2019 Antony Polukhin
+//  Copyright (c) 2013-2021 Antony Polukhin
 //
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -21,12 +20,9 @@
 #ifndef BOOST_VARIANT_DETAIL_MOVE_HPP
 #define BOOST_VARIANT_DETAIL_MOVE_HPP
 
-#include <iterator> // for iterator_traits
-#include <new> // for placement new
-
 #include <boost/config.hpp>
 #include <boost/detail/workaround.hpp>
-#include <boost/move/move.hpp>
+#include <boost/move/utility_core.hpp> // for boost::move
 #include <boost/move/adl_move_swap.hpp>
 
 namespace boost { namespace detail { namespace variant {

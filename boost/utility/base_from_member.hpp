@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility/base_from_member.hpp"
 //  boost utility/base_from_member.hpp header file  --------------------------//
 
 //  Copyright 2001, 2003, 2004, 2012 Daryle Walker.  Use, modification, and

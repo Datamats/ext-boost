@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/text_woarchive_impl.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // text_woarchive_impl.ipp:
 

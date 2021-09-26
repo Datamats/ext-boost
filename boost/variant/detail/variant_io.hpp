@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/variant_io.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/variant_io.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

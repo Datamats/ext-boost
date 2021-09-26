@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/lexer/lexertl/iterator.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
@@ -102,7 +101,7 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
             return unique_functor_type::set_state(*this, state);
         }
 
-        // get the curent state for the underlying lexer object
+        // get the current state for the underlying lexer object
         std::size_t get_state()
         {
             return unique_functor_type::get_state(*this);

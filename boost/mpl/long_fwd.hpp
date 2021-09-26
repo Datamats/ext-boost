@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/long_fwd.hpp"
 
 #ifndef BOOST_MPL_LONG_FWD_HPP_INCLUDED
 #define BOOST_MPL_LONG_FWD_HPP_INCLUDED

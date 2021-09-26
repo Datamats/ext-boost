@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/unused.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2018 Kohei Takahashi
@@ -29,23 +28,10 @@ namespace boost { namespace fusion
         {
         })
 
-        BOOST_CONSTEXPR BOOST_FUSION_GPU_ENABLED
-        BOOST_DEFAULTED_FUNCTION(
-        unused_type(unused_type const&) BOOST_FUSION_NOEXCEPT_ON_DEFAULTED,
-        {
-        })
-
         template <typename T>
         BOOST_CONSTEXPR BOOST_FUSION_GPU_ENABLED
         unused_type(T const&) BOOST_NOEXCEPT
         {
-        }
-
-        BOOST_FUSION_CONSTEXPR_THIS BOOST_FUSION_GPU_ENABLED
-        unused_type const&
-        operator=(unused_type const&) const BOOST_NOEXCEPT
-        {
-            return *this;
         }
     };
 

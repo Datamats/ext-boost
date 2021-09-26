@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/has_nothrow_copy.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,
@@ -15,7 +14,7 @@
 
 #ifdef BOOST_HAS_NOTHROW_COPY
 
-#if defined(BOOST_CLANG) || defined(__GNUC__) || defined(__ghs__) || defined(__CODEGEARC__) || defined(__SUNPRO_CC)
+#if defined(BOOST_CLANG) || defined(__GNUC__) || defined(__ghs__) || defined(BOOST_CODEGEARC) || defined(__SUNPRO_CC)
 #include <boost/type_traits/is_volatile.hpp>
 #include <boost/type_traits/is_copy_constructible.hpp>
 #include <boost/type_traits/is_reference.hpp>

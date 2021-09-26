@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/encoding/undef.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/value_type.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2004. Use, modification and

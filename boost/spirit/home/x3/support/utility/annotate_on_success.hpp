@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/utility/annotate_on_success.hpp"
 /*=============================================================================
     Copyright (c) 2001-2015 Joel de Guzman
 
@@ -43,7 +42,7 @@ namespace boost { namespace spirit { namespace x3
         inline void on_success(Iterator const& first, Iterator const& last
           , T& ast, Context const& context)
         {
-            auto& error_handler = get<error_handler_tag>(context).get();
+            auto& error_handler = x3::get<error_handler_tag>(context).get();
             error_handler.tag(ast, first, last);
         }
     };

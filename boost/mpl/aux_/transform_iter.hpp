@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/transform_iter.hpp"
 
 #ifndef BOOST_MPL_AUX_TRANSFORM_ITER_HPP_INCLUDED
 #define BOOST_MPL_AUX_TRANSFORM_ITER_HPP_INCLUDED

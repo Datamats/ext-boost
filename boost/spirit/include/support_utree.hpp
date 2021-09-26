@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/include/support_utree.hpp"
 /*=============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
     Copyright (c) 2001-2010 Hartmut Kaiser

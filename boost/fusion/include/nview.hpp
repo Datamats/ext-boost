@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/include/nview.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
 

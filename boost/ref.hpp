@@ -1,4 +1,3 @@
-#line 1 "include/boost/ref.hpp"
 /*
  * Copyright (c) 2014 Glen Fernandes
  *

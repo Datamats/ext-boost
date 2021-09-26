@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/vector/aux_/begin_end.hpp"
 
 #ifndef BOOST_MPL_VECTOR_AUX_BEGIN_END_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_AUX_BEGIN_END_HPP_INCLUDED

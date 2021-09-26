@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/detail/select_compiler_config.hpp"
 //  Boost compiler configuration selection header file
 
 //  (C) Copyright John Maddock 2001 - 2003. 
@@ -40,7 +39,7 @@
 //  Intel
 #   define BOOST_COMPILER_CONFIG "boost/config/compiler/intel.hpp"
 
-#elif defined __clang__ && !defined(__ibmxl__)
+#elif defined __clang__ && !defined(__ibmxl__) && !defined(__CODEGEARC__)
 //  Clang C++ emulates GCC, so it has to appear early.
 #   define BOOST_COMPILER_CONFIG "boost/config/compiler/clang.hpp"
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/constant.hpp"
 /*
 Copyright 2018 Glen Joseph Fernandes
 (glenjofe@gmail.com)

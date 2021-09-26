@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/vector/detail/cpp03/vector10_fwd.hpp"
 #ifndef BOOST_PP_IS_ITERATING
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler

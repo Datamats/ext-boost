@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/default.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file default.hpp
 /// Contains definition of the _default transform, which gives operators their

@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/classifier_impl/arity10_0.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

@@ -1,4 +1,3 @@
-#line 1 "include/boost/system/api_config.hpp"
 //  boost/system/api_config.hpp  -------------------------------------------------------//
 
 //  Copyright Beman Dawes 2003, 2006, 2010

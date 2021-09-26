@@ -1,4 +1,3 @@
-#line 1 "include/boost/weak_ptr.hpp"
 #ifndef BOOST_WEAK_PTR_HPP_INCLUDED
 #define BOOST_WEAK_PTR_HPP_INCLUDED
 

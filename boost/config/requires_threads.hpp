@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/requires_threads.hpp"
 //  (C) Copyright John Maddock 2003. 
 //  Use, modification and distribution are subject to the 
 //  Boost Software License, Version 1.0. (See accompanying file 
@@ -55,7 +54,7 @@
 //  Compaq Tru64 Unix cxx
 #   error "Compiler threading support is not turned on. Please set the correct command line options for threading: -pthread"
 
-#elif defined __BORLANDC__
+#elif defined BOOST_BORLANDC
 //  Borland
 #   error "Compiler threading support is not turned on. Please set the correct command line options for threading: -tWM"
 

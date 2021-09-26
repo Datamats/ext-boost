@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/conditional.hpp"
 //  (C) Copyright John Maddock 2010.  
 //  Use, modification and distribution are subject to the Boost Software License,
 //  Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at

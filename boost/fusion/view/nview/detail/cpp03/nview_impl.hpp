@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/nview/detail/cpp03/nview_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009 Hartmut Kaiser
 

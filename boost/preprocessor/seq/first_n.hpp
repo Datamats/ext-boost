@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/seq/first_n.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

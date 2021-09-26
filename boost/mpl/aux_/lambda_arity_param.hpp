@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/lambda_arity_param.hpp"
 
 #ifndef BOOST_MPL_AUX_LAMBDA_ARITY_PARAM_HPP_INCLUDED
 #define BOOST_MPL_AUX_LAMBDA_ARITY_PARAM_HPP_INCLUDED

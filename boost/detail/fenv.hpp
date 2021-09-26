@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/fenv.hpp"
 /*=============================================================================
     Copyright (c) 2010      Bryce Lelbach
 

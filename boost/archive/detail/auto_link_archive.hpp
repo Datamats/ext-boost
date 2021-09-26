@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/detail/auto_link_archive.hpp"
 #ifndef BOOST_ARCHIVE_DETAIL_AUTO_LINK_ARCHIVE_HPP
 #define BOOST_ARCHIVE_DETAIL_AUTO_LINK_ARCHIVE_HPP
 
@@ -17,12 +16,12 @@
 
 //  See library home page at http://www.boost.org/libs/serialization
 
-//----------------------------------------------------------------------------// 
+//----------------------------------------------------------------------------//
 
 // This header implements separate compilation features as described in
 // http://www.boost.org/more/separate_compilation.html
 
-//  enable automatic library variant selection  ------------------------------// 
+//  enable automatic library variant selection  ------------------------------//
 
 #include <boost/archive/detail/decl.hpp>
 

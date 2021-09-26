@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/gcc/minus.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

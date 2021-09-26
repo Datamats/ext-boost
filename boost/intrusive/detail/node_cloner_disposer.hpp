@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/node_cloner_disposer.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014
@@ -92,7 +91,7 @@ struct node_disposer
 
    BOOST_INTRUSIVE_FORCEINLINE void operator()(const node_ptr & p)
    {
-      if(safemode_or_autounlink)
+      BOOST_IF_CONSTEXPR(safemode_or_autounlink)
          node_algorithms::init(p);
       base_t::get()(traits_->to_value_ptr(p));
    }

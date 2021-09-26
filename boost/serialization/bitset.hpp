@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/bitset.hpp"
 /*!
  * \file      bitset.hpp
  * \brief     Provides Boost.Serialization support for std::bitset

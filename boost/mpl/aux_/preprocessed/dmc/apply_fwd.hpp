@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/dmc/apply_fwd.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

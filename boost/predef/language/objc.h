@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/language/objc.h"
 /*
 Copyright Rene Rivera 2011-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -12,17 +11,18 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_LANG_OBJC`]
+/* tag::reference[]
+= `BOOST_LANG_OBJC`
 
-[@http://en.wikipedia.org/wiki/Objective-C Objective-C] language.
+http://en.wikipedia.org/wiki/Objective-C[Objective-C] language.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__OBJC__`] [__predef_detection__]]
-    ]
- */
+| `+__OBJC__+` | {predef_detection}
+|===
+*/ // end::reference[]
 
 #define BOOST_LANG_OBJC BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/move/detail/placement_new.hpp"
 #ifndef BOOST_MOVE_DETAIL_PLACEMENT_NEW_HPP
 #define BOOST_MOVE_DETAIL_PLACEMENT_NEW_HPP
 ///////////////////////////////////////////////////////////////////////////////

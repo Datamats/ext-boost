@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/detail/preprocessed/try_catch_expression.hpp"
 /*==============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

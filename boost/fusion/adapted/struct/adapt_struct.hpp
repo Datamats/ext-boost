@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/struct/adapt_struct.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
     Copyright (c) 2009-2011 Christopher Schmidt

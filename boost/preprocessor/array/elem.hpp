@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/array/elem.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/algorithm/query/find_if_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

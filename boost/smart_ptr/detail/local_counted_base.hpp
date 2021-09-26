@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/local_counted_base.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_LOCAL_COUNTED_BASE_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_LOCAL_COUNTED_BASE_HPP_INCLUDED
 
@@ -114,12 +113,12 @@ public:
 
 #endif
 
-    virtual void local_cb_destroy() BOOST_SP_NOEXCEPT
+    void local_cb_destroy() BOOST_SP_NOEXCEPT BOOST_OVERRIDE
     {
         delete this;
     }
 
-    virtual boost::detail::shared_count local_cb_get_shared_count() const BOOST_SP_NOEXCEPT
+    boost::detail::shared_count local_cb_get_shared_count() const BOOST_SP_NOEXCEPT BOOST_OVERRIDE
     {
         return pn_;
     }
@@ -131,12 +130,12 @@ public:
 
     shared_count pn_;
 
-    virtual void local_cb_destroy() BOOST_SP_NOEXCEPT
+    void local_cb_destroy() BOOST_SP_NOEXCEPT BOOST_OVERRIDE
     {
         shared_count().swap( pn_ );
     }
 
-    virtual boost::detail::shared_count local_cb_get_shared_count() const BOOST_SP_NOEXCEPT
+    boost::detail::shared_count local_cb_get_shared_count() const BOOST_SP_NOEXCEPT BOOST_OVERRIDE
     {
         return pn_;
     }

@@ -1,4 +1,3 @@
-#line 1 "include/boost/next_prior.hpp"
 //  Boost next_prior.hpp header file  ---------------------------------------//
 
 //  (C) Copyright Dave Abrahams and Daniel Walker 1999-2003.

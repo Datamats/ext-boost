@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/kai.hpp"
 //  (C) Copyright John Maddock 2001. 
 //  (C) Copyright David Abrahams 2002. 
 //  (C) Copyright Aleksey Gurtovoy 2002. 

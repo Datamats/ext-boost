@@ -1,9 +1,8 @@
-#line 1 "include/boost/asio/local/detail/endpoint.hpp"
 //
 // local/detail/endpoint.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// Copyright (c) 2003-2019 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+// Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
 // Derived from a public domain implementation written by Daniel Casimiro.
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

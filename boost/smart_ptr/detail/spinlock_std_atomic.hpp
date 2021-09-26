@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/spinlock_std_atomic.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SPINLOCK_STD_ATOMIC_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SPINLOCK_STD_ATOMIC_HPP_INCLUDED
 
@@ -19,6 +18,13 @@
 #include <boost/smart_ptr/detail/yield_k.hpp>
 #include <boost/config.hpp>
 #include <atomic>
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using std::atomic spinlock")
+
+#endif
 
 namespace boost
 {

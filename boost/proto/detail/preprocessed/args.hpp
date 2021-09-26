@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/args.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file args.hpp
     /// Contains definition of \c term\<\>, \c list1\<\>, \c list2\<\>, ...

@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/hardware.h"
 /*
 Copyright Charly Chevalier 2015
 Copyright Joel Falcou 2015

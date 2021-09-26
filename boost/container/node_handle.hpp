@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/node_handle.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2016-2016. Distributed under the Boost

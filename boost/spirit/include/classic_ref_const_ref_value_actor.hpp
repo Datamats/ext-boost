@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/include/classic_ref_const_ref_value_actor.hpp"
 /*=============================================================================
   Copyright (c) 2001-2008 Joel de Guzman
   Copyright (c) 2001-2008 Hartmut Kaiser

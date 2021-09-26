@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/pointer_traits.hpp"
 /*
 Copyright 2017-2018 Glen Joseph Fernandes
 (glenjofe@gmail.com)
@@ -14,6 +13,7 @@ Distributed under the Boost Software License, Version 1.0.
 #include <memory>
 #else
 #include <boost/core/addressof.hpp>
+#include <cstddef>
 #endif
 
 namespace boost {

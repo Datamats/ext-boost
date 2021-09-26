@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/auto/meta_create.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -24,6 +23,7 @@
 #include <boost/mpl/vector.hpp>
 #include <boost/mpl/push_back.hpp>
 #include <boost/fusion/include/as_vector.hpp>
+#include <boost/proto/tags.hpp>
 #include <boost/type_traits/is_same.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////

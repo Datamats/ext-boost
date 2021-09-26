@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/gregorian/gregorian_types.hpp"
 #ifndef _GREGORIAN_TYPES_HPP__
 #define _GREGORIAN_TYPES_HPP__
 

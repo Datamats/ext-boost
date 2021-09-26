@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/matches_.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file matches_.hpp
     /// Definitions of matches_ specializations

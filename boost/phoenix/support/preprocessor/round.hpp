@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/support/preprocessor/round.hpp"
 /*=============================================================================
     Copyright (c) 2011 Thomas Heller
 

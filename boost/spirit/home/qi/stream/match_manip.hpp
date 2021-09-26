@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/stream/match_manip.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Hartmut Kaiser
     Copyright (c) 2001-2011 Joel de Guzman

@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/tools/interface.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -20,9 +19,6 @@
 #include <boost/test/unit_test_log.hpp>
 #ifdef BOOST_TEST_TOOLS_DEBUGGABLE
 #include <boost/test/debug.hpp>
-#endif
-#ifdef BOOST_NO_CXX11_AUTO_DECLARATIONS
-#include <boost/test/tools/detail/expression_holder.hpp>
 #endif
 
 #include <boost/test/detail/pp_variadic.hpp>

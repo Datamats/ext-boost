@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/char/negated_char_parser.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -21,7 +20,7 @@ namespace boost { namespace spirit { namespace x3
     struct negated_char_parser :
         char_parser<negated_char_parser<Positive>>
     {
-        negated_char_parser(Positive const& positive)
+        constexpr negated_char_parser(Positive const& positive)
           : positive(positive) {}
 
         template <typename CharParam, typename Context>
@@ -34,14 +33,14 @@ namespace boost { namespace spirit { namespace x3
     };
 
     template <typename Positive>
-    inline negated_char_parser<Positive>
+    constexpr negated_char_parser<Positive>
     operator~(char_parser<Positive> const& cp)
     {
         return { cp.derived() };
     }
 
     template <typename Positive>
-    inline Positive const&
+    constexpr Positive const&
     operator~(negated_char_parser<Positive> const& cp)
     {
         return cp.positive;

@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/has_binary_operator.hpp"
 //  (C) Copyright 2009-2011 Frederic Bron, Robert Stewart, Steven Watanabe & Roman Perepelitsa.
 //
 //  Use, modification and distribution are subject to the Boost Software License,

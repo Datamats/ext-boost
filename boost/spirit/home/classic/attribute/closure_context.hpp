@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/attribute/closure_context.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser

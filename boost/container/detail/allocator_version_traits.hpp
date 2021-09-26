@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/allocator_version_traits.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2012-2013. Distributed under the Boost

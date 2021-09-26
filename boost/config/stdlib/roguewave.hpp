@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/stdlib/roguewave.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Jens Maurer 2001. 
 //  (C) Copyright David Abrahams 2003. 
@@ -60,7 +59,7 @@
 //
 // Borland version of numeric_limits lacks __int64 specialisation:
 //
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 #  define BOOST_NO_MS_INT64_NUMERIC_LIMITS
 #endif
 
@@ -188,6 +187,7 @@
 #  define BOOST_NO_CXX11_HDR_ATOMIC
 #  define BOOST_NO_CXX11_STD_ALIGN
 #  define BOOST_NO_CXX11_ADDRESSOF
+#  define BOOST_NO_CXX11_HDR_EXCEPTION
 
 #if defined(__has_include)
 #if !__has_include(<shared_mutex>)

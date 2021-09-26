@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/v4/regex_replace.hpp"
 /*
  *
  * Copyright (c) 1998-2009

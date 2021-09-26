@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/non_terminal/grammar.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille

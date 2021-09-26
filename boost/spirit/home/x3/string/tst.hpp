@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/string/tst.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -9,6 +8,8 @@
 #define BOOST_SPIRIT_X3_TST_JUNE_03_2007_1031AM
 
 #include <boost/spirit/home/x3/string/detail/tst.hpp>
+
+#include <string>
 
 namespace boost { namespace spirit { namespace x3
 {

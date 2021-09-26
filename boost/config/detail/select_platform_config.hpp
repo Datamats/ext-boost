@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/detail/select_platform_config.hpp"
 //  Boost compiler configuration selection header file
 
 //  (C) Copyright John Maddock 2001 - 2002. 
@@ -89,6 +88,11 @@
 #elif defined(__CloudABI__)
 // Nuxi CloudABI:
 #  define BOOST_PLATFORM_CONFIG "boost/config/platform/cloudabi.hpp"
+
+#elif defined (__wasm__)
+// Web assembly:
+#  define BOOST_PLATFORM_CONFIG "boost/config/platform/wasm.hpp"
+
 #else
 
 #  if defined(unix) \

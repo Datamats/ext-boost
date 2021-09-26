@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc551/full_lambda.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 //

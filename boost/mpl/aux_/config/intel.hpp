@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/intel.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_INTEL_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_INTEL_HPP_INCLUDED

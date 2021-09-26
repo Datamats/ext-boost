@@ -1,4 +1,3 @@
-#line 1 "include/boost/bind/bind_mf_cc.hpp"
 //
 //  bind/bind_mf_cc.hpp - support for different calling conventions
 //

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/deduce_sequence.hpp"
 /*=============================================================================
     Copyright (c) 2007 Tobias Schwinger
 

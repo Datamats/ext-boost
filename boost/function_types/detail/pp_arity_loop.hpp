@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/pp_arity_loop.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

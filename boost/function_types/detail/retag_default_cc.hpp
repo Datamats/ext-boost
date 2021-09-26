@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/retag_default_cc.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

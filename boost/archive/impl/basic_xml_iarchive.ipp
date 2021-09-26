@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/basic_xml_iarchive.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_xml_iarchive.ipp:
 
@@ -38,7 +37,6 @@ basic_xml_iarchive<Archive>::load_start(const char *name){
     }
     // don't check start tag at highest level
     ++depth;
-    return;
 }
 
 template<class Archive>

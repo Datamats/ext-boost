@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/string_convert.hpp"
 #ifndef _STRING_CONVERT_HPP___
 #define _STRING_CONVERT_HPP___
 

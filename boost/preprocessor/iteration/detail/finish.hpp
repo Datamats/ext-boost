@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/iteration/detail/finish.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

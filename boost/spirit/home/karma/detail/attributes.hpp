@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/karma/detail/attributes.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#if !defined(SPIRIT_KARMA_DETAIL_ATTRIBUTES_APR_18_2010_0453PM)
-#define SPIRIT_KARMA_DETAIL_ATTRIBUTES_APR_18_2010_0453PM
+#ifndef BOOST_SPIRIT_KARMA_DETAIL_ATTRIBUTES_HPP
+#define BOOST_SPIRIT_KARMA_DETAIL_ATTRIBUTES_HPP
 
 #include <boost/spirit/home/karma/domain.hpp>
 #include <boost/spirit/home/support/attributes_fwd.hpp>

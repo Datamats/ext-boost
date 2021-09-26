@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/sunpro_cc.hpp"
 //  (C) Copyright John Maddock 2001.
 //  (C) Copyright Jens Maurer 2001 - 2003.
 //  (C) Copyright Peter Dimov 2002.
@@ -124,6 +123,8 @@
 #define BOOST_NO_CXX11_TRAILING_RESULT_TYPES
 #define BOOST_NO_CXX11_INLINE_NAMESPACES
 #define BOOST_NO_CXX11_FINAL
+#define BOOST_NO_CXX11_OVERRIDE
+#define BOOST_NO_CXX11_UNRESTRICTED_UNION
 #endif
 
 #if (__SUNPRO_CC < 0x5140) || (__cplusplus < 201103)

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/operator/comparison.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller
@@ -12,7 +11,6 @@
 #include <boost/phoenix/operator/detail/define_operator.hpp>
 #include <boost/phoenix/core/expression.hpp>
 #include <boost/proto/operators.hpp>
-#include <boost/proto/fusion.hpp> // Added to solve bug 6268
 
 namespace boost { namespace phoenix
 {

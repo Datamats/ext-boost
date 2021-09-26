@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/tuple.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_TUPLE_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_TUPLE_HPP_INCLUDED

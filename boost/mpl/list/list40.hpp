@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/list/list40.hpp"
 
 #ifndef BOOST_MPL_LIST_LIST40_HPP_INCLUDED
 #define BOOST_MPL_LIST_LIST40_HPP_INCLUDED

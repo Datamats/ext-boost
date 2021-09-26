@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/nview/detail/nview_impl.hpp"
 /*=============================================================================
     Copyright (c) 2014 Kohei Takahashi
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/include/lex_lexertl_token.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser

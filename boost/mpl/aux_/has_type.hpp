@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/has_type.hpp"
 
 #ifndef BOOST_MPL_AUX_HAS_TYPE_HPP_INCLUDED
 #define BOOST_MPL_AUX_HAS_TYPE_HPP_INCLUDED

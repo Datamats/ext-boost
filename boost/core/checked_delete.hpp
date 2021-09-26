@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/checked_delete.hpp"
 #ifndef BOOST_CORE_CHECKED_DELETE_HPP
 #define BOOST_CORE_CHECKED_DELETE_HPP
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/transform_view/transform_view.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
@@ -77,9 +76,8 @@ namespace boost { namespace fusion
         typename mpl::if_<traits::is_view<Sequence1>, Sequence1, Sequence1&>::type seq1;
         typename mpl::if_<traits::is_view<Sequence2>, Sequence2, Sequence2&>::type seq2;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        transform_view& operator= (transform_view const&);
+        BOOST_DELETED_FUNCTION(transform_view& operator= (transform_view const&))
     };
 
     // Unary Version
@@ -114,9 +112,8 @@ namespace boost { namespace fusion
         typename mpl::if_<traits::is_view<Sequence>, Sequence, Sequence&>::type seq;
         transform_type f;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        transform_view& operator= (transform_view const&);
+        BOOST_DELETED_FUNCTION(transform_view& operator= (transform_view const&))
     };
 }}
 

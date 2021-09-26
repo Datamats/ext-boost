@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/pair_view.hpp"
 
 #ifndef BOOST_MPL_PAIR_VIEW_HPP_INCLUDED
 #define BOOST_MPL_PAIR_VIEW_HPP_INCLUDED

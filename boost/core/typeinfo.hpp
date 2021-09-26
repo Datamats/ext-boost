@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/typeinfo.hpp"
 #ifndef BOOST_CORE_TYPEINFO_HPP_INCLUDED
 #define BOOST_CORE_TYPEINFO_HPP_INCLUDED
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/bind/detail/cpp03/preprocessed/member_function_ptr.hpp"
 /*=============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

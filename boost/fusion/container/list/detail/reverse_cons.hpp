@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/list/detail/reverse_cons.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

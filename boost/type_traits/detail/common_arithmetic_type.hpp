@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/common_arithmetic_type.hpp"
 #ifndef BOOST_TYPE_TRAITS_DETAIL_COMMON_ARITHMETIC_TYPE_HPP_INCLUDED
 #define BOOST_TYPE_TRAITS_DETAIL_COMMON_ARITHMETIC_TYPE_HPP_INCLUDED
 

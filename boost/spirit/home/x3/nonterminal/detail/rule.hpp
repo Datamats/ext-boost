@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/nonterminal/detail/rule.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -21,6 +20,8 @@
 #include <boost/spirit/home/x3/nonterminal/simple_trace.hpp>
 #endif
 
+#include <type_traits>
+
 namespace boost { namespace spirit { namespace x3
 {
     template <typename ID>
@@ -33,6 +34,9 @@ namespace boost { namespace spirit { namespace x3
 
     namespace detail
     {
+        template <typename ID>
+        struct rule_id {};
+
         // we use this so we can detect if the default parse_rule
         // is the being called.
         struct default_parse_rule_result
@@ -45,11 +49,11 @@ namespace boost { namespace spirit { namespace x3
     }
 
     // default parse_rule implementation
-    template <typename ID, typename Attribute, typename Iterator
+    template <typename ID, typename Iterator
       , typename Context, typename ActualAttribute>
     inline detail::default_parse_rule_result
     parse_rule(
-        rule<ID, Attribute> rule_
+        detail::rule_id<ID>
       , Iterator& first, Iterator const& last
       , Context const& context, ActualAttribute& attr);
 }}}
@@ -152,7 +156,7 @@ namespace boost { namespace spirit { namespace x3 { namespace detail
         return make_unique_context<ID>(rhs, context);
     }
 
-    template <typename Attribute, typename ID>
+    template <typename Attribute, typename ID, bool skip_definition_injection = false>
     struct rule_parser
     {
         template <typename Iterator, typename Context, typename ActualAttribute>
@@ -191,8 +195,8 @@ namespace boost { namespace spirit { namespace x3 { namespace detail
             // see if the user has a BOOST_SPIRIT_DEFINE for this rule
             typedef
                 decltype(parse_rule(
-                    rule<ID, Attribute>(), first, last
-                  , make_unique_context<ID>(rhs, context), attr))
+                    detail::rule_id<ID>{}, first, last
+                  , make_unique_context<ID>(rhs, context), std::declval<Attribute&>()))
             parse_rule_result;
 
             // If there is no BOOST_SPIRIT_DEFINE for this rule,
@@ -203,25 +207,21 @@ namespace boost { namespace spirit { namespace x3 { namespace detail
                 is_same<parse_rule_result, default_parse_rule_result>
             is_default_parse_rule;
 
-            Iterator i = first;
+            Iterator start = first;
             bool r = rhs.parse(
-                i
+                first
               , last
-              , make_rule_context<ID>(rhs, context, is_default_parse_rule())
+              , make_rule_context<ID>(rhs, context, std::conditional_t<skip_definition_injection, mpl::false_, is_default_parse_rule>())
               , rcontext
               , attr
             );
 
             if (r)
             {
-                auto first_ = first;
-                x3::skip_over(first_, last, context);
-                r = call_on_success(first_, i, context, attr
+                r = call_on_success(start, first, context, attr
                   , has_on_success<ID, Iterator, Context, ActualAttribute>());
             }
 
-            if (r)
-                first = i;
             return r;
         }
 

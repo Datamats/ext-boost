@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/template_template_param.hpp"
 // Copyright (C) 2005 Peder Holt
 // Copyright (C) 2005 Arkadiy Vertleyb
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -94,7 +93,7 @@ namespace boost { namespace type_of {
 
 #define BOOST_TYPEOF_TYPEDEF_INT_PN(z,n,Params) typedef int BOOST_PP_CAT(P,n);
 
-#ifdef __BORLANDC__
+#if defined(__BORLANDC__) && !defined(__clang__)
 #define BOOST_TYPEOF_DECODE_NESTED_TEMPLATE_HELPER_NAME BOOST_PP_CAT(\
         BOOST_PP_CAT(\
             BOOST_PP_CAT(\

@@ -1,4 +1,3 @@
-#line 1 "include/boost/endian/detail/endian_store.hpp"
 #ifndef BOOST_ENDIAN_DETAIL_ENDIAN_STORE_HPP_INCLUDED
 #define BOOST_ENDIAN_DETAIL_ENDIAN_STORE_HPP_INCLUDED
 

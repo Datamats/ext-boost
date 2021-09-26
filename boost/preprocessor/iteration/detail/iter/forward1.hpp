@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/iteration/detail/iter/forward1.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.
@@ -7,6 +6,8 @@
 #  *     http://www.boost.org/LICENSE_1_0.txt)
 #  *                                                                          *
 #  ************************************************************************** */
+#
+# /* Revised by Edward Diener (2020) */
 #
 # /* See http://www.boost.org for most recent version. */
 #
@@ -43,6 +44,11 @@
 # if (BOOST_PP_ITERATION_START_1) > (BOOST_PP_ITERATION_FINISH_1)
 #    include <boost/preprocessor/iteration/detail/iter/reverse1.hpp>
 # else
+#
+# include <boost/preprocessor/config/config.hpp>
+#
+# if ~BOOST_PP_CONFIG_FLAGS() & BOOST_PP_CONFIG_STRICT()
+#
 #    if BOOST_PP_ITERATION_START_1 <= 0 && BOOST_PP_ITERATION_FINISH_1 >= 0
 #        define BOOST_PP_ITERATION_1 0
 #        include BOOST_PP_FILENAME_1
@@ -1328,6 +1334,26 @@
 #        include BOOST_PP_FILENAME_1
 #        undef BOOST_PP_ITERATION_1
 #    endif
+#
+# else
+#
+#    include <boost/preprocessor/config/limits.hpp>
+#   
+#    if BOOST_PP_LIMIT_ITERATION == 256
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_256.hpp>
+#    elif BOOST_PP_LIMIT_ITERATION == 512
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_256.hpp>
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_512.hpp>
+#    elif BOOST_PP_LIMIT_ITERATION == 1024
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_256.hpp>
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_512.hpp>
+#    include <boost/preprocessor/iteration/detail/iter/limits/forward1_1024.hpp>
+#    else
+#    error Incorrect value for the BOOST_PP_LIMIT_ITERATION limit
+#    endif
+#
+# endif
+#
 # endif
 #
 # undef BOOST_PP_IS_ITERATING

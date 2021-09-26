@@ -1,9 +1,8 @@
-#line 1 "include/boost/asio/detail/thread_group.hpp"
 //
 // detail/thread_group.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~
 //
-// Copyright (c) 2003-2019 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+// Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -19,6 +18,8 @@
 #include <boost/asio/detail/config.hpp>
 #include <boost/asio/detail/scoped_ptr.hpp>
 #include <boost/asio/detail/thread.hpp>
+
+#include <boost/asio/detail/push_options.hpp>
 
 namespace boost {
 namespace asio {
@@ -94,5 +95,7 @@ private:
 } // namespace detail
 } // namespace asio
 } // namespace boost
+
+#include <boost/asio/detail/pop_options.hpp>
 
 #endif // BOOST_ASIO_DETAIL_THREAD_GROUP_HPP

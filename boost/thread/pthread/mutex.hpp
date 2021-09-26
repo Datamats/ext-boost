@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/pthread/mutex.hpp"
 #ifndef BOOST_THREAD_PTHREAD_MUTEX_HPP
 #define BOOST_THREAD_PTHREAD_MUTEX_HPP
 // (C) Copyright 2007-8 Anthony Williams

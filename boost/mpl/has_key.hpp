@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/has_key.hpp"
 
 #ifndef BOOST_MPL_HAS_KEY_HPP_INCLUDED
 #define BOOST_MPL_HAS_KEY_HPP_INCLUDED

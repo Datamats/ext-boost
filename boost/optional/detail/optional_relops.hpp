@@ -1,4 +1,3 @@
-#line 1 "include/boost/optional/detail/optional_relops.hpp"
 // Copyright (C) 2003, 2008 Fernando Luis Cacciola Carballal.
 // Copyright (C) 2015 Andrzej Krzemienski.
 //

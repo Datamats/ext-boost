@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/char/char.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c)      2010 Bryce Lelbach
 //

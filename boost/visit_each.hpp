@@ -1,4 +1,3 @@
-#line 1 "include/boost/visit_each.hpp"
 // Boost.Signals library
 
 // Copyright Douglas Gregor 2001-2003. Use, modification and

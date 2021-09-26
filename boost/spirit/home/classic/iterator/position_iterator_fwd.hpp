@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/iterator/position_iterator_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2006 Tobias Schwinger
     Copyright (c) 2002-2006 Hartmut Kaiser

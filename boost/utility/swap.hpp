@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility/swap.hpp"
 /*
  * Copyright (c) 2014 Glen Fernandes
  *

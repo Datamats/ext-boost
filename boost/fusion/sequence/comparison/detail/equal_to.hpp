@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/sequence/comparison/detail/equal_to.hpp"
 /*=============================================================================
     Copyright (c) 1999-2003 Jaakko Jarvi
     Copyright (c) 2001-2011 Joel de Guzman

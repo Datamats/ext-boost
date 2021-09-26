@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/has_nothrow_destructor.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,

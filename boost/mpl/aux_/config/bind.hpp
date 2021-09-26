@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/bind.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_BIND_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_BIND_HPP_INCLUDED
@@ -22,7 +21,7 @@
 #if    !defined(BOOST_MPL_CFG_NO_BIND_TEMPLATE) \
     && !defined(BOOST_MPL_PREPROCESSING_MODE) \
     && (   BOOST_WORKAROUND(BOOST_MSVC, <= 1300) \
-        || BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x610)) \
+        || BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x610)) \
         )
 
 #   define BOOST_MPL_CFG_NO_BIND_TEMPLATE

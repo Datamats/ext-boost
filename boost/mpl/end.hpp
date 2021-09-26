@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/end.hpp"
 
 #ifndef BOOST_MPL_END_HPP_INCLUDED
 #define BOOST_MPL_END_HPP_INCLUDED

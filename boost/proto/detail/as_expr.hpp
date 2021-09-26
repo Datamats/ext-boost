@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/as_expr.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file as_expr.hpp
 /// Contains definition of the as_expr\<\> and as_child\<\> helper class

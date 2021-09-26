@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/range_c/front.hpp"
 
 #ifndef BOOST_MPL_AUX_RANGE_C_FRONT_HPP_INCLUDED
 #define BOOST_MPL_AUX_RANGE_C_FRONT_HPP_INCLUDED

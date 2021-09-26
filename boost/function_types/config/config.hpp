@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/config/config.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

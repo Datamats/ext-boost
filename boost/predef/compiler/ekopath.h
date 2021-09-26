@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/compiler/ekopath.h"
 /*
 Copyright Rene Rivera 2008-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -12,20 +11,21 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_COMP_PATH`]
+/* tag::reference[]
+= `BOOST_COMP_PATH`
 
-[@http://en.wikipedia.org/wiki/PathScale EKOpath] compiler.
+http://en.wikipedia.org/wiki/PathScale[EKOpath] compiler.
 Version number available as major, minor, and patch.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__PATHCC__`] [__predef_detection__]]
+| `+__PATHCC__+` | {predef_detection}
 
-    [[`__PATHCC__`, `__PATHCC_MINOR__`, `__PATHCC_PATCHLEVEL__`] [V.R.P]]
-    ]
- */
+| `+__PATHCC__+`, `+__PATHCC_MINOR__+`, `+__PATHCC_PATCHLEVEL__+` | V.R.P
+|===
+*/ // end::reference[]
 
 #define BOOST_COMP_PATH BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/joint_view/joint_view_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
@@ -51,9 +50,8 @@ namespace boost { namespace fusion
         first_type first;
         concat_type concat;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        joint_view_iterator& operator= (joint_view_iterator const&);
+        BOOST_DELETED_FUNCTION(joint_view_iterator& operator= (joint_view_iterator const&))
     };
 }}
 

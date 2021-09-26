@@ -1,4 +1,3 @@
-#line 1 "include/boost/chrono/ceil.hpp"
 //  boost/chrono/round.hpp  ------------------------------------------------------------//
 
 //  (C) Copyright Howard Hinnant

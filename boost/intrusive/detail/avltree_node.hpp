@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/avltree_node.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2007-2013

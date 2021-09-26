@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/lexer/lexertl/static_lexer.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
@@ -230,7 +229,7 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
             actions_.add_action(unique_id, state, wrapper_type::call(act));
         }
 
-        bool init_dfa(bool minimize = false) const { return true; }
+        bool init_dfa(bool /*minimize*/ = false) const { return true; }
 
     private:
         typename Functor::semantic_actions_type actions_;

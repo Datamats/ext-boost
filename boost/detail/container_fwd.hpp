@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/container_fwd.hpp"
 
 // Copyright 2005-2011 Daniel James.
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

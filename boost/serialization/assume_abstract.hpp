@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/assume_abstract.hpp"
 #ifndef BOOST_SERIALIZATION_ASSUME_ABSTRACT_HPP
 #define BOOST_SERIALIZATION_ASSUME_ABSTRACT_HPP
 

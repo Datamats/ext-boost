@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/cpp03/preprocessed/lambda_40.hpp"
 /*==============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
     Copyright (c) 2004 Daniel Wallin

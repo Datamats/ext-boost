@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/non_terminal/impl/static.hpp"
 /*=============================================================================
     Copyright (c) 2006 Joao Abecasis
     http://spirit.sourceforge.net/

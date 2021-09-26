@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/meta/traverse.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
@@ -19,7 +18,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
     ///////////////////////////////////////////////////////////////////////////
     //
-    //  Post-order traversal of auxilliary parsers.
+    //  Post-order traversal of auxiliary parsers.
     //
     ///////////////////////////////////////////////////////////////////////////
     struct post_order

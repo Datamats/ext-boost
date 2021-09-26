@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/detail/get_encoding.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //

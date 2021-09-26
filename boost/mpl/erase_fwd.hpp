@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/erase_fwd.hpp"
 
 #ifndef BOOST_MPL_ERASE_FWD_HPP_INCLUDED
 #define BOOST_MPL_ERASE_FWD_HPP_INCLUDED

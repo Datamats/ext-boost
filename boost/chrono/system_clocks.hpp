@@ -1,4 +1,3 @@
-#line 1 "include/boost/chrono/system_clocks.hpp"
 //  boost/chrono/system_clocks.hpp  --------------------------------------------------------------//
 
 //  Copyright 2008 Howard Hinnant

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/detail/as_variant.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

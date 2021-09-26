@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/archive_serializer_map.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // archive_serializer_map.ipp:
 

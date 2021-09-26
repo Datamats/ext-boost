@@ -1,9 +1,8 @@
-#line 1 "include/boost/asio/detail/wait_op.hpp"
 //
 // detail/wait_op.hpp
 // ~~~~~~~~~~~~~~~~~~
 //
-// Copyright (c) 2003-2019 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+// Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -32,9 +31,13 @@ public:
   // The error code to be passed to the completion handler.
   boost::system::error_code ec_;
 
+  // The operation key used for targeted cancellation.
+  void* cancellation_key_;
+
 protected:
   wait_op(func_type func)
-    : operation(func)
+    : operation(func),
+      cancellation_key_(0)
   {
   }
 };

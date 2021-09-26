@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/max_element.hpp"
 
 #ifndef BOOST_MPL_MAX_ELEMENT_HPP_INCLUDED
 #define BOOST_MPL_MAX_ELEMENT_HPP_INCLUDED

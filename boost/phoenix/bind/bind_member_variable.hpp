@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/bind/bind_member_variable.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
     Copyright (c) 2014      John Fletcher

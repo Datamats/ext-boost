@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/pthread/pthread_helpers.hpp"
 #ifndef BOOST_THREAD_PTHREAD_PTHREAD_HELPERS_HPP
 #define BOOST_THREAD_PTHREAD_PTHREAD_HELPERS_HPP
 // Copyright (C) 2017

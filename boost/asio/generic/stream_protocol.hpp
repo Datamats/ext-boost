@@ -1,9 +1,8 @@
-#line 1 "include/boost/asio/generic/stream_protocol.hpp"
 //
 // generic/stream_protocol.hpp
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
-// Copyright (c) 2003-2019 Christopher M. Kohlhoff (chris at kohlhoff dot com)
+// Copyright (c) 2003-2021 Christopher M. Kohlhoff (chris at kohlhoff dot com)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -76,19 +75,19 @@ public:
   }
 
   /// Obtain an identifier for the type of the protocol.
-  int type() const
+  int type() const BOOST_ASIO_NOEXCEPT
   {
     return BOOST_ASIO_OS_DEF(SOCK_STREAM);
   }
 
   /// Obtain an identifier for the protocol.
-  int protocol() const
+  int protocol() const BOOST_ASIO_NOEXCEPT
   {
     return protocol_;
   }
 
   /// Obtain an identifier for the protocol family.
-  int family() const
+  int family() const BOOST_ASIO_NOEXCEPT
   {
     return family_;
   }

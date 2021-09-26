@@ -1,4 +1,3 @@
-#line 1 "include/boost/bind/mem_fn_template.hpp"
 //
 //  bind/mem_fn_template.hpp
 //

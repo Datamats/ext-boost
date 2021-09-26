@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/platform/zos.hpp"
 //  Copyright (c) 2017 Dynatrace
 //
 //  Distributed under the Boost Software License, Version 1.0.

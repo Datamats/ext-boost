@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/platform/win32.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Bill Kempf 2001. 
 //  (C) Copyright Aleksey Gurtovoy 2003. 

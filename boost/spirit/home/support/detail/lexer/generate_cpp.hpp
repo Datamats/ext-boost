@@ -1,11 +1,10 @@
-#line 1 "include/boost/spirit/home/support/detail/lexer/generate_cpp.hpp"
 // generate_cpp.hpp
 // Copyright (c) 2008-2009 Ben Hanson (http://www.benhanson.net/)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file licence_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-#ifndef BOOST_LEXER_GENERATE_CPP_HPP
-#define BOOST_LEXER_GENERATE_CPP_HPP
+#ifndef BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_GENERATE_CPP_HPP
+#define BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_GENERATE_CPP_HPP
 
 #include "char_traits.hpp"
 #include "consts.hpp"

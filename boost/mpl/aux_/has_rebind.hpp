@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/has_rebind.hpp"
 
 #ifndef BOOST_MPL_AUX_HAS_REBIND_HPP_INCLUDED
 #define BOOST_MPL_AUX_HAS_REBIND_HPP_INCLUDED
@@ -26,7 +25,7 @@
 #   include <boost/mpl/if.hpp>
 #   include <boost/mpl/bool.hpp>
 #   include <boost/mpl/aux_/msvc_is_class.hpp>
-#elif BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x610))
+#elif BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x610))
 #   include <boost/mpl/if.hpp>
 #   include <boost/mpl/bool.hpp>
 #   include <boost/mpl/aux_/yes_no.hpp>
@@ -63,7 +62,7 @@ struct has_rebind
 template< typename T > struct has_rebind_tag {};
 no_tag operator|(has_rebind_tag<int>, void const volatile*);
 
-#   if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x610))
+#   if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x610))
 template< typename T >
 struct has_rebind
 {
@@ -72,7 +71,7 @@ struct has_rebind
           sizeof(has_rebind_tag<int>() | get()) == sizeof(yes_tag)
         );
 };
-#   else // __BORLANDC__
+#   else // BOOST_BORLANDC
 template< typename T >
 struct has_rebind_impl
 {
@@ -91,7 +90,7 @@ struct has_rebind
         >::type
 {
 };
-#   endif // __BORLANDC__
+#   endif // BOOST_BORLANDC
 
 #endif
 

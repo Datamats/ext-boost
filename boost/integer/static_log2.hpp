@@ -1,4 +1,3 @@
-#line 1 "include/boost/integer/static_log2.hpp"
 // -------------- Boost static_log2.hpp header file  ----------------------- //
 //
 //                 Copyright (C) 2001 Daryle Walker.
@@ -7,17 +6,18 @@
 //
 //     Distributed under the Boost Software License, Version 1.0.
 //        (See accompanying file LICENSE_1_0.txt or copy at
-//              http://www.boost.org/LICENSE_1_0.txt)
+//              https://www.boost.org/LICENSE_1_0.txt)
 //
 //         ---------------------------------------------------
-//       See http://www.boost.org/libs/integer for documentation.
+//       See https://www.boost.org/libs/integer for documentation.
 // ------------------------------------------------------------------------- //
 
 
 #ifndef BOOST_INTEGER_STATIC_LOG2_HPP
 #define BOOST_INTEGER_STATIC_LOG2_HPP
 
-#include "boost/integer_fwd.hpp" // for boost::intmax_t
+#include <boost/config.hpp>
+#include <boost/integer_fwd.hpp>
 
 namespace boost {
 
@@ -122,7 +122,5 @@ namespace boost {
  struct static_log2<0> { };
 
 }
-
-
 
 #endif // include guard

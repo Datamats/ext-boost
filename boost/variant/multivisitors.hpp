@@ -1,10 +1,9 @@
-#line 1 "include/boost/variant/multivisitors.hpp"
 //  Boost.Varaint
 //  Multivisitors defined here 
 //
 //  See http://www.boost.org for most recent version, including documentation.
 //
-//  Copyright (c) 2013-2019 Antony Polukhin.
+//  Copyright (c) 2013-2021 Antony Polukhin.
 //
 //  Distributed under the Boost
 //  Software License, Version 1.0. (See accompanying file

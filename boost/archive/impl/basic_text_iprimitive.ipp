@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/basic_text_iprimitive.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_text_iprimitive.ipp:
 
@@ -113,8 +112,8 @@ basic_text_iprimitive<IStream>::basic_text_iprimitive(
 ) :
     is(is_),
     flags_saver(is_),
-    precision_saver(is_),
 #ifndef BOOST_NO_STD_LOCALE
+    precision_saver(is_),
     codecvt_null_facet(1),
     archive_locale(is.getloc(), & codecvt_null_facet),
     locale_saver(is)
@@ -126,6 +125,7 @@ basic_text_iprimitive<IStream>::basic_text_iprimitive(
     is_ >> std::noboolalpha;
 }
 #else
+    precision_saver(is_)
 {}
 #endif
 

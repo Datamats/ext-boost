@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/action_dispatch.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -23,8 +22,13 @@
 #endif
 
 
-#include <boost/spirit/include/phoenix_core.hpp>
 #include <boost/spirit/home/support/attributes.hpp>
+
+namespace boost { namespace phoenix
+{
+    template <typename Expr>
+    struct actor;
+}}
 
 namespace boost { namespace spirit { namespace traits
 {

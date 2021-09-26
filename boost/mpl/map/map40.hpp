@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/map/map40.hpp"
 
 #ifndef BOOST_MPL_MAP_MAP40_HPP_INCLUDED
 #define BOOST_MPL_MAP_MAP40_HPP_INCLUDED

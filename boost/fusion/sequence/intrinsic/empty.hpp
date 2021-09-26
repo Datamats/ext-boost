@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/sequence/intrinsic/empty.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

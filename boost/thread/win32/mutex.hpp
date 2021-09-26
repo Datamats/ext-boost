@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/win32/mutex.hpp"
 #ifndef BOOST_THREAD_WIN32_MUTEX_HPP
 #define BOOST_THREAD_WIN32_MUTEX_HPP
 // (C) Copyright 2005-7 Anthony Williams

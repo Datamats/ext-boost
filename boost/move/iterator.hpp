@@ -1,4 +1,3 @@
-#line 1 "include/boost/move/iterator.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2012-2012.
@@ -171,7 +170,7 @@ struct is_move_iterator< ::boost::move_iterator<I> >
 //!
 //! <b>Returns</b>: move_iterator<It>(i).
 template<class It>
-inline move_iterator<It> make_move_iterator(const It &it)
+BOOST_MOVE_FORCEINLINE move_iterator<It> make_move_iterator(const It &it)
 {  return move_iterator<It>(it); }
 
 //////////////////////////////////////////////////////////////////////////////

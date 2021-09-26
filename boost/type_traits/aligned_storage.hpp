@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/aligned_storage.hpp"
 //-----------------------------------------------------------------------------
 // boost aligned_storage.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
@@ -74,7 +73,7 @@ template <
     , std::size_t alignment_ = std::size_t(-1)
 >
 class aligned_storage : 
-#ifndef __BORLANDC__
+#ifndef BOOST_BORLANDC
    private 
 #else
    public

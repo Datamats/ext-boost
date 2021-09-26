@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/sp_noexcept.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_NOEXCEPT_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_NOEXCEPT_HPP_INCLUDED
 

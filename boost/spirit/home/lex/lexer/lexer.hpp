@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/lexer/lexer.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
@@ -23,7 +22,9 @@
 #include <boost/noncopyable.hpp>
 #include <boost/fusion/include/vector.hpp>
 #include <boost/mpl/assert.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/proto/extends.hpp>
+#include <boost/proto/traits.hpp>
+#include <boost/range/iterator_range_core.hpp>
 #include <iterator> // for std::iterator_traits
 #include <string>
 

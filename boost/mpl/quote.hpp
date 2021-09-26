@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/quote.hpp"
 
 #if !defined(BOOST_PP_IS_ITERATING)
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/sp_interlocked.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_INTERLOCKED_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_INTERLOCKED_HPP_INCLUDED
 

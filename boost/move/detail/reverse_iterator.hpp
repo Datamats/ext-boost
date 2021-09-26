@@ -1,4 +1,3 @@
-#line 1 "include/boost/move/detail/reverse_iterator.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

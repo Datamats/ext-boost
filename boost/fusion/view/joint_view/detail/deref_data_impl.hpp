@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/joint_view/detail/deref_data_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

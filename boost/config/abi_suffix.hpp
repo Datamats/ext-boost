@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/abi_suffix.hpp"
 //  abi_sufffix header  -------------------------------------------------------//
 
 // (c) Copyright John Maddock 2003
@@ -21,8 +20,6 @@
 #  include BOOST_ABI_SUFFIX
 #endif
 
-#if defined( __BORLANDC__ )
+#if defined( BOOST_BORLANDC )
 #pragma nopushoptwarn
 #endif
-
-

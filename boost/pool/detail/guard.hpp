@@ -1,4 +1,3 @@
-#line 1 "include/boost/pool/detail/guard.hpp"
 // Copyright (C) 2000 Stephen Cleary
 //
 // Distributed under the Boost Software License, Version 1.0. (See

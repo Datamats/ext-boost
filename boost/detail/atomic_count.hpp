@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/atomic_count.hpp"
 #ifndef BOOST_DETAIL_ATOMIC_COUNT_HPP_INCLUDED
 #define BOOST_DETAIL_ATOMIC_COUNT_HPP_INCLUDED
 

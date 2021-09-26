@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/poly_function.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file poly_function.hpp
 /// A wrapper that makes a tr1-style function object that handles const
@@ -112,8 +111,8 @@ namespace boost { namespace proto { namespace detail
             return this->value;
         }
 
+        BOOST_DELETED_FUNCTION(arg &operator =(arg const &))
     private:
-        arg &operator =(arg const &);
         type value;
     };
 
@@ -136,8 +135,8 @@ namespace boost { namespace proto { namespace detail
             return this->value;
         }
 
+        BOOST_DELETED_FUNCTION(arg &operator =(arg const &))
     private:
-        arg &operator =(arg const &);
         type value;
     };
 

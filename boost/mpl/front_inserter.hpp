@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/front_inserter.hpp"
 
 #ifndef BOOST_MPL_FRONT_INSERTER_HPP_INCLUDED
 #define BOOST_MPL_FRONT_INSERTER_HPP_INCLUDED

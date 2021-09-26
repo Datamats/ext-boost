@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/detail/find_format_all.hpp"
 //  Boost string_algo library find_format_all.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.
@@ -18,6 +17,8 @@
 #include <boost/range/value_type.hpp>
 #include <boost/algorithm/string/detail/find_format_store.hpp>
 #include <boost/algorithm/string/detail/replace_storage.hpp>
+
+#include <deque>
 
 namespace boost {
     namespace algorithm {

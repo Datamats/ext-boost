@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/char/char_generator.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //
@@ -21,6 +20,8 @@
 #include <boost/spirit/home/support/unused.hpp>
 #include <boost/spirit/home/support/info.hpp>
 #include <boost/spirit/home/support/container.hpp>
+#include <boost/proto/operators.hpp>
+#include <boost/proto/tags.hpp>
 
 namespace boost { namespace spirit
 {

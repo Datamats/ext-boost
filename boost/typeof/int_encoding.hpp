@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/int_encoding.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (http://www.boost.org/LICENSE_1_0.txt)
@@ -8,6 +7,7 @@
 
 #include <boost/config.hpp>
 #include <boost/typeof/constant.hpp>
+#include <cstddef> // for std::size_t
 
 namespace boost { namespace type_of {
 

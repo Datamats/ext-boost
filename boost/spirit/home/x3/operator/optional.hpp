@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/operator/optional.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -22,9 +21,10 @@ namespace boost { namespace spirit { namespace x3
     struct optional : proxy<Subject, optional<Subject>>
     {
         typedef proxy<Subject, optional<Subject>> base_type;
+        static bool const is_pass_through_unary = false;
         static bool const handles_container = true;
 
-        optional(Subject const& subject)
+        constexpr optional(Subject const& subject)
           : base_type(subject) {}
 
         using base_type::parse_subject;
@@ -65,7 +65,7 @@ namespace boost { namespace spirit { namespace x3
     };
 
     template <typename Subject>
-    inline optional<typename extension::as_parser<Subject>::value_type>
+    constexpr optional<typename extension::as_parser<Subject>::value_type>
     operator-(Subject const& subject)
     {
         return { as_parser(subject) };

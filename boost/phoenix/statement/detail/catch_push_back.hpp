@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/detail/catch_push_back.hpp"
 
 #if !BOOST_PHOENIX_IS_ITERATING
 

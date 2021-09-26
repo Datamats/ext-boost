@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/meta/parser_traits.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
@@ -65,7 +64,7 @@ struct is_unary_composite {
 //
 //  The is_acction_parser traits template can be used to tell if a given
 //  parser is a action parser, i.e. it is a composite consisting of a
-//  auxilliary parser and an attached semantic action.
+//  auxiliary parser and an attached semantic action.
 //
 ///////////////////////////////////////////////////////////////////////////////
 template <typename ActionT>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/scoped_enum_emulation.hpp"
 /*
  * Copyright (c) 2014 Andrey Semashev
  *
@@ -12,6 +11,10 @@
 
 // The header file at this path is deprecated;
 // use boost/core/scoped_enum.hpp instead.
+
+#include <boost/config/header_deprecated.hpp>
+
+BOOST_HEADER_DEPRECATED("<boost/core/scoped_enum.hpp>")
 
 #include <boost/core/scoped_enum.hpp>
 

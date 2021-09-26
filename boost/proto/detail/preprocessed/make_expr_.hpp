@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/make_expr_.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file make_expr_.hpp
     /// Contains definition of make_expr_\<\> class template.

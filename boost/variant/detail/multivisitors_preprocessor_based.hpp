@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/multivisitors_preprocessor_based.hpp"
 //  Boost.Varaint
 //  Contains multivisitors that are implemented via preprocessor magic
 //

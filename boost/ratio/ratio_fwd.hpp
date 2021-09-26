@@ -1,4 +1,3 @@
-#line 1 "include/boost/ratio/ratio_fwd.hpp"
 //  ratio_fwd.hpp  ---------------------------------------------------------------//
 
 //  Copyright 2008 Howard Hinnant

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/string/detail/tst.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -10,6 +9,8 @@
 
 #include <boost/call_traits.hpp>
 #include <boost/assert.hpp>
+
+#include <string>
 
 namespace boost { namespace spirit { namespace x3 { namespace detail
 {

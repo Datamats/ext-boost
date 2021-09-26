@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/core/call.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -12,7 +11,7 @@
 
 #include <boost/spirit/home/x3/support/context.hpp>
 #include <boost/spirit/home/x3/support/utility/is_callable.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/iterator_range_core.hpp>
 
 namespace boost { namespace spirit { namespace x3
 {

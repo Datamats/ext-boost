@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/equal_to.hpp"
 
 #ifndef BOOST_MPL_EQUAL_TO_HPP_INCLUDED
 #define BOOST_MPL_EQUAL_TO_HPP_INCLUDED

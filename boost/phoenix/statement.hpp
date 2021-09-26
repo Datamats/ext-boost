@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement.hpp"
 /*==============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
 

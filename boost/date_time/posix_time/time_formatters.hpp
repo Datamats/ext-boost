@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/posix_time/time_formatters.hpp"
 #ifndef POSIXTIME_FORMATTERS_HPP___
 #define POSIXTIME_FORMATTERS_HPP___
 

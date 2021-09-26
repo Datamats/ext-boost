@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/context/detail/preprocessed/null_eval.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file null_eval.hpp
     /// Contains specializations of the null_eval\<\> class template.

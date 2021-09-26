@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/dynamic/impl/select.ipp"
 /*=============================================================================
     Copyright (c) 2003 Hartmut Kaiser
     http://spirit.sourceforge.net/
@@ -73,8 +72,9 @@ struct parse_tuple_element {
         typedef typename ScannerT::iterator_t                       iterator_t;
         typedef typename parser_result<parser_t, ScannerT>::type    result_t;
     
-    iterator_t save(scan.first);
-    result_t result(t[::phoenix::tuple_index<index>()].parse(scan));
+        iterator_t save(scan.first);
+        ::phoenix::tuple_index<index> const idx;
+        result_t result(t[idx].parse(scan));
 
         if (result) {
             return scan.create_match(result.length(), TupleT::length - N, 
@@ -99,8 +99,9 @@ struct parse_tuple_element<1, ResultT, TupleT, BehaviourT> {
         typedef typename ScannerT::iterator_t                       iterator_t;
         typedef typename parser_result<parser_t, ScannerT>::type    result_t;
         
-    iterator_t save(scan.first);
-    result_t result(t[::phoenix::tuple_index<index>()].parse(scan));
+        iterator_t save(scan.first);
+        ::phoenix::tuple_index<index> const idx;
+        result_t result(t[idx].parse(scan));
 
         if (result) {
             return scan.create_match(result.length(), TupleT::length - 1, 

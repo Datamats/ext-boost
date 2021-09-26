@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/to_sequence.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

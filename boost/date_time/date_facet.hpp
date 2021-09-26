@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/date_facet.hpp"
 #ifndef _DATE_TIME_DATE_FACET__HPP___
 #define _DATE_TIME_DATE_FACET__HPP___
 
@@ -10,10 +9,10 @@
  * $Date$
  */
 
+#include <iterator> // ostreambuf_iterator
 #include <locale>
 #include <string>
 #include <vector>
-#include <iterator> // ostreambuf_iterator
 #include <boost/throw_exception.hpp>
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/date_time/compiler_config.hpp>
@@ -317,23 +316,23 @@ namespace boost { namespace date_time {
                               string_type a_format) const
     {
       // update format string with custom names
-      if (m_weekday_long_names.size()) {
+      if (!m_weekday_long_names.empty()) {
         boost::algorithm::replace_all(a_format,
                                       long_weekday_format,
                                       m_weekday_long_names[tm_value.tm_wday]);
       }
-      if (m_weekday_short_names.size()) {
+      if (!m_weekday_short_names.empty()) {
         boost::algorithm::replace_all(a_format,
                                       short_weekday_format,
                                       m_weekday_short_names[tm_value.tm_wday]);
 
       }
-      if (m_month_long_names.size()) {
+      if (!m_month_long_names.empty()) {
         boost::algorithm::replace_all(a_format,
                                       long_month_format,
                                       m_month_long_names[tm_value.tm_mon]);
       }
-      if (m_month_short_names.size()) {
+      if (!m_month_short_names.empty()) {
         boost::algorithm::replace_all(a_format,
                                       short_month_format,
                                       m_month_short_names[tm_value.tm_mon]);
@@ -763,6 +762,5 @@ namespace boost { namespace date_time {
     {'%','Y','-','%','b','-','%','d'};
 
 } } // namespaces
-
 
 #endif

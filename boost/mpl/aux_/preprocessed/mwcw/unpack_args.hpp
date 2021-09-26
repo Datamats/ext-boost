@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/mwcw/unpack_args.hpp"
 
 // Copyright Aleksey Gurtovoy 2002-2004
 //

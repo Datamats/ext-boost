@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/strong_typedef.hpp"
 #ifndef BOOST_SERIALIZATION_STRONG_TYPEDEF_HPP
 #define BOOST_SERIALIZATION_STRONG_TYPEDEF_HPP
 
@@ -10,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // strong_typedef.hpp:
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // (C) Copyright 2016 Ashish Sadanandan
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at

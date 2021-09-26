@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/pending/static_mutex.hpp"
 /*
  *
  * Copyright (c) 2004

@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/special_values_parser.hpp"
 
 #ifndef DATE_TIME_SPECIAL_VALUES_PARSER_HPP__
 #define DATE_TIME_SPECIAL_VALUES_PARSER_HPP__
@@ -74,11 +73,6 @@ namespace boost { namespace date_time {
       collection_type phrases;
       std::copy(beg, end, std::back_inserter(phrases));
       m_sv_strings = parse_tree_type(phrases, static_cast<int>(not_a_date_time));
-    }
-
-    special_values_parser(const special_values_parser<date_type,charT>& svp)
-    {
-      this->m_sv_strings = svp.m_sv_strings;
     }
 
     //! Replace special value strings

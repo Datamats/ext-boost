@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/primitives/impl/primitives.ipp"
 /*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     Copyright (c) 2003 Martin Wille

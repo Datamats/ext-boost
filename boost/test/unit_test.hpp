@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/unit_test.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -26,7 +25,8 @@
 // ************************************************************************** //
 
 #if !defined(BOOST_ALL_NO_LIB) && !defined(BOOST_TEST_NO_LIB) && \
-    !defined(BOOST_TEST_SOURCE) && !defined(BOOST_TEST_INCLUDED)
+    !defined(BOOST_TEST_SOURCE) && !defined(BOOST_TEST_INCLUDED) && \
+    defined(BOOST_TEST_MAIN)
 #  define BOOST_LIB_NAME boost_unit_test_framework
 
 #  if defined(BOOST_ALL_DYN_LINK) || defined(BOOST_TEST_DYN_LINK)

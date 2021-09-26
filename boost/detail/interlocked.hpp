@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/interlocked.hpp"
 #ifndef BOOST_DETAIL_INTERLOCKED_HPP_INCLUDED
 #define BOOST_DETAIL_INTERLOCKED_HPP_INCLUDED
 

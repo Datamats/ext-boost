@@ -1,11 +1,10 @@
-#line 1 "include/boost/variant/recursive_wrapper_fwd.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/recursive_wrapper_fwd.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
 //-----------------------------------------------------------------------------
 //
 // Copyright (c) 2002 Eric Friedman, Itay Maman
-// Copyright (c) 2016-2019 Antony Polukhin
+// Copyright (c) 2016-2021 Antony Polukhin
 //
 // Portions Copyright (C) 2002 David Abrahams
 //

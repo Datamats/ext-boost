@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/detail/buf_id_check_policy.hpp"
 //  Copyright (c) 2001, Daniel C. Nuffer
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
@@ -25,9 +24,9 @@ namespace boost { namespace spirit { namespace iterator_policies
     {
     public:
         illegal_backtracking() BOOST_NOEXCEPT_OR_NOTHROW {}
-        ~illegal_backtracking() BOOST_NOEXCEPT_OR_NOTHROW {}
+        ~illegal_backtracking() BOOST_NOEXCEPT_OR_NOTHROW BOOST_OVERRIDE {}
 
-        char const* what() const BOOST_NOEXCEPT_OR_NOTHROW
+        char const* what() const BOOST_NOEXCEPT_OR_NOTHROW BOOST_OVERRIDE
         { 
             return "boost::spirit::multi_pass::illegal_backtracking"; 
         }

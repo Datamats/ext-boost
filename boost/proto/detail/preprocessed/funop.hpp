@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/funop.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // funop.hpp
     // Contains definition of funop[n]\<\> class template.

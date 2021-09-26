@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/nttp_decl.hpp"
 
 #ifndef BOOST_MPL_AUX_NTTP_DECL_HPP_INCLUDED
 #define BOOST_MPL_AUX_NTTP_DECL_HPP_INCLUDED

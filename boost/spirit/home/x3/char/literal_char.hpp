@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/char/literal_char.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -24,16 +23,15 @@ namespace boost { namespace spirit { namespace x3
             !is_same<unused_type, attribute_type>::value;
 
         template <typename Char>
-        literal_char(Char ch)
+        constexpr literal_char(Char ch)
           : ch(static_cast<char_type>(ch)) {}
 
         template <typename Char, typename Context>
         bool test(Char ch_, Context const& context) const
         {
-            return ((sizeof(Char) <= sizeof(char_type)) || encoding::ischar(ch_))
-                && (get_case_compare<encoding>(context)(ch, char_type(ch_)) == 0);
+            return get_case_compare<encoding>(context)(ch, char_type(ch_)) == 0;
         }
-        
+
         char_type ch;
     };
 

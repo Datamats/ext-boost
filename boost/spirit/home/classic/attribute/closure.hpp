@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/attribute/closure.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2002-2003 Hartmut Kaiser
@@ -82,7 +81,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
         template <typename ResultT, typename ParserT, typename ScannerT>
         ResultT& post_parse(ResultT& hit, ParserT const&, ScannerT const&)
-        { hit.value(frame[::phoenix::tuple_index<0>()]); return hit; }
+        { hit.value(frame[::phoenix::tuple_index_names::_1]); return hit; }
 
     private:
 
@@ -122,7 +121,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
         template <typename ResultT, typename ParserT, typename ScannerT>
         ResultT& post_parse(ResultT& hit, ParserT const&, ScannerT const&)
-        { hit.value(frame[::phoenix::tuple_index<0>()]); return hit; }
+        { hit.value(frame[::phoenix::tuple_index_names::_1]); return hit; }
 
     private:
 

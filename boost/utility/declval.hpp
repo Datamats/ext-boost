@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility/declval.hpp"
 //  declval.hpp  -------------------------------------------------------------//
 
 //  Copyright 2010 Vicente J. Botet Escriba

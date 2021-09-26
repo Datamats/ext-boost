@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/begin.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2004. Use, modification and
@@ -18,10 +17,6 @@
 
 #include <boost/range/config.hpp>
 
-#ifdef BOOST_NO_FUNCTION_TEMPLATE_ORDERING
-#include <boost/range/detail/begin.hpp>
-#else
-
 #include <boost/range/iterator.hpp>
 #include <boost/config.hpp>
 #include <boost/config/workaround.hpp>
@@ -29,7 +24,7 @@
 namespace boost
 {
 
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
 namespace range_detail
 {
 #endif
@@ -86,7 +81,7 @@ namespace range_detail
     }
 
 
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
 } // namespace 'range_detail'
 #endif
 
@@ -102,7 +97,7 @@ BOOST_CONSTEXPR
 #endif
 inline BOOST_DEDUCED_TYPENAME range_iterator<T>::type begin( T& r )
 {
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
     using namespace range_detail;
 #endif
     return range_begin( r );
@@ -114,7 +109,7 @@ BOOST_CONSTEXPR
 #endif
 inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
 {
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
     using namespace range_detail;
 #endif
     return range_begin( r );
@@ -122,8 +117,6 @@ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
 
     } // namespace range_adl_barrier
 } // namespace boost
-
-#endif // BOOST_NO_FUNCTION_TEMPLATE_ORDERING
 
 namespace boost
 {

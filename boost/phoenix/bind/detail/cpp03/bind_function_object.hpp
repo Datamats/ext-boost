@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/bind/detail/cpp03/bind_function_object.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
 

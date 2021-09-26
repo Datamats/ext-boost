@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/auxiliary/guard.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -27,7 +26,7 @@ namespace boost { namespace spirit { namespace x3
         typedef unary_parser<Subject, guard<Subject, Handler>> base_type;
         static bool const is_pass_through_unary = true;
 
-        guard(Subject const& subject, Handler handler)
+        constexpr guard(Subject const& subject, Handler handler)
           : base_type(subject), handler(handler) {}
 
         template <typename Iterator, typename Context

@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_equal.hpp"
 //  Copyright Douglas Gregor 2004.
 //  Copyright 2005 Peter Dimov
 

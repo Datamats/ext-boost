@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/enable_recursive_fwd.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/enable_recursive_fwd.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

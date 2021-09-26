@@ -1,4 +1,3 @@
-#line 1 "include/boost/program_options/options_description.hpp"
 // Copyright Vladimir Prus 2002-2004.
 // Copyright Bertolt Mildner 2004.
 // Distributed under the Boost Software License, Version 1.0.

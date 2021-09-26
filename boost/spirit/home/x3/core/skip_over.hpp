@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/core/skip_over.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/joint_view.hpp"
 
 #ifndef BOOST_MPL_JOINT_VIEW_HPP_INCLUDED
 #define BOOST_MPL_JOINT_VIEW_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/na_spec.hpp"
 
 #ifndef BOOST_MPL_AUX_NA_SPEC_HPP_INCLUDED
 #define BOOST_MPL_AUX_NA_SPEC_HPP_INCLUDED

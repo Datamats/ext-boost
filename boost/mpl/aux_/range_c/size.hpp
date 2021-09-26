@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/range_c/size.hpp"
 
 #ifndef BOOST_MPL_AUX_RANGE_C_SIZE_HPP_INCLUDED
 #define BOOST_MPL_AUX_RANGE_C_SIZE_HPP_INCLUDED

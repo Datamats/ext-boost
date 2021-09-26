@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/thread_time.hpp"
 #ifndef BOOST_THREAD_TIME_HPP
 #define BOOST_THREAD_TIME_HPP
 //  (C) Copyright 2007 Anthony Williams 

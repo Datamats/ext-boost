@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/platform.h"
 /*
 Copyright Rene Rivera 2013-2015
 Copyright (c) Microsoft Corporation 2014
@@ -25,6 +24,5 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/platform/windows_system.h>
 #include <boost/predef/platform/windows_runtime.h> // deprecated
 #include <boost/predef/platform/ios.h>
-/*#include <boost/predef/platform/.h>*/
 
 #endif

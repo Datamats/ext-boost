@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/enum_shifted_params.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

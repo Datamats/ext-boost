@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/stl/algorithm.hpp"
 /*=============================================================================
     Copyright (c) 2004 Angus Leeming
     Copyright (c) 2006 Daniel Wallin

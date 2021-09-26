@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/pthread/once.hpp"
 #ifndef BOOST_THREAD_PTHREAD_ONCE_HPP
 #define BOOST_THREAD_PTHREAD_ONCE_HPP
 
@@ -20,7 +19,7 @@
 #include <boost/thread/detail/delete.hpp>
 #include <boost/core/no_exceptions_support.hpp>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/assert.hpp>
 #include <boost/config/abi_prefix.hpp>
 

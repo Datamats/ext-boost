@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/deque/detail/is_sequence_impl.hpp"
 /*=============================================================================
     Copyright (c) 2010 Christopher Schmidt
 

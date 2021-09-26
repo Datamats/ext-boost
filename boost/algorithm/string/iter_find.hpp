@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/iter_find.hpp"
 //  Boost string_algo library iter_find.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.

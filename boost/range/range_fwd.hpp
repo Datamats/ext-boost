@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/range_fwd.hpp"
 // Boost.Range library
 //
 //  Copyright Neil Groves 2003-2004.

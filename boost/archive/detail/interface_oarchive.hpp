@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/detail/interface_oarchive.hpp"
 #ifndef BOOST_ARCHIVE_DETAIL_INTERFACE_OARCHIVE_HPP
 #define BOOST_ARCHIVE_DETAIL_INTERFACE_OARCHIVE_HPP
 
@@ -10,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // interface_oarchive.hpp
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -33,10 +32,10 @@ namespace detail {
 class basic_pointer_oserializer;
 
 template<class Archive>
-class interface_oarchive 
+class interface_oarchive
 {
 protected:
-    interface_oarchive(){};
+    interface_oarchive() {}
 public:
     /////////////////////////////////////////////////////////
     // archive public interface
@@ -49,7 +48,7 @@ public:
     }
 
     template<class T>
-    const basic_pointer_oserializer * 
+    const basic_pointer_oserializer *
     register_type(const T * = NULL){
         const basic_pointer_oserializer & bpos =
             boost::serialization::singleton<
@@ -58,7 +57,7 @@ public:
         this->This()->register_basic_serializer(bpos.get_basic_serializer());
         return & bpos;
     }
-    
+
     template<class Helper>
     Helper &
     get_helper(void * const id = 0){
@@ -71,8 +70,8 @@ public:
         this->This()->save_override(t);
         return * this->This();
     }
-    
-    // the & operator 
+
+    // the & operator
     template<class T>
     Archive & operator&(const T & t){
         return * this ->This() << t;

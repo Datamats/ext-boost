@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc_pre590/iter_fold_if_impl.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2004
 // Copyright David Abrahams 2001-2002

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/try_catch.hpp"
 /*==============================================================================
     Copyright (c) 2005-2007 Dan Marsden
     Copyright (c) 2005-2010 Joel de Guzman
@@ -419,8 +418,8 @@ namespace boost { namespace phoenix
                 );
         }
 
-        TryCatch const & try_catch;
-        Capture const & capture;
+        TryCatch try_catch;
+        Capture capture;
     };
 
     template <typename TryCatch, typename Exception>
@@ -447,7 +446,7 @@ namespace boost { namespace phoenix
                 );
         }
 
-        TryCatch const & try_catch;
+        TryCatch try_catch;
     };
 
     template <typename TryCatch>
@@ -473,7 +472,7 @@ namespace boost { namespace phoenix
             );
         }
 
-        TryCatch const & try_catch;
+        TryCatch try_catch;
     };
 
     template <
@@ -485,7 +484,6 @@ namespace boost { namespace phoenix
     struct try_catch_actor
         : actor<Expr>
     {
-        typedef try_catch_actor<Expr> that_type;
         typedef actor<Expr> base_type;
 
         try_catch_actor(base_type const& expr)
@@ -495,21 +493,26 @@ namespace boost { namespace phoenix
         }
 
         template <typename Exception>
-        catch_gen<that_type, Exception> const
+        catch_gen<base_type, Exception> const
         catch_() const
         {
-            return catch_gen<that_type, Exception>(*this);
+            return catch_gen<base_type, Exception>(*this);
         }
 
         template <typename Exception, typename Capture>
-        catch_gen<that_type, Exception, Capture> const
+        catch_gen<base_type, Exception, Capture> const
         catch_(Capture const &expr) const
         {
-            return catch_gen<that_type, Exception, Capture>(*this, expr);
+            return catch_gen<base_type, Exception, Capture>(*this, expr);
         }
 
-        catch_all_gen<that_type> const catch_all;
+        catch_all_gen<base_type> const catch_all;
     };
+
+    template <typename Expr>
+    struct is_actor<try_catch_actor<Expr> >
+        : mpl::true_
+    {};
 
     struct try_gen
     {

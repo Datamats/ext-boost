@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/add_rvalue_reference.hpp"
 //  add_rvalue_reference.hpp  ---------------------------------------------------------//
 
 //  Copyright 2010 Vicente J. Botet Escriba

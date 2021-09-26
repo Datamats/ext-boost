@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/is_stateful_value_traits.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2009-2013.

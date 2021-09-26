@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/home/support/subrule_context.hpp"
 /*=============================================================================
     Copyright (c) 2009 Francois Barel
     Copyright (c) 2001-2010 Joel de Guzman

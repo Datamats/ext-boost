@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/slot/detail/shared.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/special_values_formatter.hpp"
 
 #ifndef DATETIME_SPECIAL_VALUE_FORMATTER_HPP___
 #define DATETIME_SPECIAL_VALUE_FORMATTER_HPP___
@@ -13,6 +12,7 @@
 
 #include <vector>
 #include <string>
+#include <iterator>
 #include "boost/date_time/special_defs.hpp"
 
 namespace boost { namespace date_time {

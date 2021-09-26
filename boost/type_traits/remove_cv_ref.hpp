@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/remove_cv_ref.hpp"
 
 //  (C) Copyright Peter Dimov 2017. 
 //  Use, modification and distribution are subject to the Boost Software License,

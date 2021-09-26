@@ -1,4 +1,3 @@
-#line 1 "include/boost/optional/optional_fwd.hpp"
 // Copyright (C) 2003, 2008 Fernando Luis Cacciola Carballal.
 // Copyright (C) 2016 Andrzej Krzemienski
 //

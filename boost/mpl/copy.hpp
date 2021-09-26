@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/copy.hpp"
 
 #ifndef BOOST_MPL_COPY_HPP_INCLUDED
 #define BOOST_MPL_COPY_HPP_INCLUDED

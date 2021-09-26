@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/stdlib/xlcpp_zos.hpp"
 //  Copyright (c) 2017 Dynatrace
 //
 //  Distributed under the Boost Software License, Version 1.0.
@@ -51,6 +50,7 @@
 #define BOOST_NO_CXX11_HDR_CHRONO
 #define BOOST_NO_CXX11_HDR_ATOMIC
 #define BOOST_NO_CXX11_HDR_ARRAY
+#define BOOST_NO_CXX11_HDR_EXCEPTION
 #define BOOST_NO_CXX11_STD_ALIGN
 
 #define BOOST_NO_CXX14_STD_EXCHANGE

@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/qi/detail/permute_function.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
     Distributed under the Boost Software License, Version 1.0. (See accompanying
     file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 =============================================================================*/
-#if !defined(SPIRIT_PERMUTE_FUNCTION_MARCH_13_2007_1129AM)
-#define SPIRIT_PERMUTE_FUNCTION_MARCH_13_2007_1129AM
+#ifndef BOOST_SPIRIT_QI_DETAIL_PERMUTE_FUNCTION_HPP
+#define BOOST_SPIRIT_QI_DETAIL_PERMUTE_FUNCTION_HPP
 
 #if defined(_MSC_VER)
 #pragma once

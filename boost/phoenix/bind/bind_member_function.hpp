@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/bind/bind_member_function.hpp"
 /*=============================================================================
     Copyright (c) 2016 Kohei Takahashi
 

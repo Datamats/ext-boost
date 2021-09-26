@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/params.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_PARAMS_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_PARAMS_HPP_INCLUDED
@@ -30,6 +29,10 @@
     BOOST_PP_CAT(BOOST_MPL_PP_PARAMS_,n)(p) \
     /**/
 
+#   define BOOST_MPL_PP_PARAMS_Z(z_ignored,n,p) \
+    BOOST_PP_CAT(BOOST_MPL_PP_PARAMS_,n)(p) \
+    /**/
+
 #   define BOOST_MPL_PP_PARAMS_0(p)
 #   define BOOST_MPL_PP_PARAMS_1(p) p##1
 #   define BOOST_MPL_PP_PARAMS_2(p) p##1,p##2
@@ -55,6 +58,14 @@
 
 #   define BOOST_MPL_PP_PARAMS(n, param) \
     BOOST_PP_REPEAT( \
+          n \
+        , BOOST_MPL_PP_AUX_PARAM_FUNC \
+        , param \
+        ) \
+    /**/
+
+#   define BOOST_MPL_PP_PARAMS_Z(z, n, param) \
+    BOOST_PP_REPEAT_ ## z( \
           n \
         , BOOST_MPL_PP_AUX_PARAM_FUNC \
         , param \

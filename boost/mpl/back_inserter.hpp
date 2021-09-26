@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/back_inserter.hpp"
 
 #ifndef BOOST_MPL_BACK_INSERTER_HPP_INCLUDED
 #define BOOST_MPL_BACK_INSERTER_HPP_INCLUDED

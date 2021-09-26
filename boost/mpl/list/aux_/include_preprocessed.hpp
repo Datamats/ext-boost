@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/list/aux_/include_preprocessed.hpp"
 
 // Copyright Aleksey Gurtovoy 2001-2006
 //

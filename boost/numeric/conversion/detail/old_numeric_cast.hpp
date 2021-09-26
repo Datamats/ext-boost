@@ -1,4 +1,3 @@
-#line 1 "include/boost/numeric/conversion/detail/old_numeric_cast.hpp"
 //  boost cast.hpp header file  ----------------------------------------------//
 
 //  (C) Copyright Kevlin Henney and Dave Abrahams 1999.
@@ -232,7 +231,7 @@ namespace boost
 #  pragma warning(push)
 #  pragma warning(disable : 4018)
 #  pragma warning(disable : 4146)
-#elif defined(__BORLANDC__)
+#elif defined(BOOST_BORLANDC)
 #  pragma option push -w-8041
 # endif
 
@@ -249,7 +248,7 @@ namespace boost
 
 # if BOOST_MSVC
 #  pragma warning(pop)
-#elif defined(__BORLANDC__)
+#elif defined(BOOST_BORLANDC)
 #  pragma option pop
 # endif
   } // namespace detail
@@ -286,7 +285,7 @@ namespace boost
 # if BOOST_MSVC
 #  pragma warning(push)
 #  pragma warning(disable : 4018)
-#elif defined(__BORLANDC__)
+#elif defined(BOOST_BORLANDC)
 #pragma option push -w-8012
 # endif
         if ((arg < 0 && !result_traits::is_signed)  // loss of negative range
@@ -294,7 +293,7 @@ namespace boost
              || arg > (result_traits::max)())            // overflow
 # if BOOST_MSVC
 #  pragma warning(pop)
-#elif defined(__BORLANDC__)
+#elif defined(BOOST_BORLANDC)
 #pragma option pop
 # endif
 #endif

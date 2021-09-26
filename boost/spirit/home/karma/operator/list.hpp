@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/karma/operator/list.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
 //  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 
-#if !defined(SPIRIT_KARMA_LIST_MAY_01_2007_0229PM)
-#define SPIRIT_KARMA_LIST_MAY_01_2007_0229PM
+#ifndef BOOST_SPIRIT_KARMA_OPERATOR_LIST_HPP
+#define BOOST_SPIRIT_KARMA_OPERATOR_LIST_HPP
 
 #if defined(_MSC_VER)
 #pragma once
@@ -25,6 +24,8 @@
 #include <boost/spirit/home/support/container.hpp>
 #include <boost/spirit/home/support/handles_container.hpp>
 #include <boost/spirit/home/karma/detail/attributes.hpp>
+#include <boost/proto/operators.hpp>
+#include <boost/proto/tags.hpp>
 
 namespace boost { namespace spirit
 {

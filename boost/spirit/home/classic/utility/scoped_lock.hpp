@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/utility/scoped_lock.hpp"
 /*=============================================================================
     Copyright (c) 2003 Martin Wille
     http://spirit.sourceforge.net/

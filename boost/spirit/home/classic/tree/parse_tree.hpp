@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/tree/parse_tree.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     Copyright (c) 2001-2007 Hartmut Kaiser

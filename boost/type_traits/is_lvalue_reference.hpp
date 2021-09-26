@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_lvalue_reference.hpp"
 
 //  (C) Copyright Dave Abrahams, Steve Cleary, Beman Dawes, 
 //      Howard Hinnant and John Maddock 2000. 
@@ -26,7 +25,7 @@
 
 namespace boost {
 
-#if defined( __CODEGEARC__ )
+#if defined( BOOST_CODEGEARC )
    template <class T> struct is_lvalue_reference : public integral_constant<bool, __is_reference(T)>{};
 #else
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/over_sequence.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/over_sequence.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

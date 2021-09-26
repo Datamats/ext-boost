@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/utility/flush_multi_pass.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/

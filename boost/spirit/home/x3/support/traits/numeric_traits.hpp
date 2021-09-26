@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/traits/numeric_traits.hpp"
 /*=============================================================================
 	Copyright (c) 2001-2011 Hartmut Kaiser
 

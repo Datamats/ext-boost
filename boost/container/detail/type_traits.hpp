@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/type_traits.hpp"
 //////////////////////////////////////////////////////////////////////////////
 // (C) Copyright John Maddock 2000.
 // (C) Copyright Ion Gaztanaga 2005-2015.
@@ -41,6 +40,7 @@ using ::boost::move_detail::add_const;
 using ::boost::move_detail::add_const_reference;
 using ::boost::move_detail::remove_const;
 using ::boost::move_detail::remove_reference;
+using ::boost::move_detail::remove_cvref;
 using ::boost::move_detail::make_unsigned;
 using ::boost::move_detail::is_floating_point;
 using ::boost::move_detail::is_integral;
@@ -65,6 +65,7 @@ using ::boost::move_detail::nat;
 using ::boost::move_detail::nat2;
 using ::boost::move_detail::nat3;
 using ::boost::move_detail::max_align_t;
+using ::boost::move_detail::is_convertible;
 
 }  //namespace dtl {
 }  //namespace container {

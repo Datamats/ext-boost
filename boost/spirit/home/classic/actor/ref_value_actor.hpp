@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/actor/ref_value_actor.hpp"
 /*=============================================================================
     Copyright (c) 2003 Jonathan de Halleux (dehalleux@pelikhan.com)
     Copyright (c) 2011 Bryce Lelbach

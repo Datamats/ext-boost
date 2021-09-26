@@ -1,4 +1,3 @@
-#line 1 "include/boost/optional/detail/optional_config.hpp"
 // Copyright (C) 2003, 2008 Fernando Luis Cacciola Carballal.
 // Copyright (C) 2015 - 2017 Andrzej Krzemienski.
 //
@@ -29,7 +28,7 @@
 # define BOOST_OPTIONAL_NO_INPLACE_FACTORY_SUPPORT
 #endif
 
-#if BOOST_WORKAROUND(__BORLANDC__, <= 0x551)
+#if BOOST_WORKAROUND(BOOST_BORLANDC, <= 0x551)
 // BCB (5.5.1) cannot parse the nested template struct in an inplace factory.
 # define BOOST_OPTIONAL_NO_INPLACE_FACTORY_SUPPORT
 #endif

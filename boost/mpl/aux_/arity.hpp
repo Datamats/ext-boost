@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/arity.hpp"
 
 #ifndef BOOST_MPL_AUX_ARITY_HPP_INCLUDED
 #define BOOST_MPL_AUX_ARITY_HPP_INCLUDED

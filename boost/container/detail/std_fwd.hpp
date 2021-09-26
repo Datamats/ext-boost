@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/std_fwd.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014. Distributed under the Boost
@@ -53,6 +52,9 @@ class insert_iterator;
 struct allocator_arg_t;
 
 struct piecewise_construct_t;
+
+template <class Ptr>
+struct pointer_traits;
 
 BOOST_MOVE_STD_NS_END
 #include <boost/move/detail/std_ns_end.hpp>

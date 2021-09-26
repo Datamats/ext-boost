@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/pthread/pthread_mutex_scoped_lock.hpp"
 #ifndef BOOST_PTHREAD_MUTEX_SCOPED_LOCK_HPP
 #define BOOST_PTHREAD_MUTEX_SCOPED_LOCK_HPP
 //  (C) Copyright 2007-8 Anthony Williams

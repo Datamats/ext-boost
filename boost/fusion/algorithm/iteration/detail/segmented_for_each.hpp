@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/algorithm/iteration/detail/segmented_for_each.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/register_functions_iterate.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)

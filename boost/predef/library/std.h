@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/library/std.h"
 /*
 Copyright Rene Rivera 2008-2015
 Distributed under the Boost Software License, Version 1.0.

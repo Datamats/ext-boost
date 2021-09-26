@@ -1,4 +1,3 @@
-#line 1 "include/boost/winapi/access_rights.hpp"
 /*
  * Copyright 2016 Andrey Semashev
  *
@@ -10,6 +9,7 @@
 #define BOOST_WINAPI_ACCESS_RIGHTS_HPP_INCLUDED_
 
 #include <boost/winapi/basic_types.hpp>
+#include <boost/winapi/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -78,5 +78,7 @@ typedef ACCESS_MASK_* PACCESS_MASK_;
 
 }
 }
+
+#include <boost/winapi/detail/footer.hpp>
 
 #endif // BOOST_WINAPI_ACCESS_RIGHTS_HPP_INCLUDED_

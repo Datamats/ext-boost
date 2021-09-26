@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/posix_time/date_duration_operators.hpp"
 #ifndef DATE_DURATION_OPERATORS_HPP___
 #define DATE_DURATION_OPERATORS_HPP___
 
@@ -27,7 +26,7 @@ namespace posix_time {
   /*! Adds a months object and a ptime. Result will be same 
    * day-of-month as ptime unless original day was the last day of month.
    * see date_time::months_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator+(const ptime& t, const boost::gregorian::months& m)
   {
@@ -37,7 +36,7 @@ namespace posix_time {
   /*! Adds a months object to a ptime. Result will be same 
    * day-of-month as ptime unless original day was the last day of month.
    * see date_time::months_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator+=(ptime& t, const boost::gregorian::months& m)
   {
@@ -48,7 +47,7 @@ namespace posix_time {
   /*! Subtracts a months object and a ptime. Result will be same 
    * day-of-month as ptime unless original day was the last day of month.
    * see date_time::months_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator-(const ptime& t, const boost::gregorian::months& m)
   {
@@ -59,7 +58,7 @@ namespace posix_time {
   /*! Subtracts a months object from a ptime. Result will be same 
    * day-of-month as ptime unless original day was the last day of month.
    * see date_time::months_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator-=(ptime& t, const boost::gregorian::months& m)
   {
@@ -71,7 +70,7 @@ namespace posix_time {
   /*! Adds a years object and a ptime. Result will be same 
    * month and day-of-month as ptime unless original day was the 
    * last day of month. see date_time::years_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator+(const ptime& t, const boost::gregorian::years& y)
   {
@@ -81,7 +80,7 @@ namespace posix_time {
   /*! Adds a years object to a ptime. Result will be same 
    * month and day-of-month as ptime unless original day was the 
    * last day of month. see date_time::years_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator+=(ptime& t, const boost::gregorian::years& y)
   {
@@ -91,7 +90,7 @@ namespace posix_time {
   /*! Subtracts a years object and a ptime. Result will be same 
    * month and day-of-month as ptime unless original day was the 
    * last day of month. see date_time::years_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator-(const ptime& t, const boost::gregorian::years& y)
   {
@@ -102,7 +101,7 @@ namespace posix_time {
   /*! Subtracts a years object from a ptime. Result will be same 
    * month and day-of-month as ptime unless original day was the 
    * last day of month. see date_time::years_duration for more details */
-  inline
+  inline BOOST_CXX14_CONSTEXPR
   ptime 
   operator-=(ptime& t, const boost::gregorian::years& y)
   {

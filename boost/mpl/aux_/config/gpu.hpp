@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/gpu.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_GPU_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_GPU_HPP_INCLUDED

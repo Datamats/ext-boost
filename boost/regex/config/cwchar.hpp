@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/config/cwchar.hpp"
 /*
  *
  * Copyright (c) 1998-2002

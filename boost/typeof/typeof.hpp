@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/typeof.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
@@ -85,7 +84,7 @@
 #           define BOOST_TYPEOF_KEYWORD __typeof__
 #       endif
 #   endif
-#elif defined __CODEGEARC__
+#elif defined BOOST_CODEGEARC
 #   ifndef BOOST_TYPEOF_EMULATION
 #       ifndef BOOST_TYPEOF_NATIVE
 #           define BOOST_TYPEOF_EMULATION_UNSUPPORTED
@@ -93,7 +92,7 @@
 #   else
 #       define BOOST_TYPEOF_EMULATION_UNSUPPORTED
 #   endif
-#elif defined __BORLANDC__
+#elif defined BOOST_BORLANDC
 #   ifndef BOOST_TYPEOF_EMULATION
 #       ifndef BOOST_TYPEOF_NATIVE
 #           define BOOST_TYPEOF_EMULATION_UNSUPPORTED
@@ -143,8 +142,8 @@
 #       error native typeof is not supported
 #   endif
 
-#elif defined(__BORLANDC__)
-#   if (__BORLANDC__ < 0x590)
+#elif defined(BOOST_BORLANDC)
+#   if (BOOST_BORLANDC < 0x590)
 #       define BOOST_TYPEOF_NO_FUNCTION_TYPES
 #       define BOOST_TYPEOF_NO_MEMBER_FUNCTION_TYPES
 #   endif

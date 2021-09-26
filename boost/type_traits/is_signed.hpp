@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_signed.hpp"
 
 //  (C) Copyright John Maddock 2005.  
 //  Use, modification and distribution are subject to the Boost Software License,
@@ -18,7 +17,7 @@
 
 namespace boost {
 
-#if !defined( __CODEGEARC__ )
+#if !defined( BOOST_CODEGEARC )
 
 #if !(defined(BOOST_MSVC) && BOOST_MSVC <= 1310) && \
     !(defined(__EDG_VERSION__) && __EDG_VERSION__ <= 238) &&\
@@ -85,7 +84,7 @@ template <class T> struct is_signed : public false_type{};
 
 #endif
 
-#else //defined( __CODEGEARC__ )
+#else //defined( BOOST_CODEGEARC )
    template <class T> struct is_signed : public integral_constant<bool, __is_signed(T)>{};
 #endif
 

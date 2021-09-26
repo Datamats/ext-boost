@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/find_format.hpp"
 //  Boost string_algo library find_format.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.
@@ -13,7 +12,6 @@
 #define BOOST_STRING_FIND_FORMAT_HPP
 
 #include <deque>
-#include <boost/detail/iterator.hpp>
 #include <boost/range/iterator_range_core.hpp>
 #include <boost/range/begin.hpp>
 #include <boost/range/end.hpp>
@@ -41,7 +39,7 @@ namespace boost {
             this substring and replace it in the input.
             The result is a modified copy of the input. It is returned as a sequence 
             or copied to the output iterator.
-    
+
             \param Output An output iterator to which the result will be copied
             \param Input An input sequence
             \param Finder A Finder object used to search for a match to be replaced

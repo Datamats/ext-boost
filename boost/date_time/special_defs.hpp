@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/special_defs.hpp"
 #ifndef DATE_TIME_SPECIAL_DEFS_HPP__
 #define DATE_TIME_SPECIAL_DEFS_HPP__
 

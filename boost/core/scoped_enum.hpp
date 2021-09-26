@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/scoped_enum.hpp"
 //  scoped_enum.hpp  ---------------------------------------------------------//
 
 //  Copyright Beman Dawes, 2009

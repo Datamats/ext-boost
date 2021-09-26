@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/functional/range.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file range.hpp
 /// Proto callables for things found in the boost range library

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/lexer/lexertl/lexer.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -25,8 +24,6 @@
 #if defined(BOOST_SPIRIT_LEXERTL_DEBUG)
 #include <boost/spirit/home/support/detail/lexer/debug.hpp>
 #endif
-
-#include <boost/foreach.hpp>
 
 #include <iterator> // for std::iterator_traits
 
@@ -303,13 +300,14 @@ namespace boost { namespace spirit { namespace lex { namespace lexertl
             if (state == all_states_id) {
                 // add the action to all known states
                 typedef typename
-                    basic_rules_type::string_size_t_map::value_type
-                state_type;
+                    basic_rules_type::string_size_t_map::const_iterator
+                state_iterator;
 
                 std::size_t states = rules_.statemap().size();
-                BOOST_FOREACH(state_type const& s, rules_.statemap()) {
+                for (state_iterator it = rules_.statemap().begin(),
+                                    end = rules_.statemap().end(); it != end; ++it) {
                     for (std::size_t j = 0; j < states; ++j)
-                        actions_.add_action(unique_id + j, s.second, wrapper_type::call(act));
+                        actions_.add_action(unique_id + j, it->second, wrapper_type::call(act));
                 }
             }
             else {

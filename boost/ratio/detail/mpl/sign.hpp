@@ -1,4 +1,3 @@
-#line 1 "include/boost/ratio/detail/mpl/sign.hpp"
 ////////////////////////////////////////////////////////////////////
 //
 // Copyright Vicente J. Botet Escriba 2010

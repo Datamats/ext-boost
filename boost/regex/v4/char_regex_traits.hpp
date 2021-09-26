@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/v4/char_regex_traits.hpp"
 /*
  *
  * Copyright (c) 2002

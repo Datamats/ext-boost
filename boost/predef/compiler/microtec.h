@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/compiler/microtec.h"
 /*
 Copyright Rene Rivera 2008-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -12,17 +11,18 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_COMP_MRI`]
+/* tag::reference[]
+= `BOOST_COMP_MRI`
 
-[@http://www.mentor.com/microtec/ Microtec C/C++] compiler.
+http://www.mentor.com/microtec/[Microtec C/{CPP}] compiler.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`_MRI`] [__predef_detection__]]
-    ]
- */
+| `+_MRI+` | {predef_detection}
+|===
+*/ // end::reference[]
 
 #define BOOST_COMP_MRI BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

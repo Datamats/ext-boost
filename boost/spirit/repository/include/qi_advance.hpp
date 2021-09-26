@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/include/qi_advance.hpp"
 /*=============================================================================
     Copyright (c) 2011 Aaron Graham
     http://spirit.sourceforge.net/

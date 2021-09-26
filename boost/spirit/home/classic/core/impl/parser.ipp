@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/impl/parser.ipp"
 /*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     http://spirit.sourceforge.net/

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/cpp03/local_gen.hpp"
 #if !BOOST_PHOENIX_IS_ITERATING
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman

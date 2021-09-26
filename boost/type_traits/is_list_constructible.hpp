@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_list_constructible.hpp"
 #ifndef BOOST_TYPE_TRAITS_IS_LIST_CONSTRUCTIBLE_HPP_INCLUDED
 #define BOOST_TYPE_TRAITS_IS_LIST_CONSTRUCTIBLE_HPP_INCLUDED
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/msvc70/set_c.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

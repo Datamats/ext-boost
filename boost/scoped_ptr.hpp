@@ -1,4 +1,3 @@
-#line 1 "include/boost/scoped_ptr.hpp"
 #ifndef BOOST_SCOPED_PTR_HPP_INCLUDED
 #define BOOST_SCOPED_PTR_HPP_INCLUDED
 

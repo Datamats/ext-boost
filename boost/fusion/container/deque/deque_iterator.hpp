@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/deque/deque_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2005-2012 Joel de Guzman
     Copyright (c) 2005-2006 Dan Marsden
@@ -112,9 +111,8 @@ namespace boost { namespace fusion {
 
         Seq& seq_;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        deque_iterator& operator= (deque_iterator const&);
+        BOOST_DELETED_FUNCTION(deque_iterator& operator= (deque_iterator const&))
     };
 
 }}

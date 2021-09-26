@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_virtual_base_of.hpp"
 //  (C) Copyright Daniel Frey and Robert Ramey 2009.
 //  (C) Copyright Balint Cserni 2017
 //  Use, modification and distribution are subject to the Boost Software License,
@@ -82,7 +81,7 @@ namespace boost {
          long long ll;
 #endif
       };
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
       struct boost_type_traits_internal_struct_X : public virtual Derived, public virtual Base
       {
          boost_type_traits_internal_struct_X();

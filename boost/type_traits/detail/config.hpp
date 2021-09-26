@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/detail/config.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,
@@ -21,7 +20,7 @@
 // it needs to be declared __cdecl to suppress compiler
 // warnings from MS and Borland compilers (this *must*
 // appear before we include is_same.hpp below):
-#if defined(BOOST_MSVC) || (defined(__BORLANDC__) && !defined(BOOST_DISABLE_WIN32))
+#if defined(BOOST_MSVC) || (defined(BOOST_BORLANDC) && !defined(BOOST_DISABLE_WIN32))
 #   define BOOST_TT_DECL __cdecl
 #else
 #   define BOOST_TT_DECL /**/
@@ -29,7 +28,7 @@
 
 # if (BOOST_WORKAROUND(__MWERKS__, < 0x3000)                         \
     || BOOST_WORKAROUND(__IBMCPP__, < 600 )                         \
-    || BOOST_WORKAROUND(__BORLANDC__, < 0x5A0)                      \
+    || BOOST_WORKAROUND(BOOST_BORLANDC, < 0x5A0)                      \
     || defined(__ghs)                                               \
     || BOOST_WORKAROUND(__HP_aCC, < 60700)           \
     || BOOST_WORKAROUND(MPW_CPLUS, BOOST_TESTED_AT(0x890))          \
@@ -49,7 +48,7 @@
 // when we want to test __stdcall etc function types with is_function etc
 // (Note, does not work with Borland, even though it does support __stdcall etc):
 //
-#if defined(_MSC_EXTENSIONS) && !defined(__BORLANDC__)
+#if defined(_MSC_EXTENSIONS) && !defined(BOOST_BORLANDC)
 #  define BOOST_TT_TEST_MS_FUNC_SIGS
 #endif
 

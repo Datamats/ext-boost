@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/helper_macros.hpp"
 #ifndef BOOST_CONFIG_HELPER_MACROS_HPP_INCLUDED
 #define BOOST_CONFIG_HELPER_MACROS_HPP_INCLUDED
 

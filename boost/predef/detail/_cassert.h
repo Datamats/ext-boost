@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/detail/_cassert.h"
 /*
 Copyright Rene Rivera 2011-2012
 Distributed under the Boost Software License, Version 1.0.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/context/detail/preprocessed/callable_eval.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file callable_eval.hpp
     /// Contains specializations of the callable_eval\<\> class template.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/map/detail/cpp03/preprocessed/as_map40.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

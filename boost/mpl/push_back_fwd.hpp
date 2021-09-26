@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/push_back_fwd.hpp"
 
 #ifndef BOOST_MPL_PUSH_BACK_FWD_HPP_INCLUDED
 #define BOOST_MPL_PUSH_BACK_FWD_HPP_INCLUDED

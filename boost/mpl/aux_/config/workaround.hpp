@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/workaround.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_WORKAROUND_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_WORKAROUND_HPP_INCLUDED

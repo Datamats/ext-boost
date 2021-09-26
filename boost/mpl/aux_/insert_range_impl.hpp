@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/insert_range_impl.hpp"
 
 #ifndef BOOST_MPL_AUX_INSERT_RANGE_IMPL_HPP_INCLUDED
 #define BOOST_MPL_AUX_INSERT_RANGE_IMPL_HPP_INCLUDED

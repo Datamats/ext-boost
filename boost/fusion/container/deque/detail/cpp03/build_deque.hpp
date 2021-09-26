@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/deque/detail/cpp03/build_deque.hpp"
 /*=============================================================================
     Copyright (c) 2005-2013 Joel de Guzman
 

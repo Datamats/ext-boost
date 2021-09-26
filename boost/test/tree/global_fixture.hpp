@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/tree/global_fixture.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -44,10 +43,10 @@ public:
     void unregister_from_framework();
 
     // Dtor
-    virtual ~global_configuration();
+    ~global_configuration() BOOST_OVERRIDE;
 
     // Happens after the framework global observer init has been done
-    virtual int     priority() { return 1; }
+    int     priority() BOOST_OVERRIDE { return 1; }
 
 private:
     bool registered;
@@ -71,7 +70,7 @@ public:
     void unregister_from_framework();
 
     // Dtor
-    virtual ~global_fixture();
+    ~global_fixture() BOOST_OVERRIDE;
 
 private:
     bool registered;
@@ -88,12 +87,12 @@ struct global_configuration_impl : public global_configuration {
     }
 
     // test observer interface
-    virtual void    test_start( counter_t ) {
+    void    test_start( counter_t, test_unit_id ) BOOST_OVERRIDE {
         m_configuration_observer = new F;
     }
 
     // test observer interface
-    virtual void    test_finish()           {
+    void    test_finish() BOOST_OVERRIDE           {
         if(m_configuration_observer) {
             delete m_configuration_observer;
             m_configuration_observer = 0;
@@ -111,13 +110,13 @@ struct global_fixture_impl : public global_fixture {
     }
 
     // test fixture interface
-    virtual void setup()                    {
+    void setup() BOOST_OVERRIDE                    {
         m_fixture = new F;
         setup_conditional(*m_fixture);
     }
 
     // test fixture interface
-    virtual void teardown()                 {
+    void teardown() BOOST_OVERRIDE                 {
         if(m_fixture) {
             teardown_conditional(*m_fixture);
         }

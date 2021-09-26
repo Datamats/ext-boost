@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/detail/is_native_fusion_sequence.hpp"
 /*=============================================================================
     Copyright (c) 2018 Kohei Takahashi
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/date_formatting.hpp"
 #ifndef DATE_TIME_DATE_FORMATTING_HPP___
 #define DATE_TIME_DATE_FORMATTING_HPP___
 

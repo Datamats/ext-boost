@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/scoped_array.hpp"
 #ifndef BOOST_SMART_PTR_SCOPED_ARRAY_HPP_INCLUDED
 #define BOOST_SMART_PTR_SCOPED_ARRAY_HPP_INCLUDED
 
@@ -17,7 +16,7 @@
 #include <boost/smart_ptr/detail/sp_nullptr_t.hpp>
 #include <boost/smart_ptr/detail/sp_noexcept.hpp>
 
-#include <boost/detail/workaround.hpp>
+#include <boost/config/workaround.hpp>
 
 #include <cstddef>            // for std::ptrdiff_t
 

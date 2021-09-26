@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/detail/switch.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 #ifndef BOOST_PHOENIX_STATEMENT_DETAIL_SWITCH_HPP

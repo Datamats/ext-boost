@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/common_terminals.hpp"
 /*=============================================================================
   Copyright (c) 2001-2011 Joel de Guzman
   http://spirit.sourceforge.net/
@@ -20,6 +19,7 @@
 #include <boost/spirit/home/support/char_encoding/iso8859_1.hpp>
 #include <boost/spirit/home/support/char_class.hpp>
 #include <boost/mpl/vector.hpp>
+#include <boost/proto/traits.hpp>
 
 #if defined(BOOST_SPIRIT_UNICODE)
 # include <boost/spirit/home/support/char_encoding/unicode.hpp>

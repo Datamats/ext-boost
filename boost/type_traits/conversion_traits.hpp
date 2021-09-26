@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/conversion_traits.hpp"
 
 // Copyright 2000 John Maddock (john@johnmaddock.co.uk)
 // Copyright 2000 Jeremy Siek (jsiek@lsc.nd.edu)

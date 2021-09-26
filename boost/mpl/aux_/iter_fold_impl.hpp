@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/iter_fold_impl.hpp"
 
 #ifndef BOOST_MPL_AUX_ITER_FOLD_IMPL_HPP_INCLUDED
 #define BOOST_MPL_AUX_ITER_FOLD_IMPL_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/detail/hold_any.hpp"
 /*=============================================================================
     Copyright (c) 2007-2011 Hartmut Kaiser
     Copyright (c) Christopher Diggins 2005
@@ -28,10 +27,10 @@
 #include <boost/assert.hpp>
 #include <boost/core/typeinfo.hpp>
 
-#include <stdexcept>
-#include <typeinfo>
 #include <algorithm>
 #include <iosfwd>
+#include <stdexcept>
+#include <typeinfo>
 
 ///////////////////////////////////////////////////////////////////////////////
 #if BOOST_WORKAROUND(BOOST_MSVC, >= 1400)
@@ -50,7 +49,10 @@ namespace boost { namespace spirit
           : from(src.name()), to(dest.name())
         {}
 
-        virtual const char* what() const BOOST_NOEXCEPT_OR_NOTHROW { return "bad any cast"; }
+        const char* what() const BOOST_NOEXCEPT_OR_NOTHROW BOOST_OVERRIDE
+        { 
+            return "bad any cast";
+        }
 
         const char* from;
         const char* to;

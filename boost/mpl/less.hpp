@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/less.hpp"
 
 #ifndef BOOST_MPL_LESS_HPP_INCLUDED
 #define BOOST_MPL_LESS_HPP_INCLUDED

@@ -1,10 +1,9 @@
-#line 1 "include/boost/variant/detail/hash_variant.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/detail/hash_variant.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.
 //-----------------------------------------------------------------------------
 //
-// Copyright (c) 2011-2019 Antony Polukhin
+// Copyright (c) 2011-2021 Antony Polukhin
 //
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at

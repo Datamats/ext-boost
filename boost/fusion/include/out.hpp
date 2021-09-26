@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/include/out.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Hartmut Kaiser
 

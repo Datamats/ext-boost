@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/make.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file make.hpp
 /// Contains definition of the make<> transform.

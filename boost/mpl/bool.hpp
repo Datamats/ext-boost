@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/bool.hpp"
 
 #ifndef BOOST_MPL_BOOL_HPP_INCLUDED
 #define BOOST_MPL_BOOL_HPP_INCLUDED

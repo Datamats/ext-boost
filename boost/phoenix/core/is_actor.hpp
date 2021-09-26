@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/is_actor.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
 

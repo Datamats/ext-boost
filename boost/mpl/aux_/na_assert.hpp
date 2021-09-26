@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/na_assert.hpp"
 
 #ifndef BOOST_MPL_AUX_NA_ASSERT_HPP_INCLUDED
 #define BOOST_MPL_AUX_NA_ASSERT_HPP_INCLUDED

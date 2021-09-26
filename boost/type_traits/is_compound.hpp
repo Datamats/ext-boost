@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_compound.hpp"
 
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,
@@ -14,7 +13,7 @@
 
 namespace boost {
 
-#if defined( __CODEGEARC__ )
+#if defined( BOOST_CODEGEARC )
    template <class T> struct is_compound : public integral_constant<bool, __is_compound(T)> {};
 #else
    template <class T> struct is_compound : public integral_constant<bool, ! ::boost::is_fundamental<T>::value> {};

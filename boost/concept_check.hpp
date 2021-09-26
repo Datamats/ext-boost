@@ -1,4 +1,3 @@
-#line 1 "include/boost/concept_check.hpp"
 //
 // (C) Copyright Jeremy Siek 2000.
 // Copyright 2002 The Trustees of Indiana University.
@@ -353,7 +352,7 @@ namespace boost
    private:
       void test(boost::false_type)
       {
-          f(first,second);
+          (void) f(first,second);
           Return r = f(first, second); // require operator()
           (void)r;
       }

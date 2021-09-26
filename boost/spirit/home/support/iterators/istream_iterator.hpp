@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/istream_iterator.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -55,9 +54,6 @@ namespace boost { namespace spirit
           : base_type() {}
 
         explicit basic_istream_iterator(std::basic_istream<Elem, Traits>& x)
-          : base_type(x) {}
-
-        basic_istream_iterator(basic_istream_iterator const& x)
           : base_type(x) {}
 
 #if BOOST_WORKAROUND(__GLIBCPP__, == 20020514)

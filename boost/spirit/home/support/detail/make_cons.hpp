@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/detail/make_cons.hpp"
 /*=============================================================================
   Copyright (c) 2001-2011 Joel de Guzman
   http://spirit.sourceforge.net/
@@ -13,8 +12,6 @@
 #pragma once
 #endif
 
-#include <boost/spirit/include/phoenix_limits.hpp>      // needs to be included before proto
-#include <boost/proto/proto.hpp>
 #include <boost/mpl/eval_if.hpp>
 #include <boost/fusion/include/cons.hpp>
 #include <boost/type_traits/remove_const.hpp>

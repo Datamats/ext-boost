@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic.hpp"
 /*=============================================================================
     Copyright (c) 1998-2008 Joel de Guzman
     Copyright (c) 2001-2008 Hartmut Kaiser

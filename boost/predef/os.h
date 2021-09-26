@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/os.h"
 /*
 Copyright Rene Rivera 2008-2015
 Copyright Franz Detro 2014
@@ -29,7 +28,5 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/os/unix.h>
 #include <boost/predef/os/vms.h>
 #include <boost/predef/os/windows.h>
-
-#include <boost/predef/os/android.h>
 
 #endif

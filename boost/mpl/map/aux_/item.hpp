@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/map/aux_/item.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_ITEM_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_ITEM_HPP_INCLUDED

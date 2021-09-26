@@ -1,5 +1,6 @@
-~/Documents/boost_1_71_0/dist/bin/bcp \
+$1/dist/bin/bcp \
     boost/asio.hpp \
+    algorithm/string/predicate.hpp \
     boost/container/flat_map.hpp \
     boost/container/flat_set.hpp \
     boost/container/small_vector.hpp \

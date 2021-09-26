@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/directive.hpp"
 /*=============================================================================
     Copyright (c) 2001-2015 Joel de Guzman
 

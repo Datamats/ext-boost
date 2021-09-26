@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/is_nullary.hpp"
 /*=============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Eric Niebler

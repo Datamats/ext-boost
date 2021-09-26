@@ -1,4 +1,3 @@
-#line 1 "include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp"
 //
 //! Copyright (c) 2011-2012
 //! Brandon Kohn

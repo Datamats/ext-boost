@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/operator/difference.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -20,7 +19,7 @@ namespace boost { namespace spirit { namespace x3
         typedef binary_parser<Left, Right, difference<Left, Right>> base_type;
         static bool const handles_container = Left::handles_container;
 
-        difference(Left const& left, Right const& right)
+        constexpr difference(Left const& left, Right const& right)
           : base_type(left, right) {}
 
         template <typename Iterator, typename Context
@@ -41,7 +40,7 @@ namespace boost { namespace spirit { namespace x3
         }
 
         template <typename Left_, typename Right_>
-        difference<Left_, Right_>
+        constexpr difference<Left_, Right_>
         make(Left_ const& left, Right_ const& right) const
         {
             return { left, right };
@@ -49,7 +48,7 @@ namespace boost { namespace spirit { namespace x3
     };
 
     template <typename Left, typename Right>
-    inline difference<
+    constexpr difference<
         typename extension::as_parser<Left>::value_type
       , typename extension::as_parser<Right>::value_type>
     operator-(Left const& left, Right const& right)

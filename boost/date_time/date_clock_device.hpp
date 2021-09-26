@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/date_clock_device.hpp"
 #ifndef DATE_CLOCK_DEVICE_HPP___
 #define DATE_CLOCK_DEVICE_HPP___
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/statement/throw.hpp"
 /*==============================================================================
     Copyright (c) 2005-2007 Dan Marsden
     Copyright (c) 2005-2010 Joel de Guzman

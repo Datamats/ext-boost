@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/rbegin.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2003-2004. Use, modification and
@@ -22,17 +21,6 @@
 namespace boost
 {
 
-#ifdef BOOST_NO_FUNCTION_TEMPLATE_ORDERING
-
-template< class C >
-inline BOOST_DEDUCED_TYPENAME range_reverse_iterator<C>::type
-rbegin( C& c )
-{
-    return BOOST_DEDUCED_TYPENAME range_reverse_iterator<C>::type( boost::end( c ) );
-}
-
-#else
-
 template< class C >
 inline BOOST_DEDUCED_TYPENAME range_reverse_iterator<C>::type
 rbegin( C& c )
@@ -50,8 +38,6 @@ rbegin( const C& c )
         iter_type;
     return iter_type( boost::end( c ) );
 }
-
-#endif // BOOST_NO_FUNCTION_TEMPLATE_ORDERING
 
 template< class T >
 inline BOOST_DEDUCED_TYPENAME range_reverse_iterator<const T>::type

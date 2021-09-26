@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/result_type.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

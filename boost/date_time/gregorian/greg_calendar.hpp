@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/gregorian/greg_calendar.hpp"
 #ifndef GREGORIAN_GREGORIAN_CALENDAR_HPP__
 #define GREGORIAN_GREGORIAN_CALENDAR_HPP__
 

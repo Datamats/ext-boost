@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/tag.hpp"
 
 #ifndef BOOST_MPL_TAG_HPP_INCLUDED
 #define BOOST_MPL_TAG_HPP_INCLUDED

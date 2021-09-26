@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/concepts.hpp"
 // Boost.Range library concept checks
 //
 //  Copyright Neil Groves 2009. Use, modification and distribution
@@ -85,7 +84,7 @@ namespace boost {
     #endif
 #endif
 
-    #ifdef __BORLANDC__
+    #ifdef BOOST_BORLANDC
         #define BOOST_RANGE_ENABLE_CONCEPT_ASSERT 0
     #endif
 

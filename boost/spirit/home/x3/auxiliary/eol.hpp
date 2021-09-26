@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/auxiliary/eol.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -50,7 +49,7 @@ namespace boost { namespace spirit { namespace x3
         result_type operator()(eol_parser const &) const { return "eol"; }
     };
 
-    auto const eol = eol_parser{};
+    constexpr auto eol = eol_parser{};
 }}}
 
 #endif

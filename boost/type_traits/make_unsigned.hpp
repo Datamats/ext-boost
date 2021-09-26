@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/make_unsigned.hpp"
 
 //  (C) Copyright John Maddock 2007.
 //  Use, modification and distribution are subject to the Boost Software License,

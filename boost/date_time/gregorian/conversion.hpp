@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/gregorian/conversion.hpp"
 #ifndef _GREGORIAN__CONVERSION_HPP___
 #define _GREGORIAN__CONVERSION_HPP___
 

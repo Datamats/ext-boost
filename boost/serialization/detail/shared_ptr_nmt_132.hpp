@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/detail/shared_ptr_nmt_132.hpp"
 #ifndef BOOST_DETAIL_SHARED_PTR_NMT_132_HPP_INCLUDED
 #define BOOST_DETAIL_SHARED_PTR_NMT_132_HPP_INCLUDED
 
@@ -93,10 +92,10 @@ public:
 #ifndef BOOST_NO_AUTO_PTR
 
     explicit shared_ptr(std::auto_ptr< T > & r)
-    { 
+    {
         pn = new count_type(1); // may throw
         px = r.release(); // fix: moved here to stop leak if new throws
-    } 
+    }
 
     shared_ptr & operator=(std::auto_ptr< T > & r)
     {
@@ -138,7 +137,7 @@ public:
     {
         return *pn == 1;
     }
-    
+
     void swap(shared_ptr< T > & other)  // never throws
     {
         std::swap(px, other.px);

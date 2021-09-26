@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/for_each.hpp"
 
 #ifndef BOOST_MPL_FOR_EACH_HPP_INCLUDED
 #define BOOST_MPL_FOR_EACH_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/iterator/detail/segmented_next_impl.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/home/qi/directive/confix.hpp"
 //  Copyright (c) 2009 Chris Hoeppler
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 

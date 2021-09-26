@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/detail/preprocessed/construct_pod_funop.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file construct_pod_funop.hpp
     /// Overloads of construct_\<\>::operator().

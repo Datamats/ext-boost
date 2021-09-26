@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/gregorian/greg_ymd.hpp"
 #ifndef DATE_TIME_GREG_YMD_HPP__
 #define DATE_TIME_GREG_YMD_HPP__
 

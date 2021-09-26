@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex/v4/primary_transform.hpp"
 /*
  *
  * Copyright (c) 1998-2002
@@ -47,7 +46,7 @@ template <class S, class charT>
 unsigned count_chars(const S& s, charT c)
 {
    //
-   // Count how many occurances of character c occur
+   // Count how many occurrences of character c occur
    // in string s: if c is a delimeter between collation
    // fields, then this should be the same value for all
    // sort keys:

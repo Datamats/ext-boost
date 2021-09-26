@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/map/aux_/value_type_impl.hpp"
 
 #ifndef BOOST_MPL_MAP_AUX_VALUE_TYPE_IMPL_HPP_INCLUDED
 #define BOOST_MPL_MAP_AUX_VALUE_TYPE_IMPL_HPP_INCLUDED

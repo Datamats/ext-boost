@@ -1,4 +1,3 @@
-#line 1 "include/boost/function.hpp"
 // Boost.Function library
 
 //  Copyright Douglas Gregor 2001-2003. Use, modification and

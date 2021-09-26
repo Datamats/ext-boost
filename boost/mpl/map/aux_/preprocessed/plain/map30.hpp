@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/map/aux_/preprocessed/plain/map30.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 // Copyright David Abrahams 2003-2004

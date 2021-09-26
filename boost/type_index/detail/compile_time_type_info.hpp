@@ -1,6 +1,5 @@
-#line 1 "include/boost/type_index/detail/compile_time_type_info.hpp"
 //
-// Copyright (c) 2012-2019 Antony Polukhin.
+// Copyright 2012-2021 Antony Polukhin.
 //
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

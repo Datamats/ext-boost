@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/local_gen.hpp"
 /*==============================================================================
     Copyright (c) 2016 Kohei Takahashi
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/not.hpp"
 
 #ifndef BOOST_MPL_NOT_HPP_INCLUDED
 #define BOOST_MPL_NOT_HPP_INCLUDED

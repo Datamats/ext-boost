@@ -1,4 +1,3 @@
-#line 1 "include/boost/memory_order.hpp"
 //  boost/memory_order.hpp
 //
 //  Defines enum boost::memory_order per the C++0x working draft
@@ -55,18 +54,12 @@ enum class memory_order : unsigned int
     seq_cst = 14 // acq_rel | 8
 };
 
-#if !defined(BOOST_NO_CXX17_INLINE_VARIABLES)
-#define BOOST_MEMORY_ORDER_INLINE_VARIABLE inline
-#else
-#define BOOST_MEMORY_ORDER_INLINE_VARIABLE
-#endif
-
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_relaxed = memory_order::relaxed;
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_consume = memory_order::consume;
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_acquire = memory_order::acquire;
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_release = memory_order::release;
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_acq_rel = memory_order::acq_rel;
-BOOST_MEMORY_ORDER_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_seq_cst = memory_order::seq_cst;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_relaxed = memory_order::relaxed;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_consume = memory_order::consume;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_acquire = memory_order::acquire;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_release = memory_order::release;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_acq_rel = memory_order::acq_rel;
+BOOST_INLINE_VARIABLE BOOST_CONSTEXPR_OR_CONST memory_order memory_order_seq_cst = memory_order::seq_cst;
 
 #undef BOOST_MEMORY_ORDER_INLINE_VARIABLE
 

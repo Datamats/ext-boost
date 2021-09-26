@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility/compare_pointees.hpp"
 // Copyright (C) 2003, Fernando Luis Cacciola Carballal.
 //
 // Use, modification, and distribution is subject to the Boost Software

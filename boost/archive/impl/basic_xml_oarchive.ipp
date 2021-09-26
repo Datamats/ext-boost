@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/basic_xml_oarchive.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_xml_oarchive.ipp:
 

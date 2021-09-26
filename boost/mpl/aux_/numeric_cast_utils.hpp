@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/numeric_cast_utils.hpp"
 
 #ifndef BOOST_MPL_AUX_NUMERIC_CAST_HPP_INCLUDED
 #define BOOST_MPL_AUX_NUMERIC_CAST_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/map/detail/value_at_key_impl.hpp"
 /*=============================================================================
     Copyright (c) 2001-2013 Joel de Guzman
     Copyright (c) 2018 Kohei Takahashi

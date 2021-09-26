@@ -1,11 +1,10 @@
-#line 1 "include/boost/spirit/home/support/detail/lexer/containers/ptr_list.hpp"
 // ptr_list.hpp
 // Copyright (c) 2007-2009 Ben Hanson (http://www.benhanson.net/)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file licence_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-#ifndef BOOST_LEXER_PTR_LIST_HPP
-#define BOOST_LEXER_PTR_LIST_HPP
+#ifndef BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_CONTAINERS_PTR_LIST_HPP
+#define BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_CONTAINERS_PTR_LIST_HPP
 
 #include <list>
 

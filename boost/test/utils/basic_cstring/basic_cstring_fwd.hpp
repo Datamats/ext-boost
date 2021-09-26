@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/utils/basic_cstring/basic_cstring_fwd.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -19,6 +18,7 @@
 
 #include <boost/test/detail/config.hpp>
 
+
 namespace boost {
 
 namespace unit_test {
@@ -32,6 +32,12 @@ typedef const_string const          literal_string;
 #endif
 
 typedef char const* const           c_literal_string;
+
+#if defined(BOOST_TEST_STRING_VIEW)
+template <class CharT, class string_view_t>
+class BOOST_SYMBOL_VISIBLE stringview_cstring_helper;
+#endif
+
 
 } // namespace unit_test
 

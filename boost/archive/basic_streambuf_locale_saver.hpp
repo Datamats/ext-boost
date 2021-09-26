@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/basic_streambuf_locale_saver.hpp"
 #ifndef BOOST_ARCHIVE_BASIC_STREAMBUF_LOCALE_SAVER_HPP
 #define BOOST_ARCHIVE_BASIC_STREAMBUF_LOCALE_SAVER_HPP
 

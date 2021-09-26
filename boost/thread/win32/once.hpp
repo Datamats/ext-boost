@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/win32/once.hpp"
 #ifndef BOOST_THREAD_WIN32_ONCE_HPP
 #define BOOST_THREAD_WIN32_ONCE_HPP
 
@@ -23,7 +22,7 @@
 #include <boost/thread/detail/move.hpp>
 #include <boost/thread/detail/invoke.hpp>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <boost/config/abi_prefix.hpp>
 

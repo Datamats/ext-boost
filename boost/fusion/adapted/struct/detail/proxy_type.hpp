@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/struct/detail/proxy_type.hpp"
 /*=============================================================================
     Copyright (c) 2009-2010 Hartmut Kaiser
     Copyright (c) 2010 Christopher Schmidt
@@ -29,8 +28,7 @@
                                                                                 \
         WRAPPED_TYPE& obj;                                                      \
                                                                                 \
-    private:                                                                    \
-        NAME& operator= (NAME const&);                                          \
+        BOOST_DELETED_FUNCTION(NAME& operator= (NAME const&))                   \
     };                                                                          \
                                                                                 \
     BOOST_FUSION_ADAPT_STRUCT_NAMESPACE_DEFINITION_END(NAMESPACE_SEQ)

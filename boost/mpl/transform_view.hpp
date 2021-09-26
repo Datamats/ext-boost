@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/transform_view.hpp"
 
 #ifndef BOOST_MPL_TRANSFORM_VIEW_HPP_INCLUDED
 #define BOOST_MPL_TRANSFORM_VIEW_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/repository/home/qi/primitive/advance.hpp"
 //  Copyright (c) 2011 Aaron Graham
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying

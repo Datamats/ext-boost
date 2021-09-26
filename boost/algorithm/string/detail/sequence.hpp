@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/detail/sequence.hpp"
 //  Boost string_algo library sequence.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.

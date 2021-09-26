@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/no_tr1/cmath.hpp"
 //  (C) Copyright John Maddock 2008.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file

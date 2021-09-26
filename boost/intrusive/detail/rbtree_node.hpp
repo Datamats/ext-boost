@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/rbtree_node.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Olaf Krzikalla 2004-2006.

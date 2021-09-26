@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/preprocessor.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_PREPROCESSOR_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_PREPROCESSOR_HPP_INCLUDED
@@ -19,7 +18,7 @@
 
 #if !defined(BOOST_MPL_CFG_BROKEN_PP_MACRO_EXPANSION) \
     && (   BOOST_WORKAROUND(__MWERKS__, <= 0x3003) \
-        || BOOST_WORKAROUND(__BORLANDC__, < 0x582) \
+        || BOOST_WORKAROUND(BOOST_BORLANDC, < 0x582) \
         || BOOST_WORKAROUND(__IBMCPP__, BOOST_TESTED_AT(502)) \
         )
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/equal_to_value.hpp"
 /////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga  2014-2014

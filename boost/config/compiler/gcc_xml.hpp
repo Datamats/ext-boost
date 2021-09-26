@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/gcc_xml.hpp"
 //  (C) Copyright John Maddock 2006.
 //  Use, modification and distribution are subject to the
 //  Boost Software License, Version 1.0. (See accompanying file
@@ -62,7 +61,9 @@
 #  define BOOST_NO_CXX11_INLINE_NAMESPACES
 #  define BOOST_NO_CXX11_REF_QUALIFIERS
 #  define BOOST_NO_CXX11_FINAL
+#  define BOOST_NO_CXX11_OVERRIDE
 #  define BOOST_NO_CXX11_THREAD_LOCAL
+#  define BOOST_NO_CXX11_UNRESTRICTED_UNION
 
 // C++ 14:
 #if !defined(__cpp_aggregate_nsdmi) || (__cpp_aggregate_nsdmi < 201304)

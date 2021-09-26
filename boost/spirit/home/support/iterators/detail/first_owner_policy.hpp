@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/detail/first_owner_policy.hpp"
 //  Copyright (c) 2001, Daniel C. Nuffer
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 

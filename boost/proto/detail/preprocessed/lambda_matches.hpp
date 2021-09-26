@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/lambda_matches.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file lambda_matches.hpp
     /// Specializations of the lambda_matches template

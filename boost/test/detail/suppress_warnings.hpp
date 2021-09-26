@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/detail/suppress_warnings.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -37,5 +36,6 @@
 # pragma GCC diagnostic push
 # pragma GCC diagnostic ignored "-Wvariadic-macros"
 # pragma GCC diagnostic ignored "-Wmissing-declarations"
+// # pragma GCC diagnostic ignored "-Wattributes"
 #endif
 

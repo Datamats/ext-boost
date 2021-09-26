@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/list/aux_/numbered.hpp"
 
 // NO INCLUDE GUARDS, THE HEADER IS INTENDED FOR MULTIPLE INCLUSION
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/spinlock_w32.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SPINLOCK_W32_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SPINLOCK_W32_HPP_INCLUDED
 
@@ -18,6 +17,13 @@
 
 #include <boost/smart_ptr/detail/sp_interlocked.hpp>
 #include <boost/smart_ptr/detail/yield_k.hpp>
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using Win32 spinlock")
+
+#endif
 
 // BOOST_COMPILER_FENCE
 

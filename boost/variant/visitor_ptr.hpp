@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/visitor_ptr.hpp"
 //-----------------------------------------------------------------------------
 // boost variant/visitor_ptr.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/utils/basic_cstring/bcs_char_traits.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -40,7 +39,7 @@ template<typename CharT> struct bcs_base_char           { typedef CharT type; };
 
 template<> struct bcs_base_char<char const>             { typedef char type; };
 template<> struct bcs_base_char<unsigned char>          { typedef char type; };
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x551))
 template<> struct bcs_base_char<unsigned char const>    { typedef char type; };
 #endif
 
@@ -53,7 +52,7 @@ template<> struct bcs_base_char<wchar_t const>          { typedef wchar_t type; 
 template<typename CharT>
 struct bcs_char_traits_impl
 {
-#if BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
     typedef CharT const const_char;
 #else
     typedef typename boost::add_const<CharT>::type const_char;

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/pop_front_fwd.hpp"
 
 #ifndef BOOST_MPL_POP_FRONT_FWD_HPP_INCLUDED
 #define BOOST_MPL_POP_FRONT_FWD_HPP_INCLUDED

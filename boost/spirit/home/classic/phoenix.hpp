@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/phoenix.hpp"
 /*=============================================================================
     Phoenix V1.2.1
     Copyright (c) 2001-2002 Joel de Guzman

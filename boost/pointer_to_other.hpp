@@ -1,4 +1,3 @@
-#line 1 "include/boost/pointer_to_other.hpp"
 #ifndef BOOST_POINTER_TO_OTHER_HPP_INCLUDED
 #define BOOST_POINTER_TO_OTHER_HPP_INCLUDED
 

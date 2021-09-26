@@ -1,4 +1,3 @@
-#line 1 "include/boost/unordered/unordered_set_fwd.hpp"
 
 // Copyright (C) 2008-2011 Daniel James.
 // Distributed under the Boost Software License, Version 1.0. (See accompanying

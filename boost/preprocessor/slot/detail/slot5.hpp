@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/slot/detail/slot5.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

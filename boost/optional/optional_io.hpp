@@ -1,4 +1,3 @@
-#line 1 "include/boost/optional/optional_io.hpp"
 // Copyright (C) 2005, Fernando Luis Cacciola Carballal.
 //
 // Use, modification, and distribution is subject to the Boost Software

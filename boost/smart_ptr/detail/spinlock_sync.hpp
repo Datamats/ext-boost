@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/spinlock_sync.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SPINLOCK_SYNC_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SPINLOCK_SYNC_HPP_INCLUDED
 
@@ -22,6 +21,13 @@
 # include <ia64intrin.h>
 #endif
 
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using __sync spinlock")
+
+#endif
+
 namespace boost
 {
 
@@ -32,7 +38,7 @@ class spinlock
 {
 public:
 
-    int v_;
+    unsigned char v_;
 
 public:
 

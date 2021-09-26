@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/as_lvalue.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file as_lvalue.hpp
 /// Contains definition the as_lvalue() functions.

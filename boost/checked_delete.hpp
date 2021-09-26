@@ -1,4 +1,3 @@
-#line 1 "include/boost/checked_delete.hpp"
 /*
  * Copyright (c) 2014 Glen Fernandes
  *

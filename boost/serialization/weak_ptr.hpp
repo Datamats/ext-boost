@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/weak_ptr.hpp"
 #ifndef BOOST_SERIALIZATION_WEAK_PTR_HPP
 #define BOOST_SERIALIZATION_WEAK_PTR_HPP
 

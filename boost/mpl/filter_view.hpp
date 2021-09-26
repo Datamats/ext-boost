@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/filter_view.hpp"
 
 #ifndef BOOST_MPL_FILTER_VIEW_HPP_INCLUDED
 #define BOOST_MPL_FILTER_VIEW_HPP_INCLUDED

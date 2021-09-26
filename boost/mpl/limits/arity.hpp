@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/limits/arity.hpp"
 
 #ifndef BOOST_MPL_LIMITS_ARITY_HPP_INCLUDED
 #define BOOST_MPL_LIMITS_ARITY_HPP_INCLUDED

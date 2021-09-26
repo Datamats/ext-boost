@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/config_end.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2005-2013. Distributed under the Boost

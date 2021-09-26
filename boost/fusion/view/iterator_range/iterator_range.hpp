@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/iterator_range/iterator_range.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

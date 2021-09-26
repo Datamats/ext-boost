@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/add_lvalue_reference.hpp"
 //  Copyright 2010 John Maddock
 
 //  Distributed under the Boost Software License, Version 1.0.

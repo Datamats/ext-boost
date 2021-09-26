@@ -1,4 +1,3 @@
-#line 1 "include/boost/utility/binary.hpp"
 /*=============================================================================
     Copyright (c) 2005 Matthew Calabrese
 

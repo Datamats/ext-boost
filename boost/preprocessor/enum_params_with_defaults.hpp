@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/enum_params_with_defaults.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

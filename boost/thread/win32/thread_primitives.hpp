@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/win32/thread_primitives.hpp"
 #ifndef BOOST_WIN32_THREAD_PRIMITIVES_HPP
 #define BOOST_WIN32_THREAD_PRIMITIVES_HPP
 

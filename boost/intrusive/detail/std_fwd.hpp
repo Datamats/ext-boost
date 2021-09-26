@@ -1,4 +1,3 @@
-#line 1 "include/boost/intrusive/detail/std_fwd.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014. Distributed under the Boost

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/list/aux_/push_front.hpp"
 
 #ifndef BOOST_MPL_LIST_AUX_PUSH_FRONT_HPP_INCLUDED
 #define BOOST_MPL_LIST_AUX_PUSH_FRONT_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/is_same.hpp"
 #ifndef BOOST_CORE_IS_SAME_HPP_INCLUDED
 #define BOOST_CORE_IS_SAME_HPP_INCLUDED
 

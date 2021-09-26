@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/void.hpp"
 
 #ifndef BOOST_MPL_VOID_HPP_INCLUDED
 #define BOOST_MPL_VOID_HPP_INCLUDED

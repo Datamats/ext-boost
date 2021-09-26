@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/comparison.hpp"
 
 #ifndef BOOST_MPL_COMPARISON_HPP_INCLUDED
 #define BOOST_MPL_COMPARISON_HPP_INCLUDED

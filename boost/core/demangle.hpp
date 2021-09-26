@@ -1,4 +1,3 @@
-#line 1 "include/boost/core/demangle.hpp"
 #ifndef BOOST_CORE_DEMANGLE_HPP_INCLUDED
 #define BOOST_CORE_DEMANGLE_HPP_INCLUDED
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/algorithm/iteration/for_each.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
     Copyright (c) 2007 Dan Marsden

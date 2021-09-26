@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/operator/and_predicate.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -20,7 +19,7 @@ namespace boost { namespace spirit { namespace x3
         typedef unused_type attribute_type;
         static bool const has_attribute = false;
 
-        and_predicate(Subject const& subject)
+        constexpr and_predicate(Subject const& subject)
           : base_type(subject) {}
 
         template <typename Iterator, typename Context
@@ -34,7 +33,7 @@ namespace boost { namespace spirit { namespace x3
     };
 
     template <typename Subject>
-    inline and_predicate<typename extension::as_parser<Subject>::value_type>
+    constexpr and_predicate<typename extension::as_parser<Subject>::value_type>
     operator&(Subject const& subject)
     {
         return { as_parser(subject) };

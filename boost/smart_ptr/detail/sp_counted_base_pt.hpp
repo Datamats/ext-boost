@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/sp_counted_base_pt.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_PT_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_SP_COUNTED_BASE_PT_HPP_INCLUDED
 
@@ -24,6 +23,13 @@
 #include <boost/config.hpp>
 #include <boost/cstdint.hpp>
 #include <pthread.h>
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using pthread_mutex sp_counted_base")
+
+#endif
 
 namespace boost
 {

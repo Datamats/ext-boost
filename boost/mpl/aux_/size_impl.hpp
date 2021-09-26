@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/size_impl.hpp"
 
 #ifndef BOOST_MPL_AUX_SIZE_IMPL_HPP_INCLUDED
 #define BOOST_MPL_AUX_SIZE_IMPL_HPP_INCLUDED
@@ -30,7 +29,7 @@ template< typename Tag >
 struct size_impl
 {
     template< typename Sequence > struct apply
-#if !BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x561))
+#if !BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x561))
         : distance<
               typename begin<Sequence>::type
             , typename end<Sequence>::type

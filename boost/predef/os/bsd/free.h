@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/os/bsd/free.h"
 /*
 Copyright Rene Rivera 2012-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -11,19 +10,20 @@ http://www.boost.org/LICENSE_1_0.txt)
 
 #include <boost/predef/os/bsd.h>
 
-/*`
-[heading `BOOST_OS_BSD_FREE`]
+/* tag::reference[]
+= `BOOST_OS_BSD_FREE`
 
-[@http://en.wikipedia.org/wiki/Freebsd FreeBSD] operating system.
+http://en.wikipedia.org/wiki/Freebsd[FreeBSD] operating system.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__FreeBSD__`] [__predef_detection__]]
+| `+__FreeBSD__+` | {predef_detection}
 
-    [[`__FreeBSD_version`] [V.R.P]]
-    ]
- */
+| `+__FreeBSD_version+` | V.R.P
+|===
+*/ // end::reference[]
 
 #define BOOST_OS_BSD_FREE BOOST_VERSION_NUMBER_NOT_AVAILABLE
 
@@ -31,6 +31,7 @@ http://www.boost.org/LICENSE_1_0.txt)
     defined(__FreeBSD__) \
     )
 #   ifndef BOOST_OS_BSD_AVAILABLE
+#       undef BOOST_OS_BSD
 #       define BOOST_OS_BSD BOOST_VERSION_NUMBER_AVAILABLE
 #       define BOOST_OS_BSD_AVAILABLE
 #   endif

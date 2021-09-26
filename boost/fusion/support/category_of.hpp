@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/category_of.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

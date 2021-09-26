@@ -1,4 +1,3 @@
-#line 1 "include/boost/chrono/time_point.hpp"
 //  duration.hpp  --------------------------------------------------------------//
 
 //  Copyright 2008 Howard Hinnant

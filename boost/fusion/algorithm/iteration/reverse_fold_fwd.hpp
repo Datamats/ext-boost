@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/algorithm/iteration/reverse_fold_fwd.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

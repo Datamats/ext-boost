@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/register_fundamental.hpp"
 // Copyright (C) 2004 Arkadiy Vertleyb
 // Copyright (C) 2004 Peder Holt
 // Use, modification and distribution is subject to the Boost Software
@@ -36,14 +35,14 @@ BOOST_TYPEOF_REGISTER_TYPE(wchar_t)
 #endif
 
 #if (defined(BOOST_INTEL_CXX_VERSION) && defined(_MSC_VER) && (BOOST_INTEL_CXX_VERSION <= 600)) \
-    || (defined(__BORLANDC__) && (__BORLANDC__ == 0x600) && (_MSC_VER == 1200))
+    || (defined(BOOST_BORLANDC) && (BOOST_BORLANDC == 0x600) && (_MSC_VER == 1200))
 BOOST_TYPEOF_REGISTER_TYPE(unsigned __int8)
 BOOST_TYPEOF_REGISTER_TYPE(__int8)
 BOOST_TYPEOF_REGISTER_TYPE(unsigned __int16)
 BOOST_TYPEOF_REGISTER_TYPE(__int16)
 BOOST_TYPEOF_REGISTER_TYPE(unsigned __int32)
 BOOST_TYPEOF_REGISTER_TYPE(__int32)
-#ifdef __BORLANDC__
+#ifdef BOOST_BORLANDC
 BOOST_TYPEOF_REGISTER_TYPE(unsigned __int64)
 BOOST_TYPEOF_REGISTER_TYPE(__int64)
 #endif

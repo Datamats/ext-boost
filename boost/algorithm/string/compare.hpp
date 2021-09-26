@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/compare.hpp"
 //  Boost string_algo library compare.hpp header file  -------------------------//
 
 //  Copyright Pavol Droba 2002-2006.
@@ -66,7 +65,7 @@ namespace boost {
             template< typename T1, typename T2 >
                 bool operator()( const T1& Arg1, const T2& Arg2 ) const
             {
-                #if defined(__BORLANDC__) && (__BORLANDC__ >= 0x560) && (__BORLANDC__ <= 0x564) && !defined(_USE_OLD_RW_STL)
+                #if defined(BOOST_BORLANDC) && (BOOST_BORLANDC >= 0x560) && (BOOST_BORLANDC <= 0x564) && !defined(_USE_OLD_RW_STL)
                     return std::toupper(Arg1)==std::toupper(Arg2);
                 #else
                     return std::toupper<T1>(Arg1,m_Loc)==std::toupper<T2>(Arg2,m_Loc);
@@ -119,7 +118,7 @@ namespace boost {
             template< typename T1, typename T2 >
                 bool operator()( const T1& Arg1, const T2& Arg2 ) const
             {
-                #if defined(__BORLANDC__) && (__BORLANDC__ >= 0x560) && (__BORLANDC__ <= 0x564) && !defined(_USE_OLD_RW_STL)
+                #if defined(BOOST_BORLANDC) && (BOOST_BORLANDC >= 0x560) && (BOOST_BORLANDC <= 0x564) && !defined(_USE_OLD_RW_STL)
                     return std::toupper(Arg1)<std::toupper(Arg2);
                 #else
                     return std::toupper<T1>(Arg1,m_Loc)<std::toupper<T2>(Arg2,m_Loc);
@@ -172,7 +171,7 @@ namespace boost {
             template< typename T1, typename T2 >
                 bool operator()( const T1& Arg1, const T2& Arg2 ) const
             {
-                #if defined(__BORLANDC__) && (__BORLANDC__ >= 0x560) && (__BORLANDC__ <= 0x564) && !defined(_USE_OLD_RW_STL)
+                #if defined(BOOST_BORLANDC) && (BOOST_BORLANDC >= 0x560) && (BOOST_BORLANDC <= 0x564) && !defined(_USE_OLD_RW_STL)
                     return std::toupper(Arg1)<=std::toupper(Arg2);
                 #else
                     return std::toupper<T1>(Arg1,m_Loc)<=std::toupper<T2>(Arg2,m_Loc);

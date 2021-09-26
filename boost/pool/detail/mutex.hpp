@@ -1,4 +1,3 @@
-#line 1 "include/boost/pool/detail/mutex.hpp"
 // Copyright (C) 2000 Stephen Cleary
 // Copyright (C) 2018 Peter Dimov
 //

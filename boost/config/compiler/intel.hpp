@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/intel.hpp"
 //  (C) Copyright John Maddock 2001-8.
 //  (C) Copyright Peter Dimov 2001.
 //  (C) Copyright Jens Maurer 2001.
@@ -502,8 +501,15 @@ template<> struct assert_intrinsic_wchar_t<unsigned short> {};
 #endif
 
 // BOOST_NO_CXX11_FINAL
+// BOOST_NO_CXX11_OVERRIDE
 #if (BOOST_INTEL_CXX_VERSION >= 1400) && (!defined(BOOST_INTEL_GCC_VERSION) || (BOOST_INTEL_GCC_VERSION >= 40700)) && (!defined(_MSC_VER) || (_MSC_VER >= 1700))
 #  undef BOOST_NO_CXX11_FINAL
+#  undef BOOST_NO_CXX11_OVERRIDE
+#endif
+
+// BOOST_NO_CXX11_UNRESTRICTED_UNION
+#if (BOOST_INTEL_CXX_VERSION >= 1400) && (!defined(BOOST_INTEL_GCC_VERSION) || (BOOST_INTEL_GCC_VERSION >= 50100)) && (!defined(_MSC_VER))
+#  undef BOOST_NO_CXX11_UNRESTRICTED_UNION
 #endif
 
 #endif // defined(BOOST_INTEL_STDCXX0X)

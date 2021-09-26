@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/stl/container/detail/container.hpp"
 /*=============================================================================
     Copyright (c) 2004 Angus Leeming
     Copyright (c) 2004 Joel de Guzman

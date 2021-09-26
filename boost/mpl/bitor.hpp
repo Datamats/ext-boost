@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/bitor.hpp"
 
 #ifndef BOOST_MPL_BITOR_HPP_INCLUDED
 #define BOOST_MPL_BITOR_HPP_INCLUDED

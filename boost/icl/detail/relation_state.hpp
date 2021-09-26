@@ -1,4 +1,3 @@
-#line 1 "include/boost/icl/detail/relation_state.hpp"
 /*-----------------------------------------------------------------------------+
 Author: Joachim Faulhaber
 Copyright (c) 2009-2009: Joachim Faulhaber

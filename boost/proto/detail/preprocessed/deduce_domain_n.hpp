@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/deduce_domain_n.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     // deduce_domain_n.hpp
     // Definitions of common_domain[n] and deduce_domain[n] class templates.

@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/formatter.hpp"
 //  Boost string_algo library formatter.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.
@@ -12,7 +11,6 @@
 #ifndef BOOST_STRING_FORMATTER_HPP
 #define BOOST_STRING_FORMATTER_HPP
 
-#include <boost/detail/iterator.hpp>
 #include <boost/range/value_type.hpp>
 #include <boost/range/iterator_range_core.hpp>
 #include <boost/range/as_literal.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc/reverse_fold_impl.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

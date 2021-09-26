@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/negate.hpp"
 
 #ifndef BOOST_MPL_NEGATE_HPP_INCLUDED
 #define BOOST_MPL_NEGATE_HPP_INCLUDED

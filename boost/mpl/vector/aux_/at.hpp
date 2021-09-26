@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/vector/aux_/at.hpp"
 
 #ifndef BOOST_MPL_VECTOR_AUX_AT_HPP_INCLUDED
 #define BOOST_MPL_VECTOR_AUX_AT_HPP_INCLUDED
@@ -66,7 +65,7 @@ template< BOOST_MPL_AUX_NTTP_DECL(long, n_) >
 struct at_impl< aux::vector_tag<n_> >
 {
     template< typename Vector, typename N > struct apply
-#if !defined(__BORLANDC__)
+#if !defined(BOOST_BORLANDC)
         : v_at<
               Vector
             , BOOST_MPL_AUX_VALUE_WKND(N)::value

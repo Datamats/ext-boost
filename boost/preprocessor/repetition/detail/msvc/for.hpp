@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/repetition/detail/msvc/for.hpp"
 # /* Copyright (C) 2001
 #  * Housemarque Oy
 #  * http://www.housemarque.com
@@ -9,6 +8,7 @@
 #  */
 #
 # /* Revised by Paul Mensonides (2002) */
+# /* Revised by Edward Diener (2020) */
 #
 # /* See http://www.boost.org for most recent version. */
 #

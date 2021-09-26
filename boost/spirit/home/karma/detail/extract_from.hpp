@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/detail/extract_from.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -11,7 +10,6 @@
 #pragma once
 #endif
 
-#include <boost/spirit/include/phoenix_core.hpp>
 #include <boost/spirit/home/support/unused.hpp>
 #include <boost/spirit/home/support/attributes_fwd.hpp>
 #include <boost/spirit/home/karma/detail/attributes.hpp>

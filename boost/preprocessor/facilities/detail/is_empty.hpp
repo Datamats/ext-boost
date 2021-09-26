@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/facilities/detail/is_empty.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Edward Diener 2014.
@@ -32,8 +31,8 @@
 #if BOOST_PP_VARIADICS_MSVC && _MSC_VER <= 1400
 
 #define BOOST_PP_DETAIL_IS_EMPTY_PROCESS(param) \
-	BOOST_PP_IS_BEGIN_PARENS \
-    	( \
+    BOOST_PP_IS_BEGIN_PARENS \
+        ( \
         BOOST_PP_DETAIL_IS_EMPTY_NON_FUNCTION_C param () \
         ) \
 /**/
@@ -41,7 +40,7 @@
 #else
 
 #define BOOST_PP_DETAIL_IS_EMPTY_PROCESS(...) \
-	BOOST_PP_IS_BEGIN_PARENS \
+    BOOST_PP_IS_BEGIN_PARENS \
         ( \
         BOOST_PP_DETAIL_IS_EMPTY_NON_FUNCTION_C __VA_ARGS__ () \
         ) \

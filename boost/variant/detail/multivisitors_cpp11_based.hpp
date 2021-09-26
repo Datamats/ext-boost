@@ -1,4 +1,3 @@
-#line 1 "include/boost/variant/detail/multivisitors_cpp11_based.hpp"
 //  Boost.Varaint
 //  Contains multivisitors that are implemented via variadic templates and std::tuple
 //

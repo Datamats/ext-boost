@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/iso_format.hpp"
 #ifndef ISO_FORMAT_HPP___
 #define ISO_FORMAT_HPP___
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/utils/basic_cstring/compare.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at
@@ -27,7 +26,7 @@
 
 //____________________________________________________________________________//
 
-# if defined(BOOST_NO_STDC_NAMESPACE) && !BOOST_WORKAROUND(__BORLANDC__, <= 0x570)
+# if defined(BOOST_NO_STDC_NAMESPACE) && !BOOST_WORKAROUND(BOOST_BORLANDC, <= 0x570)
 namespace std { using ::toupper; }
 # endif
 

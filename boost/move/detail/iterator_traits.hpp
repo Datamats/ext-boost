@@ -1,4 +1,3 @@
-#line 1 "include/boost/move/detail/iterator_traits.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014.
@@ -34,6 +33,7 @@ struct forward_iterator_tag;
 struct bidirectional_iterator_tag;
 struct random_access_iterator_tag;
 struct output_iterator_tag;
+struct contiguous_iterator_tag;
 
 BOOST_MOVE_STD_NS_END
 #include <boost/move/detail/std_ns_end.hpp>

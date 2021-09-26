@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/msvc_never_true.hpp"
 
 #ifndef BOOST_MPL_AUX_MSVC_NEVER_TRUE_HPP_INCLUDED
 #define BOOST_MPL_AUX_MSVC_NEVER_TRUE_HPP_INCLUDED

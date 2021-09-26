@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/iteration/detail/bounds/lower1.hpp"
 # /* **************************************************************************
 #  *                                                                          *
 #  *     (C) Copyright Paul Mensonides 2002.

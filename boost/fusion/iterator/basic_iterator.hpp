@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/iterator/basic_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2009 Christopher Schmidt
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/directive/matches.hpp"
 /*=============================================================================
     Copyright (c) 2015 Mario Lang
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -22,7 +21,7 @@ namespace boost { namespace spirit { namespace x3
         static bool const has_attribute = true;
         using attribute_type = bool;
 
-        matches_directive(Subject const& subject) : base_type(subject) {}
+        constexpr matches_directive(Subject const& subject) : base_type(subject) {}
 
         template <typename Iterator, typename Context
           , typename RContext, typename Attribute>
@@ -39,14 +38,14 @@ namespace boost { namespace spirit { namespace x3
     struct matches_gen
     {
         template <typename Subject>
-        matches_directive<typename extension::as_parser<Subject>::value_type>
+        constexpr matches_directive<typename extension::as_parser<Subject>::value_type>
         operator[](Subject const& subject) const
         {
             return { as_parser(subject) };
         }
     };
 
-    auto const matches = matches_gen{};
+    constexpr auto matches = matches_gen{};
 }}}
 
 #endif

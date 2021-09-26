@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/iterator/fixed_size_queue.hpp"
 /*=============================================================================
     Copyright (c) 2001, Daniel C. Nuffer
     Copyright (c) 2003, Hartmut Kaiser
@@ -7,12 +6,12 @@
   Distributed under the Boost Software License, Version 1.0. (See accompanying
   file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 =============================================================================*/
-#ifndef FIXED_SIZE_QUEUE
-#define FIXED_SIZE_QUEUE
+#ifndef BOOST_SPIRIT_CLASSIC_ITERATOR_FIXED_SIZE_QUEUE_HPP
+#define BOOST_SPIRIT_CLASSIC_ITERATOR_FIXED_SIZE_QUEUE_HPP
 
+#include <cstddef>
 #include <cstdlib>
 #include <iterator>
-#include <cstddef>
 
 #include <boost/spirit/home/classic/namespace.hpp>
 #include <boost/spirit/home/classic/core/assert.hpp> // for BOOST_SPIRIT_ASSERT

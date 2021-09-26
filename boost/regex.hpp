@@ -1,4 +1,3 @@
-#line 1 "include/boost/regex.hpp"
 /*
  *
  * Copyright (c) 1998-2002
@@ -29,7 +28,11 @@
 #include <boost/regex/config.hpp>
 #endif
 
+#ifdef BOOST_REGEX_CXX03
 #include <boost/regex/v4/regex.hpp>
+#else
+#include <boost/regex/v5/regex.hpp>
+#endif
 
 #endif  // include
 

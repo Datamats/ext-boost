@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/platform/irix.hpp"
 //  (C) Copyright John Maddock 2001 - 2003. 
 //  (C) Copyright Jens Maurer 2003. 
 //  Use, modification and distribution are subject to the 

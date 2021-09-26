@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/range_c/empty.hpp"
 
 #ifndef BOOST_MPL_AUX_RANGE_C_EMPTY_HPP_INCLUDED
 #define BOOST_MPL_AUX_RANGE_C_EMPTY_HPP_INCLUDED

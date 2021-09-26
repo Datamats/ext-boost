@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/string.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/key_type_fwd.hpp"
 
 #ifndef BOOST_MPL_KEY_TYPE_FWD_HPP_INCLUDED
 #define BOOST_MPL_KEY_TYPE_FWD_HPP_INCLUDED

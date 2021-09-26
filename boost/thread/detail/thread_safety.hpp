@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/detail/thread_safety.hpp"
 #ifndef BOOST_THREAD_DETAIL_THREAD_SAFETY_HPP
 #define BOOST_THREAD_DETAIL_THREAD_SAFETY_HPP
 

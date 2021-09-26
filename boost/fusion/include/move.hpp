@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/include/move.hpp"
 /*=============================================================================
     Copyright (c) 2001-2013 Joel de Guzman
 

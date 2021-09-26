@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/gregorian/greg_facet.hpp"
 #ifndef GREGORIAN_FACET_HPP___
 #define GREGORIAN_FACET_HPP___
 

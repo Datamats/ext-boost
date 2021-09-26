@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/lexer/lexertl/position_token.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
@@ -34,7 +33,7 @@
 #include <boost/mpl/if.hpp>
 #include <boost/mpl/or.hpp>
 #include <boost/type_traits/is_same.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/iterator_range_core.hpp>
 #include <boost/static_assert.hpp>
 
 #if defined(BOOST_SPIRIT_DEBUG)
@@ -859,8 +858,8 @@ namespace boost { namespace spirit { namespace traits
       , lex::lexertl::position_token<Iterator, lex::omit, HasState, Idtype> >
     {
         static void 
-        call(lex::lexertl::position_token<Iterator, lex::omit, HasState, Idtype> const& t
-          , Attribute& attr)
+        call(lex::lexertl::position_token<Iterator, lex::omit, HasState, Idtype> const&
+          , Attribute&)
         {
             // do nothing
         }

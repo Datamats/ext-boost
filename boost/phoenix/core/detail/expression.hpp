@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/expression.hpp"
 /*=============================================================================
     Copyright (c) 2010 Thomas Heller
 

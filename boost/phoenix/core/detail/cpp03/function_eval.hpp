@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/cpp03/function_eval.hpp"
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 
 #include <boost/phoenix/core/detail/cpp03/preprocessed/function_eval.hpp>
@@ -74,25 +73,6 @@
                 typedef typename
                     boost::result_of<fn(BOOST_PHOENIX_a)>::type
                     type;
-                /*
-                typedef typename
-                    mpl::eval_if_c<
-                        has_phx2_result<
-                            fn
-                          , BOOST_PP_ENUM(BOOST_PHOENIX_ITERATION, M0, _)
-                        >::value
-                      , boost::result_of<
-                            fn(
-                                BOOST_PHOENIX_a
-                            )
-                        >
-                      , phx2_result<
-                            fn
-                          , BOOST_PHOENIX_a
-                        >
-                    >::type
-                    type;
-                */
             };
 
             template <typename F, BOOST_PHOENIX_typename_A, typename Context>

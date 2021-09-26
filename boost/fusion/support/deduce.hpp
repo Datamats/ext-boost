@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/support/deduce.hpp"
 /*=============================================================================
     Copyright (c) 2007 Tobias Schwinger
   

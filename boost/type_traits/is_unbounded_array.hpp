@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_unbounded_array.hpp"
 /*
 Copyright 2018 Glen Joseph Fernandes
 (glenjofe@gmail.com)

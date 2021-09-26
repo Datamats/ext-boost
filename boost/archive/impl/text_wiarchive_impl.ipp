@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/text_wiarchive_impl.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // text_text_wiarchive_impl.ipp:
 
@@ -109,8 +108,6 @@ text_wiarchive_impl<Archive>::text_wiarchive_impl(
     ),
     basic_text_iarchive<Archive>(flags)
 {
-    if(0 == (flags & no_header))
-        basic_text_iarchive<Archive>::init();
 }
 
 } // archive

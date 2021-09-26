@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/cpp03/actor_result_of.hpp"
 
 #if !defined(BOOST_PHOENIX_DONT_USE_PREPROCESSED_FILES)
 #ifndef BOOST_PHOENIX_CORE_DETAIL_ACTOR_RESULT_OF_HPP

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/operator/detail/cpp03/mem_fun_ptr_gen.hpp"
 
 #if !BOOST_PHOENIX_IS_ITERATING
 
@@ -45,7 +44,7 @@
 
 #include BOOST_PHOENIX_ITERATE()
 
-            Object const& obj;
+            Object obj;
             MemPtr ptr;
 
         };

@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/support/iterate.hpp"
 /*==============================================================================
     Copyright (c) 2010 Thomas Heller
 

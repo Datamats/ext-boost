@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/include/iter_fold.hpp"
 /*=============================================================================
     Copyright (c) 2010 Christopher Schmidt
 

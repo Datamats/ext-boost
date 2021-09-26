@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/detail/helper_collection.hpp"
 #ifndef BOOST_ARCHIVE_DETAIL_HELPER_COLLECTION_HPP
 #define BOOST_ARCHIVE_DETAIL_HELPER_COLLECTION_HPP
 

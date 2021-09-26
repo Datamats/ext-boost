@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/accumulate.hpp"
 
 #ifndef BOOST_MPL_ACCUMULATE_HPP_INCLUDED
 #define BOOST_MPL_ACCUMULATE_HPP_INCLUDED

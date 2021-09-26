@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/non_terminal/impl/grammar.ipp"
 /*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     Copyright (c) 2002-2003 Martin Wille
@@ -171,7 +170,7 @@ struct grammar_definition
         }
 
         int
-        undefine(grammar_t* target_grammar)
+        undefine(grammar_t* target_grammar) BOOST_OVERRIDE
         {
             typename grammar_t::object_id id = target_grammar->get_object_id();
 

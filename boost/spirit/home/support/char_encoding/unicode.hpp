@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/char_encoding/unicode.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Hartmut Kaiser
     Copyright (c) 2001-2011 Joel de Guzman
@@ -23,7 +22,12 @@ namespace boost { namespace spirit { namespace char_encoding
     ///////////////////////////////////////////////////////////////////////////
     struct unicode
     {
+#ifdef BOOST_NO_CXX11_CHAR32_T
         typedef ::boost::uint32_t char_type;
+#else
+        typedef char32_t char_type;
+#endif
+        typedef ::boost::uint32_t classify_type;
 
     ///////////////////////////////////////////////////////////////////////////
     //  Posix stuff

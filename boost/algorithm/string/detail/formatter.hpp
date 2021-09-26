@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/detail/formatter.hpp"
 //  Boost string_algo library formatter.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.
@@ -43,7 +42,7 @@ namespace boost {
                     m_Format(::boost::begin(Format), ::boost::end(Format)) {}
 
                 // Operation
-#if BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x564))
+#if BOOST_WORKAROUND(BOOST_BORLANDC, BOOST_TESTED_AT(0x564))
                 template<typename Range2T>
                 result_type& operator()(const Range2T&)
                 {

@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/is_bitwise_serializable.hpp"
 // (C) Copyright 2007 Matthias Troyer
 
 // Use, modification and distribution is subject to the Boost Software

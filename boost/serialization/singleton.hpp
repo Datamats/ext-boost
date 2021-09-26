@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/singleton.hpp"
 #ifndef BOOST_SERIALIZATION_SINGLETON_HPP
 #define BOOST_SERIALIZATION_SINGLETON_HPP
 
@@ -179,7 +178,7 @@ private:
         // Unfortunately, this triggers detectors of undefine behavior
         // and reports an error.  But I've been unable to find a different
         // of guarenteeing that the the singleton is created at pre-main time.
-        use(* m_instance);
+        if (m_instance) use(* m_instance);
 
         return static_cast<T &>(t);
     }

@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_noncopyable.hpp"
 #ifndef BOOST_TYPE_TRAITS_IS_NONCOPYABLE_HPP_INCLUDED
 #define BOOST_TYPE_TRAITS_IS_NONCOPYABLE_HPP_INCLUDED
 

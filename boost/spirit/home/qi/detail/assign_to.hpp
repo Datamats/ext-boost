@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/detail/assign_to.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -21,7 +20,7 @@
 #include <boost/fusion/include/copy.hpp>
 #include <boost/fusion/adapted/struct/detail/extension.hpp>
 #include <boost/ref.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/range_fwd.hpp>
 
 namespace boost { namespace spirit { namespace traits
 {

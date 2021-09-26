@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/abi/borland_suffix.hpp"
 //  (C) Copyright John Maddock 2003. 
 //  Use, modification and distribution are subject to the 
 //  Boost Software License, Version 1.0. (See accompanying file 

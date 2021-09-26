@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/nview/nview_iterator.hpp"
 /*=============================================================================
     Copyright (c) 2009 Hartmut Kaiser
 
@@ -48,9 +47,8 @@ namespace boost { namespace fusion
 
         Sequence& seq;
 
-    private:
         // silence MSVC warning C4512: assignment operator could not be generated
-        nview_iterator& operator= (nview_iterator const&);
+        BOOST_DELETED_FUNCTION(nview_iterator& operator= (nview_iterator const&))
     };
 
 }}

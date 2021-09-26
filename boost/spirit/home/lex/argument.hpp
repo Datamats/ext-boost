@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/argument.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //  Copyright (c) 2001-2011 Joel de Guzman
 //  Copyright (c)      2010 Bryce Lelbach
@@ -14,13 +13,13 @@
 #pragma once
 #endif
 
-#include <boost/spirit/include/phoenix_core.hpp>
-#include <boost/spirit/include/phoenix_operator.hpp>
 #include <boost/spirit/home/support/string_traits.hpp>
 #include <boost/spirit/home/lex/argument_phoenix.hpp>
 #include <boost/fusion/include/at.hpp>
 #include <boost/mpl/at.hpp>
 #include <boost/mpl/bool.hpp>
+#include <boost/phoenix/core/actor.hpp>
+#include <boost/phoenix/core/argument.hpp>
 #include <boost/type_traits/is_same.hpp>
 #include <boost/type_traits/remove_const.hpp>
 #include <boost/type_traits/remove_reference.hpp>

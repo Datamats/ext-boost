@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/traits/pseudo_attribute.hpp"
 /*=============================================================================
     Copyright (c) 2019 Joel de Guzman
 
@@ -25,9 +24,9 @@ namespace boost { namespace spirit { namespace x3 { namespace traits
         using attribute_type = Attribute;
         using type = Attribute;
 
-        static type&& call(Iterator&, Iterator const&, attribute_type&& attr)
+        static type&& call(Iterator&, Iterator const&, attribute_type&& attribute)
         {
-            return std::forward<type>(attr);
+            return std::forward<type>(attribute);
         }
     };
 }}}}

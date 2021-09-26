@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/iterators/binary_from_base64.hpp"
 #ifndef BOOST_ARCHIVE_ITERATORS_BINARY_FROM_BASE64_HPP
 #define BOOST_ARCHIVE_ITERATORS_BINARY_FROM_BASE64_HPP
 
@@ -10,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // binary_from_base64.hpp
 
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
@@ -25,7 +24,7 @@
 #include <boost/iterator/transform_iterator.hpp>
 #include <boost/archive/iterators/dataflow_exception.hpp>
 
-namespace boost { 
+namespace boost {
 namespace archive {
 namespace iterators {
 
@@ -79,7 +78,7 @@ struct to_6_bit {
 // ideal.  This is also addressed here.
 
 template<
-    class Base, 
+    class Base,
     class CharType = typename boost::iterator_value<Base>::type
 >
 class binary_from_base64 : public
@@ -103,7 +102,7 @@ public:
         )
     {}
     // intel 7.1 doesn't like default copy constructor
-    binary_from_base64(const binary_from_base64 & rhs) : 
+    binary_from_base64(const binary_from_base64 & rhs) :
         super_t(
             Base(rhs.base_reference()),
             detail::to_6_bit<CharType>()

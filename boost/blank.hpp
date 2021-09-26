@@ -1,4 +1,3 @@
-#line 1 "include/boost/blank.hpp"
 //-----------------------------------------------------------------------------
 // boost blank.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

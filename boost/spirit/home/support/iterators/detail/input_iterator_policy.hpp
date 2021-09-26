@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/iterators/detail/input_iterator_policy.hpp"
 //  Copyright (c) 2001 Daniel C. Nuffer
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
@@ -59,7 +58,7 @@ namespace boost { namespace spirit { namespace iterator_policies
 
         protected:
             unique() {}
-            explicit unique(T x) {}
+            explicit unique(T) {}
 
             void swap(unique&) {}
 
@@ -88,7 +87,7 @@ namespace boost { namespace spirit { namespace iterator_policies
             }
 
             template <typename MultiPass>
-            static bool input_is_valid(MultiPass const& mp, value_type const& t) 
+            static bool input_is_valid(MultiPass const&, value_type const& t)
             {
                 using namespace input_iterator_is_valid_test_;
                 return token_is_valid(t);

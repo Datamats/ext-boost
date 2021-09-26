@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/algorithm/query/detail/segmented_find.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

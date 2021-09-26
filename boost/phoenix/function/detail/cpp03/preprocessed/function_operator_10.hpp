@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/function/detail/cpp03/preprocessed/function_operator_10.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller

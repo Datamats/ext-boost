@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/arg.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file arg.hpp
 /// Contains definition of the argN transforms.

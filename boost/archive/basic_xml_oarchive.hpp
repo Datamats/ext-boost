@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/basic_xml_oarchive.hpp"
 #ifndef BOOST_ARCHIVE_BASIC_XML_OARCHIVE_HPP
 #define BOOST_ARCHIVE_BASIC_XML_OARCHIVE_HPP
 
@@ -124,7 +123,7 @@ protected:
     BOOST_ARCHIVE_OR_WARCHIVE_DECL
     basic_xml_oarchive(unsigned int flags);
     BOOST_ARCHIVE_OR_WARCHIVE_DECL
-    ~basic_xml_oarchive();
+    ~basic_xml_oarchive() BOOST_OVERRIDE;
 };
 
 } // namespace archive

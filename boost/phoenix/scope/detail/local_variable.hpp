@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/local_variable.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Joel de Guzman
     Copyright (c) 2004 Daniel Wallin

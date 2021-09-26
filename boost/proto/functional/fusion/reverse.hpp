@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/functional/fusion/reverse.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file reverse.hpp
 /// Proto callables Fusion reverse

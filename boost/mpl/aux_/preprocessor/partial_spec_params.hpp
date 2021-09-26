@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/partial_spec_params.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_PARTIAL_SPEC_PARAMS_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_PARTIAL_SPEC_PARAMS_HPP_INCLUDED

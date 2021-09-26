@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/scope/detail/cpp03/preprocessed/lambda.hpp"
 /*=============================================================================
     Copyright (c) 2011 Hartmut Kaiser
 

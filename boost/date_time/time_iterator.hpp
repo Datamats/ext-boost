@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/time_iterator.hpp"
 #ifndef DATE_TIME_TIME_ITERATOR_HPP___
 #define DATE_TIME_TIME_ITERATOR_HPP___
 
@@ -31,14 +30,14 @@ namespace date_time {
       current_ = current_ - offset_;
       return *this;
     }
-    time_type operator*() {return current_;}
-    time_type* operator->() {return &current_;}
-    bool operator<  (const time_type& t) {return current_ < t;}
-    bool operator<= (const time_type& t) {return current_ <= t;}
-    bool operator!=  (const time_type& t) {return current_ != t;}
-    bool operator== (const time_type& t) {return current_ == t;}
-    bool operator>  (const time_type& t) {return current_ > t;}
-    bool operator>= (const time_type& t) {return current_ >= t;}
+    const time_type& operator*() const {return current_;}
+    const time_type* operator->() const {return &current_;}
+    bool operator<  (const time_type& t) const {return current_ < t;}
+    bool operator<= (const time_type& t) const {return current_ <= t;}
+    bool operator!=  (const time_type& t) const {return current_ != t;}
+    bool operator== (const time_type& t) const {return current_ == t;}
+    bool operator>  (const time_type& t) const {return current_ > t;}
+    bool operator>= (const time_type& t) const {return current_ >= t;}
 
   private:
     time_type current_;

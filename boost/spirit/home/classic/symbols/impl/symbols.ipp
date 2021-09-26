@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/symbols/impl/symbols.ipp"
 /*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/

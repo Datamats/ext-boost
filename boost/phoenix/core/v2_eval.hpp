@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/v2_eval.hpp"
 /*=============================================================================
     Copyright (c) 2011 Thomas Heller
 

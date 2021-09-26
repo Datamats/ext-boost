@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/actor.hpp"
 /*=============================================================================
     Copyright (c) 2003 Jonathan de Halleux (dehalleux@pelikhan.com)
     http://spirit.sourceforge.net/
@@ -27,7 +26,7 @@
 //  for phrase parsers. Actors should implement at least one of the two ()
 //  operator.
 //
-//  Actor instances are not created direcly since they usually involve a
+//  Actor instances are not created directly since they usually involve a
 //  number of template parameters. Instead generator functions ("helper
 //  functions") are provided to generate actors according to their arguments.
 //  All helper functions have the "_a" suffix. For example, append_actor is

@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_bounded_array.hpp"
 /*
 Copyright 2018 Glen Joseph Fernandes
 (glenjofe@gmail.com)

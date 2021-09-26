@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/scanner/scanner.hpp"
 /*=============================================================================
     Copyright (c) 1998-2002 Joel de Guzman
     http://spirit.sourceforge.net/

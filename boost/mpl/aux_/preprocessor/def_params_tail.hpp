@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/def_params_tail.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_DEF_PARAMS_TAIL_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_DEF_PARAMS_TAIL_HPP_INCLUDED

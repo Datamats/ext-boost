@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/include/lex_tokenize_and_parse_attr.hpp"
 /*=============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
     Copyright (c) 2001-2010 Hartmut Kaiser

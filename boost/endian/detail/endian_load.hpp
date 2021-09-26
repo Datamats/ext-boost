@@ -1,4 +1,3 @@
-#line 1 "include/boost/endian/detail/endian_load.hpp"
 #ifndef BOOST_ENDIAN_DETAIL_ENDIAN_LOAD_HPP_INCLUDED
 #define BOOST_ENDIAN_DETAIL_ENDIAN_LOAD_HPP_INCLUDED
 

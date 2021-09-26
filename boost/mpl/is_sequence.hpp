@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/is_sequence.hpp"
 
 #ifndef BOOST_MPL_IS_SEQUENCE_HPP_INCLUDED
 #define BOOST_MPL_IS_SEQUENCE_HPP_INCLUDED

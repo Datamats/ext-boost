@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/remove_typename.hpp"
 //==============================================================================
 //         Copyright 2003 - 2011  LASMEA UMR 6602 CNRS/Univ. Clermont II
 //         Copyright 2009 - 2011  LRI    UMR 8623 CNRS/Univ Paris Sud XI

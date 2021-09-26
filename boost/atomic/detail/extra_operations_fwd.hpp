@@ -1,4 +1,3 @@
-#line 1 "include/boost/atomic/detail/extra_operations_fwd.hpp"
 /*
  * Distributed under the Boost Software License, Version 1.0.
  * (See accompanying file LICENSE_1_0.txt or copy at
@@ -17,6 +16,7 @@
 
 #include <cstddef>
 #include <boost/atomic/detail/config.hpp>
+#include <boost/atomic/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -26,11 +26,13 @@ namespace boost {
 namespace atomics {
 namespace detail {
 
-template< typename Base, std::size_t Size, bool Signed, bool = Base::is_always_lock_free >
+template< typename Base, std::size_t Size = sizeof(typename Base::storage_type), bool Signed = Base::is_signed, bool = Base::is_always_lock_free >
 struct extra_operations;
 
 } // namespace detail
 } // namespace atomics
 } // namespace boost
+
+#include <boost/atomic/detail/footer.hpp>
 
 #endif // BOOST_ATOMIC_DETAIL_EXTRA_OPERATIONS_FWD_HPP_INCLUDED_

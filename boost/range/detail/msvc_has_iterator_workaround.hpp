@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/detail/msvc_has_iterator_workaround.hpp"
 // Boost.Range library
 //
 //  Copyright Eric Niebler 2014. Use, modification and

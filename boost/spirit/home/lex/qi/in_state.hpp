@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/lex/qi/in_state.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 // 
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying 
@@ -11,7 +10,7 @@
 #pragma once
 #endif
 
-#include <boost/proto/core.hpp>
+#include <boost/proto/traits.hpp>
 
 ///////////////////////////////////////////////////////////////////////////////
 namespace boost { namespace spirit { namespace qi

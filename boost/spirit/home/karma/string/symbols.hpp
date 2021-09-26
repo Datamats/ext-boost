@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/karma/string/symbols.hpp"
 //  Copyright (c) 2001-2011 Hartmut Kaiser
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying
@@ -22,6 +21,8 @@
 #include <boost/spirit/home/karma/detail/get_casetag.hpp>
 #include <boost/spirit/home/karma/detail/string_generate.hpp>
 #include <boost/config.hpp>
+#include <boost/proto/extends.hpp>
+#include <boost/proto/traits.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/mpl/if.hpp>
 #include <map>

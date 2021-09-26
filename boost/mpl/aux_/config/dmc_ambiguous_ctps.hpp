@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/config/dmc_ambiguous_ctps.hpp"
 
 #ifndef BOOST_MPL_AUX_CONFIG_DMC_AMBIGUOUS_CTPS_HPP_INCLUDED
 #define BOOST_MPL_AUX_CONFIG_DMC_AMBIGUOUS_CTPS_HPP_INCLUDED

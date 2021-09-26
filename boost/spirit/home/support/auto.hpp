@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/auto.hpp"
 /*=============================================================================
     Copyright (c) 2001-2012 Joel de Guzman
 

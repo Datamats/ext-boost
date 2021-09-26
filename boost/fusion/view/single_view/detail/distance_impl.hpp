@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/single_view/detail/distance_impl.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

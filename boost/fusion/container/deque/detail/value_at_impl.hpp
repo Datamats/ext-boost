@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/deque/detail/value_at_impl.hpp"
 /*=============================================================================
     Copyright (c) 2005-2012 Joel de Guzman
     Copyright (c) 2005-2006 Dan Marsden

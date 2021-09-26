@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/intrinsics.hpp"
 //  (C) Copyright Steve Cleary, Beman Dawes, Howard Hinnant & John Maddock 2000.
 //  Use, modification and distribution are subject to the Boost Software License,
 //  Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
@@ -357,7 +356,7 @@
 #   define BOOST_HAS_TYPE_TRAITS_INTRINSICS
 #endif
 
-# if defined(__CODEGEARC__)
+# if defined(BOOST_CODEGEARC)
 #   include <boost/type_traits/is_same.hpp>
 #   include <boost/type_traits/is_reference.hpp>
 #   include <boost/type_traits/is_volatile.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/make_expr.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file make_expr.hpp
     /// Contains overloads of make_expr() free function.

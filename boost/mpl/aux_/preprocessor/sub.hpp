@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/sub.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_SUB_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_SUB_HPP_INCLUDED

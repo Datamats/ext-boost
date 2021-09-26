@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/error_handling/impl/exceptions.ipp"
 /*=============================================================================
     Copyright (c) 2001-2003 Joel de Guzman
     http://spirit.sourceforge.net/

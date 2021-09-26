@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/compare_functors.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014. Distributed under the Boost
@@ -21,6 +20,7 @@
 #endif
 
 #include <boost/intrusive/detail/ebo_functor_holder.hpp>
+#include <boost/container/detail/workaround.hpp>
 
 namespace boost {
 namespace container {

@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/lambda_fwd.hpp"
 
 #ifndef BOOST_MPL_LAMBDA_FWD_HPP_INCLUDED
 #define BOOST_MPL_LAMBDA_FWD_HPP_INCLUDED

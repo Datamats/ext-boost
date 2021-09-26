@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/detail/preprocessed/or_n.hpp"
     ///////////////////////////////////////////////////////////////////////////////
     /// \file or_n.hpp
     /// Definitions of or_N

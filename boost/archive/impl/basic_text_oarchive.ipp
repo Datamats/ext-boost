@@ -1,4 +1,3 @@
-#line 1 "include/boost/archive/impl/basic_text_oarchive.ipp"
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // basic_text_oarchive.ipp:
 
@@ -55,7 +54,7 @@ basic_text_oarchive<Archive>::init(){
     const std::string file_signature(BOOST_ARCHIVE_SIGNATURE());
     * this->This() << file_signature;
     // write library version
-    const library_version_type v(BOOST_ARCHIVE_VERSION());
+    const boost::serialization::library_version_type v(BOOST_ARCHIVE_VERSION());
     * this->This() << v;
 }
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/tags.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file tags.hpp
 /// Contains the tags for all the overloadable operators in C++

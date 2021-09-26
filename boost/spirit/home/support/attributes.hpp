@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/attributes.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2012 Hartmut Kaiser
@@ -41,10 +40,10 @@
 #include <boost/mpl/or.hpp>
 #include <boost/mpl/has_xxx.hpp>
 #include <boost/mpl/equal.hpp>
-#include <boost/proto/proto_fwd.hpp>
+#include <boost/proto/traits.hpp>
 #include <boost/utility/enable_if.hpp>
 #include <boost/variant.hpp>
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/range_fwd.hpp>
 #include <boost/config.hpp>
 #include <iterator> // for std::iterator_traits, std::distance
 #include <vector>

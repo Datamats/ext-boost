@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/push_back.hpp"
 
 #ifndef BOOST_MPL_PUSH_BACK_HPP_INCLUDED
 #define BOOST_MPL_PUSH_BACK_HPP_INCLUDED

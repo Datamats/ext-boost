@@ -1,4 +1,3 @@
-#line 1 "include/boost/none_t.hpp"
 // Copyright (C) 2003, Fernando Luis Cacciola Carballal.
 // Copyright (C) 2014, 2015 Andrzej Krzemienski.
 //
@@ -13,6 +12,8 @@
 //
 #ifndef BOOST_NONE_T_17SEP2003_HPP
 #define BOOST_NONE_T_17SEP2003_HPP
+
+#include <boost/config.hpp>
 
 namespace boost {
 
@@ -30,7 +31,7 @@ class none_t {};
 struct none_t
 {
   struct init_tag{};
-  explicit none_t(init_tag){} // to disable default constructor
+  explicit BOOST_CONSTEXPR none_t(init_tag){} // to disable default constructor
 };
 
 #endif // old implementation workarounds

@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/platform/cloudabi.h"
 /*
   Copyright 2017 James E. King, III
   Distributed under the Boost Software License, Version 1.0.
@@ -12,17 +11,18 @@
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_PLAT_CLOUDABI`]
+/* tag::reference[]
+= `BOOST_PLAT_CLOUDABI`
 
-[@https://github.com/NuxiNL/cloudabi CloudABI] platform.
+https://github.com/NuxiNL/cloudabi[CloudABI] platform.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__CloudABI__`] [__predef_detection__]]
-    ]
- */
+| `+__CloudABI__+` | {predef_detection}
+|===
+*/ // end::reference[]
 
 #define BOOST_PLAT_CLOUDABI BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

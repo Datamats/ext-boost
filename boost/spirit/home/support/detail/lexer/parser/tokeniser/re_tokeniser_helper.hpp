@@ -1,11 +1,10 @@
-#line 1 "include/boost/spirit/home/support/detail/lexer/parser/tokeniser/re_tokeniser_helper.hpp"
 // tokeniser_helper.hpp
 // Copyright (c) 2007-2009 Ben Hanson (http://www.benhanson.net/)
 //
 // Distributed under the Boost Software License, Version 1.0. (See accompanying
 // file licence_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
-#ifndef BOOST_LEXER_RE_TOKENISER_HELPER_H
-#define BOOST_LEXER_RE_TOKENISER_HELPER_H
+#ifndef BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_PARSER_TOKENISER_RE_TOKENISER_HELPER_HPP
+#define BOOST_SPIRIT_SUPPORT_DETAIL_LEXER_PARSER_TOKENISER_RE_TOKENISER_HELPER_HPP
 
 #include "../../char_traits.hpp"
 // strlen()
@@ -524,21 +523,21 @@ private:
 
         for (; start_ <= end_; ++start_)
         {
-            CharT ch_ = static_cast<CharT> (start_);
+            CharT ch_i = static_cast<CharT> (start_);
 
             if ((state_._flags & icase) &&
-                (std::isupper (ch_, state_._locale) ||
-                std::islower (ch_, state_._locale)))
+                (std::isupper (ch_i, state_._locale) ||
+                std::islower (ch_i, state_._locale)))
             {
-                CharT upper_ = std::toupper (ch_, state_._locale);
-                CharT lower_ = std::tolower (ch_, state_._locale);
+                CharT upper_ = std::toupper (ch_i, state_._locale);
+                CharT lower_ = std::tolower (ch_i, state_._locale);
 
                 chars_ += (upper_);
                 chars_ += (lower_);
             }
             else
             {
-                chars_ += (ch_);
+                chars_ += (ch_i);
             }
         }
     }

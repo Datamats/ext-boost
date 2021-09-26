@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/integral_c.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 /// \file integral_c.hpp
 /// Contains definition of the integral_c transform and friends.

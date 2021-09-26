@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/support/char_set/basic_chset.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2009 Daniel Nuffer

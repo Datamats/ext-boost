@@ -1,4 +1,3 @@
-#line 1 "include/boost/type_traits/is_copy_constructible.hpp"
 //  (C) Copyright Antony Polukhin 2013.
 //
 //  Use, modification and distribution are subject to the Boost Software License,

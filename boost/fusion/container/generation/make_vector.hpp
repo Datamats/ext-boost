@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/generation/make_vector.hpp"
 /*=============================================================================
     Copyright (c) 2014-2015 Kohei Takahashi
 

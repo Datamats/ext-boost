@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/filter_iter.hpp"
 
 #ifndef BOOST_MPL_AUX_FILTER_ITER_HPP_INCLUDED
 #define BOOST_MPL_AUX_FILTER_ITER_HPP_INCLUDED

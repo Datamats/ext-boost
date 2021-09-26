@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/detail/extract_optional_type.hpp"
 // Boost.Range library
 //
 //  Copyright Arno Schoedl & Neil Groves 2009.

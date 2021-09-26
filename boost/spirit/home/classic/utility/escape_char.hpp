@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/utility/escape_char.hpp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     http://spirit.sourceforge.net/

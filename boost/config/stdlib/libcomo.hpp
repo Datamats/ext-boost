@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/stdlib/libcomo.hpp"
 //  (C) Copyright John Maddock 2002 - 2003. 
 //  (C) Copyright Jens Maurer 2002 - 2003. 
 //  (C) Copyright Beman Dawes 2002 - 2003. 
@@ -40,6 +39,7 @@
 #  define BOOST_NO_CXX11_HDR_CHRONO
 #  define BOOST_NO_CXX11_HDR_CODECVT
 #  define BOOST_NO_CXX11_HDR_CONDITION_VARIABLE
+#  define BOOST_NO_CXX11_HDR_EXCEPTION
 #  define BOOST_NO_CXX11_HDR_FORWARD_LIST
 #  define BOOST_NO_CXX11_HDR_FUTURE
 #  define BOOST_NO_CXX11_HDR_INITIALIZER_LIST

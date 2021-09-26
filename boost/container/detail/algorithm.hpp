@@ -1,4 +1,3 @@
-#line 1 "include/boost/container/detail/algorithm.hpp"
 //////////////////////////////////////////////////////////////////////////////
 //
 // (C) Copyright Ion Gaztanaga 2014-2014.
@@ -117,6 +116,34 @@ InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
       }
    }
    return last;
+}
+
+template<class ForwardIt1, class ForwardIt2, class BinaryPredicate>
+  ForwardIt1 find_end (ForwardIt1 first1, ForwardIt1 last1
+                      ,ForwardIt2 first2, ForwardIt2 last2
+                      ,BinaryPredicate p)
+{
+   if (first2==last2)
+      return last1;  // specified in C++11
+
+   ForwardIt1 ret = last1;
+
+   while (first1!=last1)
+   {
+      ForwardIt1 it1 = first1;
+      ForwardIt2 it2 = first2;
+      while ( p(*it1, *it2) ) {
+         ++it1; ++it2;
+         if (it2==last2) {
+            ret=first1;
+            break;
+         }
+         if (it1==last1)
+         return ret;
+      }
+      ++first1;
+   }
+   return ret;
 }
 
 template<class InputIt, class ForwardIt, class BinaryPredicate>

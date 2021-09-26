@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/int_fwd.hpp"
 
 #ifndef BOOST_MPL_INT_FWD_HPP_INCLUDED
 #define BOOST_MPL_INT_FWD_HPP_INCLUDED

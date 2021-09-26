@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/numeric/bool_policies.hpp"
 /*=============================================================================
     Copyright (c) 2009  Hartmut Kaiser
     Copyright (c) 2014  Joel de Guzman

@@ -1,4 +1,3 @@
-#line 1 "include/boost/move/algo/detail/is_sorted.hpp"
 #ifndef BOOST_MOVE_DETAIL_IS_SORTED_HPP
 #define BOOST_MOVE_DETAIL_IS_SORTED_HPP
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,3 @@
-#line 1 "include/boost/smart_ptr/detail/atomic_count_nt.hpp"
 #ifndef BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_NT_HPP_INCLUDED
 #define BOOST_SMART_PTR_DETAIL_ATOMIC_COUNT_NT_HPP_INCLUDED
 
@@ -15,6 +14,13 @@
 //  See accompanying file LICENSE_1_0.txt or copy at
 //  http://www.boost.org/LICENSE_1_0.txt
 //
+
+#if defined(BOOST_SP_REPORT_IMPLEMENTATION)
+
+#include <boost/config/pragma_message.hpp>
+BOOST_PRAGMA_MESSAGE("Using single-threaded, non-atomic atomic_count")
+
+#endif
 
 namespace boost
 {

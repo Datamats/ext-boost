@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/qi/operator/and_predicate.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
     Distributed under the Boost Software License, Version 1.0. (See accompanying
     file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 =============================================================================*/
-#if !defined(SPIRIT_AND_PREDICATE_MARCH_23_2007_0617PM)
-#define SPIRIT_AND_PREDICATE_MARCH_23_2007_0617PM
+#ifndef BOOST_SPIRIT_QI_OPERATOR_AND_PREDICATE_HPP
+#define BOOST_SPIRIT_QI_OPERATOR_AND_PREDICATE_HPP
 
 #if defined(_MSC_VER)
 #pragma once
@@ -20,6 +19,8 @@
 #include <boost/spirit/home/support/has_semantic_action.hpp>
 #include <boost/spirit/home/support/handles_container.hpp>
 #include <boost/fusion/include/at.hpp>
+#include <boost/proto/operators.hpp>
+#include <boost/proto/tags.hpp>
 
 namespace boost { namespace spirit
 {

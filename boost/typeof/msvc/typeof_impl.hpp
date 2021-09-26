@@ -1,4 +1,3 @@
-#line 1 "include/boost/typeof/msvc/typeof_impl.hpp"
 
 // Copyright (C) 2005 Igor Chesnokov, mailto:ichesnokov@gmail.com (VC 6.5,VC 7.1 + counter code)
 // Copyright (C) 2005-2007 Peder Holt (VC 7.0 + framework)

@@ -1,4 +1,3 @@
-#line 1 "include/boost/bind/storage.hpp"
 #ifndef BOOST_BIND_STORAGE_HPP_INCLUDED
 #define BOOST_BIND_STORAGE_HPP_INCLUDED
 
@@ -50,7 +49,7 @@ template<class A1> struct storage1
     A1 a1_;
 };
 
-#if !defined( BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION ) && !defined( __BORLANDC__ )
+#if !defined( BOOST_NO_TEMPLATE_PARTIAL_SPECIALIZATION ) && !defined( BOOST_BORLANDC )
 
 template<int I> struct storage1< boost::arg<I> >
 {

@@ -1,4 +1,3 @@
-#line 1 "include/boost/range/detail/str_types.hpp"
 // Boost.Range library
 //
 //  Copyright Thorsten Ottosen 2006. Use, modification and

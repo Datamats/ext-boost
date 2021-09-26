@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/traits/is_range.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     http://spirit.sourceforge.net/
@@ -9,7 +8,7 @@
 #if !defined(BOOST_SPIRIT_X3_IS_RANGE_DEC_06_2017_1900PM)
 #define BOOST_SPIRIT_X3_IS_RANGE_DEC_06_2017_1900PM
 
-#include <boost/range/iterator_range.hpp>
+#include <boost/range/range_fwd.hpp>
 #include <boost/mpl/bool.hpp>
 
 namespace boost { namespace spirit { namespace x3 { namespace traits

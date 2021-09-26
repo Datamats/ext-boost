@@ -1,4 +1,3 @@
-#line 1 "include/boost/test/detail/log_level.hpp"
 //  (C) Copyright Gennadiy Rozental 2001.
 //  Distributed under the Boost Software License, Version 1.0.
 //  (See accompanying file LICENSE_1_0.txt or copy at

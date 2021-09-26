@@ -1,4 +1,3 @@
-#line 1 "include/boost/function_types/detail/pp_cc_loop/master.hpp"
 
 // (C) Copyright Tobias Schwinger
 //

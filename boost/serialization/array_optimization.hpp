@@ -1,6 +1,5 @@
-#line 1 "include/boost/serialization/array_optimization.hpp"
-#ifndef BOOST_SERIALIZATION_ARRAY_OPTIMIZATON_HPP
-#define BOOST_SERIALIZATION_ARRAY_OPTIMIZATON_HPP
+#ifndef BOOST_SERIALIZATION_ARRAY_OPTIMIZATION_HPP
+#define BOOST_SERIALIZATION_ARRAY_OPTIMIZATION_HPP
 
 // (C) Copyright 2005 Matthias Troyer and Dave Abrahams
 // Use, modification and distribution is subject to the Boost Software
@@ -10,8 +9,8 @@
 #include <boost/config.hpp> // msvc 6.0 needs this for warning suppression
 
 #if defined(BOOST_NO_STDC_NAMESPACE)
-namespace std{ 
-    using ::size_t; 
+namespace std{
+    using ::size_t;
 } // namespace std
 #endif
 
@@ -35,4 +34,4 @@ template <> struct use_array_optimization<Archive> {                  \
     >::type {};                                                       \
 }; }}
 
-#endif //BOOST_SERIALIZATION_ARRAY_OPTIMIZATON_HPP
+#endif //BOOST_SERIALIZATION_ARRAY_OPTIMIZATION_HPP

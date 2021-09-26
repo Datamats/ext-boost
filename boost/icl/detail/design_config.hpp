@@ -1,4 +1,3 @@
-#line 1 "include/boost/icl/detail/design_config.hpp"
 /*-----------------------------------------------------------------------------+
 Author: Joachim Faulhaber
 Copyright (c) 2009-2010: Joachim Faulhaber

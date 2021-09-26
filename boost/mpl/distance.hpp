@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/distance.hpp"
 
 #ifndef BOOST_MPL_DISTANCE_HPP_INCLUDED
 #define BOOST_MPL_DISTANCE_HPP_INCLUDED

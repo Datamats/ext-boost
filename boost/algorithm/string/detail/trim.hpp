@@ -1,4 +1,3 @@
-#line 1 "include/boost/algorithm/string/detail/trim.hpp"
 //  Boost string_algo library trim.hpp header file  ---------------------------//
 
 //  Copyright Pavol Droba 2002-2003.
@@ -13,7 +12,7 @@
 #define BOOST_STRING_TRIM_DETAIL_HPP
 
 #include <boost/algorithm/string/config.hpp>
-#include <boost/detail/iterator.hpp>
+#include <iterator>
 
 namespace boost {
     namespace algorithm {
@@ -81,8 +80,8 @@ namespace boost {
                 ForwardIteratorT InEnd, 
                 PredicateT IsSpace )
             {
-                typedef BOOST_STRING_TYPENAME boost::detail::
-                    iterator_traits<ForwardIteratorT>::iterator_category category;
+                typedef BOOST_STRING_TYPENAME
+                    std::iterator_traits<ForwardIteratorT>::iterator_category category;
 
                 return ::boost::algorithm::detail::trim_end_iter_select( InBegin, InEnd, IsSpace, category() );
             }

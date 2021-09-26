@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/adapted/adt/adapt_adt.hpp"
 /*=============================================================================
     Copyright (c) 2001-2009 Joel de Guzman
     Copyright (c) 2009-2010 Hartmut Kaiser

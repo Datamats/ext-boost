@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/nothing.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/env.hpp"
 ///////////////////////////////////////////////////////////////////////////////
 // env.hpp
 // Helpers for producing and consuming tranform env variables.

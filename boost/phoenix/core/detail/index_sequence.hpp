@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/index_sequence.hpp"
 /*=============================================================================
     Copyright (c) 2016 Kohei Takahashi
 

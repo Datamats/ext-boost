@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/joint_iter.hpp"
 
 #ifndef BOOST_MPL_AUX_JOINT_ITER_HPP_INCLUDED
 #define BOOST_MPL_AUX_JOINT_ITER_HPP_INCLUDED

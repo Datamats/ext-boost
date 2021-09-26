@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/include/value_at.hpp"
 /*=============================================================================
     Copyright (c) 2001-2007 Hartmut Kaiser
 

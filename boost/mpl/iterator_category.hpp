@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/iterator_category.hpp"
 
 #ifndef BOOST_MPL_ITERATOR_CATEGORY_HPP_INCLUDED
 #define BOOST_MPL_ITERATOR_CATEGORY_HPP_INCLUDED

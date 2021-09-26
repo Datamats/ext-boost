@@ -1,4 +1,3 @@
-#line 1 "include/boost/optional/bad_optional_access.hpp"
 // Copyright (C) 2014, Andrzej Krzemienski.
 //
 // Use, modification, and distribution is subject to the Boost Software
@@ -20,6 +19,11 @@
 
 namespace boost {
 
+#if defined(__clang__)
+# pragma clang diagnostic push
+# pragma clang diagnostic ignored "-Wweak-vtables"
+#endif
+
 class bad_optional_access : public std::logic_error
 {
 public:
@@ -27,6 +31,10 @@ public:
     : std::logic_error("Attempted to access the value of an uninitialized optional object.")
     {}
 };
+
+#if defined(__clang__)
+# pragma clang diagnostic pop
+#endif
 
 } // namespace boost
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/string/symbols.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
@@ -24,7 +23,8 @@
 #include <boost/spirit/home/support/info.hpp>
 #include <boost/spirit/home/support/unused.hpp>
 #include <boost/spirit/home/support/string_traits.hpp>
-
+#include <boost/proto/extends.hpp>
+#include <boost/proto/traits.hpp>
 #include <boost/range/begin.hpp>
 #include <boost/range/end.hpp>
 #include <boost/shared_ptr.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/date_time/adjust_functors.hpp"
 #ifndef _DATE_TIME_ADJUST_FUNCTORS_HPP___
 #define _DATE_TIME_ADJUST_FUNCTORS_HPP___
 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/preprocessor/stringize.hpp"
 # /* Copyright (C) 2001
 #  * Housemarque Oy
 #  * http://www.housemarque.com
@@ -29,10 +28,6 @@
 #    define BOOST_PP_STRINGIZE(text) BOOST_PP_STRINGIZE_I(text)
 # endif
 #
-#if BOOST_PP_VARIADICS
 # define BOOST_PP_STRINGIZE_I(...) #__VA_ARGS__
-#else
-# define BOOST_PP_STRINGIZE_I(text) #text
-#endif
 #
 # endif

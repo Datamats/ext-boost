@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/workaround.hpp"
 // Copyright David Abrahams 2002.
 // Distributed under the Boost Software License, Version 1.0. (See
 // accompanying file LICENSE_1_0.txt or copy at
@@ -50,6 +49,21 @@
 #define __CODEGEARC___WORKAROUND_GUARD 1
 #else
 #define __CODEGEARC___WORKAROUND_GUARD 0
+#endif
+#ifndef BOOST_BORLANDC
+#define BOOST_BORLANDC_WORKAROUND_GUARD 1
+#else
+#define BOOST_BORLANDC_WORKAROUND_GUARD 0
+#endif
+#ifndef BOOST_CODEGEARC
+#define BOOST_CODEGEARC_WORKAROUND_GUARD 1
+#else
+#define BOOST_CODEGEARC_WORKAROUND_GUARD 0
+#endif
+#ifndef BOOST_EMBTC
+#define BOOST_EMBTC_WORKAROUND_GUARD 1
+#else
+#define BOOST_EMBTC_WORKAROUND_GUARD 0
 #endif
 #ifndef _MSC_VER
 #define _MSC_VER_WORKAROUND_GUARD 1

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/auxiliary/any_parser.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2013-2014 Agustin Berge
@@ -36,8 +35,7 @@ namespace boost { namespace spirit { namespace x3
             traits::is_container<Attribute>::value;
 
     public:
-        any_parser()
-          : _content(nullptr) {}
+        any_parser() = default;
 
         template <typename Expr,
             typename Enable = typename enable_if<traits::is_parser<Expr>>::type>

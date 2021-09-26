@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/core/detail/cpp03/preprocessed/actor_operator_40.hpp"
 /*==============================================================================
     Copyright (c) 2005-2010 Joel de Guzman
     Copyright (c) 2010 Thomas Heller

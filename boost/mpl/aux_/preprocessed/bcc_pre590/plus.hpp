@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/bcc_pre590/plus.hpp"
 
 // Copyright Aleksey Gurtovoy 2000-2004
 //

@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/iterator_range/detail/segmented_iterator_range.hpp"
 /*=============================================================================
     Copyright (c) 2011 Eric Niebler
 

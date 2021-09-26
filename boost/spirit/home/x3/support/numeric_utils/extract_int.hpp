@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/support/numeric_utils/extract_int.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
     Copyright (c) 2011 Jan Frederick Eick

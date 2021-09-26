@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/utility/impl/escape_char.ipp"
 /*=============================================================================
     Copyright (c) 2001-2003 Daniel Nuffer
     Copyright (c) 2002-2003 Hartmut Kaiser
@@ -167,7 +166,7 @@ namespace impl {
             return scan.no_match(); // overflow detected
         }
     };
-#if (defined(BOOST_MSVC) && (BOOST_MSVC <= 1310))
+#if defined(BOOST_MSVC)
 #pragma warning(pop)
 #endif
 

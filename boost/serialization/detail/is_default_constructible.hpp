@@ -1,4 +1,3 @@
-#line 1 "include/boost/serialization/detail/is_default_constructible.hpp"
 #ifndef  BOOST_SERIALIZATION_DETAIL_IS_DEFAULT_CONSTRUCTIBLE_HPP
 #define BOOST_SERIALIZATION_DETAIL_IS_DEFAULT_CONSTRUCTIBLE_HPP
 
@@ -10,7 +9,7 @@
 /////////1/////////2/////////3/////////4/////////5/////////6/////////7/////////8
 // is_default_constructible.hpp: serialization for loading stl collections
 //
-// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com . 
+// (C) Copyright 2002 Robert Ramey - http://www.rrsd.com .
 // Use, modification and distribution is subject to the Boost Software
 // License, Version 1.0. (See accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)

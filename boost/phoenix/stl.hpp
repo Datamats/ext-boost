@@ -1,4 +1,3 @@
-#line 1 "include/boost/phoenix/stl.hpp"
 /*=============================================================================
     Copyright (c) 2006 Daniel Wallin
     Copyright (c) 2005 Dan Marsden

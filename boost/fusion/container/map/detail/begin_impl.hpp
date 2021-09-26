@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/container/map/detail/begin_impl.hpp"
 /*=============================================================================
     Copyright (c) 2005-2013 Joel de Guzman
 

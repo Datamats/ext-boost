@@ -1,4 +1,3 @@
-#line 1 "include/boost/config/compiler/nvcc.hpp"
 //  (C) Copyright Eric Jourdanneau, Joel Falcou 2010
 //  Use, modification and distribution are subject to the 
 //  Boost Software License, Version 1.0. (See accompanying file 

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/phoenix/composite.hpp"
 /*=============================================================================
     Phoenix V1.2.1
     Copyright (c) 2001-2002 Joel de Guzman
@@ -6,8 +5,8 @@
   Distributed under the Boost Software License, Version 1.0. (See accompanying
   file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 ==============================================================================*/
-#ifndef PHOENIX_COMPOSITE_HPP
-#define PHOENIX_COMPOSITE_HPP
+#ifndef BOOST_SPIRIT_CLASSIC_PHOENIX_COMPOSITE_HPP
+#define BOOST_SPIRIT_CLASSIC_PHOENIX_COMPOSITE_HPP
 
 ///////////////////////////////////////////////////////////////////////////////
 #include <boost/spirit/home/classic/phoenix/actor.hpp>

@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/core/non_terminal/impl/rule.ipp"
 /*=============================================================================
     Copyright (c) 1998-2003 Joel de Guzman
     http://spirit.sourceforge.net/
@@ -115,8 +114,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
         class rule_base_access
         {
-#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS) \
-    || BOOST_WORKAROUND(__BORLANDC__, BOOST_TESTED_AT(0x551))
+#if defined(BOOST_NO_MEMBER_TEMPLATE_FRIENDS)
         public: // YUCK!
 #else
             template <
@@ -234,16 +232,16 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
         struct concrete_parser : abstract_parser<ScannerT, AttrT>
         {
             concrete_parser(ParserT const& p_) : p(p_) {}
-            virtual ~concrete_parser() {}
+            ~concrete_parser() BOOST_OVERRIDE {}
 
-            virtual typename match_result<ScannerT, AttrT>::type
-            do_parse_virtual(ScannerT const& scan) const
+            typename match_result<ScannerT, AttrT>::type
+            do_parse_virtual(ScannerT const& scan) const BOOST_OVERRIDE
             {
                 return p.parse(scan);
             }
 
-            virtual abstract_parser<ScannerT, AttrT>*
-            clone() const
+            abstract_parser<ScannerT, AttrT>*
+            clone() const BOOST_OVERRIDE
             {
                 return new concrete_parser(p);
             }

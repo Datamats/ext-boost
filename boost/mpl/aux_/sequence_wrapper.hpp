@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/sequence_wrapper.hpp"
 
 // NO INCLUDE GUARDS, THE HEADER IS INTENDED FOR MULTIPLE INCLUSION
 

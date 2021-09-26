@@ -1,4 +1,3 @@
-#line 1 "include/boost/function/detail/maybe_include.hpp"
 // Boost.Function library
 
 //  Copyright Douglas Gregor 2003. Use, modification and

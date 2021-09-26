@@ -1,4 +1,3 @@
-#line 1 "include/boost/thread/detail/delete.hpp"
 // Copyright (C) 2012 Vicente J. Botet Escriba
 //
 //  Distributed under the Boost Software License, Version 1.0. (See accompanying

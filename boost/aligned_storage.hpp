@@ -1,4 +1,3 @@
-#line 1 "include/boost/aligned_storage.hpp"
 //-----------------------------------------------------------------------------
 // boost aligned_storage.hpp header file
 // See http://www.boost.org for updates, documentation, and revision history.

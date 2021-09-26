@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessor/token_equal.hpp"
 
 #ifndef BOOST_MPL_AUX_PREPROCESSOR_TOKEN_EQUAL_HPP_INCLUDED
 #define BOOST_MPL_AUX_PREPROCESSOR_TOKEN_EQUAL_HPP_INCLUDED

@@ -1,4 +1,3 @@
-#line 1 "include/boost/winapi/character_code_conversion.hpp"
 /*
  * Copyright 2016 Andrey Semashev
  *
@@ -10,6 +9,7 @@
 #define BOOST_WINAPI_CHARACTER_CODE_CONVERSION_HPP_INCLUDED_
 
 #include <boost/winapi/basic_types.hpp>
+#include <boost/winapi/detail/header.hpp>
 
 #ifdef BOOST_HAS_PRAGMA_ONCE
 #pragma once
@@ -18,7 +18,7 @@
 #if !defined( BOOST_USE_WINDOWS_H )
 extern "C" {
 
-BOOST_SYMBOL_IMPORT int BOOST_WINAPI_WINAPI_CC
+BOOST_WINAPI_IMPORT_EXCEPT_WM int BOOST_WINAPI_WINAPI_CC
 MultiByteToWideChar(
     boost::winapi::UINT_ CodePage,
     boost::winapi::DWORD_ dwFlags,
@@ -27,7 +27,7 @@ MultiByteToWideChar(
     boost::winapi::LPWSTR_ lpWideCharStr,
     int cchWideChar);
 
-BOOST_SYMBOL_IMPORT int BOOST_WINAPI_WINAPI_CC
+BOOST_WINAPI_IMPORT_EXCEPT_WM int BOOST_WINAPI_WINAPI_CC
 WideCharToMultiByte(
     boost::winapi::UINT_ CodePage,
     boost::winapi::DWORD_ dwFlags,
@@ -102,5 +102,7 @@ using ::WideCharToMultiByte;
 
 } // namespace winapi
 } // namespace boost
+
+#include <boost/winapi/detail/footer.hpp>
 
 #endif // BOOST_WINAPI_CHARACTER_CODE_CONVERSION_HPP_INCLUDED_

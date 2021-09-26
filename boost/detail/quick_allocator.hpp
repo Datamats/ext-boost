@@ -1,4 +1,3 @@
-#line 1 "include/boost/detail/quick_allocator.hpp"
 #ifndef BOOST_DETAIL_QUICK_ALLOCATOR_HPP_INCLUDED
 #define BOOST_DETAIL_QUICK_ALLOCATOR_HPP_INCLUDED
 

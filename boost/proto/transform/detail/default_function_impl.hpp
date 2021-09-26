@@ -1,4 +1,3 @@
-#line 1 "include/boost/proto/transform/detail/default_function_impl.hpp"
 #if !defined(BOOST_PROTO_DONT_USE_PREPROCESSED_FILES)
 
     #include <boost/proto/transform/detail/preprocessed/default_function_impl.hpp>

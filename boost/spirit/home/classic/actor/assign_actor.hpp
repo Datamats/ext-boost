@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/actor/assign_actor.hpp"
 /*=============================================================================
     Copyright (c) 2003 Jonathan de Halleux (dehalleux@pelikhan.com)
     http://spirit.sourceforge.net/
@@ -19,7 +18,7 @@ BOOST_SPIRIT_CLASSIC_NAMESPACE_BEGIN
 
     ///////////////////////////////////////////////////////////////////////////
     //  Summary:
-    //  A semantic action policy that applies the assignement operator.
+    //  A semantic action policy that applies the assignment operator.
     //  (This doc uses convention available in actors.hpp)
     //
     //  Actions (what it does):

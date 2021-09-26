@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/include/lex_char_token_def.hpp"
 /*=============================================================================
     Copyright (c) 2001-2010 Joel de Guzman
     Copyright (c) 2001-2010 Hartmut Kaiser

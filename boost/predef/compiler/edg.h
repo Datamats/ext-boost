@@ -1,4 +1,3 @@
-#line 1 "include/boost/predef/compiler/edg.h"
 /*
 Copyright Rene Rivera 2008-2015
 Distributed under the Boost Software License, Version 1.0.
@@ -12,20 +11,21 @@ http://www.boost.org/LICENSE_1_0.txt)
 #include <boost/predef/version_number.h>
 #include <boost/predef/make.h>
 
-/*`
-[heading `BOOST_COMP_EDG`]
+/* tag::reference[]
+= `BOOST_COMP_EDG`
 
-[@http://en.wikipedia.org/wiki/Edison_Design_Group EDG C++ Frontend] compiler.
+http://en.wikipedia.org/wiki/Edison_Design_Group[EDG {CPP} Frontend] compiler.
 Version number available as major, minor, and patch.
 
-[table
-    [[__predef_symbol__] [__predef_version__]]
+[options="header"]
+|===
+| {predef_symbol} | {predef_version}
 
-    [[`__EDG__`] [__predef_detection__]]
+| `+__EDG__+` | {predef_detection}
 
-    [[`__EDG_VERSION__`] [V.R.0]]
-    ]
- */
+| `+__EDG_VERSION__+` | V.R.0
+|===
+*/ // end::reference[]
 
 #define BOOST_COMP_EDG BOOST_VERSION_NUMBER_NOT_AVAILABLE
 

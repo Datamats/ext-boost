@@ -1,4 +1,3 @@
-#line 1 "include/boost/fusion/view/nview/detail/at_impl.hpp"
 /*=============================================================================
     Copyright (c) 2009 Hartmut Kaiser
 

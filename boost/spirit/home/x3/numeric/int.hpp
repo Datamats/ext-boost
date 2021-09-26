@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/numeric/int.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 
@@ -43,7 +42,7 @@ namespace boost { namespace spirit { namespace x3
 
 #define BOOST_SPIRIT_X3_INT_PARSER(int_type, name)                              \
     typedef int_parser<int_type> name##type;                                    \
-    name##type const name = {};                                                 \
+    constexpr name##type name = {};                                             \
     /***/
 
     BOOST_SPIRIT_X3_INT_PARSER(long, long_)

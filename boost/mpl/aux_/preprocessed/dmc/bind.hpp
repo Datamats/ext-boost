@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/aux_/preprocessed/dmc/bind.hpp"
 
 // Copyright Peter Dimov 2001
 // Copyright Aleksey Gurtovoy 2001-2004

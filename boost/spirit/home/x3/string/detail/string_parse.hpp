@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/x3/string/detail/string_parse.hpp"
 /*=============================================================================
     Copyright (c) 2001-2014 Joel de Guzman
 

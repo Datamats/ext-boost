@@ -1,12 +1,11 @@
-#line 1 "include/boost/spirit/home/qi/action/action.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
 
     Distributed under the Boost Software License, Version 1.0. (See accompanying
     file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 =============================================================================*/
-#if !defined(SPIRIT_ACTION_JANUARY_07_2007_1128AM)
-#define SPIRIT_ACTION_JANUARY_07_2007_1128AM
+#ifndef BOOST_SPIRIT_QI_ACTION_ACTION_HPP
+#define BOOST_SPIRIT_QI_ACTION_ACTION_HPP
 
 #if defined(_MSC_VER)
 #pragma once

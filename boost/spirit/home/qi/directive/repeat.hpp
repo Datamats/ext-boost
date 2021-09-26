@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/qi/directive/repeat.hpp"
 /*=============================================================================
     Copyright (c) 2001-2011 Joel de Guzman
     Copyright (c) 2001-2011 Hartmut Kaiser
@@ -6,8 +5,8 @@
     Distributed under the Boost Software License, Version 1.0. (See accompanying
     file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
 =============================================================================*/
-#if !defined(SPIRIT_REPEAT_NOVEMBER_14_2008_1148AM)
-#define SPIRIT_REPEAT_NOVEMBER_14_2008_1148AM
+#ifndef BOOST_SPIRIT_QI_DIRECTIVE_REPEAT_HPP
+#define BOOST_SPIRIT_QI_DIRECTIVE_REPEAT_HPP
 
 #if defined(_MSC_VER)
 #pragma once

@@ -1,4 +1,3 @@
-#line 1 "include/boost/winapi/config.hpp"
 /*
  * Copyright 2013, 2017 Andrey Semashev
  * Copyright 2017 James E. King, III
@@ -16,6 +15,10 @@
 // Cygwin 64 compiler does not define _WIN64 and instead defines it in a private header. We can't define _WIN64 ourselves because
 // the header defines the macro unconditionally and if the user includes both Boost.WinAPI and Cygwin WinAPI headers there will be conflict.
 #include <_cygwin.h>
+#endif
+#if defined(__MINGW32__)
+// MinGW and MinGW-w64 define __MINGW32_VERSION_MAJOR/MINOR and __MINGW64_VERSION_MAJOR/MINOR macros in a private header.
+#include <_mingw.h>
 #endif
 
 // BOOST_WINAPI_IS_MINGW indicates that the target Windows SDK is provided by MinGW (http://mingw.org/).
@@ -220,6 +223,17 @@
 #if !defined(WINAPI_FAMILY) && defined(BOOST_USE_WINAPI_FAMILY)
 #define WINAPI_FAMILY BOOST_USE_WINAPI_FAMILY
 #endif
+#endif
+
+#if defined (WIN32_PLATFORM_PSPC)
+#define BOOST_WINAPI_IMPORT BOOST_SYMBOL_IMPORT
+#define BOOST_WINAPI_IMPORT_EXCEPT_WM
+#elif defined (_WIN32_WCE)
+#define BOOST_WINAPI_IMPORT
+#define BOOST_WINAPI_IMPORT_EXCEPT_WM
+#else
+#define BOOST_WINAPI_IMPORT BOOST_SYMBOL_IMPORT
+#define BOOST_WINAPI_IMPORT_EXCEPT_WM BOOST_SYMBOL_IMPORT
 #endif
 
 #include <boost/config.hpp>

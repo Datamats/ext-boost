@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/utility/functor_parser.hpp"
 /*=============================================================================
     Copyright (c) 2002-2003 Joel de Guzman
     Copyright (c) 2002-2003 Juan Carlos Arevalo-Baeza

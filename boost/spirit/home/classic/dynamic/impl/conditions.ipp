@@ -1,4 +1,3 @@
-#line 1 "include/boost/spirit/home/classic/dynamic/impl/conditions.ipp"
 /*=============================================================================
     Copyright (c) 2002-2003 Martin Wille
     http://spirit.sourceforge.net/

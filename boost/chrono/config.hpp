@@ -1,4 +1,3 @@
-#line 1 "include/boost/chrono/config.hpp"
 //  boost/chrono/config.hpp  -------------------------------------------------//
 
 //  Copyright Beman Dawes 2003, 2006, 2008

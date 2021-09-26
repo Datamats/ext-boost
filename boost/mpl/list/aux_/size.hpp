@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/list/aux_/size.hpp"
 
 #ifndef BOOST_MPL_LIST_AUX_SIZE_HPP_INCLUDED
 #define BOOST_MPL_LIST_AUX_SIZE_HPP_INCLUDED

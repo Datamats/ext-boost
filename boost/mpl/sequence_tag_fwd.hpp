@@ -1,4 +1,3 @@
-#line 1 "include/boost/mpl/sequence_tag_fwd.hpp"
 
 #ifndef BOOST_MPL_SEQUENCE_TAG_FWD_HPP_INCLUDED
 #define BOOST_MPL_SEQUENCE_TAG_FWD_HPP_INCLUDED
